@@ -38,7 +38,7 @@ For each, you can go as deep as you need to feel comfortable:
 ### Install
 
  * Install the appropriate `R` distribution for your system from this [mirror](http://watson.nci.nih.gov/cran_mirror/).
- * Install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop) for `R`. RStudio should suggest an appropriate package for your system.
+ * Install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop) for `R`. The RStudio site should suggest an appropriate package for your system.
 
 ### Gentle Introduction
 
@@ -49,7 +49,7 @@ For each, you can go as deep as you need to feel comfortable:
 * [Advanced R Programming](http://adv-r.had.co.nz/)
 
 
-## `Python`
+## `python`
 
 ### Install
 
@@ -62,6 +62,6 @@ For each, you can go as deep as you need to feel comfortable:
 ### Deeper Dive
 
  * [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkpython.pdf)
-     * This one starts out very basic but eventually includes more sophisticated general ideas about programming.
+     * This one starts out very basic but eventually includes some sophisticated general ideas about programming.
  * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
      * This is probably the most popular intro to `python`, with a very distinctive voice, from the same author as the Command Line Crash Course, above.
