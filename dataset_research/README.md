@@ -1,6 +1,6 @@
 # Dataset Research
 
-This homework will introduce you to a dataset - and give you something to work with in `R`. You aren't limited to just the dataset you work with here, but it will give you something to start from. Becoming familiar with a dataset is an important first step; those included in the [starter list of datasets](datasets.md) are fairly small and well known. Many are already included in `R` or an `R` package that you can easily find.
+This homework will introduce you to a dataset - and give you something to work with in `R`. You aren't limited to just the dataset you work with here, but it will give you something to start from. Becoming familiar with a dataset is an important first step. Those included in the [starter list of datasets](datasets.md) are fairly small and well known. Many are already included in `R` or an `R` package that you can easily find.
 
 You should write a markdown file covering the following:
 
