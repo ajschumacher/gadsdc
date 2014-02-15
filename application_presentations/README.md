@@ -17,7 +17,7 @@ Application Presentations will be delivered at the beginning of class, so be sur
 
 How do you know you're done?
 
- * You have a markdown file in the class repository `application_presentation` folder, describing what you've researched, and (optionally) links to the optional components.
+ * You have a markdown file in the class repository `application_presentations` folder, describing what you've researched, and (optionally) links to the optional components.
  * [Optional] You have a blog post describing what you've learned about your topic.
  * [Optional] You have a set of slides for your presentation.
  * You have delivered your presentation to the class.
