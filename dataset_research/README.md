@@ -15,3 +15,4 @@ For datasets already available in `R`, don't neglect to check the included docum
 How do you know you're done?
 
  * You have a markdown file in the class repository `dataset_research` folder, including the above.
+ * You have loaded the data into a `data.frame` in `R` and are ready to work with it further.
