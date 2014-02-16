@@ -2,19 +2,21 @@
 ### Before
 
 Read this paper. It was one of the best from [KDD](http://www.kdd.org/) 2013.
+
  * [Amplifying the Voice of Youth in Africa via Text Analytics](http://www.prem-melville.com/publications/unicef-kdd2013.pdf)
+
 You don't have to follow everything in the paper, but it does give a nice overview of a complete process, including data architecture, modeling, evaluation, and application.
 
 
 ### During
 
-An example of an analysis using version control data: "Collaboration in the open-source arena: The WebKit case" [[arXiv]](http://arxiv.org/abs/1401.5996) [[PDF]](http://arxiv.org/pdf/1401.5996v1.pdf) [[more]](http://users.utu.fi/joante/WebKitSNA/)
+An example of an analysis using version control data
+ * "Collaboration in the open-source arena: The WebKit case" [[arXiv]](http://arxiv.org/abs/1401.5996) [[PDF]](http://arxiv.org/pdf/1401.5996v1.pdf) [[more]](http://users.utu.fi/joante/WebKitSNA/)
 
 Application Presentations assigned and scheduled.
 
-Setting up a machine on [AWS EC2](http://aws.amazon.com/ec2/) and getting set up with [git](http://git-scm.com/) and [github](https://github.com/).
+Setting up a machine on [AWS EC2](http://aws.amazon.com/ec2/) and getting set up with [git](http://git-scm.com/) and [github](https://github.com/). These blog posts describe much of the process demonstrated in class:
 
-These blog posts describe much of the process demonstrated in class:
  * [Easy AWS EC2 Ubuntu Quick Start](http://planspace.org/2014/01/25/easy-aws-ec2-ubuntu-quick-start/)
  * [A shared playground on Ubuntu](http://planspace.org/2014/02/15/a-shared-playground-on-ubuntu/)
  * [Set up git/hub on Ubuntu](http://planspace.org/2014/02/16/set-up-github-on-ubuntu/)
@@ -27,9 +29,9 @@ On Ubuntu, `apt-get install` things you want.
 
 Learn some `readline`/`emacs` [keyboard navigation shortcuts](http://www.catonmat.net/download/readline-emacs-editing-mode-cheat-sheet.pdf).
 
-You should know at least one command-line text editor. When in doubt, you can usually fall back on `nano`. In some cases `vi` is the only thing available, so at least know how to get out by hitting `esc` and then entering `q!`. People generally develop proficiency in at least one of `vim` or `emacs`.
+You should know at least one command-line text editor. When in doubt, you can usually fall back on `nano`. In some cases `vi` is the only thing available, so at least know how to get out by hitting `esc` and then entering `q!`. People generally develop proficiency in at least one of `vim` or `emacs`. There's nothing wrong with using a GUI editor such as [Sublime Text](http://www.sublimetext.com/), [TextWrangler](http://www.barebones.com/products/textwrangler/), [TextMate](http://macromates.com/), or [Notepad++](http://notepad-plus-plus.org/) as well.
 
-For `git`: `git status`, `git add`, `git commit`, `git push`, `git clone`, `git pull`, `git log`.
+For `git`: `git status`, `git add`, `git commit`, `git push`, `git clone`, `git pull`, `git log`, etc.
 
 On github, be able to fork and submit pull requests.
 
