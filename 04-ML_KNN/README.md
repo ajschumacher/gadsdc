@@ -19,7 +19,12 @@ Application presentation.
 
 [Slides](slides.pdf) on machine learning and KNN.
 
-Distance metrics.
+Distance metrics / [norms](http://en.wikipedia.org/wiki/Norm_(mathematics))
+ * Hamming distance (count unequal)
+ * taxicab distance / L1 norm
+ * Euclidean distance / L2 norm
+ * [Cosine similarity](http://en.wikipedia.org/wiki/Cosine_similarity)
+ * etc.
 
 
 ### After
