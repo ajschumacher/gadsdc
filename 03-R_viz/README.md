@@ -15,7 +15,7 @@ Application presentation.
 
 Take a look at the Juice Labs [Chart Chooser](http://labs.juiceanalytics.com/chartchooser/) and gallery.
 
-R base graphics: `plot`, `plot(sort())`, (`abline`, `points`, `text`, ...), `hist`, `boxplot`, `barplot`, `<s>pie</s>`, `dotchart`, (`image`, `contour`, `persp`), `pairs`, (`qqnorm`, `qqplot`), and `par`. (Use the help, and use the examples.)
+R base graphics: `plot`, `plot(sort())`, (`abline`, `points`, `text`, ...), `hist`, `boxplot`, `barplot`, <s>pie</s>, `dotchart`, (`image`, `contour`, `persp`), `pairs`, (`qqnorm`, `qqplot`), and `par`. (Use the help, and use the examples.)
 
 Introduce `knitr` and [RPubs](http://rpubs.com/).
 
