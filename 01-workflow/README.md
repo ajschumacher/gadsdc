@@ -56,3 +56,4 @@ Optional:
  * Make your own EC2 micro Ubuntu instance and set it up a little.
  * Do the `emacs` tutorial. In `emacs`, press `control` and `h`, then press `t`.
  * Learn more about `sed` and `awk`.
+ * Read this chapter from the Bad Data Handbook: "Myths of cloud computing"
