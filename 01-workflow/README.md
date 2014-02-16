@@ -1,4 +1,3 @@
-
 ### Before
 
 Read this paper. It was one of the best from [KDD](http://www.kdd.org/) 2013.
@@ -55,5 +54,5 @@ Play with git logs to do a simple analysis of open source projects.
 
 Optional:
  * Make your own EC2 micro Ubuntu instance and set it up a little.
- * Do the `emacs` tutorial. In `emacs` press `control` and `h`, then press `t`.
+ * Do the `emacs` tutorial. In `emacs`, press `control` and `h`, then press `t`.
  * Learn more about `sed` and `awk`.
