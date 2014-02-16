@@ -30,7 +30,7 @@ Learn some `readline`/`emacs` [keyboard navigation shortcuts](http://www.catonma
 
 You should know at least one command-line text editor. When in doubt, you can usually fall back on `nano`. In some cases `vi` is the only thing available, so at least know how to get out by hitting `esc` and then entering `q!`. People generally develop proficiency in at least one of `vim` or `emacs`. There's nothing wrong with using a GUI editor such as [Sublime Text](http://www.sublimetext.com/), [TextWrangler](http://www.barebones.com/products/textwrangler/), [TextMate](http://macromates.com/), or [Notepad++](http://notepad-plus-plus.org/) as well.
 
-For `git`: `git status`, `git add`, `git commit`, `git push`, `git clone`, `git pull`, `git log`, etc.
+For `git`: `git init`, `git status`, `git add`, `git commit`, `git push`, `git clone`, `git pull`, `git log`, etc.
 
 On github, be able to fork and submit pull requests.
 
