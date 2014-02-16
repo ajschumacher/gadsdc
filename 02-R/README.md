@@ -18,7 +18,7 @@ Go through the [walking introduction to R](walking_intro.Rmd).
 
 Also refer to the [shortest introduction to R](http://planspace.org/2014/01/01/the-shortest-introduction-to-r-2/).
 
-Pair up and write FizzBuzz in R.
+[Pair](http://en.wikipedia.org/wiki/Pair_programming) up and write FizzBuzz in R.
 
 > Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
