@@ -250,7 +250,7 @@ my.new.data <- my.data[1:10]        #  make a new smaller data frame
 my.new.data <- my.data[-c(11,12)]   #  same as last
 ```
 
-Some other very useful function include `table()`, `sample()`, and the distribution functions (`rnorm`, `runif`, etc.), `ifelse`, and the flow control devices `if`/`else`, `for`, `while`, and so on. Output can be forced by `print` and `cat`. The `apply` family of functions are quite useful. There's also `rbind`, `cbind`, `aggregate`, and tools in packages such as `plyr`.
+Some other very useful function include `table()`, `sample()`, and the distribution functions (`rnorm`, `runif`, etc.), `ifelse`, and the flow control devices `if`/`else`, `for`, `while`, and so on. Output can be forced by `print` and `cat`. The `apply` family of functions are quite useful. There's also `rbind`, `cbind`, `aggregate`, and tools in packages such as `plyr`. And `as.Date`, `strptime`, `gsub`, `grep`, `toupper`, `tolower`, `sub_str`, `strsplit`. `melt` and `cast` from the `reshape` package. `merge`. You'll likely want to do `?formula` eventually.
 
 
 ### Packages
