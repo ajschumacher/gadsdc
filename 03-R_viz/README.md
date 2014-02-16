@@ -17,6 +17,8 @@ Take a look at the Juice Labs [Chart Chooser](http://labs.juiceanalytics.com/cha
 
 R base graphics: `plot`, `plot(sort())`, (`abline`, `points`, `text`, ...), `hist`, `boxplot`, `barplot`, <s>`pie`</s>, `dotchart`, (`image`, `contour`, `persp`), `pairs`, (`qqnorm`, `qqplot`), and `par`. (Use the help, and use the examples.)
 
+Compare [three `R` graphics systems](three_systems.Rmd).
+
 Experiment with the [combinatoric intro to `ggplot`](ggplot.md).
 
 Write graphics to disk with `png()` and friends, followed by `dev.off()`.

@@ -1,0 +1,61 @@
+# Three R graphics systems
+
+### Base graphics
+
+```{r, tidy=FALSE}
+plot(Sepal.Length ~ Sepal.Width,
+     col = Species,
+     data = iris,
+     xlab = "Sepal Width, centimeters",
+     ylab = "Sepal Length, centimeters",
+     main = "Sepal Measurements for 150 Irises",
+     pch = 19,
+     cex = 0.8,
+     xlim = c(1, 6),
+     ylim = c(4, 9))
+legend("topright", legend = unique(iris$Species), col = 1:3, pch = 19)
+```
+
+The `type` argument to `plot` is also worth checking out.
+
+---
+
+### `lattice` graphics
+
+```{r, tidy=FALSE}
+library(lattice)
+xyplot(Sepal.Length ~ Sepal.Width,
+       data = iris,
+       xlab = "Sepal Width, centimeters",
+       ylab = "Sepal Length, centimeters",
+       main = "Sepal Measurements for 150 Irises",
+       xlim = c(1, 6),
+       ylim = c(4, 9),
+       groups = Species,
+       par.settings = list(superpose.symbol = list(col = 1:3,
+                                                   pch = 19,
+                                                   cex = 0.8)),
+       auto.key = list(corner=c(1, 1)))
+```
+
+More lattice functions: `histogram`, `bwplot`, `splom`, `barchart`. To do multiple plots at once, usually you want a `|` conditional in your plotting formula to get small multiples.
+
+---
+
+### ggplot
+
+```{r, tidy=FALSE}
+library(ggplot2)
+g <- ggplot(data = iris, aes(x = Sepal.Width,
+                             y = Sepal.Length,
+                             colour = Species))
+g <- g + geom_point() + theme_bw()
+g <- g + labs(title = "Sepal Measurements for 150 Irises")
+g <- g + scale_x_continuous(name = "Sepal Width, centimeters", limits = c(1, 6))
+g <- g + scale_y_continuous(name = "Sepal Length, centimeters", limits = c(4, 9))
+g <- g + scale_color_manual(values = 1:3)
+g <- g + theme(legend.position=c(0.8, 0.8))
+print(g)
+```
+
+`ggplot` also provides the `qplot` function for making "quick" plots.
