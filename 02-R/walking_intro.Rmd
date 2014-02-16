@@ -1,0 +1,278 @@
+# A walking introduction to `R`
+
+```{r setup, echo=FALSE}
+options(repos='http://lib.stat.cmu.edu/R/CRAN/')
+set.seed(42)
+```
+
+
+### A conceptual overview
+
+ * Everything is *done* with functions.
+ * All *data* is in vectors (and things made from vectors).
+
+
+### Functions
+
+Anything you want to do in `R` is done by telling `R` to run a function.
+
+To run a function with no arguments, follow its name with parentheses.
+
+```{r, eval=FALSE}
+help()
+```
+
+Arguments are passed inside the parentheses. Arguments are usually named, but names can be omitted if it's unambiguous.
+
+```{r, eval=FALSE}
+help(topic=getwd)
+help(getwd)
+```
+
+If you don't include parentheses, R will try to give you the function itself. Try these:
+
+```{r, eval=FALSE}
+help
+help.search
+```
+
+Even things that don't look like functions are functions. Arithmetic operations are functions.
+
+```{r, tidy=FALSE}
+5 + 7
+"+"(5,7)
+```
+
+This is a super handy function. It returns a vector.
+
+```{r, tidy=FALSE}
+":"(1,10)
+1:10
+```
+
+Convenient short-hand is available for other functions too. Get help fast:
+
+```{r, tidy=FALSE, eval=FALSE}
+?glm             #  This is identical to: help(glm)
+```
+
+And of course, assign things to variables:
+
+```{r, tidy=FALSE, eval=FALSE}
+my.thing <- 8   #  You probably won't use the equivalent: "<-"(my.object, 8)
+
+# Okay, comments aren't functions.
+```
+
+Some `R` functions are similar to unix command line conventions. For example, `ls()`, `rm()`, `getwd()`, and `setwd()`.
+
+
+### Vectors
+
+Data in R is always in a vector. A single value is a vector of length one.
+
+In output, the numbers in brackets tell you the position in the vector at the start of the line.
+
+```{r}
+42:100
+42
+```
+
+`c()` is a function that combines vectors.
+
+```{r, eval=FALSE, tidy=FALSE}
+2, 4      #  this will fail
+
+c(2, 4)   #  this will make a vector containing first 2 then 4
+```
+
+Very often you will want to pass one vector as an argument to a function.
+
+```{r, tidy=FALSE, eval=FALSE}
+mean(2, 4)      #  this passes the function two arguments,
+                #  a vector containing 2 and a vector containing 4
+
+mean(c(2, 4))   #  this passes the function one argument,
+                #  a vector containing first 2 then 4
+```
+
+(This is easy way to make a mistake.)
+
+So everything is a vector. Vector of what?
+
+```{r, eval=FALSE}
+typeof(TRUE); typeof(T); typeof(FALSE); typeof(F);              #  logical
+typeof(1:10); typeof(42L);                                      #  integer
+typeof(42); typeof(3.7); typeof(5e7); typeof(1/89)              #  numeric (double)
+typeof("Aaron"); typeof("cow"); typeof("123"); typeof("TRUE")   #  character
+
+# And then there are these guys... Kind of a different story.
+class(factor(c("red", "green", "blue")))                        #  factor
+class(factor(c("medium", "small", "small", "large"),
+             levels=c("small", "medium", "large"),
+             ordered=TRUE))                                     #  ordered factor
+```
+
+Vectors have exactly one type, and are joined by the `c()` function.
+
+```{r}
+c(9, 7, TRUE, FALSE)
+c(9, 7, TRUE, FALSE, "cow")
+```
+
+Other things: `NA` (missing), `NULL` (not a thing), `NaN` (`sqrt(-1)`), `Inf` (`1/0`).
+
+You can coerce a vector to another type with the appropriate `as.` function.
+
+```{r}
+as.integer(c("42", "dog"))
+```
+
+R has vectorized operations and recycling. Most operations happen element-wise.
+
+```{r}
+c(1, 2, 3, 4) + c(100, 1000, 10000, 10000)
+```
+
+If the vectors have different lengths, the shorter one gets 'recycled'.
+
+```{r}
+c(1, 2, 3, 4) + c(100, 1000)
+```
+
+What will happen with these?
+
+```{r, eval=FALSE, tidy=FALSE}
+c(1, 2) * c(4, 5, 6)
+
+1 + 1:10
+
+1:10 / 10
+
+1:10 < 5
+```
+
+Things can have names.
+
+```{r}
+my.vector <- 101:105
+my.vector
+names(my.vector) <- c('a', 'b', 'c', 'd', 'e')
+my.vector
+```
+
+You can select from vectors with `[ ]` in several ways.
+
+```{r, tidy=FALSE}
+my.vector[c(2, 4)]                             # by index numbers
+my.vector[c('c', 'e')]                         # by names
+my.vector[c(TRUE, FALSE, TRUE, FALSE, TRUE)]   # with logicals
+```
+
+Logical selection is very useful.
+
+```{r}
+(my.numbers <- sample(1:10, 20, replace=TRUE))
+```
+
+How can we get just the entries less than five?
+
+```{r}
+my.numbers < 5
+my.numbers[my.numbers < 5]
+```
+
+Here are some things to do with vectors:
+
+```{r, tidy=FALSE}
+length(my.vector)   #  How long is my vector?
+sum(my.vector)      #  What if I add up the numbers in my vector?
+sum(my.vector < 4)  #  Alternative: length(my.vector[my.vector < 4])
+```
+
+Data Frames are useful. They're the most common tabular data structure used in R. There are other data structures as well, of course.
+
+* Matrices are vectors with a number of columns and a number of rows.
+    * Multiplication is element-wise for `*`, matrix-wise for `%*%`.
+* Lists are like vectors where each element could be itself a vector.
+    * Compare `c(1:3, 4)` with `list(1:3, 4)`.
+* Data frames are lists with every vector equal length, and you get row names and column names.
+
+Some example datasets are included with R. (You can list them with `data()` and load them to your workspace with `data(dataSetName)`). External datasets are often read into `R` data frames from CSV files using `read.csv`, which itself calls `read.table`. (Check out the help for a lot of useful details.)
+
+```{r}
+(my.data <- read.csv('http://bit.ly/NYUdataset'))
+```
+
+These are common ways of starting to work with data frames:
+
+```{r, eval=FALSE}
+str(my.data)
+summary(my.data)
+```
+
+You can access a particular vector in a list or data frame in several ways:
+
+```{r, eval=FALSE}
+my.data$gender
+my.data[[2]]
+my.data[['gender']]
+with(my.data, gender)
+```
+
+You can subset using `[row(s), column(s)]`, both parts just like selecting from a single vector.
+
+```{r}
+my.data[2, 'age']
+```
+
+How can we select the `time`s for females? (There are several possibilities.)
+
+```{r, eval=FALSE}
+my.data[my.data$gender=='F', "time"]
+my.data$time[my.data$gender=='F']
+subset(my.data, gender=='F', select="time")
+```
+
+To add / compute / make a new column, just assign to it:
+
+```{r}
+my.data$number.five <- 5
+my.data$mean.1.2 <- my.data$health1 + my.data$health2
+my.data$health <- rowMeans(my.data[5:10])
+```
+
+To drop / delete / remove a column, you have options:
+
+```{r, tidy=FALSE}
+my.data$number.five <- NULL         #  remove from the data frame 'in place'
+my.new.data <- my.data[1:10]        #  make a new smaller data frame
+my.new.data <- my.data[-c(11,12)]   #  same as last
+```
+
+Some other very useful function include `table()`, `sample()`, and the distribution functions (`rnorm`, `runif`, etc.), `ifelse`, and the flow control devices `if`/`else`, `for`, `while`, and so on. Output can be forced by `print` and `cat`. The `apply` family of functions are quite useful. There's also `rbind`, `cbind`, `aggregate`, and tools in packages such as `plyr`.
+
+
+### Packages
+
+There are a *lot* of contributed packages (also known as *libraries*) for R. As of ``r date()``, there were this many on the Comprehensive R Archive Network (CRAN) - and there are many more available from other sources.
+
+```{r}
+length(unique(rownames(available.packages())))
+```
+
+You load a package with `library()`. If you don't yet have the package, this will fail.
+
+```{r}
+library(somePackage)
+```
+
+You can install the package you want with `install.packages()`. Note the quotation marks:
+
+```{r, eval=FALSE}
+install.packages("somePackage")
+```
+
+You need to *install* a package once (per machine). You need to *load* the package each `R` session. Once the package is loaded, you have access to everything it provides (functions, datasets, etc.).
+
+You now have access to a huge array of tools!
