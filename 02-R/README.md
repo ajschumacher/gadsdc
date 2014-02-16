@@ -2,9 +2,7 @@
 
 Read this paper on structuring data. Optionally also check out the corresponding slides and presentation video.
 
- * [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf)
-     * [slides](http://stat405.had.co.nz/lectures/18-tidy-data.pdf)
-     * [video](video: http://vimeo.com/33727555)
+ * Tidy Data [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](video: http://vimeo.com/33727555)
 
 Optional:
 
