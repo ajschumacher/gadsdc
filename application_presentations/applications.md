@@ -20,7 +20,7 @@
  * Music recommendations at Spotify [[1]](http://www.slideshare.net/erikbern/collaborative-filtering-at-spotify-16182818)
  * Predicting who will be a criminal [[1]](http://www.bloomberg.com/news/2013-08-14/how-big-data-could-help-identify-the-next-felon-or-blame-the-wrong-guy.html)
  * Microsoft fighting Skype fraud [[1]](http://www.cso.com.au/article/536286/new_research_signals_trouble_skype_fraudsters/) [[2]](http://research.microsoft.com/pubs/205472/aisec10-leontjeva.pdf)
- * “People Analytics” - Data for hiring, etc. [[1]](http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/) [[2]](http://www.economist.com/news/business/21575820-how-software-helps-firms-hire-workers-more-efficiently-robot-recruiters)
+ * “People Analytics” - Data for hiring, etc. [[1]](http://www.npr.org/blogs/money/2013/12/20/255846145/will-a-computer-decide-whether-you-get-your-next-job) [[2]](http://www.theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-work/354681/) [[3]](http://www.economist.com/news/business/21575820-how-software-helps-firms-hire-workers-more-efficiently-robot-recruiters)
  * Computerized essay grading [[1]](http://www.nytimes.com/2013/04/05/science/new-test-for-computers-grading-essays-at-college-level.html)
  * Using deep learning to listen for whales [[1]](http://danielnouri.org/notes/2014/01/10/using-deep-learning-to-listen-for-whales/)
  * Tracking people in the physical world (at Disney) [[1]](http://gigaom.com/2014/01/18/you-dont-want-your-privacy-disney-and-the-meat-space-data-race/)
