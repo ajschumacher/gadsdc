@@ -2,7 +2,7 @@
 
 Read this paper on structuring data. Optionally also check out the corresponding slides and presentation video.
 
- * Tidy Data [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](video: http://vimeo.com/33727555)
+ * Tidy Data [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](http://vimeo.com/33727555)
 
 Optional:
 
@@ -12,7 +12,7 @@ Optional:
 
 ### During
 
-Example: [Ranking DC tech companies based on github data](http://datacommunitydc.org/blog/2013/12/ranking-dc-software-companies-for-fun-and-employment/)
+An example of an interesting data/API application: [Ranking DC tech companies based on github data](http://datacommunitydc.org/blog/2013/12/ranking-dc-software-companies-for-fun-and-employment/)
 
 Go through the [walking introduction to R](walking_intro.Rmd).
 
