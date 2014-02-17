@@ -25,7 +25,7 @@ Experiment with the [combinatoric intro to `ggplot`](ggplot.md).
 
 Write graphics to disk with `png()` and friends, followed by `dev.off()`.
 
-Make a lot of visualizations of your data. Choose one. Post a `knitr` Rmarkdown document to RPubs. Post your viz and RPub on twitter (#gadsdc).
+Make a lot of visualizations of your data. Choose one. Post a `knitr` Rmarkdown document to RPubs. Post your viz and RPub on twitter.
 
 Some presentations.
 
