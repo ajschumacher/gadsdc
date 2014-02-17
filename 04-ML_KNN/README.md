@@ -31,11 +31,11 @@ Introduce homework - illustrate `apply`.
 
 ### After
 
-Implement a one-nearest neighbor algorithm a function in `R` that takes three arguments:
+Implement a one-nearest-neighbor algorithm as a function in `R` that takes three arguments:
 
  * A data frame of numeric columns, the training data.
  * A vector of labels for the training data.
- * A data frame with columns corresponding to the first data frames', this one the data to predict on.
+ * A data frame with columns corresponding to the first data frames', this one the data to predict for.
 
 The function should return a vector of predicted labels for the test data. Choose a function name and a distance metric to use. You can test your function with the `iris` data. 
 
@@ -47,4 +47,3 @@ Extension:
  * Extend your implementation to handle non-numeric data as well.
  * Extend your implementation to take another parameter specifying the K in KNN.
  * Extend your implementation to allow a choice of distance metrics.
- 
