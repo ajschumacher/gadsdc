@@ -1,6 +1,6 @@
 # Data Science and Data Scientists
 
-These resources help to explain what people talk about when they talk about data science and data scientists. They aren't always talking about the same things.
+These resources help to explain what people talk about when they talk about data science and data scientists. People aren't always talking about the same things.
 
  * [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf): An Introspective Survey of Data Scientists and Their Work
      * Classifies data scientists into several categories that are fairly distinct. Helps to understand the breadth of what "data science" can mean.
