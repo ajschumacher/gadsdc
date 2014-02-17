@@ -12,6 +12,7 @@ ggplot2](http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf).
 
 train/test, performance metrics, etc. - making features too!
 Activities: use KNN on kaggle data set (Titanic?)
+library pROC for AUC
 
 
 ### After
