@@ -29,7 +29,7 @@ For each, you can go as deep as you need to feel comfortable:
 
 ### Deeper Dive
 
- * [Bash Guide for Beginners](http://www.codecademy.com/tracks/python)
+ * [Bash Guide for Beginners](http://writers.fultus.com/garrels/ebooks/Machtelt_Garrels_Bash_Guide_for_Beginners_2nd_Ed.pdf)
  * [Pro Git](http://git-scm.com/book)
 
 
