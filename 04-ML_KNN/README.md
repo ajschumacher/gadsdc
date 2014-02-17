@@ -20,10 +20,11 @@ Application presentation.
 [Slides](slides.pdf) on machine learning and KNN.
 
 Distance metrics / [norms](http://en.wikipedia.org/wiki/Norm_(mathematics)):
- * Hamming distance (count unequal)
+ * [Hamming distance](http://en.wikipedia.org/wiki/Hamming_distance)
  * taxicab distance / L1 norm
  * Euclidean distance / L2 norm
  * [Cosine similarity](http://en.wikipedia.org/wiki/Cosine_similarity)
+ * [Jaccard Index](http://en.wikipedia.org/wiki/Jaccard_index)
 
 Introduce homework - illustrate `apply`.
 
