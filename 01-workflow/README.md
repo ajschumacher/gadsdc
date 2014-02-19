@@ -22,6 +22,8 @@ Setting up a machine on [AWS EC2](http://aws.amazon.com/ec2/) and getting set up
 
 Please never put spaces in filenames.
 
+Please always end files with a newline.
+
 You should know these: `pwd`, `ls`, `cd`, `cp`, `mv`, `rm`, `hostname`, `whoami`, `passwd`, `ssh`, `env`, `export`.
 
 On Ubuntu, `apt-get install` things you want.
