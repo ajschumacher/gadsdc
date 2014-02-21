@@ -24,3 +24,4 @@
  * Computerized essay grading [[1]](http://www.nytimes.com/2013/04/05/science/new-test-for-computers-grading-essays-at-college-level.html)
  * Using deep learning to listen for whales [[1]](http://danielnouri.org/notes/2014/01/10/using-deep-learning-to-listen-for-whales/)
  * Tracking people in the physical world (at Disney) [[1]](http://gigaom.com/2014/01/18/you-dont-want-your-privacy-disney-and-the-meat-space-data-race/)
+ * Global food prices and unrest [[1]](http://motherboard.vice.com/blog/a-complex-systems-model-predicted-the-revolutions-sweeping-the-globe-right) [[2]](http://necsi.edu/research/social/foodprices/update/)
