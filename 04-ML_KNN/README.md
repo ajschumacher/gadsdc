@@ -13,6 +13,11 @@ Optional:
  * Also read the part on functional programming in R.
 
 
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
 ### During
 
 Application presentation.

@@ -10,6 +10,11 @@ Optional:
  * Read this chapter from the Bad Data Handbook: "Data intended for human consumption, not machine consumption"
 
 
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
 ### During
 
 An example of an interesting data/API application: [Ranking DC tech companies based on github data](http://datacommunitydc.org/blog/2013/12/ranking-dc-software-companies-for-fun-and-employment/)

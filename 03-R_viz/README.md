@@ -9,6 +9,11 @@ Optional:
  * These [slides](http://faculty.ucr.edu/~tgirke/HTML_Presentations/Manuals/Rgraphics/Rgraphics.pdf) include some good examples of the graphics functions we'll use, and more.
 
 
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
 ### During
 
 Application presentation.

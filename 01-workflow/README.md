@@ -7,6 +7,11 @@ Read this paper. It was one of the best from [KDD](http://www.kdd.org/) 2013.
 You don't have to follow everything in the paper, but it does give a nice overview of a complete process, including data architecture, modeling, evaluation, and application.
 
 
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
 ### During
 
 An example of an analysis using version control data
