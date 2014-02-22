@@ -14,6 +14,7 @@ Optional:
  * Some people think Tufte is too restrictive, or that he doesn't appreciate creative, eye-catching images. What do you think? What is your opinion of infographics?
  * Are there any visualizations that have particularly caught your interest? (Share a link or two if you can!) What was it about them that made them good/bad?
  * What tools have you previously used for producing images, statistical or otherwise? What are their strengths and weaknesses?
+ * Does your application presentation topic connect in any way with ideas for your class project?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
