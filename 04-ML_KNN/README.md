@@ -17,6 +17,12 @@ Optional:
 
 Application presentation.
 
+Activity: Human learning on dental data
+ * Types of data
+ * Possible applications
+ * Ways of evaluating
+ * Ways of predicting
+
 [Slides](slides.pdf) on machine learning and KNN.
 
 Distance metrics / [norms](http://en.wikipedia.org/wiki/Norm_(mathematics)):
