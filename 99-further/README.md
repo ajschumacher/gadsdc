@@ -3,6 +3,7 @@
 Blogs/Aggregators:
 
  * [DataTau](http://www.datatau.com/) is like [Hacker News](https://news.ycombinator.com/) for data.
+ * [r/MachineLearning](http://www.reddit.com/r/MachineLearning/) on reddit
  * [yhat's blog](http://blog.yhathq.com/) often has good original content, often on data science with `python`.
  * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/) is the blog of Andrew Gelman, mostly on Bayesian statistics.
  * [DataScholars](http://datascholars.com/) posts articles on data science, computer science, machine learning, etc.
