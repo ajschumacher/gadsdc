@@ -8,6 +8,11 @@ Optional:
 ggplot2](http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf).
 
 
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
 ### During
 
 train/test, performance metrics, etc. - making features too!
