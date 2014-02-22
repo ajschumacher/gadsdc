@@ -1,18 +1,21 @@
 ### Before
 
-Read this paper. It was one of the best from [KDD](http://www.kdd.org/) 2013.
+Optional:
 
- * [Amplifying the Voice of Youth in Africa via Text Analytics](http://www.prem-melville.com/publications/unicef-kdd2013.pdf)
-
-You don't have to follow everything in the paper, but it does give a nice overview of a complete process, including data architecture, modeling, evaluation, and application.
+* Read this paper. It was one of the best from [KDD](http://www.kdd.org/) 2013. "[Amplifying the Voice of Youth in Africa via Text Analytics](http://www.prem-melville.com/publications/unicef-kdd2013.pdf)" You don't have to follow everything in the paper, but it does give a nice overview of a complete "data science" process, including data architecture, modeling, evaluation, and application.
 
 
 ### Questions
 
+ * How do you relate to Conway's [data science Venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)? What related skills and training do you have? What fields/topics do you know? What are you interested in learning more about?
+ * How do you currently organize your work? Do you use any systems, conventions, or organizational tools? What is useful to you? Have you used any version control systems?
+ * What ideas or thoughts do you have about your class project? Have you started thinking about it yet?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
 ### During
+
+Email instructors.
 
 An example of an analysis using version control data
  * "Collaboration in the open-source arena: The WebKit case" [[arXiv]](http://arxiv.org/abs/1401.5996) [[PDF]](http://arxiv.org/pdf/1401.5996v1.pdf) [[more]](http://users.utu.fi/joante/WebKitSNA/)
