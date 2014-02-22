@@ -12,6 +12,9 @@ Optional:
 
 ### Questions
 
+ * What data formats have you worked with?
+ * What are the negatives of "tidy data"? When would it not be a good idea to have data in a "tidy" format?
+ * What problems have you solved by automation or programming? What problems would you like to use programming or analysis tools to solve?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
