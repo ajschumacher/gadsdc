@@ -59,7 +59,7 @@ Play with git logs to do a simple analysis of open source projects.
 
 ### After
 
- * If you don't have them already, make a [twitter](https://twitter.com/) account and a [blog](http://sixrevisions.com/tools/top-free-online-blogging/).
+ * If you don't have them already, make a [twitter](https://twitter.com/) account and a [blog](http://sixrevisions.com/tools/top-free-online-blogging/). Communication is a good thing!
  * In your fork of the class repository, in the `01-workflow` directory, make a file named `yourname.md` containing links to your twitter account and blog. Commit, push to github, and submit a pull request to get your file in the class repository.
 
 Optional:
