@@ -26,4 +26,5 @@ people <- function(n) {
   data.frame(age, sex, brushing, cavities, cavity, timely, elective)
 }
 
-#write.csv(people(10000), 
+set.seed(42)
+write.csv(people(10000), "dental.csv", row.names=FALSE)
