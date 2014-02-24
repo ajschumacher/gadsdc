@@ -7,10 +7,7 @@ Optional:
 
 ### Questions
 
- * How do you relate to Conway's [data science Venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)? What related skills and training do you have? What fields/topics do you know? What are you interested in learning more about?
- * How do you currently organize your work? Do you use any systems, conventions, or organizational tools? What is useful to you? Have you used any version control systems?
- * What ideas or thoughts do you have about your class project? Have you started thinking about it yet?
- * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+ * Where are you in Conway's [data science Venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)? What related skills and training do you have? What fields/topics do you know? What are you interested in learning more about?
 
 
 ### During
@@ -55,6 +52,13 @@ Just enough `sed` and regular expressions to know what they are:
 You'll need to know some [markdown](https://daringfireball.net/projects/markdown/syntax), and [github-flavored markdown](https://help.github.com/articles/github-flavored-markdown) is often handy too. This [live markdown editor](http://jrmoran.com/playground/markdown-live-editor/) can be useful.
 
 Play with git logs to do a simple analysis of open source projects.
+
+
+### Questions
+
+ * How do you usually organize your work, and collaboration? Do you use any systems, conventions, or organizational tools? What is useful to you? How does version control relate?
+ * What ideas or thoughts do you have about your class project? Have you started thinking about it yet?
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
 ### After
