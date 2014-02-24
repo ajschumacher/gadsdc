@@ -19,6 +19,7 @@ You may already have data that you're interested in working with. You may have a
      * [The Pittsburgh Science of Learning Center’s DataShop](http://www.learnlab.org/technologies/datashop/)
  * [Kaggle](http://www.kaggle.com/) provides data sets with their challenges, though you won't be able to get their test sets.
  * [Donors Choose](http://data.donorschoose.org/) makes quite a lot of data available which could be interesting.
+ * [The Echo Nest](http://the.echonest.com/) has some interesting music data with an API that could be interesting.
  * If you're interested in working with a large data set, Amazon has a variety of [public data sets](http://aws.amazon.com/publicdatasets/) that are available through their infrastructure, including Common Crawl and 1000 Genomes.
 
 This is just the tip of the iceberg; there's a lot of data out there!
