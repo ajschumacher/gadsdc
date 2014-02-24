@@ -2,11 +2,6 @@
 
 Read [A few useful things to know about machine learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf).
 
-Optional:
-
- * Read [ggmap: Spatial Visualization with
-ggplot2](http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf).
-
 
 ### Questions
 
