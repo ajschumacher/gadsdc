@@ -4,5 +4,5 @@ These are not my first choices, but they are additional references that you migh
 
 For `R`:
 
+ * [R: A self-learn tutorial](http://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf)
  * Germán Rodríguez' [Introducing R]](http://data.princeton.edu/R/)
- 
