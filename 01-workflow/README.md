@@ -56,7 +56,7 @@ Play with git logs to do a simple analysis of open source projects.
 
 ### Questions
 
- * How do you usually organize your work, and collaboration? Do you use any systems, conventions, or organizational tools? What is useful to you? How does version control relate?
+ * How do you feel about today's class? Do you think you'll be able to start using some of the tools we covered? Would you like further support, in office hours or otherwise?
  * What ideas or thoughts do you have about your class project? Have you started thinking about it yet?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
