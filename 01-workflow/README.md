@@ -53,6 +53,8 @@ You'll need to know some [markdown](https://daringfireball.net/projects/markdown
 
 Play with git logs to do a simple analysis of open source projects.
 
+See also: the [github explanation for forking](https://help.github.com/articles/fork-a-repo).
+
 
 ### Questions
 
