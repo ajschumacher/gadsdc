@@ -4,6 +4,7 @@ Read [The Gospel According to Tufte](http://www-personal.umich.edu/~jpboyd/eng40
 
 Optional:
 
+ * This [introduction to `ggplot`](http://www.ling.upenn.edu/~joseff/avml2012/) is fairly good, and follows nicely the theory about visualization from above.
  * Watch this presentation about [looking at your data](http://www.youtube.com/watch?v=coNDCIMH8bk).
  * Read this chapter from the Bad Data Handbook: "Is it just me, or does this data smell funny?"
  * These [slides](http://faculty.ucr.edu/~tgirke/HTML_Presentations/Manuals/Rgraphics/Rgraphics.pdf) include some good examples of the graphics functions we'll use, and more.
