@@ -11,6 +11,7 @@ Blogs/Aggregators:
  * Charles Martin's [Machine Learning](http://charlesmartin14.wordpress.com/) blog covers "notes, thoughts, and practice of applied machine learning".
  * [Jeroen Janssens](http://jeroenjanssens.com/) "dutch data scientist in old new amsterdam"
  * [KDnuggets](http://www.kdnuggets.com/) has some things.
+ * The Columbia [Data Science blog](http://columbiadatascience.com/) was active in fall of 2013 and could be active again. (See also _Doing Data Science_ in books, below.)
 
 Conferences:
 
@@ -20,9 +21,14 @@ Conferences:
 
 Books:
 
+ * [Data Analysis with Open Source Tools](http://www.amazon.com/Data-Analysis-Open-Source-Tools/dp/0596802358) is quite a good intro to a range of tools.
  * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
  * [Statistics Done Wrong](http://www.refsmmat.com/statistics/)
  * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+ * [Machine Learning for Hackers](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714/) by Drew Conway and John Myles White
+ * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Cathy-ONeil/dp/1449358659) is a book that came out of the data science course at Columbia and [Cathy O'Neil](http://mathbabe.org/)'s blogging of said course.
+ * [Data Mining with R: Learning with Case Studies](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
+
 
 Articles/Guides:
 
