@@ -29,3 +29,4 @@
  * The Science of Singing Along [[1]](http://www.doc.gold.ac.uk/~mas03dm/papers/PawleyMullensiefen_Singalong_2012.pdf)
  * Double Entendre Identification [[1]](http://aclweb.org/anthology//P/P11/P11-2016.pdf)
  * Generating jokes from data [[1]](http://homepages.inf.ed.ac.uk/s0894589/petrovic13unsupervised.pdf)
+ * Analyzing and predicting Youtube comments [[1]](http://www.l3s.de/~siersdorfer/sources/2010/wfp0542-siersdorfer.pdf)
