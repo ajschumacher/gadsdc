@@ -25,3 +25,7 @@
  * Using deep learning to listen for whales [[1]](http://danielnouri.org/notes/2014/01/10/using-deep-learning-to-listen-for-whales/)
  * Tracking people in the physical world (at Disney) [[1]](http://gigaom.com/2014/01/18/you-dont-want-your-privacy-disney-and-the-meat-space-data-race/)
  * Global food prices and unrest [[1]](http://motherboard.vice.com/blog/a-complex-systems-model-predicted-the-revolutions-sweeping-the-globe-right) [[2]](http://necsi.edu/research/social/foodprices/update/)
+ * Operations research at Taco Bell [[1]](http://zimmer.csufresno.edu/~sasanr/Teaching-Material/MIS/DSS/DSS%20at%20Taco%20Bell.pdf)
+ * The Science of Singing Along [[1]](http://www.doc.gold.ac.uk/~mas03dm/papers/PawleyMullensiefen_Singalong_2012.pdf)
+ * Double Entendre Identification [[1]](http://aclweb.org/anthology//P/P11/P11-2016.pdf)
+ * Generating jokes from data [[1]](http://homepages.inf.ed.ac.uk/s0894589/petrovic13unsupervised.pdf)
