@@ -51,7 +51,7 @@ Just enough `sed` and regular expressions to know what they are:
 
 You'll need to know some [markdown](https://daringfireball.net/projects/markdown/syntax), and [github-flavored markdown](https://help.github.com/articles/github-flavored-markdown) is often handy too. This [live markdown editor](http://jrmoran.com/playground/markdown-live-editor/) can be useful.
 
-Play with git logs to do a simple analysis of open source projects.
+Play with git logs to do a simple analysis of open source projects. (Perhaps choose some that are [trending](https://github.com/trending).)
 
 See also: the [github explanation for forking](https://help.github.com/articles/fork-a-repo).
 
