@@ -42,3 +42,30 @@ Online educational resources:
  * Coursera / University of Washington [Machine Learning](https://www.coursera.org/course/machlearning)
  * [Pluralsight](http://pluralsight.com/) (non-free)
  * [Enginehere](https://www.enginehere.com/) (non-free)
+
+
+# TODO: merge these nicely with the above
+
+##Books:
+
+- [Elements of Statistical Learning (great reference for the theory behind a lot of the techniques)](http://www-stat.stanford.edu/~tibs/ElemStatLearn/)
+- [Data Mining With R (good case studies and code examples)](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/)
+- [Machine Learning For Hackers (more code examples and walkthroughs)](https://github.com/johnmyleswhite/ML_for_Hackers)
+- [Analyzing the Analyzers](http://oreilly.com/data/stratareports/analyzing-the-analyzers.csp)
+- [Data Science for Business](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/ref=sr_1_1?s=books&ie=UTF8&qid=1376926422&sr=1-1)
+
+
+##Meetups:
+
+- [NY Data](http://www.meetup.com/NYData/)
+- [Machine Learning](http://www.meetup.com/NYC-Machine-Learning/)
+- [Open Analytics](http://www.meetup.com/Open-Analytics-NYC/)
+- [NY Open Statistical Meetup](http://www.meetup.com/nyhackr/)
+- [NYC Data Science](http://www.meetup.com/NYC-Data-Science/)
+- [Hadoop NYC](http://www.meetup.com/Hadoop-NYC/)
+
+##Conferences:
+
+- [Strata + HadoopWorld](http://strataconf.com/stratany2013/public/content/home)
+- [DataGotham](http://www.datagotham.com/)
+- [PyData](http://pydata.org/)

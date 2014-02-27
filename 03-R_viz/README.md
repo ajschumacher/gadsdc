@@ -27,7 +27,11 @@ Take a look at the Juice Labs [Chart Chooser](http://labs.juiceanalytics.com/cha
 
 R base graphics: `plot`, `plot(sort())`, (`abline`, `points`, `text`, ...), `hist`, `boxplot`, `barplot`, `dotchart`, (`image`, `contour`, `persp`), `pairs`, (`qqnorm`, `qqplot`), and `par`. (Use the help, and use the examples.)
 
-Introduce `knitr` and [RPubs](http://rpubs.com/).
+Introduce `knitr` and [RPubs](http://rpubs.com/):
+ * `install.packages("knitr")`
+ * Make a new `R Markdown` document in RStudio. Click `Knit HTML`. You're done!
+ * [More introduction to `knitr` (with a video!)](http://yihui.name/knitr/)
+ * [`knitr` chunk options](http://yihui.name/knitr/options)
 
 Compare [three `R` graphics systems](three_systems.Rmd).
 
