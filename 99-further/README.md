@@ -31,12 +31,12 @@
  * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
 
 
-Articles/Guides:
+### Articles/Guides:
 
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
 
 
-Online educational resources:
+### Online educational resources:
 
  * [Software Carpentry](http://software-carpentry.org/)
  * [School of Data](http://schoolofdata.org/)
