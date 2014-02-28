@@ -4,6 +4,7 @@ These are not my first choices, but they are additional references that you migh
 
 For `R`:
 
+ * [swirlstats](http://swirlstats.com/) is an interactive intro to `R`, _in_ `R`.
  * If you like video, you may quite enjoy these [two-minute `R` tutorials](http://www.twotorials.com/).
  * [R: A self-learn tutorial](http://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf)
  * Germán Rodríguez' [Introducing R](http://data.princeton.edu/R/)
