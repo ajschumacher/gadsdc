@@ -1,38 +1,40 @@
 # Further resources
 
-Blogs/Aggregators:
+
+### Blogs/Aggregators:
 
  * [DataTau](http://www.datatau.com/) is like [Hacker News](https://news.ycombinator.com/) for data.
  * [r/MachineLearning](http://www.reddit.com/r/MachineLearning/) on reddit
  * [yhat's blog](http://blog.yhathq.com/) often has good original content, often on data science with `python`.
  * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/) is the blog of Andrew Gelman, mostly on Bayesian statistics.
  * [DataScholars](http://datascholars.com/) posts articles on data science, computer science, machine learning, etc.
+ * [Data Community DC](http://datacommunitydc.org/blog/)
  * The [kaggle blog](http://blog.kaggle.com/) often has interesting pieces, usually related to their competitions.
  * Charles Martin's [Machine Learning](http://charlesmartin14.wordpress.com/) blog covers "notes, thoughts, and practice of applied machine learning".
  * [Jeroen Janssens](http://jeroenjanssens.com/) "dutch data scientist in old new amsterdam"
  * [KDnuggets](http://www.kdnuggets.com/) has some things.
  * The Columbia [Data Science blog](http://columbiadatascience.com/) was active in fall of 2013 and could be active again. (See also _Doing Data Science_ in books, below.)
 
-Conferences:
 
- * [Knowledge Discovery and Data Mining](http://www.kdd.org/)
- * [Neural Information Processing Systems](https://nips.cc/)
- * [O'Reilly Strata Conference](http://strataconf.com/)
+### Books:
 
-Books:
-
+ * These two are related and both quite good. The first is more elementary than the second.
+     * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
+     * [The Elements of Statistical Learning](http://www-stat.stanford.edu/~tibs/ElemStatLearn/)
  * [Data Analysis with Open Source Tools](http://www.amazon.com/Data-Analysis-Open-Source-Tools/dp/0596802358) is quite a good intro to a range of tools.
  * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
  * [Statistics Done Wrong](http://www.refsmmat.com/statistics/)
  * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
- * [Machine Learning for Hackers](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714/) by Drew Conway and John Myles White
+ * Machine Learning for Hackers [[amazon]](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714/) [[code]](https://github.com/johnmyleswhite/ML_for_Hackers) by Drew Conway and John Myles White
  * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Cathy-ONeil/dp/1449358659) is a book that came out of the data science course at Columbia and [Cathy O'Neil](http://mathbabe.org/)'s blogging of said course.
- * [Data Mining with R: Learning with Case Studies](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
+ * Data Mining with R: Learning with Case Studies [[book site]](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/) [[amazon]](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
+ * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
 
 
 Articles/Guides:
 
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
+
 
 Online educational resources:
 
@@ -44,28 +46,24 @@ Online educational resources:
  * [Enginehere](https://www.enginehere.com/) (non-free)
 
 
-# TODO: merge these nicely with the above
+### Conferences:
 
-##Books:
-
-- [Elements of Statistical Learning (great reference for the theory behind a lot of the techniques)](http://www-stat.stanford.edu/~tibs/ElemStatLearn/)
-- [Data Mining With R (good case studies and code examples)](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/)
-- [Machine Learning For Hackers (more code examples and walkthroughs)](https://github.com/johnmyleswhite/ML_for_Hackers)
-- [Analyzing the Analyzers](http://oreilly.com/data/stratareports/analyzing-the-analyzers.csp)
-- [Data Science for Business](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/ref=sr_1_1?s=books&ie=UTF8&qid=1376926422&sr=1-1)
+ * [Knowledge Discovery and Data Mining](http://www.kdd.org/)
+ * [Neural Information Processing Systems](https://nips.cc/)
+ * [O'Reilly Strata Conference](http://strataconf.com/) (has also crossed with Hadoop World)
+ * [DataGotham](http://www.datagotham.com/)
+ * [PyData](http://pydata.org/)
 
 
-##Meetups:
+### Meetups:
 
-- [NY Data](http://www.meetup.com/NYData/)
-- [Machine Learning](http://www.meetup.com/NYC-Machine-Learning/)
-- [Open Analytics](http://www.meetup.com/Open-Analytics-NYC/)
-- [NY Open Statistical Meetup](http://www.meetup.com/nyhackr/)
-- [NYC Data Science](http://www.meetup.com/NYC-Data-Science/)
-- [Hadoop NYC](http://www.meetup.com/Hadoop-NYC/)
+ * In DC:
+     * TODO: add DC2 groups etc.
 
-##Conferences:
-
-- [Strata + HadoopWorld](http://strataconf.com/stratany2013/public/content/home)
-- [DataGotham](http://www.datagotham.com/)
-- [PyData](http://pydata.org/)
+ * In New York City:
+     * [NY Data](http://www.meetup.com/NYData/)
+     * [Machine Learning](http://www.meetup.com/NYC-Machine-Learning/)
+     * [Open Analytics](http://www.meetup.com/Open-Analytics-NYC/)
+     * [NY Open Statistical Meetup](http://www.meetup.com/nyhackr/)
+     * [NYC Data Science](http://www.meetup.com/NYC-Data-Science/)
+     * [Hadoop NYC](http://www.meetup.com/Hadoop-NYC/)
