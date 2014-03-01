@@ -36,16 +36,6 @@
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
 
 
-### Online educational resources:
-
- * [Software Carpentry](http://software-carpentry.org/)
- * [School of Data](http://schoolofdata.org/)
- * [videolectures.net](http://videolectures.net/)
- * Coursera / University of Washington [Machine Learning](https://www.coursera.org/course/machlearning)
- * [Pluralsight](http://pluralsight.com/) (non-free)
- * [Enginehere](https://www.enginehere.com/) (non-free)
-
-
 ### Conferences:
 
  * [Knowledge Discovery and Data Mining](http://www.kdd.org/)
@@ -57,8 +47,13 @@
 
 ### Meetups:
 
- * In DC:
-     * TODO: add DC2 groups etc.
+ * In and around DC:
+     * [Data Science DC](http://www.meetup.com/Data-Science-DC/)
+     * [Data Science MD](http://www.meetup.com/Data-Science-MD/)
+     * [Statistical Programming DC](http://www.meetup.com/stats-prog-dc/)
+     * [Data Visualization DC](http://www.meetup.com/Data-Visualization-DC/)
+     * [Data Wranglers DC](http://www.meetup.com/Data-Wranglers-DC/)
+     * [Data Innovation DC](http://www.meetup.com/Data-Business-DC/)
 
  * In New York City:
      * [NY Data](http://www.meetup.com/NYData/)
@@ -67,3 +62,21 @@
      * [NY Open Statistical Meetup](http://www.meetup.com/nyhackr/)
      * [NYC Data Science](http://www.meetup.com/NYC-Data-Science/)
      * [Hadoop NYC](http://www.meetup.com/Hadoop-NYC/)
+
+
+### Online educational resources:
+
+ * [Software Carpentry](http://software-carpentry.org/)
+ * [School of Data](http://schoolofdata.org/)
+ * [videolectures.net](http://videolectures.net/)
+ * Coursera / University of Washington [Machine Learning](https://www.coursera.org/course/machlearning)
+ * [statistics.com](http://www.statistics.com/)
+ * [Pluralsight](http://pluralsight.com/)
+ * [Enginehere](https://www.enginehere.com/)
+ * [Cloudera](http://university.cloudera.com) has some mix of online and in-person courses and certifications.
+
+
+### Face to face educational programs:
+
+ * [District Data Labs](http://www.districtdatalabs.com/) (DC)
+ * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco)
