@@ -12,7 +12,7 @@ Optional:
 
 ### Questions
 
- * What are the negatives of "tidy data"? When would it not be a good idea to have data in a "tidy" format?
+ * What are the negatives of "tidy data"? When would it not be a good idea to have data in a "tidy" format? Is your dataset tidy?
  * Some people think Tufte is too restrictive, or that he doesn't appreciate creative, eye-catching images. What do you think? What is your opinion of infographics?
  * Are there any visualizations that have particularly caught your interest? (Share a link or two if you can!) What was it about them that made them good/bad?
  * What tools have you previously used for producing images, statistical or otherwise? What are their strengths and weaknesses?
