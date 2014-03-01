@@ -24,6 +24,8 @@ Optional:
 
 Application presentation.
 
+Brief slides.
+
 Take a look at the Juice Labs [Chart Chooser](http://labs.juiceanalytics.com/chartchooser/) and gallery. Perhaps also [wtf-viz](http://wtfviz.net/).
 
 R base graphics: `plot`, `plot(sort())`, (`abline`, `points`, `text`, ...), `hist`, `boxplot`, `barplot`, `dotchart`, (`image`, `contour`, `persp`), `pairs`, (`qqnorm`, `qqplot`), and `par`. (Use the help, and use the examples.)
