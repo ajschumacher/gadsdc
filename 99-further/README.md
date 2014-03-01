@@ -14,6 +14,7 @@
  * [Jeroen Janssens](http://jeroenjanssens.com/) "dutch data scientist in old new amsterdam"
  * [KDnuggets](http://www.kdnuggets.com/) has some things.
  * The Columbia [Data Science blog](http://columbiadatascience.com/) was active in fall of 2013 and could be active again. (See also _Doing Data Science_ in books, below.)
+ * The [dataists](http://www.dataists.com/) blog hasn't been active for a while, but has some old gems.
 
 
 ### Books:
@@ -66,6 +67,7 @@
 
 ### Online educational resources:
 
+ * [CS 194-16](http://datascienc.es/) Introduction to Data Science, a course by Jeff Hammerbacher and Mike Franklin
  * [Software Carpentry](http://software-carpentry.org/)
  * [School of Data](http://schoolofdata.org/)
  * [videolectures.net](http://videolectures.net/)
