@@ -2,7 +2,7 @@
 
 Optional:
 
-* Read this paper. It was one of the best from [KDD](http://www.kdd.org/) 2013. "[Amplifying the Voice of Youth in Africa via Text Analytics](http://www.prem-melville.com/publications/unicef-kdd2013.pdf)" You don't have to follow everything in the paper, but it does give a nice overview of a complete "data science" process, including data architecture, modeling, evaluation, and application.
+* Read this paper: "[Amplifying the Voice of Youth in Africa via Text Analytics](http://www.prem-melville.com/publications/unicef-kdd2013.pdf)" (It was one of the best from [KDD](http://www.kdd.org/) 2013.) You don't have to follow everything in the paper; it gives a nice overview of a complete "data science" process, including data architecture, modeling, evaluation, and application.
 
 
 ### Questions
@@ -12,12 +12,16 @@ Optional:
 
 ### During
 
+(Work from slides.)
+
 Email instructors.
 
 An example of an analysis using version control data
  * "Collaboration in the open-source arena: The WebKit case" [[arXiv]](http://arxiv.org/abs/1401.5996) [[PDF]](http://arxiv.org/pdf/1401.5996v1.pdf) [[more]](http://users.utu.fi/joante/WebKitSNA/)
 
 Application Presentations assigned and scheduled.
+
+(End work from slides.)
 
 Setting up a machine on [AWS EC2](http://aws.amazon.com/ec2/) and getting set up with [git](http://git-scm.com/) and [github](https://github.com/). These blog posts describe much of the process demonstrated in class:
 
@@ -56,7 +60,7 @@ Play with git logs to do a simple analysis of open source projects. (Perhaps cho
 See also: the [github explanation for forking](https://help.github.com/articles/fork-a-repo).
 
 
-### Questions
+### Questions [[1]](http://bit.ly/gadsdc1post1)
 
  * How do you feel about today's class? Do you think you'll be able to start using some of the tools we covered? Would you like further support, in office hours or otherwise?
  * What ideas or thoughts do you have about your class project? Have you started thinking about it yet?
