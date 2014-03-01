@@ -2,8 +2,6 @@
 
 Strengthen your R skills by reading these sections from [Advanced R programming](http://adv-r.had.co.nz/):
 
- * [Introduction](http://adv-r.had.co.nz/Introduction.html)
-     * The [Meta-techniques](http://adv-r.had.co.nz/Introduction.html#meta-techniques) sub-section is worth reading twice.
  * [Data Structures](http://adv-r.had.co.nz/Data-structures.html)
  * [Subsetting](http://adv-r.had.co.nz/Subsetting.html)
  * [Functions](http://adv-r.had.co.nz/Functions.html)
@@ -15,7 +13,6 @@ Optional:
 
 ### Questions
 
- * Wickham describes a "scientific mindset" for learning R. What are the limits for the applicability of this approach? Does it apply to data science?
  * What have you learned to do with `R` that you didn't previously know? What would you still like to learn?
  * How good are you at identifying patterns? If we put humans up against computers, which side has the upper hand, under what circumstances?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?

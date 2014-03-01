@@ -1,19 +1,15 @@
 ### Before
 
-Read this paper on structuring data. Optionally also check out the corresponding slides and presentation video.
-
- * Tidy Data [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](http://vimeo.com/33727555)
+Read the [Meta-techniques](http://adv-r.had.co.nz/Introduction.html#meta-techniques) section from the [Introduction](http://adv-r.had.co.nz/Introduction.html) of [Advanced R programming](http://adv-r.had.co.nz/).
 
 Optional:
 
  * Watch this [video](http://www.youtube.com/watch?v=hsFMcen0okI) about data science *discovery* vs. *production* and tools.
- * Read this chapter from the Bad Data Handbook: "Data intended for human consumption, not machine consumption"
 
 
 ### Questions
 
- * What data formats have you worked with?
- * What are the negatives of "tidy data"? When would it not be a good idea to have data in a "tidy" format?
+ * Wickham describes a "scientific mindset" for learning R. What are the limits for the applicability of this approach? Does it apply to data science?
  * What problems have you solved by automation or programming? What problems would you like to use programming or analysis tools to solve?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
@@ -41,5 +37,10 @@ Dataset Research assigned.
 
 ### After
 
+ * Read the Tidy Data paper on structuring data. Optionally also check out the corresponding slides and presentation video. [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](http://vimeo.com/33727555)
  * Complete your [Dataset Research](../dataset_research/).
  * Read this [paper](http://www.jstatsoft.org/v40/i01/paper) on the split-apply-combine strategy.
+
+Optional:
+
+ * Read this chapter from the Bad Data Handbook: "Data intended for human consumption, not machine consumption"
