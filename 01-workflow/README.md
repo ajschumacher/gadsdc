@@ -60,7 +60,7 @@ Play with git logs to do a simple analysis of open source projects. (Perhaps cho
 See also: the [github explanation for forking](https://help.github.com/articles/fork-a-repo).
 
 
-### Questions [[1]](http://bit.ly/gadsdc1post1)
+### Questions
 
  * How do you feel about today's class? Do you think you'll be able to start using some of the tools we covered? Would you like further support, in office hours or otherwise?
  * What ideas or thoughts do you have about your class project? Have you started thinking about it yet?
