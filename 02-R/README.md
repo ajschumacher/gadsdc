@@ -16,6 +16,8 @@ Optional:
 
 ### During
 
+Question review.
+
 An example of an interesting data/API application: [Ranking DC tech companies based on github data](http://datacommunitydc.org/blog/2013/12/ranking-dc-software-companies-for-fun-and-employment/)
 
 Go through the [walking introduction to R](walking_intro.Rmd).

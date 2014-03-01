@@ -22,6 +22,8 @@ Optional:
 
 ### During
 
+Question review.
+
 Application presentation.
 
 Brief slides.
