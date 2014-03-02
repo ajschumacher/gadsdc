@@ -38,6 +38,11 @@
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
 
 
+### Tools
+
+ * [Data Science Toolkit](http://www.datasciencetoolkit.org/) has some handy things packaged for the web, and as a VM.
+
+
 ### Conferences:
 
  * [Knowledge Discovery and Data Mining](http://www.kdd.org/)
