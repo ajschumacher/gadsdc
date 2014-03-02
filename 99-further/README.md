@@ -3,6 +3,7 @@
 
 ### Blogs/Aggregators:
 
+ * [Paco Nathan](http://liber118.com/pxn/) has a very nice web site and email newsletter.
  * [DataTau](http://www.datatau.com/) is like [Hacker News](https://news.ycombinator.com/) for data.
  * [r/MachineLearning](http://www.reddit.com/r/MachineLearning/) on reddit
  * [yhat's blog](http://blog.yhathq.com/) often has good original content, often on data science with `python`.
