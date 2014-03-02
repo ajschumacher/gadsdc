@@ -32,7 +32,7 @@ Take a look at the Juice Labs [Chart Chooser](http://labs.juiceanalytics.com/cha
 
 R base graphics: `plot`, `plot(sort())`, (`abline`, `points`, `text`, ...), `hist`, `boxplot`, `barplot`, `dotchart`, (`image`, `contour`, `persp`), `pairs`, (`qqnorm`, `qqplot`), and `par`. (Use the help, and use the examples.)
 
-Quantile plots can sometimes show more useful detail about data than a histogram. [[example]](http://planspacedotorg.files.wordpress.com/2014/01/hist_vs_quantile.png)
+Quantile plots can sometimes show more useful detail about data than a histogram. [[comparison example]](http://planspacedotorg.files.wordpress.com/2014/01/hist_vs_quantile.png) [[example from Washington Post]](http://apps.washingtonpost.com/g/page/national/715-new-exoplanets/841/)
 
 The [mean-difference plot](http://en.wikipedia.org/wiki/Bland%E2%80%93Altman_plot) and the related percent-total plot are useful in analyzing agreement of measures or changes that are small - that is, when a scatterplot is not very helpful. For example: [scatterplots](http://planspace.org/2013/11/14/nyc-standardized-test-results-checking-out-the-number-of-students-tested-in-math-and-ela/) vs. [these alternatives](http://planspace.org/2013/11/15/nyc-standardized-test-results-checking-out-the-number-of-students-tested-in-math-and-ela-again/).
 
