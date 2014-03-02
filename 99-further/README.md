@@ -16,6 +16,7 @@
  * [KDnuggets](http://www.kdnuggets.com/) has some things.
  * The Columbia [Data Science blog](http://columbiadatascience.com/) was active in fall of 2013 and could be active again. (See also _Doing Data Science_ in books, below.)
  * The [dataists](http://www.dataists.com/) blog hasn't been active for a while, but has some old gems.
+ * [Jeff Knupp](https://www.jeffknupp.com/) is quite the guy when it comes to Python.
 
 
 ### Books:
