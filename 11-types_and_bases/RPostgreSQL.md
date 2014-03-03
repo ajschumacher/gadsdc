@@ -21,7 +21,7 @@ psql database_name
 
 Try these commands: 
 ```
-\h, \?, \l, \c database\_name, \d, \d table\_name, \du, \e
+\h, \?, \l, \c database_name, \d, \d table_name, \du, \e
 ```
 
 Create a table
@@ -39,26 +39,28 @@ CREATE TABLE my_table (
 
 ### Integrating R and PostgreSQL
 Setup Connection: 
-```r con <- dbConnect(PostgreSQL(), user='user', password='password', dbname='mydb')```
+```R 
+con <- dbConnect(PostgreSQL(), user='user', password='password', dbname='mydb')```
 
 Find your tables: 
-```r dbListTables(con)```
+```R 
+dbListTables(con)```
 
 Run a Query and Save as R object:
-```r
+```R
 query <- "SELECT some_stuff FROM some_db"
 mydata <- dbGetQuery(con, query)
 ```
 
 Oh noes, query too big!  Return 500 line at a time.
-```r
+```R
 query <- "SELECT tons_of_stuff FROM some_db"
 result <- dbSendQuery(con, query)
 mydata <- fetch(result, n=500) 
 ```
 
 Screw it, let the server/database do all the work (beta)
-```r 
+```R 
 query <- "SELECT tons_of_stuff FROM some_db"
 result <- dbSendQuery(con, query)
 findings <- dbApply(result, INDEX='group_by_variables', FUN=some_function)
