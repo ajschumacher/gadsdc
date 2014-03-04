@@ -12,6 +12,15 @@ Optional:
 
 ### During
 
+Here is a data table:
+
+Structure | Format | Software | Servers
+--- | --- | --- | ---
+Tabular | CSV etc. | most; SQLite | mySQL, PostgreSQL
+Nested | JSON, XML | rjson, lxml, etc. | web etc.
+Graph | various | networkx, [Gephi](https://gephi.org/), etc. | [Neo4j](http://www.neo4j.org/)
+
+
 Something.
 cf. merges
 
