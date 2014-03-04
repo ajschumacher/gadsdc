@@ -17,7 +17,7 @@ Here is a data table:
 Structure | Format | Software | Servers
 --- | --- | --- | ---
 Tabular | [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) etc. | most; [SQLite](http://www.sqlite.org/) | [MySQL](http://www.mysql.com/), [PostgreSQL](http://www.postgresql.org/), [etc.](http://en.wikipedia.org/wiki/Relational_database)
-Nested | [JSON](http://cran.r-project.org/web/packages/rjson/index.html), XML | rjson, [lxml](http://lxml.de/), etc. | web etc.
+Nested | [JSON](http://www.json.org/), [XML](http://www.w3.org/XML/) | [rjson](http://cran.r-project.org/web/packages/rjson/index.html), [lxml](http://lxml.de/), etc. | web etc.
 Graph | various | [networkx](http://networkx.github.io/), [Gephi](https://gephi.org/), etc. | [Neo4j](http://www.neo4j.org/), [etc.](http://en.wikipedia.org/wiki/Graph_database)
 
 
