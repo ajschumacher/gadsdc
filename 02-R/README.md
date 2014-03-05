@@ -39,7 +39,6 @@ Dataset Research assigned.
 
 ### After
 
- * Read the Tidy Data paper on structuring data. Optionally also check out the corresponding slides and presentation video. [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](http://vimeo.com/33727555)
  * Complete your [Dataset Research](../dataset_research/).
  * Read this [paper](http://www.jstatsoft.org/v40/i01/paper) on the split-apply-combine strategy.
 

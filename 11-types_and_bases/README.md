@@ -1,6 +1,6 @@
 ### Before
 
- * 
+ * Read the Tidy Data paper on structuring data. Optionally also check out the corresponding slides and presentation video. [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](http://vimeo.com/33727555)
 
 Optional:
 
@@ -10,7 +10,9 @@ Optional:
 
 ### Questions
 
- * What data formats have you worked with?
+ * What are the negatives of "tidy data"? When would it not be a good idea to have data in a "tidy" format? 
+ * What data formats have you worked with? What are their strengths and weaknesses?
+ * How can you get data? What data would you like to get for your final project? Where could you get it? Where have you looked?
 
 
 ### During
