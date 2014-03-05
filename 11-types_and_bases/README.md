@@ -25,8 +25,6 @@ Slides on data and formats.
 
 [API lab](lab_API.md).
 
-[Convert JSON to CSV](http://konklone.io/json/) in your browser.
-
 Slides on databases.
 
 This [Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/) is quite good. (One thing to remember is that "join" will also be known as "merge", often; a cross join is more like `outer()` in `R`.)
