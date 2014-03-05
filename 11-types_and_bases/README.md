@@ -29,9 +29,9 @@ Slides on databases.
 
 This [Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/) is quite good. (One thing to remember is that "join" will also be known as "merge", often; a cross join is more like `outer()` in `R`.)
 
-[SQL lab](lab_SQL.md).
+[SQL lab](lab_SQL_Northwind.md) with data pre-populated.
 
-[Backup SQL lab](lab_SQL-backup.md).
+[SQL lab](lab_SQL.md).
 
 On the structured side of the spectrum, this summarizes a lot of the data structure and software map:
 
