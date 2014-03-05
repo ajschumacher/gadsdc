@@ -48,6 +48,7 @@ Graph | various | [networkx](http://networkx.github.io/), [Gephi](https://gephi.
 
 Optional:
 
+ * [Install PostgreSQL on your Ubuntu machine](https://help.ubuntu.com/community/PostgreSQL) and play with it.
  * Look into two [ways](RODBC_sqldf.md) of using SQL from `R`.
  * Check out [RPostgreSQL](RPostgreSQL.md) for combining `R` with PostgreSQL.
  * Check out the `python` module [dataset](http://dataset.readthedocs.org/en/latest/), which tries to combine the ease of JSON with relational databases.
