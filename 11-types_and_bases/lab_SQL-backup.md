@@ -7,7 +7,7 @@ This lab uses the SQL playground provided in-browser by [W3Schools](http://www.w
 This is a pre-populated data environment with nothing to install and no risk of breaking anything. The data there is from a commonly-used example database ([info](http://northwinddatabase.codeplex.com/)). Nice!
 
 
-### Questions
+### Guided
 
 Let's walk through a few examples:
 
