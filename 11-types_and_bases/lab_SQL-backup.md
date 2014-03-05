@@ -49,5 +49,5 @@ Intermediate:
 
  * What employee made the most sales (by number of sales)?
  * What employee made the most sales (by value of sales)?
- * What Employees have BS degrees? (Hint: Look at [LIKE](http://www.w3schools.com/sql/sql_like.asp) operator)
+ * What Employees have BS degrees? (Hint: Look at the [LIKE](http://www.w3schools.com/sql/sql_like.asp) operator.)
  * What supplier of two or more products has the highest average product price? (Hint: Look at the [HAVING](http://www.w3schools.com/sql/sql_having.asp) operator.)
