@@ -12,6 +12,8 @@ You may already have data that you're interested in working with. You may have a
  * Of course there are more traditional government and NGO data sources:
      * [The US Census](http://www.census.gov/)
      * [Data from the World Bank](http://data.worldbank.org/)
+     * [The Sunlight Foundation](http://sunlightfoundation.com/api/)
+     * [ProPublica Data Store](https://projects.propublica.org/data-store/)
  * Academic institutions host a variety of data set collections:
      * The [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/) makes available a variety of nice data sets.
      * [Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/)
