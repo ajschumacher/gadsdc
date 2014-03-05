@@ -36,7 +36,7 @@ SELECT CategoryName, COUNT(*) FROM Categories JOIN Products on (Categories.Categ
 ```
 
 
-### Practice:
+### Practice
 
 Basic:
 
