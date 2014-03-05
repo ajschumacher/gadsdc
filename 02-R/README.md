@@ -41,7 +41,3 @@ Dataset Research assigned.
 
  * Complete your [Dataset Research](../dataset_research/).
  * Read this [paper](http://www.jstatsoft.org/v40/i01/paper) on the split-apply-combine strategy.
-
-Optional:
-
- * Read this chapter from the Bad Data Handbook: "Data intended for human consumption, not machine consumption"

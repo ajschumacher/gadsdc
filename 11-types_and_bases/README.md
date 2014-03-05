@@ -50,3 +50,4 @@ Optional:
  * Look into two [ways](RODBC_sqldf.md) of using SQL from `R`.
  * Check out [RPostgreSQL](RPostgreSQL.md) for combining `R` with PostgreSQL.
  * Check out the `python` module [dataset](http://dataset.readthedocs.org/en/latest/), which tries to combine the ease of JSON with relational databases.
+ * Read this chapter from the Bad Data Handbook: "Data intended for human consumption, not machine consumption"
