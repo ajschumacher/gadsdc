@@ -32,7 +32,7 @@ This [Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-exp
 
 [SQL lab](lab_SQL_Northwind.md) on SQL, with data pre-populated.
 
-[SQL lab](lab_SQL.md) on using [SQLite](http://www.sqlite.org/) with your own data.
+[SQL lab](lab_SQLite.md) on using [SQLite](http://www.sqlite.org/) with your own data.
 
 On the structured side of the spectrum, this summarizes a lot of the data structure and software map:
 
