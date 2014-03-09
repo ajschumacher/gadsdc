@@ -2,6 +2,8 @@
 
 _Structured Query Language_ (SQL) is a very useful [declarative language](http://en.wikipedia.org/wiki/Declarative_programming) for working with data. It is usually supported (with some variation) by relational databases. The tutorialspoint [SQL Quick Guide](http://www.tutorialspoint.com/sql/sql-quick-guide.htm) is a handy cheat sheet for a lot of the syntax. As a data user, access to data will usually consist of a more or less complicated `SELECT` statement.
 
+For joining data with SQL, this [Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/) is quite good. One thing to note is that "join" will also often be known as "merge" in statistical software - with cross joins more like `outer()` in `R`.
+
 This lab uses the SQL playground provided in-browser by [W3Schools](http://www.w3schools.com/).
 
  * [W3Schools SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)

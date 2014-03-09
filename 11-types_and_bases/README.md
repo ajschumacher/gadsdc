@@ -28,8 +28,6 @@ Slides on data and formats.
 
 Slides on databases.
 
-This [Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/) is quite good. (One thing to remember is that "join" will also be known as "merge", often; a cross join is more like `outer()` in `R`.)
-
 [SQL lab](lab_SQL_Northwind.md) on SQL, with data pre-populated.
 
 [SQL lab](lab_SQLite.md) on using [SQLite](http://www.sqlite.org/) with your own data.
