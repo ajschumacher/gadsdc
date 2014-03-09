@@ -32,6 +32,7 @@
  * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Cathy-ONeil/dp/1449358659) is a book that came out of the data science course at Columbia and [Cathy O'Neil](http://mathbabe.org/)'s blogging of said course.
  * Data Mining with R: Learning with Case Studies [[book site]](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/) [[amazon]](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
  * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
+ * Microsoft's [Deep Learning: Methods and Applications](http://research.microsoft.com/pubs/209355/NOW-Book-Revised-Feb2014-online.pdf) (free PDF)
 
 
 ### Articles/Guides:
@@ -83,9 +84,19 @@
  * [Pluralsight](http://pluralsight.com/)
  * [Enginehere](https://www.enginehere.com/)
  * [Cloudera](http://university.cloudera.com) has some mix of online and in-person courses and certifications.
+ * Hinton's Coursera course on [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)
+ * Google's [Making Sense of Data](https://datasense.withgoogle.com/) course materials (seems very introductory; focuses on Google Fusion Tables)
+ * [Quant Education](http://www.youtube.com/channel/UC37c5dtVf3BHWFr5v9NKSKw) YouTube channel of videos on `R`
 
 
 ### Face to face educational programs:
 
  * [District Data Labs](http://www.districtdatalabs.com/) (DC)
  * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco)
+ * [Persontyle](http://www.persontyle.com/) school of data science
+
+
+### Other resource collections
+
+ * [The Open Source Data Science Masters](http://datasciencemasters.org/) curriculum
+ * [listudy](http://www.listudy.com/): lists for learning data science

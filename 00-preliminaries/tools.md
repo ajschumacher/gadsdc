@@ -25,7 +25,7 @@ For each, you can go as deep as you need to feel comfortable:
 ### Gentle Introduction
 
  * If you haven’t used a command line interface like `bash`, try [The Command Line Crash Course](http://cli.learncodethehardway.org/book/). Ignore the stuff about PowerShell.
- * If you haven't used `git`, [Try Git](http://try.github.io/) will teach you the basics in 15 minutes, in your browser.
+ * If you haven't used `git`, [Try Git](http://try.github.io/) will teach you the basics in 15 minutes, in your browser. For a little more explanation, check out Atlassian's [Git Basics](https://www.atlassian.com/git/tutorial/git-basics) and other tutorials.
 
 ### Deeper Dive
 
