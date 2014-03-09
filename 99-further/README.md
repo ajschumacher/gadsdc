@@ -93,3 +93,10 @@
 
  * [District Data Labs](http://www.districtdatalabs.com/) (DC)
  * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco)
+ * [Persontyle](http://www.persontyle.com/) school of data science
+
+
+### Other resource collections
+
+ * [The Open Source Data Science Masters](http://datasciencemasters.org/) curriculum
+ * [listudy](http://www.listudy.com/): lists for learning data science
