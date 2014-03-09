@@ -8,7 +8,7 @@ APIs are useful for accessing data that they make available, but the _idea_ of A
 
 As is often the case, there is some level of authentication required to use the capitalwords API, but it's quite easy. You can [sign up](http://sunlightfoundation.com/api/accounts/register/) for an API key which you'll get in your email. That single API key is all you need. ([OAuth](http://oauth.net/) is a common and slightly more complex authentication scheme.)
 
-We can use simple HTTP GET requests, for example in a browser or with `curl`, to get data from capitalwords in JSON format. You can [explore](http://tryit.sunlightfoundation.com/capitolwords) a lot of functionality and get help building your request. We'll just use the `dates.json` endpoint to get two simple datasets.
+We can use simple HTTP GET requests, for example in a browser or with `curl`, to get data from capitalwords in JSON format. You can [explore](http://tryit.sunlightfoundation.com/capitolwords) a lot of functionality and get help building your request. Three's other [documentation](http://capitolwords.org/api/1/) available as well. We'll just use the `dates.json` endpoint to get two simple datasets.
 
 ```bash
 curl 'http://capitolwords.org/api/1/dates.json?phrase=budget&percentages=true&granularity=year&apikey=YOUR_KEY_HERE' > lab_API-budget.json
