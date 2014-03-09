@@ -4,7 +4,7 @@ _Structured Query Language_ (SQL) is a very useful [declarative language](http:/
 
 This lab uses the SQL playground provided in-browser by [W3Schools](http://www.w3schools.com/).
 
- * [trysql_select_all](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
+ * [W3Schools SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
 
 This is a pre-populated data environment with nothing to install and no risk of breaking anything. The data there is from a commonly-used example database ([info](http://northwinddatabase.codeplex.com/)). Nice!
 
