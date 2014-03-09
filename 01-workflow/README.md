@@ -76,6 +76,7 @@ Optional:
  * Make your own EC2 micro Ubuntu instance and set it up a little.
  * Try out [csvkit](http://csvkit.readthedocs.org/), which makes data at the command line a lot more fun!
  * Do the `emacs` tutorial. (In `emacs`, press `control` and `h`, then press `t`.)
+ * Learn the `vim` editor with its tutorial, or perhaps with [a fun game](http://vim-adventures.com/)!
  * Learn more about `sed` and `awk`.
  * Read this chapter from the Bad Data Handbook: "Myths of cloud computing"
  * To get into _a lot_ more at the command line, check out the fine [presentation](http://files.meetup.com/1406240/Command%20Line%20Data%20Science.pdf) from Jeroen Janssens. See also his [blog post](http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html) on some of the same tools.
