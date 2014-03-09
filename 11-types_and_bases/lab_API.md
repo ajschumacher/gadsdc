@@ -17,4 +17,11 @@ curl 'http://capitolwords.org/api/1/dates.json?phrase=deficit&percentages=true&g
 
 We now have two files with JSON data in them about how much the US government was talking about "[budget](lab_API-budget.json)" and "[deficit](lab_API-deficit.json)".
 
-We would like to work with this data in a tabular format. `R` and `python` have ways of doing this transformation, as does [csvkit](http://csvkit.readthedocs.org/). [Eric Mill](https://twitter.com/konklone), who works for the Sunlight Foundation and inspired this lab, has made a web-based tool to [convert JSON to CSV](http://konklone.io/json/) in your browser, which is very handy.
+We would like to work with this data in a tabular format. `R` and `python` have ways of doing this transformation, as does [csvkit](http://csvkit.readthedocs.org/). [Eric Mill](https://twitter.com/konklone), who works for the Sunlight Foundation and inspired this lab, has made a web-based tool to [convert JSON to CSV](http://konklone.io/json/) in your browser, which is very handy. One way or another, we can change JSON to CSV. (This is especially true when the structure is simple and not too nested; it becomes trickier when the structure is more complex and may requrie custom code.)
+
+```bash
+in2csv -f json -k results lab_API-budget.json > lab_API-budget.csv
+in2csv -f json -k results lab_API-deficit.json > lab_API-deficit.csv
+```
+
+We're now in very good shape to do whatever analysis we'd like to do with the data.
