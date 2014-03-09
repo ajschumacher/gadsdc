@@ -13,6 +13,7 @@ Optional:
  * What are the negatives of "tidy data"? When would it not be a good idea to have data in a "tidy" format? 
  * What data formats have you worked with? What are their strengths and weaknesses?
  * How can you get data? What data would you like to get for your final project? Where could you get it? Where have you looked?
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
 ### During
