@@ -84,6 +84,7 @@
  * [Pluralsight](http://pluralsight.com/)
  * [Enginehere](https://www.enginehere.com/)
  * [Cloudera](http://university.cloudera.com) has some mix of online and in-person courses and certifications.
+ * Hinton's Coursera course on [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)
 
 
 ### Face to face educational programs:
