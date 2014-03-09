@@ -85,6 +85,7 @@
  * [Enginehere](https://www.enginehere.com/)
  * [Cloudera](http://university.cloudera.com) has some mix of online and in-person courses and certifications.
  * Hinton's Coursera course on [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)
+ * Google's [Making Sense of Data](https://datasense.withgoogle.com/) course materials (seems very introductory; focuses on Google Fusion Tables)
 
 
 ### Face to face educational programs:
