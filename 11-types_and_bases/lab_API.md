@@ -24,4 +24,8 @@ in2csv -f json -k results lab_API-budget.json > lab_API-budget.csv
 in2csv -f json -k results lab_API-deficit.json > lab_API-deficit.csv
 ```
 
-We're now in very good shape to do whatever analysis we'd like to do with the data.
+We're now in very good shape to do whatever analysis we'd like to do with the data. Here's a parting note from Eric Mill:
+
+> ...hopefully this demystifies some words for you: URLs, JSON, and APIs don't take a computer science degree to understand. They are patterns, meant for both humans and computers to understand.
+
+> Understanding how this stuff fits together will help you in seeing how the web works, the value in tools people make, and maybe even to know when someone is feeding you a line.
