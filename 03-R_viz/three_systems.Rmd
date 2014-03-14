@@ -10,9 +10,12 @@ plot(Sepal.Length ~ Sepal.Width,
      ylab = "Sepal Length, centimeters",
      main = "Sepal Measurements for 150 Irises",
      pch = 19,
-     cex = 0.8,
+     cex = 0.9,
      xlim = c(1, 6),
-     ylim = c(4, 9))
+     ylim = c(4, 9),
+     las=1,
+     frame.plot='false',
+     family="serif")
 legend("topright", legend = unique(iris$Species), col = 1:3, pch = 19)
 ```
 
