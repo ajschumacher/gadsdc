@@ -1,3 +1,5 @@
+# (You should write your own solution before viewing this.)
+
 # A Monty Hall simulation can be written step-by-step, following the story
 # of the game. This code attempts to mimic the mechanics closely. It also
 # demonstrates a range of R functionality and extends the simulation to allow
