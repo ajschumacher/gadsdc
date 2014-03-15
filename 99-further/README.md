@@ -34,6 +34,7 @@
  * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
  * Microsoft's [Deep Learning: Methods and Applications](http://research.microsoft.com/pubs/209355/NOW-Book-Revised-Feb2014-online.pdf) (free PDF)
  * [Mining the Social Web, 2nd Edition](http://shop.oreilly.com/product/0636920030195.do) is available for sale and also has a fairly comprehensive [github repository](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition) with all the code from the book, in friendly IPython Notebook format, even with a whole virtual machine setup.
+ * [Twitter Data Analytics](http://tweettracker.fulton.asu.edu/tda/) is available free online as a pre-print; it uses Java and MongoDB.
 
 
 ### Articles/Guides:
