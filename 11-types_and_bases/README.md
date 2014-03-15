@@ -1,10 +1,11 @@
 ### Before
 
- * Read the Tidy Data paper on structuring data. Optionally also check out the corresponding slides and presentation video. [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](http://vimeo.com/33727555)
+ * Read the Tidy Data paper on structuring data. Optionally also check out the corresponding slides and presentation video. [[paper]](http://vita.had.co.nz/papers/tidy-data.pdf) [[github]](https://github.com/hadley/tidy-data) [[slides]](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) [[video]](http://vimeo.com/33727555)
 
 Optional:
 
  * Install a JSON viewer for your browser, such as [JSONview](http://jsonview.com/).
+ * Go through Zed Shaw's work-in-progress [Learn SQL the Hard Way](http://sql.learncodethehardway.org/book/), which will still take you through even more SQL with SQLite that we'll do in class.
  * Read this chapter from the Bad Data Handbook: "Data intended for human consumption, not machine consumption"
 
 
