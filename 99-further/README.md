@@ -55,6 +55,13 @@
  * [PyData](http://pydata.org/)
 
 
+# Journals:
+
+People publish in a lot of places; other journal suggestions welcomed!
+
+ * [Big Data](http://www.liebertpub.com/big) seems to be fairly broad.
+
+
 ### Meetups:
 
  * In and around DC:
