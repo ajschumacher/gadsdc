@@ -30,7 +30,7 @@ Activity: Human learning on dental data
  * Ways of evaluating
  * Ways of predicting
 
-Slides on machine learning and KNN.
+[Slides](slides.pdf) on machine learning and KNN.
 
 Distance metrics / [norms](http://en.wikipedia.org/wiki/Norm_(mathematics)):
  * [Hamming distance](http://en.wikipedia.org/wiki/Hamming_distance)
