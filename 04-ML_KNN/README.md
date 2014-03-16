@@ -20,6 +20,8 @@ Optional:
 
 ### During
 
+Question review.
+
 Application presentation.
 
 Activity: Human learning on dental data
