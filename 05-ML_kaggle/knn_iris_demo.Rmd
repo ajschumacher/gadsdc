@@ -38,4 +38,5 @@ Now there are some mistakes in the classifications.
 Some questions to think about:
 
  * What does it mean to train and test on the same data? With 1NN, would we ever make any mistakes in these "predictions"?
- * Since the k=5 predictions had more error than the k=1 predictions, does it mean that k=1 is necessarily better?
+ * Since the k=5 predictions had more errors than the k=1 predictions, does it mean that k=1 is necessarily better?
+ * Can we tell how well our model would work for new data?
