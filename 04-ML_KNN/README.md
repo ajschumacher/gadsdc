@@ -52,7 +52,7 @@ The function should return a vector of predicted labels for the test data. Choos
 
 How do you know you're done?
 
- * You have a file, `yourname.R`, containing your function definition, in the `04-ML_KNN` directory of the class repo.
+ * You have a file, `name.R`, containing your function definition, in the `04-ML_KNN` directory of the class repo.
 
 Extension:
  * Extend your implementation to handle non-numeric data as well.
