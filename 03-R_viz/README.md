@@ -25,7 +25,7 @@ Question review.
 
 Application presentation.
 
-Brief slides.
+Brief [slides](slides.pdf).
 
 Summary statistics discussed:
  * mean (as one of the averages or measures of center)
