@@ -4,7 +4,7 @@ Read [A few useful things to know about machine learning](http://homes.cs.washin
 
 Optional:
 
-* Go through Fortmann-Roe's [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html). This is perhaps a more readable introduction and covers KNN, which we're doing in class.
+ * Go through Fortmann-Roe's [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html). This is perhaps a more readable introduction and covers KNN, which we're doing in class.
 
 
 ### Questions
