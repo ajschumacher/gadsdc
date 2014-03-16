@@ -66,7 +66,7 @@ Some presentations.
 
 Optional:
 
- * To keep practicing `R` and make sure you're confident with mean, covariance, and correlation, implement functions for these yourself and check that they give the same results as the ones in base `R`. (Does `R` give sample or population variance by default?) 
+ * To keep practicing `R` and make sure you're confident with mean, covariance, and correlation, implement functions for these yourself and check that they give the same results as the ones in base `R`. (Does `R` give sample or population variance by default?) You can put a `name.R` file in the `03-R_viz` directory of the class repo.
  * You should really go to the source on Tufte, but that means you need to get his books. Start with [The Visual Display of Quantitative Information](http://www.amazon.com/The-Visual-Display-Quantitative-Information/dp/0961392142). I also especially like Tufte on PowerPoint, which you might even be able to find online.
  * On a similar level to Tufte, with more focus on scientific graphics, check out William Cleveland's books, e.g., [Visualizing Data](http://www.amazon.com/Visualizing-Data-William-S-Cleveland/dp/0963488406/).
  * If you've read Tufte and Cleveland, perhaps check out [Stephen Few](http://www.amazon.com/Stephen-Few/e/B001H6IQ5M).
