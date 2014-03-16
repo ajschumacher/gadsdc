@@ -48,11 +48,11 @@ matplot(data.frame(rbinom(400, 1:400, 1/3)/1:400,
 legend(x="topright", legend=c("switching", "staying"), pch=19, cex=0.6, col=c("blue", "red"))
 
 # Another way to increase performance is to use `mclapply` ("multi-core
-# lapply") from the `multicore` package. It works just like `lapply` but
+# lapply") from the `parallel` package. It works just like `lapply` but
 # uses all available compute cores.
 
 system.time(lapply(1:400, function(n) replicate(400, win_car(switching=TRUE))))
-library(multicore)
+library(parallel)
 system.time(mclapply(1:400, function(n) replicate(400, win_car(switching=TRUE))))
 
 # This will give you performance gains for "embarassingly parallelizable"
