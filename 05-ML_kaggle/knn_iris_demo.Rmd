@@ -1,35 +1,41 @@
-# TODO: Clean up!
+# Exploring KNN and Training Error
+### Using `iris` data and the `class` package
 
-# KNN Iris Walkthrough
+The `class` package contains several classification algorithms, including K Nearest Neighbors. (You can see information about a package after loading it with `library(help=packagename)`.)
 
-```R
-iris
+The KNN algorithm is different from many others in that since it uses all the training data for every prediction it doesn't have separate train and predict functions. We'll see many cases in which models are trained and then used for predicting later.
 
-head(iris) #preview the dataset
+Recall the `iris` dataset; take a look at `head(iris)` if you'd like to jog your memory.
 
-summmary(iris) #get overview of the data
+```{r, tidy=FALSE}
+library(class)
 
-library('class') #load classification library
-knn #display knn source
+# Use 1NN to predict for all the iris data
+predictions <- knn(train = iris[, 1:4],
+                   test  = iris[, 1:4],
+                   cl    = iris[, 5],   # labels
+                   k     = 1)
 
-data <- iris
-N <- nrow(data)
-
-train.pct <- .7 #set train/tet split at 70%
-train.index <- sample(1:N,  train.pct* N)  #randomly sample indices for your training set
-
-train.data <- data[train.index, ] #separate out those indices to your traing set
-test.data <- data[-train.index, ] #everything else goes to your test set
-test.labels <- test.data$Species
-#TRAIN YOUR MODEL (k = 3, but you could set it as anything)
-test.predict <- knn( train = train.data[,c(1,2,3,4)] , test = test.data[,c(1,2,3,4)], cl = train.data$Species, k = 3)
-
-#PRINT CONFUSION MATRIX
-print(table(test.data$Species, test.labels))
-
-#OUTPUT ACCURACY
- 1 - (sum ( test.data$Species != test.labels ) / nrow(test.data))
-
+# Display a simple confusion matrix
+table(iris[, 5], predictions)
 ```
 
-Also here is a script that does much of the above, but iterates over different values of k.
+The correct labels are on the left, and the predictions are across the top. We've got everything right!
+
+```{r, tidy=FALSE}
+# Try KNN with k=5
+predictions <- knn(train = iris[, 1:4],
+                   test  = iris[, 1:4],
+                   cl    = iris[, 5],   # labels
+                   k     = 5)
+
+# Display a simple confusion matrix
+table(iris[, 5], predictions)
+```
+
+Now there are some mistakes in the classifications.
+
+Some questions to think about:
+
+ * What does it mean to train and test on the same data? With 1NN, would we ever make any mistakes in these "predictions"?
+ * Since the k=5 predictions had more error than the k=1 predictions, does it mean that k=1 is necessarily better?
