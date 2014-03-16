@@ -46,9 +46,9 @@ Implement a one-nearest-neighbor algorithm as a function in `R` that takes three
 
  * A data frame of numeric columns, the training data.
  * A vector of labels for the training data.
- * A data frame with columns corresponding to the first data frames', this one the data to predict for.
+ * A data frame with the same columns as the first data frames, this one the data to predict for.
 
-The function should return a vector of predicted labels for the test data. Choose a function name and a distance metric to use. You can test your function with the `iris` data. 
+The function should return a vector of predicted labels for the test data. Choose a function name and a distance metric to use. You can test your function with the `iris` data.
 
 How do you know you're done?
 
