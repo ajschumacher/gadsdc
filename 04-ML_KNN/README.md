@@ -29,6 +29,7 @@ Activity: Human learning on dental data
  * Possible applications
  * Ways of evaluating
  * Ways of predicting
+ * Build your own model!
 
 [Slides](slides.pdf) on machine learning and KNN.
 
