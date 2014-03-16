@@ -2,6 +2,10 @@
 
 Read [A few useful things to know about machine learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf). We're reading this paper now, and then again toward the end of the class; this is your first read through it.
 
+Optional:
+
+* Go through Fortmann-Roe's [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html). This is perhaps a more readable introduction and covers KNN, which we're doing in class.
+
 
 ### Questions
 
