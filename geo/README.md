@@ -1,5 +1,7 @@
 ### Some Geo Resources
 
+ * [Max's slides](http://bitly.com/GAmapping)
+
  * [mapschool](http://mapschool.io/)
  * [QGIS](http://www.qgis.org/en/site/)
  * [ggmap: Spatial Visualization with
