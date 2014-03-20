@@ -16,7 +16,6 @@
  * R mammals dataset (moderate)
  * R painters dataset (moderate)
  * R quine dataset (moderate)
- * R survey dataset (moderate)
  * R diamonds dataset (moderate)
  * R movies dataset (moderate)
  * R Boston dataset (moderate)
