@@ -29,6 +29,11 @@ In pairs, enter the [kaggle](http://www.kaggle.com/) [Titanic](http://www.kaggle
 [Slides](slides.pdf) on evaluation procedures and metrics.
 
 
+### Questions
+
+* You want to use KNN with a training set to eventually make predictions on new data. How will you choose K? (Describe a process that results in a choice for K.)
+
+
 ### After
 
 Optional:
