@@ -28,6 +28,8 @@ In pairs, enter the [kaggle](http://www.kaggle.com/) [Titanic](http://www.kaggle
 
 [Slides](slides.pdf) on evaluation procedures and metrics.
 
+Implement 10-fold cross-validation for KNN classification accuracy. This should be a function that takes a training data set of features, the labels, and K. The function should return the accuracy arrived at by cross-validation. You could pretty easily extend this from 10-fold to n-fold. Think about how to generalize further. Test your function with some data!
+
 
 ### Questions
 
