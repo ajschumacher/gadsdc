@@ -1,5 +1,9 @@
 ### Before
 
+Read Paul Graham's [Plan for Spam](http://www.paulgraham.com/spam.html).
+
+Optional: Explore more from Paul Graham with, for example, [Better Bayesian Filtering](http://www.paulgraham.com/better.html).
+
 
 ### Questions
 
