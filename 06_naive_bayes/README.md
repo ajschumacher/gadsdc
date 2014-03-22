@@ -7,7 +7,8 @@ Optional: Explore more from Paul Graham with, for example, [Better Bayesian Filt
 
 ### Questions
 
- * "I have three cards: one is black on both sides, one is red on both sides, and one is black on one side and red on the other. I pick a card at random out of a hat and look at one side only. It is black. What is the probability that the other side is black?" (This question is used by Gelman in his Bayesian Data Analysis class at Columbia.)
+ * Paul Graham makes some predictions in his Plan for Spam. How well has he done with these predictions?
+ * There are several adjustments to a "pure" Bayesian algorithm in what Paul Graham describes in his Plan for Spam. What are they, and how do you think they were arrived at?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
