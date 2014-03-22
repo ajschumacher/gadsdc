@@ -28,7 +28,7 @@ Go through the simple example from [Bayes' Rule for Ducks](http://planspace.org/
 
 With Bayes, we're principally concerned with learning the likelihood. There are many ways of doing so.
 
-Working with code from [Machine Learning for Hackers](http://shop.oreilly.com/product/0636920018483.do) [[github]](https://github.com/johnmyleswhite/ML_for_Hackers). First, set up the environment:
+Working with code from the [Machine Learning for Hackers](http://shop.oreilly.com/product/0636920018483.do) book [[github]](https://github.com/johnmyleswhite/ML_for_Hackers). First, set up the environment:
 
 ```bash
 curl -kO https://raw.githubusercontent.com/ajschumacher/ML_for_Hackers/master/03-Classification/email_classify.R
@@ -55,7 +55,7 @@ Go through the use of the `tm` package for making a term document matrix. Notice
 For these questions, create a `name.md` file that will eventually get to the `06-naive_bayes/code_study/` directory of the class repo.
 
  * Collect some of the R techniques you learn as you go through the code. Include them here.
- * There are also some negative points to be made about this code - include thoughts along those lines here.
+ * There are also some negative points to be made about this code. Include observations along those lines here.
  * Running the code, you'll encounter a harmless warning, twice. What is this warning and what does it mean?
  * Later, you'll get an actual error. What is it, why did it occur, and how did you fix it?
  * How many emails are in the training and test sets of this example code as we're running it?
