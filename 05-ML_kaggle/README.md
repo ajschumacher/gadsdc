@@ -31,7 +31,8 @@ In pairs, enter the [kaggle](http://www.kaggle.com/) [Titanic](http://www.kaggle
 
 ### Questions
 
-* You want to use KNN with a training set to eventually make predictions on new data. How will you choose K? (Describe a process that results in a choice for K.)
+ * You want to use KNN with a training set to eventually make predictions on new data. How will you choose K? (Describe a process that results in a choice for K.)
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
 ### After
