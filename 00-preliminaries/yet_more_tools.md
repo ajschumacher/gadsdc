@@ -5,6 +5,7 @@ These are not my first choices, but they are additional references that you migh
 
 For `git`:
 
+ * This [d3 interactive](http://www.wei-wang.com/ExplainGitWithD3/) lets you explore what various git workflow processes do.
  * This interactive [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html) shows a lot of `git` in context.
 
 
