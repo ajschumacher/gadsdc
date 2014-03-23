@@ -19,6 +19,7 @@ Optional:
 Question review.
 
  * Briefly discuss the [No Free Lunch theorem](http://en.wikipedia.org/wiki/No_free_lunch_theorem) - and being slightly less pessimistic about choosing machine learning algorithms.
+ * Briefly discuss the [curse of dimensionality](http://www.statsoft.com/Portals/0/blog/curse-of-dimensionality.jpg) and how it affects KNN, for example.
 
 Application presentation.
 
