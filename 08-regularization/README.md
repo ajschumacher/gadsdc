@@ -6,5 +6,18 @@ pages 43 to 99
 PDF pages 62 to 118
 
 
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
+### During
+
+Question review.
+
+Application presentation.
+
 Project elevator pitches.
 
+
+### After
