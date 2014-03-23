@@ -18,6 +18,8 @@ Optional:
 
 Question review.
 
+ * Briefly discuss the [No Free Lunch theorem](http://en.wikipedia.org/wiki/No_free_lunch_theorem) - and being slightly less pessimistic about choosing machine learning algorithms.
+
 Application presentation.
 
 [Take a look](knn_iris_demo.Rmd) at applying KNN and the idea of training error.
