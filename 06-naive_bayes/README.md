@@ -26,6 +26,8 @@ Application presentation.
 
 Go through the simple example from [Bayes' Rule for Ducks](http://planspace.org/2014/02/23/bayes-rule-for-ducks/).
 
+Note the usefulness of logarithms for changing the multiplication of a bunch of small numbers into the addition of reasonable numbers. Logarithms are useful all over the place.
+
 With Bayes, we're principally concerned with learning the likelihood. There are many ways of doing so.
 
 Working with code from the [Machine Learning for Hackers](http://shop.oreilly.com/product/0636920018483.do) book [[github]](https://github.com/johnmyleswhite/ML_for_Hackers). First, set up the environment:
