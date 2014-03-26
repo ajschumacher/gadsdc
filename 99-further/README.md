@@ -23,6 +23,8 @@
  * [Jeff Knupp](https://www.jeffknupp.com/) is quite the guy when it comes to Python.
  * Benedikt Koehler has a neat blog called [Beautiful Data](http://beautifuldata.net/).
  * [FastML](http://fastml.com/): "Machine learning made easy"
+ * [Edwin Chen](http://blog.echen.me/) has a fun blog.
+ * [FiveThirtyEight](http://fivethirtyeight.com/) is now a kind of data journalism syndicate.
 
 
 ### Books:
