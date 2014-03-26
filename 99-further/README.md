@@ -3,10 +3,14 @@
 
 ### Blogs/Aggregators:
 
+ * The [Ranker blog](http://data.ranker.com/) features articles from Ravi Iyer.
+ * [Simply Statistics](http://simplystatistics.org/) is the blog of Jeff Leek, Roger Peng, and Rafa Irizarry.
+ * Hilary Mason's [blog](http://www.hilarymason.com/) always has good things.
  * [Paco Nathan](http://liber118.com/pxn/) has a very nice web site and email newsletter.
  * [DataTau](http://www.datatau.com/) is like [Hacker News](https://news.ycombinator.com/) for data.
  * [r/MachineLearning](http://www.reddit.com/r/MachineLearning/) on reddit
  * [yhat's blog](http://blog.yhathq.com/) often has good original content, often on data science with `python`.
+ * [The Endeavor](http://www.johndcook.com/blog/) is the blog of John D. Cook, with a focus on applied statistics.
  * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/) is the blog of Andrew Gelman, mostly on Bayesian statistics.
  * [DataScholars](http://datascholars.com/) posts articles on data science, computer science, machine learning, etc.
  * [Data Community DC](http://datacommunitydc.org/blog/)
@@ -18,6 +22,7 @@
  * The [dataists](http://www.dataists.com/) blog hasn't been active for a while, but has some old gems.
  * [Jeff Knupp](https://www.jeffknupp.com/) is quite the guy when it comes to Python.
  * Benedikt Koehler has a neat blog called [Beautiful Data](http://beautifuldata.net/).
+ * [FastML](http://fastml.com/): "Machine learning made easy"
 
 
 ### Books:
