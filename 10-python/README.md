@@ -11,3 +11,5 @@ Handy shortcut:
 IPython Notebook [documentation](http://ipython.org/ipython-doc/dev/notebook/)
 
 IPython Notebook [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html)
+
+Visualization: [Vincent](https://vincent.readthedocs.org/)
