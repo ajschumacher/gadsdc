@@ -113,6 +113,7 @@ People publish in a lot of places; other journal suggestions welcomed!
 
 ### Face to face educational programs:
 
+ * [Software Carpentry](http://software-carpentry.org/) is pretty great.
  * [District Data Labs](http://www.districtdatalabs.com/) (DC)
  * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco)
  * [Persontyle](http://www.persontyle.com/) school of data science
