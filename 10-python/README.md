@@ -7,3 +7,5 @@ Possibly mention here or add to further resources: [Datalicious Notebookmania â€
 Handy shortcut:
 
     alias nb='ipython notebook --pylab=inline'
+
+IPython Notebook [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html)
