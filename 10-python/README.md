@@ -8,4 +8,6 @@ Handy shortcut:
 
     alias nb='ipython notebook --pylab=inline'
 
+IPython Notebook [documentation](http://ipython.org/ipython-doc/dev/notebook/)
+
 IPython Notebook [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html)
