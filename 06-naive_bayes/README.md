@@ -38,15 +38,15 @@ mkdir images
 mkdir data
 cd data
 curl -O http://spamassassin.apache.org/publiccorpus/20030228_spam.tar.bz2
-tar zxvf 20030228_spam.tar.bz2
+tar xvjf 20030228_spam.tar.bz2
 curl -O http://spamassassin.apache.org/publiccorpus/20050311_spam_2.tar.bz2
-tar zxvf 20050311_spam_2.tar.bz2
+tar xvjf 20050311_spam_2.tar.bz2
 curl -O http://spamassassin.apache.org/publiccorpus/20021010_easy_ham.tar.bz2
-tar zxvf 20021010_easy_ham.tar.bz2
+tar xvjf 20021010_easy_ham.tar.bz2
 curl -O http://spamassassin.apache.org/publiccorpus/20030228_easy_ham_2.tar.bz2
-tar zxvf 20030228_easy_ham_2.tar.bz2
+tar xvjf 20030228_easy_ham_2.tar.bz2
 curl -O http://spamassassin.apache.org/publiccorpus/20030228_hard_ham.tar.bz2
-tar zxvf 20030228_hard_ham.tar.bz2
+tar xvjf 20030228_hard_ham.tar.bz2
 ```
 
 Go through the use of the `tm` package for making a term document matrix. Notice the transformations it does. Mention sparse matrices. The important thing is that this is a kind of feature generation that's happening - features from text.
