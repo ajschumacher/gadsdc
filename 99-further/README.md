@@ -63,6 +63,7 @@
  * [O'Reilly Strata Conference](http://strataconf.com/) (has also crossed with Hadoop World)
  * [DataGotham](http://www.datagotham.com/)
  * [PyData](http://pydata.org/)
+ * [BigConf](http://www.bigconf.io/): The Mid-Atlantic Data Conference
 
 
 # Journals:
