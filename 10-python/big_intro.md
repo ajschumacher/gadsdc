@@ -1,27 +1,40 @@
 # TODO: clean/clarify and probably split across multipe files/days
 
-# Python Basics
-# Introduction to Python
-
 ##Python Shell
-Like R, Python at it's core is a fancy calculator.  Typing `python` into the command line will give you a prompt
+Python at it's core is a fancy calculator.  Typing `python` into the command line will give you a prompt
 ```sh
 python
+
+or
+
+ipython
 ```
 
+IPython provides a more interactive shell and provides a few nice utility functions that make life easier.
+For example, starting with a `?`,
+```python
+?sys
+```
+will give documentation for function.  Also, IPython provides autocomplete as well.  Additional it provides a few "magic" functions like `%time` and `%paste`, the former of which times function and the latter allows easy copy and paste of code.
+
 ##Defining functions
-In Python we define functions by using the `def` keyword.
+In Python we define functions by using the `def` keyword.  The value of the function is giving in the return statement.
 
 ```Python
 def addition(x, y):
   return x + y
 ```
-`x` and `y` are the inputs to the function and the `return` keyword tells us what the function responds.  The most important thing to note here is that Python respect whitespace, the second like **must** be indented for this to run.
+`x` and `y` are the inputs to the function and the `return` keyword tells us what the function responds.  The most important thing to note here is that Python respects whitespace, the second like **must** be indented for this to run.
 
 ##Data Structures
 
-Python has a variety of data structures available.  The most basic of them are the basic integer, float and strings.
+Python has a variety of data structures available.  The most basic of them are the basic integer, float and strings.  Python is dynamically typed, so typed do not need to be specified and variables can be respecified to different types
 
+```python
+x = 5.0
+x = [5.0]
+x = "Five Point 0"
+```
 ###Lists
 
 Lists are one of the most common data structures in Python.
@@ -68,96 +81,42 @@ for i in x:
 y = [i**2 for i in x]
 ```
 
-##Scikits.learn
+Also, Python can iterate over `generators`, these are functions act as iterators, meaning they give access to elements of a sequence.
 
-`scikits.learn` has become one of the most popular machine learning packages in Python.  It has a most of the standard machine learning algorithms built-in and often calls faster external C-code that can make execuation fairly quick.
-
-```Python
-from sklearn.datasets import load_iris
-iris = load_iris()
-
-from sklearn import neighbors
-X, y = iris.data, iris.target
-knn = neighbors.KNeighborsClassifier(n_neighbors=1)
-knn.fit(X, y)
-# What kind of iris has 3cm x 5cm sepal and 4cm x 2cm petal?
-print iris.target_names[knn.predict([[3, 5, 4, 2]])]
+For example, `xrange`
+```python
+for i in xrange(10):
+    print x
 ```
-
-```Python
-from sklearn.cross_validation import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(...)
-clf = ...
-clf.fit(X_train, y_train)
-predicted = clf.predict(X_test)
-
-from sklearn import metrics
-print metrics.classification_report(y_test, predicted)
-print metrics.confusion_matrix(y_test, predicted)
-print metrics.f1_score(y_test, predicted)
+or `enumerate`
+for i, el in enumerate(my_list):
+   print i, el
 ```
+This will print out the index of the element (starting from 0) and the element.
 
-```Python
-from sklearn.cross_validation import train_test_split
-from sklearn.cross_validation import cross_val_score
-X_train, X_test, y_train, y_test = cross_validation.train_test_split(iris.data, iris.target, test_size=0.4, random_state=0)
-
-scores = cross_val_score(knn, iris.data, iris.target, cv=5)
-```
-
-###Naive Bayes in Sklearn
-Download the 20 News Group Dataset
-
-```sh
-wget http://people.csail.mit.edu/jrennie/20Newsgroups/20news-bydate.tar.gz
-tar -xf 20news-bydate.tar.gz
-```
-
-```Python
-from sklearn.datasets import load_files
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
-
-# Load the text data
-categories = [
-    'alt.atheism',
-    'talk.religion.misc',
-    'comp.graphics',
-    'sci.space',
-]
-twenty_train_subset = load_files('20news-bydate-train/', categories=categories, charset='latin-1')
-twenty_test_subset = load_files('20news-bydate-test/', categories=categories, charset='latin-1')
-
-# Turn the text documents into vectors of word frequencies
-vectorizer = CountVectorizer()
-X_train = vectorizer.fit_transform(twenty_train_subset.data)
-y_train = twenty_train_subset.target
-
-# Fit a classifier on the training set
-classifier = MultinomialNB().fit(X_train, y_train)
-print("Training score: {0:.1f}%".format(classifier.score(X_train, y_train) * 100))
-
-# Evaluate the classifier on the testing set
-X_test = vectorizer.transform(twenty_test_subset.data)
-y_test = twenty_test_subset.target
-print("Testing score: {0:.1f}%".format(classifier.score(X_test, y_test) * 100))
-
-from sklearn import metrics
-metrics.confusion_matrix(y_test, classifier.predict(X_test))
 ```
 
 ##Pandas
-
 Pandas is a Python library for data analysis that resembles the tools available in R.  It is also optimized for fast I/O and data manipulation.
 
 ```Python
 import pandas as pd
 
 data = pd.read_csv('Dropbox/src/538model/data/2012_poll_data_states.csv', sep='\t')
-print data['Poll']
+#Get a preview of the first six rows
+data.head()
+```
+
+Get descriptive statistics for any or all columns
+```python
 data.describe()
+```
 
+Bin the values of a column
+```python
 data['Poll'].value_counts()
-
+```
+Aggregate over a particular column
+```python
 data.groupby('Poll')['Obama (D)'].mean()
 ```

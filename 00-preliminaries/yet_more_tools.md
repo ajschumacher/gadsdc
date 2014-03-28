@@ -3,8 +3,14 @@
 These are not my first choices, but they are additional references that you might consider if you dislike those in [tools](tools.md).
 
 
+For `bash`:
+
+ * [Video Tutorials for Command Line Basics](http://drupalize.me/series/command-line-basics-series) are available.
+
+
 For `git`:
 
+ * Atlassian has [more tutorials on git](https://www.atlassian.com/git/).
  * This [d3 interactive](http://www.wei-wang.com/ExplainGitWithD3/) lets you explore what various git workflow processes do.
  * This interactive [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html) shows a lot of `git` in context.
 

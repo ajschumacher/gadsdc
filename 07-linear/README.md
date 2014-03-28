@@ -21,7 +21,7 @@ calculate r^2 of something in iris
 
 calculate iris means by species, compare to lm
 
-[statsmodels](http://statsmodels.sourceforge.net/) for `Python`
+
 
 
 ### After

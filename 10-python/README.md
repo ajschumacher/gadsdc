@@ -12,4 +12,15 @@ IPython Notebook [documentation](http://ipython.org/ipython-doc/dev/notebook/)
 
 IPython Notebook [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html)
 
-Visualization: [Vincent](https://vincent.readthedocs.org/)
+[Introduction to Python](http://nbviewer.ipython.org/urls/bitbucket.org/amjoconn/watpy-learning-to-code-with-python/raw/3441274a54c7ff6ff3e37285aafcbbd8cb4774f0/notebook/Learn%20to%20Code%20with%20Python.ipynb)
+
+[Python data structures](http://nbviewer.ipython.org/github/profjsb/python-bootcamp/blob/master/DataFiles_and_Notebooks/02_AdvancedDataStructures/data_structures.ipynb)
+
+[Learn pandas](http://nbviewer.ipython.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/01%20-%20Lesson.ipynb)
+
+Visualization:
+
+ * [Vincent](https://vincent.readthedocs.org/)
+ * [Matplotlib](http://matplotlib.org/)
+ * [ggplot for Python](https://github.com/yhat/ggplot/)
+ * [Bokeh](https://github.com/ContinuumIO/bokeh)

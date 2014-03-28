@@ -76,3 +76,6 @@ Prepare a 30-second "elevator pitch" describing your project. (This could be jus
 Optional:
 
  * Write your own Naive Bayes spam classifier in `R`. It should have a training function that takes some features (decide how you want to pass in features) and labels as input. This function should return a data structure that somehow keeps track of what it's learned from the training data. There should be a second function that takes some features (in the same format as your training function) and a learned data structure (from your training function) and returns predicted labels. This could be a more or less major undertaking. You can put a `name.R` (or similar) file in the `06-naive_bayes/classifier/` directory of the class repo.
+ * Read [ML, MAP, and Bayesian — The Holy
+Trinity of Parameter Estimation and Data
+Prediction](https://engineering.purdue.edu/kak/Trinity.pdf) - "The Trinity Tutorial"

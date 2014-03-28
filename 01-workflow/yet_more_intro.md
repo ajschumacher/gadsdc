@@ -1,17 +1,16 @@
 # TODO: Clean up / integrate if beneficial
 
-Homebrew
-========
+####Homebrew
+
 Brew is a fantastic package manager for Mac that will allow you to easily install packages.  
 http://mxcl.github.io/homebrew/
 
 ###Install Brew
 ```sh
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 ```
 
 ####GitHub
-
 ```sh
 brew install git
 ```
@@ -23,8 +22,6 @@ On Windows, there's an installer available here: http://git-scm.com/download/win
 ```sh
 git clone https://github.com/jseabold/538model
 ```
-
-OR USE THIS: https://www.dropbox.com/s/ozc48me7z8tj3dl/data.zip
 
 ### Processing the data
 First, we may want to get some general id of what is in the folder.  Here we will use to two basic command, `cd`, to change directory and ls to list the files
@@ -87,14 +84,7 @@ These polls returned are all ties with neither candidate ahead.
 ###In Class Examples 
 
 - How can we extract all polls that were in Ohio?
-
-```sh
-cat 2012_poll_data_states.csv  | grep "OH$" | less
-```
 - How can we find out which polling company polled most often?
-```sh
-cat 2012_poll_data_states.csv | cut -f4 | sort | uniq -c | sort -nrk1
-```
 
 Other data processing tools available on Unix
 - awk

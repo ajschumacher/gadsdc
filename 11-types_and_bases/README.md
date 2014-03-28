@@ -51,3 +51,4 @@ Optional:
  * Check out [RPostgreSQL](RPostgreSQL.md) for combining `R` with PostgreSQL.
  * Check out the `python` module [dataset](http://dataset.readthedocs.org/en/latest/), which tries to combine the ease of JSON with relational databases.
  * Read this chapter from the Bad Data Handbook: "When Databases Attack: A Guide for When to Stick to Files"
+ * Explore Kristof Kovacs' [Comparison of NoSQL Databases](http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
