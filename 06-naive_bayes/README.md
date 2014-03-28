@@ -18,9 +18,9 @@ Optional:
 
 ### During
 
-Question review.
-
 Application presentation.
+
+Question review.
 
 [Slides](slides.pdf) on probability and Bayesian classification.
 

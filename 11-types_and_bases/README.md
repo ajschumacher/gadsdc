@@ -19,9 +19,9 @@ Optional:
 
 ### During
 
-Question review.
-
 Application presentation.
+
+Question review.
 
 Slides on data and formats.
 

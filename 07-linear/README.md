@@ -13,9 +13,9 @@ Read _Chapter 3: Linear Regression_ from [An Introduction to Statistical Learnin
 
 ### During
 
-Question review.
-
 Application presentation.
+
+Question review.
 
 calculate r^2 of something in iris
 

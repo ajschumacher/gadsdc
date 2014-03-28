@@ -1,5 +1,19 @@
 ### Before
 
+Optional:
+
+
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
+### During
+
+Application presentation.
+
+Question review.
+
 Likely use the Social Web book appendix C, though it has some issues - missing bit on UTF-8, etc.
 
 Possibly mention here or add to further resources: [Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)
@@ -24,3 +38,8 @@ Visualization:
  * [Matplotlib](http://matplotlib.org/)
  * [ggplot for Python](https://github.com/yhat/ggplot/)
  * [Bokeh](https://github.com/ContinuumIO/bokeh)
+
+
+### After
+
+Optional:

@@ -20,9 +20,9 @@ Optional:
 
 ### During
 
-Question review.
-
 Application presentation.
+
+Question review.
 
 Activity: Human learning on dental data
  * Types of data

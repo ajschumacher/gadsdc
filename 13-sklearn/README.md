@@ -1,3 +1,18 @@
+### Before
+
+Optional:
+
+
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
+### During
+
+Application presentation.
+
+Question review.
 
 [sklearn user guide](http://scikit-learn.org/stable/user_guide.html)
 
@@ -7,6 +22,9 @@
 
 [statsmodels](http://statsmodels.sourceforge.net/) for `Python`
 
-
-
 Note: show vectorizers, including probably tf-idf
+
+
+### After
+
+Optional:

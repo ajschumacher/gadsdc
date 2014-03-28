@@ -1,3 +1,18 @@
+### Before
+
+Optional:
+
+
+### Questions
+
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+
+
+### During
+
+Application presentation.
+
+Question review.
 
 Arun's new slides be rockin'
 
@@ -12,3 +27,8 @@ Arun's new slides be rockin'
 [Crab: a recommender framework in Python](http://muricoca.github.io/crab/tutorial.html)
 
 [exercise(s)!](https://github.com/arahuja/GADS7/tree/master/src/lesson14/)
+
+
+### After
+
+Optional:
