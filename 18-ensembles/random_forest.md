@@ -1,10 +1,9 @@
 # TODO: Clean this up!
 
 # Ensemble Methods in Python
-## With a focus on Random Forests
 
 ##Data
-Again we will take a look at the twenty news groups dataset
+We will take a look at the twenty news groups dataset, another common ML dataset for comparison
 
 ```Python
 from sklearn.datasets import load_files

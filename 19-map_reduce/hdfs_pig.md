@@ -3,14 +3,14 @@
 ##HDFS
 At the core of Hadoop is HDFS, a distributed, fault-tolerant filesystem.  Put simply, this file system is not on one machine but spread across multiple machines and if one of those were to fail, data would not be lost.
 
-Hadoop lets us access files on the special filesystem (which coexists with the local files) using similar command line syntax.
+Hadoop lets us access files on the filesystem (which coexists with the local files) using similar command line syntax.
 
-To list files, we have something similar to `ls
+To list files, we have something similar to `ls`
 ```sh
 hadoop dfs -ls
 ```
 
-To cat files, we have to also use the `hadoop dfs` command
+To cat files, we also have to use the `hadoop dfs` command
 ```sh
 hadoop dfs -cat /path/to/file
 ```
@@ -25,7 +25,7 @@ So let's start by downloading the dataset we want to work with, the salary data 
 
 ```sh
 wget http://bit.ly/15OA4Kr
-mv train* train.tsv
+mv train* train.csv
 ```
 
 This created a file train.csv on our local filesystem.  We can copy it to HDFS as follows:
@@ -62,7 +62,6 @@ data = FOREACH table GENERATE col1, col2;
 ```
 Note the differences: 1) we had to assign the result to variable name and 2) we state the table before the columns.
 
-
 ###FILTER
 
 If we want to select certain rows, instead of a WHERE clause, we use FILTER
@@ -70,7 +69,6 @@ If we want to select certain rows, instead of a WHERE clause, we use FILTER
 ```Pig
 data = FOREACH (FILTER table col1 = 'value') GENERATE col1, col2;
 ```
-
 
 ### GROUP ... BY
 
@@ -100,13 +98,12 @@ some_joined_data = FOREACH (JOIN table1 by col1, table2 by col1) GENERATE table1
 ```
 Instead of using `table.column` for scoping we are using the `::` operator.
 
-
 ##Salary Data Set
 
 Let's try and answer a few questions on our salary dataset using Pig.  First we will need to load it in:
 
 ```Pig
-salary_data = LOAD 'train.tsv' USING PigStorage() as 
+salary_data = LOAD 'train.csv' USING PigStorage() as 
               (Id:int,
               Title:chararray,
               FullDescription:chararray,
@@ -150,14 +147,11 @@ dump top_titles;
 
 ###On your own
 
-1) What is the average salary per source?
-2) How many job listings are there per ContractType?
-3) What is the most frequently occurring Title?
-
+- 1) What is the average salary per source?
+- 2) How many job listings are there per ContractType?
+- 3) What is the most frequently occurring Title?
 
 ## Hadoop Streaming
-
-
 ###Mapper
 
 ```Python

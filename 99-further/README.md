@@ -48,6 +48,7 @@
 ### Articles/Guides:
 
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
+ * Facebook article on deep learning for facial recognition: [DeepFace: Closing the Gap to Human-Level Performance in Face Verification](https://www.facebook.com/publications/546316888800776/)
 
 
 ### Tools
@@ -107,6 +108,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * Google's [Making Sense of Data](https://datasense.withgoogle.com/) course materials (seems very introductory; focuses on Google Fusion Tables)
  * [Quant Education](http://www.youtube.com/channel/UC37c5dtVf3BHWFr5v9NKSKw) YouTube channel of videos on `R`
  * [Deep Learning tutorials](http://deeplearning.net/tutorial/contents.html) from deeplearning.net
+ * [Deep Learning Reading List](http://deeplearning.net/reading-list/) from deeplearning.net
  * [Unsupervised Feature Learning and Deep Learning tutorials](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial) from Stanford
  * The well-known [machine learning couse](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) of Andrew Ng; uses MatLab/Octave and focuses on gradient descent from the beginning
 
