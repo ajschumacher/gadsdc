@@ -2,6 +2,8 @@
 
 Optional:
 
+ * Read [A few useful things to know about machine learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) for the second time. It should be pretty familiar material by now!
+
 
 ### Questions
 
