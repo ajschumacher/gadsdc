@@ -2,6 +2,8 @@
 
 Optional:
 
+ * Watch this [lecture](https://www.youtube.com/watch?v=5u4G23_OohI) from Andrew Ng on linear regression, including batch and stochastic gradient descent. Maybe not the most recent video from Ng, but not bad, and we can't go the whole class without having something from Ng!
+
 
 ### Questions
 
