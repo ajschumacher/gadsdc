@@ -32,7 +32,7 @@ There are a lot of things you could try in this process. This will list some of 
 
  * Build an OLS-fitted linear regression model using available categorical variables. Try adding and dropping features and see if they improve the model. Try adding interaction effects to improve your model. (Note: Be aware of the computational overhead!)
 
- * Use `location_tree.txt` to add features to your data. Does this improve performance?
+ * Use `location_tree.txt` to add features to your data. Does this improve performance? (Warning: This might be harder than you think. Don't focus on this first.)
 
  * Use `grep` to add one-word features based on raw text to your data. Does this improve performance?
 
