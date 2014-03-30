@@ -19,6 +19,8 @@ You may already have data that you're interested in working with. You may have a
      * [Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/)
      * [Inter-university Consortium for Political and Social Research](http://www.icpsr.umich.edu/)
      * [The Pittsburgh Science of Learning Center’s DataShop](http://www.learnlab.org/technologies/datashop/)
+     * [Academic Torrents](http://academictorrents.com/): A distributed network for sharing large research data sets
+ * [Infochimps Marketplace](http://www.infochimps.com/marketplace): More than 11,000 searchable data sets
  * [Kaggle](http://www.kaggle.com/) provides data sets with their challenges. You probably won't be able to get their private test sets, but you can get the scores that they report on leaderboards.
  * [Donors Choose](http://data.donorschoose.org/) makes quite a lot of data available which could be interesting.
  * [The Echo Nest](http://the.echonest.com/) has some interesting music data with an API that could be interesting.
@@ -28,5 +30,10 @@ You may already have data that you're interested in working with. You may have a
      * [spotify](https://developer.spotify.com/technologies/web-api/)
      * [last.fm](http://www.last.fm/api)
      * [SeatGeek](http://platform.seatgeek.com/)
+ * More lists of data sets:
+ 	 * [RDataMining.com](http://www.rdatamining.com/resources/data)
+ 	 * [KDnuggets](http://www.kdnuggets.com/datasets/index.html)
+ 	 * [inside-R](http://www.inside-r.org/howto/finding-data-internet)
+ * [Datasets subreddit](http://www.reddit.com/r/datasets/): You can ask for help finding a specific data set, or post your own
 
 This is just the tip of the iceberg; there's a lot of data out there!
