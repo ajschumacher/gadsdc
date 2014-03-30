@@ -175,7 +175,13 @@ head(model.matrix(speed ~ pop + I(pop^2), data=pace))
 summary(lm(speed ~ pop + I(pop^2), data=pace))
 ```
 
-This works, and R-squared is a little higher than before, but none of the coefficients are significant. A feature and its square are correlated, in general, and this is not good for fitting our model. The `poly()` function will address this.
+This works, and R-squared is a little higher than before, but none of the coefficients are significant. A feature and its square are correlated, in general, and this is not good for fitting our model. In the case of identical features, `lm` will have real problems:
+
+```{r}
+summary(lm(rnorm(100) ~ cbind(1:100, 1:100)))
+```
+
+The `poly()` function will address the correlations between powers of a feature.
 
 ```{r}
 round(cor(model.matrix(speed ~ 0 + pop + I(pop^2), data=pace)), 2)
