@@ -26,12 +26,18 @@ Question review.
 
 `glmnet` [demo](glmnet.Rmd).
 
-Possibly write out a mean squared error function.
-
 Introduce the [linear regression assignment](../linear_assignment).
+
+ * Write out a mean squared error function.
+ * Experiment with some null models for `SalaryNormalized` - try zeros, and the intercept-only model.
+ * Mention the idea of checking some distributions.
+ * Use `grep` to hand-dummy some columns based on the text descriptions.
+ * Note that the answers are available in `solution.csv` but performance should only be checked there as a _final_ step.
 
 
 ### After
+
+Complete your [linear regression assignment](../linear_assignment). When you're done you'll have a `name.Rmd` (or similar) file in the `linear_assignment` directory of the class repo.
 
 Optional:
  * Read this [glmnet vignette](http://www.stanford.edu/~hastie/glmnet/glmnet_alpha.html) for even more about using `R`'s `glmnet` package.
