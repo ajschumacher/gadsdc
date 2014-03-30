@@ -1,0 +1,64 @@
+# Regularization with `glmnet`
+
+This is tightly based on the code used by Hastie and Tibshirani in their Stanford OpenEdX class, [Statistical Learning](http://online.stanford.edu/course/statistical-learning-winter-2014). Hastie and Tibsharini are prime creators of these techniques, coders of the `glmnet` package, the authors of the classic? _Elements of Statistical Learning_. You can get quite a lot more about `glmnet` in the [glmnet vignette](http://www.stanford.edu/~hastie/glmnet/glmnet_alpha.html).
+
+
+### Setup
+
+```{r}
+library(ISLR)
+summary(Hitters)
+```
+
+There are some missing values here, so before we proceed we will remove them:
+
+```{r}
+Hitters=na.omit(Hitters)
+with(Hitters,sum(is.na(Salary)))
+```
+
+
+### Ridge Regression (L2 penalty) and the Lasso (L1 penalty)
+
+We will use the package `glmnet`, which does not use the model formula language, so we will set up an `x` and `y`.
+
+```{r}
+library(glmnet)
+x=model.matrix(Salary ~ . -1, data=Hitters) 
+y=Hitters$Salary
+```
+
+First we will fit a ridge regression model. This is achieved by calling `glmnet` with `alpha=0`. (The parameter $\alpha$ balances penalties for elastic net regularization.)
+
+```{r}
+fit.ridge=glmnet(x, y, alpha=0)
+plot(fit.ridge, xvar="lambda", label=TRUE)
+```
+
+As shown in the plot, `glmnet` doesn't just fit for one value of $\lambda$, but for many. The model `fit.ridge` now contains coefficients for 100 models, and using it with `predict` will produce 100 predictions for each data row. You could choose a value yourself, but there is also a `cv.glmnet` function which will use internal cross-validation to help select the parameter $\lambda$. The parameter `nfolds` defaults to ten but is included for illustrative purposes.
+
+```{r}
+set.seed(102)
+cv.ridge=cv.glmnet(x, y, alpha=0, nfolds=10)
+plot(cv.ridge)
+```
+
+The model `cv.ridge` also includes a lot of coefficients, but by default it will behave like the model chosen with cross-validation performance close to the minimum (with a standard deviation) but on the simpler side. You can specify this explicitly using `s="lambda.1se"` as an argument to `coef()` or `predict()`, for example. To get the actual minimum, use `s="lambda.min"`.
+
+Now we fit a lasso model; for this we use the default `alpha=1`.
+
+```{r}
+fit.lasso=glmnet(x, y)
+plot(fit.lasso, xvar="lambda", label=TRUE)
+```
+
+Notice that L1 regularization (the lasso) tends to set coefficients to exactly zero. The model semantics are still the same. As before, we can use `cv.glmnet`:
+
+```{r}
+set.seed(42)
+cv.lasso=cv.glmnet(x, y, nfolds=10)
+plot(cv.lasso)
+coef(cv.lasso)
+```
+
+`glmnet` uses optimizations to quickly generate a lot of results. `cv.glmnet` does an internal one-dimensional _grid search_ to choose a value for $\lambda$. This could be extended to a grid search over $\alpha$ and $\lambda$ as well.
