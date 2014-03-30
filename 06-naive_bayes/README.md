@@ -65,7 +65,7 @@ For these questions, create a `name.md` file that will eventually get to the `06
  * What is the training step of Naive Bayes? What does it "learn"? How does this compare to KNN?
  * What are what the code calls `density` and `occurrence`? What is used to predict?
  * Does it matter whether a word appears in the test set that didn't appear in the training set? What happens?
- * Which "type" of Naive Bayes does the code implement? (See: http://blog.datumbox.com/machine-learning-tutorial-the-naive-bayes-text-classifier/)
+ * Which [type](http://blog.datumbox.com/machine-learning-tutorial-the-naive-bayes-text-classifier/) of Naive Bayes does the code implement?
  * What are some of the differences between this code and the method described by Paul Graham? Which method do you think would get better performance?
 
 
