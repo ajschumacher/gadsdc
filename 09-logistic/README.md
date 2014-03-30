@@ -9,6 +9,8 @@ Optional:
 
 ### Questions
 
+ * Say you run an L1-regularized regression and it selects five features (all the other coefficients are zero). You could fit an OLS regression with these five features. How would the the two techniques compare, in terms of computation and results?
+ * Consider thinking of boolean multinomial Naive Bayes likelihood probabilities as coefficients on word dummy features. How are they similar or different as compared with linear regression coefficients? Could we use a linear model for probability labels?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
