@@ -5,6 +5,7 @@ Optional:
 
 ### Questions
 
+ * Consider thinking of boolean multinomial Naive Bayes likelihood probabilities as coefficients on word dummy features. How are they similar or different as compared with logistic regression coefficients?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
