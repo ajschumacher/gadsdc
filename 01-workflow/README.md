@@ -19,7 +19,7 @@ Email instructors.
 An example of an analysis using version control data
  * "Collaboration in the open-source arena: The WebKit case" [[arXiv]](http://arxiv.org/abs/1401.5996) [[PDF]](http://arxiv.org/pdf/1401.5996v1.pdf) [[more]](http://users.utu.fi/joante/WebKitSNA/)
 
-Application Presentations assigned and scheduled.
+[Application Presentations](../application_presentations) assigned and scheduled.
 
 (End work from slides.)
 

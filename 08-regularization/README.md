@@ -22,6 +22,13 @@ Project elevator pitches.
 
 Question review.
 
+[Slides](slides.pdf) on regularization for linear regression.
+
+`glmnet` [demo](glmnet.Rmd).
+
+Possibly write out a mean squared error function.
+
+Introduce the [linear regression assignment](../linear_assignment).
 
 
 ### After
