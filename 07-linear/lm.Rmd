@@ -150,6 +150,8 @@ You can get another view into how `R` treats categorical data as follows:
 contrasts(iris$Species)
 ```
 
+_Important note_: You'll generally need exactly the same columns in your train and test design matrices. Be careful when building a design matrix depends on the data it happens to see!
+
 
 ### Linear regression as conditional mean
 
