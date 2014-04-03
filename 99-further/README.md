@@ -26,6 +26,7 @@
  * [Edwin Chen](http://blog.echen.me/) has a fun blog.
  * [FiveThirtyEight](http://fivethirtyeight.com/) is now a kind of data journalism syndicate.
  * [Win-Vector Blog](http://www.win-vector.com/blog/): "The applied theorist's point of view"
+ * [Machine Learning Mastery](http://machinelearningmastery.com/): "Making programmers awesome at machine learning"
 
 
 ### Books:
