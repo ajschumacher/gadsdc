@@ -11,3 +11,5 @@
  * [Mapping Data in Python with Pandas and Vincent](http://wrobstory.github.io/2013/10/mapping-data-python.html)
 
  * [GIS with Python, Shapely, and Fiona](http://www.macwright.org/2012/10/31/gis-with-python-shapely-fiona.html) by Tom MacWright
+
+ * [US state metadata and other incredible fun stuff](https://github.com/unitedstates/python-us)
