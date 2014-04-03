@@ -25,6 +25,7 @@
  * [FastML](http://fastml.com/): "Machine learning made easy"
  * [Edwin Chen](http://blog.echen.me/) has a fun blog.
  * [FiveThirtyEight](http://fivethirtyeight.com/) is now a kind of data journalism syndicate.
+ * [Win-Vector Blog](http://www.win-vector.com/blog/): "The applied theorist's point of view"
 
 
 ### Books:
@@ -33,6 +34,7 @@
      * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
      * [The Elements of Statistical Learning](http://www-stat.stanford.edu/~tibs/ElemStatLearn/)
  * [Data Analysis with Open Source Tools](http://www.amazon.com/Data-Analysis-Open-Source-Tools/dp/0596802358) is quite a good intro to a range of tools.
+ * [Practical Data Science with R](http://www.manning.com/zumel/): A fair book that crosses `R` and consulting ideas, by the main folks at [Win-Vector](http://www.win-vector.com/).
  * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
  * [Statistics Done Wrong](http://www.refsmmat.com/statistics/)
  * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
