@@ -22,6 +22,8 @@ Question review.
 
 [statsmodels](http://statsmodels.sourceforge.net/) for `Python`
 
+[Machine Learning Cheat Sheet (for scikit-learn)](http://peekaboo-vision.blogspot.com/2013/01/machine-learning-cheat-sheet-for-scikit.html)
+
 Note: show vectorizers, including probably tf-idf
 
 
