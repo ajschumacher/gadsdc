@@ -30,4 +30,5 @@ Bring in standard GA logistic assignment from CA here?
 
 ### After
 
-[Naive Bayes v. Logistic Regression](http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf)
+ * [Naive Bayes v. Logistic Regression](http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf)
+ * [R Data Analysis Examples: Logit Regression](http://www.ats.ucla.edu/stat/r/dae/logit.htm)
