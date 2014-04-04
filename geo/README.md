@@ -13,3 +13,9 @@
  * [GIS with Python, Shapely, and Fiona](http://www.macwright.org/2012/10/31/gis-with-python-shapely-fiona.html) by Tom MacWright
 
  * [US state metadata and other incredible fun stuff](https://github.com/unitedstates/python-us)
+
+```bash
+pip install beautifulsoup
+pip install lxml
+pip install cssselect
+```
