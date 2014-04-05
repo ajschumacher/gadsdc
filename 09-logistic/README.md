@@ -20,10 +20,6 @@ Application presentation.
 
 Question review.
 
-Bring in standard GA logistic assignment from CA here?
-
-
-
 
 ### After
 
