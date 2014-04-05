@@ -28,7 +28,11 @@ Bring in standard GA logistic assignment from CA here?
  * [Fast Logistic Regression: Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki)
  * [Fast Logistic Regression: LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)
 
+
 ### After
 
- * [Naive Bayes v. Logistic Regression](http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf)
- * [R Data Analysis Examples: Logit Regression](http://www.ats.ucla.edu/stat/r/dae/logit.htm)
+Optional:
+
+ * Read [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf). This will likely help you to better understand both Naive Bayes and logistic regression, and how they can be thought of as related.
+ * The UCLA Institute for Digital Research and Education has a lot of resources on using statistical software, such as: [R Data Analysis Examples: Logit Regression](http://www.ats.ucla.edu/stat/r/dae/logit.htm).
+ * For a few general multiclass reduction approaches, read these papers on [Weighted One-Against All](http://hunch.net/~jl/projects/reductions/woa/woa.pdf) and [Error-Correcting Tournaments](http://hunch.net/~beygel/tournament.pdf).
