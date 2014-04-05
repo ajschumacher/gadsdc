@@ -36,6 +36,43 @@ Does this belong here?
 
  * [Fast Logistic Regression: LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)
 
+Logistic in `vw`:
+
+*** 4) Try out Vowpal Wabbit to build a logistic regression model.
+
+```sh
+git clone git://github.com/JohnLangford/vowpal_wabbit.git
+cd vowpal_wabbit
+make install
+```
+Create a training file for vowpal wabbit using Python:
+```sh
+<Insult> | This is comment 1, no feature building needed
+0 |c i really don't understand your point.\xa0 It seems that you are mixing apples and oranges.
+0 |c Yeah and where are you now?
+1 |c your such a dickhead...
+```
+
+This would work without editing the text at all, but you may want to remove stopwords, lowercase things and remove punctuation to clean it up.
+
+Try the following:
+```sh
+vw -c -k train.vw --loss logistic -f model
+vw -c -k train.vw --loss logistic -f model -l1 0.0001 ##for l1 loss
+vw -c -k train.vw --loss logistic -f model -l2 0.0001 ## for l2 loss
+
+vw -c -k -t test.vw -i model -p test.predictions
+```
+
+*** 5) Try out quadratic or cubic features in Vowpal Wabbit. 
+
+```sh
+vw -c -k train.vw --loss logistic -f model -q cc #makes quadaratic (all pairs of words) features for the 'c' feature namespace
+vw -c -k train.vw --loss logistic -f model --cubic ccc #makes cubic (all triplets of words) features for the 'c' feature namespace
+
+vw -c -k -t test.vw -i model -p test.predictions
+```
+
 
 
 ### After
