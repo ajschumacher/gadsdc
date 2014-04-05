@@ -1,6 +1,7 @@
 ### Before
 
-Optional:
+ * Be _very sure_ you have a working Python 2.7 installation with `numpy` and SciPy installed. [Anaconda](http://continuum.io/downloads) is highly recommended. The Python install that comes with Macs is _not_ sufficient without additional work. A fair test of whether your install is ready is running `ipython notebook --pylab=inline` at the command line. This should open a web browser displaying an interactive environment.
+ * Read [PEP 20](http://legacy.python.org/dev/peps/pep-0020/). Try out the Easter Egg.
 
 
 ### Questions
