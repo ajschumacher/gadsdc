@@ -44,6 +44,9 @@ Visualization:
  * [ggplot for Python](https://github.com/yhat/ggplot/)
  * [Bokeh](https://github.com/ContinuumIO/bokeh)
 
+http://patsy.readthedocs.org/en/latest/overview.html
+http://statsmodels.sourceforge.net/
+
 
 ### After
 
