@@ -28,6 +28,8 @@ Arun's Spark slides...
 
 [Ad Click Prediction: a View from the Trenches at Google](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41159.pdf)
 
+ * [Fast Logistic Regression: Mahout](https://cwiki.apache.org/MAHOUT/logistic-regression.html)
+
 
 ### After
 

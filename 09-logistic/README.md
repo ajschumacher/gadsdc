@@ -22,11 +22,7 @@ Question review.
 
 Bring in standard GA logistic assignment from CA here?
 
-[Logistic Regression w/ Statsmodel - Well Switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb)
 
- * [Fast Logistic Regression: Mahout](https://cwiki.apache.org/MAHOUT/logistic-regression.html)
- * [Fast Logistic Regression: Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki)
- * [Fast Logistic Regression: LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)
 
 
 ### After

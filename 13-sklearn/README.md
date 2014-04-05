@@ -26,6 +26,8 @@ Question review.
 
 Note: show vectorizers, including probably tf-idf
 
+[Logistic Regression w/ Statsmodel - Well Switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb)
+
 
 ### After
 
