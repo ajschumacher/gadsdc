@@ -6,6 +6,9 @@ Optional:
 ### Questions
 
  * Consider thinking of boolean multinomial Naive Bayes likelihood probabilities as coefficients on word dummy features. How are they similar or different as compared with logistic regression coefficients?
+ * How can binary classifiers be used for multiclass problems? That is, if a technique only gives a probability of "yes" vs. "no" (for some question) how can you use the technique for questions with more than two possible answers?
+ * What do you think are the relative strengths and weaknesses of R? Where is it more/less useful?
+ * Have you used Python before? What have you used it for? What would you like to learn to do with Python?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
