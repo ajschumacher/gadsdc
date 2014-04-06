@@ -23,7 +23,7 @@ Question review.
 Warm up to slides with duck example:
 
  * Say the _probability_ that an animal is a duck is 25%, or 0.25.
- * Then the _odds_ that the animal is a duck is 0.25/(1-0.25) = 1/3, or "one to three against".
+ * Then the _odds_ that the animal is a duck is 0.25/(1-0.25) = 1/3, or "one to three against". (So if you bet a dollar to win three if it's a duck, you break even long term.)
  * Then the _log odds_ that the animal is a duck is the (natural) log of the odds, ln(1/3) or just log(1/3), about -1.1.
  * If animals either quack or don't quack, we can make a dummy variable called quack and compare duck-ness of quackers vs. non-quackers. Quackers are ducks 90% of the time, and non-quackers are ducks 20% of the time, say. Then the _odds ratio_ is (0.9/(1-0.9))/(0.2/(1-0.2)) and the _log odds ratio_ is the (natural) log of that.
 
