@@ -35,6 +35,10 @@ Follow up from the slides with duck example:
 
 Logistic regression [example](logistic.Rmd).
 
+Note that everything we've talked about with regard to test sets and cross-validation, and even everything we've done with regularization, can be applied to logistic regression! (The `glmnet` package has a `family` argument just like `glm` has.)
+
+To get started with a beefier example, predict whether a car is a bad buy using the prepared [lemons](https://github.com/ajschumacher/gadsdata/tree/master/lemons) data.
+
 
 ### After
 
