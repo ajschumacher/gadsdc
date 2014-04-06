@@ -33,12 +33,7 @@ Follow up from the slides with duck example:
 
  * Using the quack vs. no-quack example, write out the logistic function. Fill in the values for the coefficients and confirm calculated probabilities are correct.
 
-Show how to go from straight `predict` log odds (not odds ratios) to `type="response"` probabilities:
-
-```R
-exp(logodds)/(1+exp(logodds))    # probability
-log(probability/(1-probability)) # log odds
-```
+Logistic regression [example](logistic.Rmd).
 
 
 ### After

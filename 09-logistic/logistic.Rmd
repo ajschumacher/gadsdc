@@ -1,58 +1,76 @@
-ref -- http://www.ats.ucla.edu/stat/r/dae/logit.htm
+# Logistic Regression
 
-x <- read.csv("http://www.ats.ucla.edu/stat/data/binary.csv")
-xtabs(~admit + rank, data=x)
-lin.fit <- lm(admit ~ ., data=x)
-lin.fit2 <- lm(admit ~ 0 + ., data=x)
-summary(lin.fit2)
-x$rank <- factor(x$rank)
-logit.fit <- glm(admit ~ ., family='binomial')
-logit.fit <- glm(admit ~ ., family='binomial', data=x)
-summary(logit.fit)
+### `grad` example
 
-# deviance resids -> measure of model fit (like resids in linear model)
-# coeffs -> chg in log-odds of the output variable for unit increase in the input variable
+This dataset is [from](http://www.ats.ucla.edu/stat/r/dae/logit.htm) UCLA's Institute for Digital Research and Education, which is a great resource for statistical techniques and software generally. The data is meant to represent whether a student was admitted into a graduate program (`admit`) based on GRE score (`gre`), undergraduate GPA (`gpa`), and the "rank" of their undergraduate school (`rank`), where `1` is the most prestigious and `4` is the least.
 
-# coeffs of indicator (dummy) vars are slightly different...for example, the coeff of rank2 represents the change in the log-odds of the output variable that comes going to a rank2 school instead of a rank1 school
+```{r}
+grad <- read.csv("http://www.ats.ucla.edu/stat/data/binary.csv")
+head(grad)
+```
 
-# odds ratios can be found by exponentiating the log-odds ratios
-exp(coef(logit.fit))
+We can explore trends graphically to see if the data behaves as we expect.
 
-# predict oos data
+```{r}
+boxplot(gre ~ admit, data=grad, xlab="GRE score", ylab="not/admitted", horizontal=TRUE)
+boxplot(gpa ~ admit, data=grad, xlab="GPA", ylab="not/admitted", horizontal=TRUE)
+barplot(prop.table(table(grad$admit, grad$rank), 2), xlab="school rank", ylab="percent not/admitted")
+```
 
-# have a look at mean gre, gpa
-summary(x)
+Note that the apparent relationship to school rank is not linear. The values are numeric, but it isn't really a continuous variable. We want to treat the school `rank` as categorical.
 
-# note: important to give columns the same names as in the original df
-new.data <- with(x, data.frame(gre=mean(gre), gpa=mean(gpa), rank=factor(1:4)))
+```{r}
+grad$rank <- as.factor(grad$rank)
+```
 
-# predict probs for new data (varying rank)
-new.data$rank.prob <- predict(logit.fit, newdata=new.data, type='response')
-new.data
+Now we can fit a logistic regression model to the data.
 
-# predict probs for new data (varying gre)
-new.data2 <- with(x, data.frame(gre=rep(seq(from=200, to=800, length.out=100), 4), gpa=mean(gpa), rank=factor(rep(1:4, each=100))))
-new.data2$pred <- predict(logit.fit, newdata=new.data2, type='response')
-ggplot(new.data2, aes(x=gre, y=pred)) + geom_line(aes(colour=rank), size=1)
+```{r}
+model <- glm(admit ~ ., data=grad, family="binomial")
+summary(model)
+```
 
-# predict probs for new data (varying gpa)
-new.data3 <- with(x, data.frame(gpa=rep(seq(from=0, to=4.0, length.out=100), 4), gre=mean(gre), rank=factor(rep(1:4, each=100))))
-ggplot(new.data3, aes(x=gpa, y=pred)) + geom_line(aes(colour=rank), size=1)
+Note that the coefficients come out as we expected.
 
-# one thing to keep in mind (no zero/sparse cells)
-xtabs(~admit + rank, data = mydata)
+Deviance is -2 times the log likelihood, and the residuals are the point-wise contributions to this. Comparing the null and residual deviance gives you some idea of how well the model fits the training data. Fisher Scoring iterations refer to the iterative maximum likelihood algorithm that is used to fit the model.
 
-```R
-install.packages('ROCR')
-library('ROCR')
+Let's predict for the training data to see how it works for logistic models. We can get log odds or probabilities out.
 
-pred <- prediction(test.predict2, test$good) 
-perf <- performance(pred, measure='acc') #Simple accuracy, what % were right?
+```{r}
+logodds <- predict(model, grad)
+probs <- predict(model, grad, type="response")
+head(logodds)
+head(probs)
+head(log(probs/(1-probs)))
+head(exp(logodds)/(1+exp(logodds)))
+```
 
-perf <- performance(pred, measure='prec') #What % of the elements I predicted to be in the class actually?
-perf <- performance(pred, measure='recall') #What % of the elements that are in class, did I predict to be in this class?
+We're interested in how our predictions compare to reality. Usually we'll look at probabilities.
 
-perf <- performance(pred, measure='f') #F-measure a balance between them
-perf <- performance(pred, measure='auc') #Area Under the Curve, another way to balance them
+```{r}
+head(data.frame(actual=grad$admit, prediction=probs))
+```
 
+You may need to set a cut-off, but we can evaluate performance in several ways already. The `ROCR` package is one option. The `pROC` package is another specifically for ROC curves.
+
+```{r, tidy=FALSE}
+suppressPackageStartupMessages(library('ROCR'))
+# ROCR works on it's own `prediction` objects, which must be built like this:
+pred <- prediction(predictions=probs, labels=grad$admit)
+# Now the `performance` function will help us
+# Accuracy: what percentage are correctly classified?
+acc <- performance(pred, measure='acc')
+plot(acc)
+# Precision: what percentage of positive predictions are correct?
+prec <- performance(pred, measure='prec')
+plot(prec)
+# Recall: what percentage of all positives were identified?
+rec <- performance(pred, measure='rec')
+plot(rec)
+# Receiver Operator Curve (ROC)
+roc <- performance(pred, 'tpr', 'fpr')
+plot(roc)
+# Here's one way to get the AUC (Area Under the roC) itself
+auc <- performance(pred, measure='auc')
+auc@y.values[[1]]
 ```
