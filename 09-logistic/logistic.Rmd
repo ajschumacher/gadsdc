@@ -42,3 +42,17 @@ ggplot(new.data3, aes(x=gpa, y=pred)) + geom_line(aes(colour=rank), size=1)
 # one thing to keep in mind (no zero/sparse cells)
 xtabs(~admit + rank, data = mydata)
 
+```R
+install.packages('ROCR')
+library('ROCR')
+
+pred <- prediction(test.predict2, test$good) 
+perf <- performance(pred, measure='acc') #Simple accuracy, what % were right?
+
+perf <- performance(pred, measure='prec') #What % of the elements I predicted to be in the class actually?
+perf <- performance(pred, measure='recall') #What % of the elements that are in class, did I predict to be in this class?
+
+perf <- performance(pred, measure='f') #F-measure a balance between them
+perf <- performance(pred, measure='auc') #Area Under the Curve, another way to balance them
+
+```
