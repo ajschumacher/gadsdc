@@ -46,6 +46,7 @@ Visualization:
 
 http://patsy.readthedocs.org/en/latest/overview.html
 http://statsmodels.sourceforge.net/
+http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 
 ### After
