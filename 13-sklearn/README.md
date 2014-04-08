@@ -30,6 +30,14 @@ Note: show vectorizers, including probably tf-idf
 
 (Assign standard GA logistic assignment from CA here.)
 
+http://patsy.readthedocs.org/en/latest/overview.html
+
+http://statsmodels.sourceforge.net/
+
+[Learn pandas](http://nbviewer.ipython.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/01%20-%20Lesson.ipynb)
+
+Possibly mention here or add to further resources: [Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)
+
 
 ### After
 

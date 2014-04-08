@@ -31,19 +31,26 @@ Exercise: [Pair](http://en.wikipedia.org/wiki/Pair_programming) up and write Fiz
 
 > Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
-Introduce IPython (with `?`, tab completion, `%time` and `%timeit`, `%run`, `%paste`) and play with basic [web scraping](scrape.py).
+Introduce IPython (with `?`, tab completion, `%time` and `%timeit`, `%run`, `%paste`) and play with basic [web scraping](scrape.py) using [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
 Stupid Python tricks: `from __future__ import division`, mutable lists, `str.join`, etc.
 
 Exercise: Pair up and use IPython to read in the linear regression assignment (salary) training data, using the `csv` module. Use the Python docs! Use Python to calculate the average salary.
 
-Introduce IPython Notebook and show some basic plotting.
+Introduce [IPython Notebook](http://ipython.org/ipython-doc/dev/notebook/)) and show some basic plotting. Be sure to check out the [IPython Notebook Viewer](http://nbviewer.ipython.org/)!
 
 Handy shortcut:
 
     alias nb='ipython notebook --pylab=inline'
 
 Exercise: Make a histogram of salaries (from the linear regression assignment training data) in an IPython Notebook, using Python (i.e., not `rpy2`).
+
+There are pretty many Python visualization options now. Here are a few:
+
+ * [Matplotlib](http://matplotlib.org/)
+ * [ggplot for Python](https://github.com/yhat/ggplot/)
+ * [Vincent](https://vincent.readthedocs.org/)
+ * [Bokeh](https://github.com/ContinuumIO/bokeh)
 
 
 ### After
@@ -52,31 +59,6 @@ Prepare three visualizations based on your final project data. Each one should s
 
 Optional:
 
+ * If you'd like to walk through Python basics even more, check out this notebook [Introduction to Python](http://nbviewer.ipython.org/urls/bitbucket.org/amjoconn/watpy-learning-to-code-with-python/raw/3441274a54c7ff6ff3e37285aafcbbd8cb4774f0/notebook/Learn%20to%20Code%20with%20Python.ipynb). Or this one on [Python data structures](http://nbviewer.ipython.org/github/profjsb/python-bootcamp/blob/master/DataFiles_and_Notebooks/02_AdvancedDataStructures/data_structures.ipynb). There are a ton of public notebooks - just have fun exploring the [IPython Notebook Viewer](http://nbviewer.ipython.org/) and follow your interest!
 
-To file:
-
-Likely use the Social Web book appendix C, though it has some issues - missing bit on UTF-8, etc.
-
-Possibly mention here or add to further resources: [Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)
-
-
-IPython Notebook [documentation](http://ipython.org/ipython-doc/dev/notebook/)
-
-IPython Notebook [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html)
-
-[Introduction to Python](http://nbviewer.ipython.org/urls/bitbucket.org/amjoconn/watpy-learning-to-code-with-python/raw/3441274a54c7ff6ff3e37285aafcbbd8cb4774f0/notebook/Learn%20to%20Code%20with%20Python.ipynb)
-
-[Python data structures](http://nbviewer.ipython.org/github/profjsb/python-bootcamp/blob/master/DataFiles_and_Notebooks/02_AdvancedDataStructures/data_structures.ipynb)
-
-[Learn pandas](http://nbviewer.ipython.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/01%20-%20Lesson.ipynb)
-
-Visualization:
-
- * [Vincent](https://vincent.readthedocs.org/)
- * [Matplotlib](http://matplotlib.org/)
- * [ggplot for Python](https://github.com/yhat/ggplot/)
- * [Bokeh](https://github.com/ContinuumIO/bokeh)
-
-http://patsy.readthedocs.org/en/latest/overview.html
-http://statsmodels.sourceforge.net/
-http://www.crummy.com/software/BeautifulSoup/bs4/doc/
+ * You can run `R` code from _within_ IPython! Check out [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html).
