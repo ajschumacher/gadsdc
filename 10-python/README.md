@@ -31,7 +31,7 @@ Exercise: [Pair](http://en.wikipedia.org/wiki/Pair_programming) up and write Fiz
 
 > Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
-Introduce IPython and play with basic [web scraping](scrape.py).
+Introduce IPython (with `?`, tab completion, `%time` and `%timeit`, `%run`, `%paste`) and play with basic [web scraping](scrape.py).
 
 Exercise: Pair up and use IPython to read in the linear regression assignment (salary) training data, using the `csv` module. Use Python to calculate the average salary.
 
