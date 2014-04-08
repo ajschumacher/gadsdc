@@ -19,13 +19,44 @@ Application presentation.
 
 Question review.
 
-Likely use the Social Web book appendix C, though it has some issues - missing bit on UTF-8, etc.
+Python [slides](slides.pdf).
 
-Possibly mention here or add to further resources: [Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)
+Running Python interactively, running Python as a script, running Python as an executable with a shebang:
+
+    #!/usr/bin/env python
+
+Compare to `R` with `Rscript`, and `rnorm` vs. `np.random.normal`.
+
+Exercise: [Pair](http://en.wikipedia.org/wiki/Pair_programming) up and write FizzBuzz in Python.
+
+> Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+Introduce IPython and play with basic [web scraping](scrape.py).
+
+Exercise: Pair up and use IPython to read in the linear regression assignment (salary) training data, using the `csv` module. Use Python to calculate the average salary.
+
+Introduce IPython Notebook and show some basic plotting.
 
 Handy shortcut:
 
     alias nb='ipython notebook --pylab=inline'
+
+Exercise: Make a histogram of salaries (from the linear regression assignment training data) in an IPython Notebook, using Python (i.e., not `rpy2`).
+
+
+### After
+
+Prepare three visualizations based on your final project data. Each one should show the viewer something about the data - the viewer should know something more, hopefully something interesting, after viewing the visualization. Clear labels will be important. You can use `R` or `python` (or both) and include code (including R markdown and/or IPython Notebooks) but you should also produce image files that can be viewed separately. Leave your image and source files in the `10-python` directory of the class repo. It would be good to name your files something consistent, like `name01.png`, `name02.png`, `name.R`, etc. The purpose of submitting image files in this way is so that they can be easily viewed all together when they are presented next week Wednesday.
+
+Optional:
+
+
+To file:
+
+Likely use the Social Web book appendix C, though it has some issues - missing bit on UTF-8, etc.
+
+Possibly mention here or add to further resources: [Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)
+
 
 IPython Notebook [documentation](http://ipython.org/ipython-doc/dev/notebook/)
 
@@ -47,10 +78,3 @@ Visualization:
 http://patsy.readthedocs.org/en/latest/overview.html
 http://statsmodels.sourceforge.net/
 http://www.crummy.com/software/BeautifulSoup/bs4/doc/
-
-
-### After
-
-Prepare three visualizations based on your final project data. Each one should show the viewer something about the data - the viewer should know something more, hopefully something interesting, after viewing the visualization. Clear labels will be important. You can use `R` or `python` (or both) and include code (including R markdown and/or IPython Notebooks) but you should also produce image files that can be viewed separately. Leave your image and source files in the `10-python` directory of the class repo. It would be good to name your files something consistent, like `name01.png`, `name02.png`, `name.R`, etc. The purpose of submitting image files in this way is so that they can be easily viewed all together when they are presented next week Wednesday.
-
-Optional:
