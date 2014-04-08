@@ -33,6 +33,8 @@ Exercise: [Pair](http://en.wikipedia.org/wiki/Pair_programming) up and write Fiz
 
 Introduce IPython (with `?`, tab completion, `%time` and `%timeit`, `%run`, `%paste`) and play with basic [web scraping](scrape.py).
 
+Stupid Python tricks: `from __future__ import division`, mutable lists, `str.join`, etc.
+
 Exercise: Pair up and use IPython to read in the linear regression assignment (salary) training data, using the `csv` module. Use the Python docs! Use Python to calculate the average salary.
 
 Introduce IPython Notebook and show some basic plotting.
