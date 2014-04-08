@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 url = "http://html.cita.illinois.edu/nav/dtable/dtable-example-simple.php"
 
 response = requests.get(url)
+# Note that it's often better to keep local files rather than download
+# on the fly all the time. `wget` on the command line, for instance.
 
 soup = BeautifulSoup(response.text)
 
