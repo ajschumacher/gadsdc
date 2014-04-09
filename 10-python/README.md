@@ -37,7 +37,7 @@ Stupid Python tricks: `from __future__ import division`, mutable lists, `str.joi
 
 Exercise: Pair up and use IPython to read in the linear regression assignment (salary) training data, using the `csv` module. Use the Python docs! Use Python to calculate the average salary.
 
-Introduce [IPython Notebook](http://ipython.org/ipython-doc/dev/notebook/)) and show some basic plotting. Be sure to check out the [IPython Notebook Viewer](http://nbviewer.ipython.org/)!
+Introduce [IPython Notebook](http://ipython.org/ipython-doc/dev/notebook/) and show some basic plotting. Be sure to check out the [IPython Notebook Viewer](http://nbviewer.ipython.org/)!
 
 Handy shortcut:
 
