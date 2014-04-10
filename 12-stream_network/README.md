@@ -1,13 +1,21 @@
 ### Before
 
+Read [The Unreasonable Effectiveness of Data](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/35179.pdf). This is an interesting article from which to think about the costs and benefits of working with larger data sets.
+
 Optional:
 
- * Read Léon Bottou's [Large-Scale Machine Learning with Stochastic Gradient Descent](http://leon.bottou.org/publications/pdf/compstat-2010.pdf).
+ * Read [A Reliable Effective Terascale Linear Learning System](http://arxiv.org/pdf/1110.4198v3.pdf), which is largely about Vowpal Wabbit.
  * Watch this [lecture](https://www.youtube.com/watch?v=5u4G23_OohI) from Andrew Ng on linear regression, including batch and stochastic gradient descent. Maybe not the most recent video from Ng, but not bad, and we can't go the whole class without having something from Ng!
+ * Read Léon Bottou's [Large-Scale Machine Learning with Stochastic Gradient Descent](http://leon.bottou.org/publications/pdf/compstat-2010.pdf).
+ * Read [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](http://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html). It's so good!
 
 
 ### Questions
 
+ * When do you think more data is "unreasonably effective"? Is it always better to have more data? What differences might there be in various domains or particular situations?
+ * How would training time for (word-token binarized multinomial) Naive Bayes change if you doubled the number of examples in the training set? What if you doubled the number of unique words in each example? How would prediction time change?
+ * How would training time for KNN change if you doubled the number of examples in the training set? What if you doubled the number of features? How would prediction time change?
+ * How would training time change for OLS linear regression if you doubled the number of examples in the training set? What if you doubled the number of features? How would prediction time change? (For this one you might try to figure it out experimentally in R!)
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
