@@ -108,6 +108,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [School of Data](http://schoolofdata.org/)
  * [videolectures.net](http://videolectures.net/)
  * Coursera / University of Washington [Machine Learning](https://www.coursera.org/course/machlearning)
+ * Coursera / Stanford [Machine Learning](https://www.coursera.org/course/ml)
  * [statistics.com](http://www.statistics.com/)
  * [Pluralsight](http://pluralsight.com/)
  * [Enginehere](https://www.enginehere.com/)
