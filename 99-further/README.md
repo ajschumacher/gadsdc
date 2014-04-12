@@ -28,7 +28,7 @@
  * [Win-Vector Blog](http://www.win-vector.com/blog/): "The applied theorist's point of view"
  * [Machine Learning Mastery](http://machinelearningmastery.com/): "Making programmers awesome at machine learning"
  * Quora's [Machine Learning section](http://www.quora.com/Machine-Learning) has interesting things sometimes.
-
+ * The [Aggregate Knowledge tech blog](http://blog.aggregateknowledge.com/) has some good stuff on large scale and streaming technology.
 
 
 ### Books:
