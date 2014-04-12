@@ -109,6 +109,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [videolectures.net](http://videolectures.net/)
  * Coursera / University of Washington [Machine Learning](https://www.coursera.org/course/machlearning)
  * Coursera / Stanford [Machine Learning](https://www.coursera.org/course/ml)
+ * Udacity [Artificial Intelligence](https://www.udacity.com/course/cs271) with Peter Norvig and Sebastian Thrun
  * [statistics.com](http://www.statistics.com/)
  * [Pluralsight](http://pluralsight.com/)
  * [Enginehere](https://www.enginehere.com/)
