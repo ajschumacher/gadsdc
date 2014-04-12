@@ -136,3 +136,4 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [The Open Source Data Science Masters](http://datasciencemasters.org/) curriculum
  * [listudy](http://www.listudy.com/): lists for learning data science
  * Quora [post](http://www.quora.com/Machine-Learning/What-are-some-good-resources-for-learning-about-machine-learning): "What are some good resources for learning about machine learning?"
+ * MetaOptimize [post](http://metaoptimize.com/qa/questions/186/good-freely-available-textbooks-on-machine-learning): "Good Freely Available Textbooks on Machine Learning"
