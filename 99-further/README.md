@@ -42,6 +42,7 @@
  * [Statistics Done Wrong](http://www.refsmmat.com/statistics/)
  * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
  * Machine Learning for Hackers [[amazon]](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714/) [[code]](https://github.com/johnmyleswhite/ML_for_Hackers) by Drew Conway and John Myles White
+     * [Will it Python?](http://slendermeans.org/pages/will-it-python.html) is a blog series in which the `R` code from _Machine Learning for Hackers_ is translated to Python.
  * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Cathy-ONeil/dp/1449358659) is a book that came out of the data science course at Columbia and [Cathy O'Neil](http://mathbabe.org/)'s blogging of said course.
  * Data Mining with R: Learning with Case Studies [[book site]](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/) [[amazon]](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
  * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
