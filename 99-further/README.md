@@ -131,6 +131,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [District Data Labs](http://www.districtdatalabs.com/) (DC)
  * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco)
  * [Persontyle](http://www.persontyle.com/) school of data science
+ * [HackerRetreat](http://hackerretreat.com/) is doing something interesting in Berlin.
 
 
 ### Other resource collections
