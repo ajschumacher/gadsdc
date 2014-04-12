@@ -10,3 +10,8 @@ These resources help to explain what people talk about when they talk about data
      * Data scientists as communicators who contribute to their organizations.
  * [Data Scientist: The Sexiest Job of the 21st Century](http://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century/)
      * Hype to love to hate.
+
+
+## Even more
+
+There is also am [additional list](yet_more_data_science.md) of resources if you'd like to peruse and even wider range.

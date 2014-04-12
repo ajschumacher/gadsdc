@@ -65,3 +65,8 @@ For each, you can go as deep as you need to feel comfortable:
      * This one starts out very basic but eventually includes some sophisticated general ideas about programming.
  * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
      * This is probably the most popular intro to `python`, with a very distinctive voice, from the same author as the Command Line Crash Course, above.
+
+
+## Even more
+
+There is also a [less selective list](yet_more_tools.md) of resources if you'd like to choose from a wider range.
