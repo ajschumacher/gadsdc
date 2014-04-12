@@ -27,6 +27,8 @@
  * [FiveThirtyEight](http://fivethirtyeight.com/) is now a kind of data journalism syndicate.
  * [Win-Vector Blog](http://www.win-vector.com/blog/): "The applied theorist's point of view"
  * [Machine Learning Mastery](http://machinelearningmastery.com/): "Making programmers awesome at machine learning"
+ * Quora's [Machine Learning section](http://www.quora.com/Machine-Learning) has interesting things sometimes.
+
 
 
 ### Books:
@@ -131,3 +133,4 @@ People publish in a lot of places; other journal suggestions welcomed!
 
  * [The Open Source Data Science Masters](http://datasciencemasters.org/) curriculum
  * [listudy](http://www.listudy.com/): lists for learning data science
+ * Quora [post](http://www.quora.com/Machine-Learning/What-are-some-good-resources-for-learning-about-machine-learning): "What are some good resources for learning about machine learning?"
