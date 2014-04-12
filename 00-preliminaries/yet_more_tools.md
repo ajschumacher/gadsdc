@@ -25,6 +25,7 @@ For `R`:
 
 For `python`:
  * MIT's [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-0) covers not just Python but also a lot of conceptual material.
+ * Alan Gauld's [Learning to Program](http://www.alan-g.me.uk/) is available for Python 2 and 3.
  * The official [Python Tutorial](http://docs.python.org/2/tutorial/) is fairly comprehensive.
  * [Try Python](http://www.trypython.org/) is an old-ish but possibly worthwhile interactive intro to python in the browser.
  * [Learn Python](http://www.learnpython.org/) is a newer interactive in-browser python offering, which is probably nice if you don't mind their UI style.
