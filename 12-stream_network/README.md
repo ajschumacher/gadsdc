@@ -36,6 +36,16 @@ Discussion of streaming as a general technique for working with data, for both g
 
 Brief intro to [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki) and the `vw` [input validator](http://hunch.net/~vw/validate.html). Pre-processing is a very common necessity, and this is a fine example.
 
+Mention the Python Natural Language ToolKit ([nltk](http://www.nltk.org/)) and its application for [stemming](http://en.wikipedia.org/wiki/Stemming). This also illustrates a common pattern of instantiating and then using objects in Python.
+
+```Python
+from nltk.stem.snowball import SnowballStemmer
+stemmer = SnowballStemmer("english")
+stemmer.stem("managers")
+stemmer.stem("management")
+# etc.
+```
+
 Coding activity two:
  * Write a Python script that reads the linear regression assignment training file and writes out a file that is ready to be read by `vw`. Check some of the output against the [validator](http://hunch.net/~vw/validate.html).
  * After you have a working solution, consider whether it is streaming or batch. Does your solution read the whole dataset into memory and keep it there, or does it go one line at a time?
