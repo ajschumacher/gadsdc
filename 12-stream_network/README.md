@@ -69,6 +69,12 @@ git clone git://github.com/JohnLangford/vowpal_wabbit.git
 cd vowpal_wabbit
 make install
 ```
+
+*** 4a) ... on Ubuntu:
+```sh
+sudo apt-get install vowpal-wabbit
+```
+
 Create a training file for vowpal wabbit using Python:
 ```sh
 <Insult> | This is comment 1, no feature building needed
