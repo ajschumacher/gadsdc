@@ -34,10 +34,10 @@ Coding activity one:
 
 Discussion of streaming as a general technique for working with data, for both general processing and also for machine learning.
 
-Brief intro to Vowpal Wabbit and the `vw` input validator. Pre-processing is a very common necessity, and this is a fine example.
+Brief intro to [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki) and the `vw` [input validator](http://hunch.net/~vw/validate.html). Pre-processing is a very common necessity, and this is a fine example.
 
 Coding activity two:
- * Write a Python script that reads the linear regression assignment training file and writes out a file that is ready to be read by `vw`. Check some of the output against the validator.
+ * Write a Python script that reads the linear regression assignment training file and writes out a file that is ready to be read by `vw`. Check some of the output against the [validator](http://hunch.net/~vw/validate.html).
  * After you have a working solution, consider whether it is streaming or batch. Does your solution read the whole dataset into memory and keep it there, or does it go one line at a time?
  * Extension (if not already done): Modify your script to do reading and writing of the training file in a streaming fashion.
  * Extension (if not already done): Modify your script to process the test file as well as the train file.
@@ -55,10 +55,6 @@ r = api.request('statuses/filter', {'track':'data'})
 for tweet in r.get_iterator():
   print tweet
 ```
-
- * [Fast Logistic Regression: Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki)
-
- * [Fast Logistic Regression: LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)
 
 Logistic in `vw`:
 
