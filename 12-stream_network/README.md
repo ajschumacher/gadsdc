@@ -84,6 +84,7 @@ for tweet in r.get_iterator():
 
 Optional:
 
+ * See what kind of test set performance you can get with `vw` for the linear regression assignment data.
  * Read [Probabilistic Data Structures for Web Analytics and Data Mining](http://highlyscalable.wordpress.com/2012/05/01/probabilistic-structures-web-analytics-data-mining/).
  * Read [Sketching Data Structures](http://lkozma.net/blog/sketching-data-structures/).
  * Read [Streaming Algorithms and Sketches](http://blog.aggregateknowledge.com/tag/count-min-sketch/).
