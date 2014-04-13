@@ -32,6 +32,20 @@ Coding activity one:
  * Extension: Test your script for behavior on problematic input and adjust as needed.
  * Big extension: Change your script so that instead of accepting keyboard input with `raw_input()`, it runs as a web service and accepts input via HTTP POST requests, maintaining the running mean as the GET response. (This is well outside the scope of the class but it's kind of fun and you could work it out if you wanted to.)
 
+Discussion of streaming as a general technique for working with data, for both general processing and also for machine learning.
+
+Brief intro to Vowpal Wabbit and the `vw` input validator. Pre-processing is a very common necessity, and this is a fine example.
+
+Coding activity two:
+ * Write a Python script that reads the linear regression assignment training file and writes out a file that is ready to be read by `vw`. Check some of the output against the validator.
+ * After you have a working solution, consider whether it is streaming or batch. Does your solution read the whole dataset into memory and keep it there, or does it go one line at a time?
+ * Extension (if not already done): Modify your script to do reading and writing of the training file in a streaming fashion.
+ * Extension (if not already done): Modify your script to process the test file as well as the train file.
+ * Extension (if not already done): Modify your script to work as a command-line tool, taking input from standard in and sending output to standard out. You might consider the `fileinput` module, for example.
+
+Brief demo of Vowpal Wabbit.
+
+Perhaps show accessing the Twitter streaming API with the `TwitterAPI` module.
 
 [Algebra for Analytics](http://cdn.oreillystatic.com/en/assets/1/event/105/Algebra%20for%20Scalable%20Analytics%20Presentation.pdf)
 
@@ -75,7 +89,6 @@ vw -c -k train.vw --loss logistic -f model --cubic ccc #makes cubic (all triplet
 
 vw -c -k -t test.vw -i model -p test.predictions
 ```
-
 
 
 ### After
