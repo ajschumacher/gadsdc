@@ -7,7 +7,6 @@ from nltk.stem.snowball import SnowballStemmer
 
 not_alpha = re.compile("[^abcdefghijklmnopqrstuvwxyz ]")
 stemmer = SnowballStemmer("english")
-vocabulary = set()
 
 reader = csv.reader(sys.stdin)
 if len(reader.next()) == 12:
@@ -25,8 +24,5 @@ for line in reader:
   title = title.lower()
   title = re.sub(not_alpha, "", title)
   title_words = [stemmer.stem(word) for word in title.split()]
-  vocabulary.update(title_words)
   title = " ".join(title_words)
   print salary + " |title " + title
-
-print len(vocabulary)
