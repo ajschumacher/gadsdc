@@ -34,7 +34,7 @@ Coding activity one:
 
 Discussion of streaming as a general technique for working with data, for both general processing and also for machine learning.
 
-Brief intro to [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki) and the `vw` [input validator](http://hunch.net/~vw/validate.html). Pre-processing is a very common necessity, and this is a fine example.
+Brief intro to [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki) ([tutorial](http://zinkov.com/posts/2013-08-13-vowpal-tutorial/)) and the `vw` [input validator](http://hunch.net/~vw/validate.html). Pre-processing is a very common necessity, and this is a fine example.
 
 Mention the Python Natural Language ToolKit ([nltk](http://www.nltk.org/)) and its application for [stemming](http://en.wikipedia.org/wiki/Stemming). This also illustrates a common pattern of instantiating and then using objects in Python.
 
