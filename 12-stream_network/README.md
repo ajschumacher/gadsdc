@@ -61,7 +61,7 @@ Perhaps show accessing the Twitter streaming API with the `TwitterAPI` module:
 from TwitterAPI import TwitterAPI
 api = TwitterAPI(consumer_key, consumer_secret,
                  access_token_key, access_token_secret)
-r = api.request('statuses/filter', {'track':'data'})
+r = api.request('statuses/filter', {'track':'search_string'})
 for tweet in r.get_iterator():
   print tweet
 ```
