@@ -26,19 +26,16 @@ Application presentation.
 
 Question review.
 
-[Sketching Data Structures](http://lkozma.net/blog/sketching-data-structures/)
+Coding activity one:
+ * Write a Python script that accepts a stream of numbers entered at the keyboard, using `raw_input()`. After each new number is entered, it should `print` the mean of all numbers entered so far.
+ * After you have a working solution, consider the long term memory usage of your script. If your solution is not yet constant memory, modify it to work in constant memory (neglecting overflow issues).
+ * Extension: Test your script for behavior on problematic input and adjust as needed.
+ * Big extension: Change your script so that instead of accepting keyboard input with `raw_input()`, it runs as a web service and accepts input via HTTP POST requests, maintaining the running mean as the GET response. (This is well outside the scope of the class but it's kind of fun and you could work it out if you wanted to.)
 
-[Probabilistic Data Structures for Web Analytics and Data Mining](http://highlyscalable.wordpress.com/2012/05/01/probabilistic-structures-web-analytics-data-mining/)
-
-[Streaming Algorithms and Sketches](http://blog.aggregateknowledge.com/tag/count-min-sketch/)
-
-[Fast, Cheap, and 98% Right: Cardinality Estimation for Big Data](http://metamarkets.com/2012/fast-cheap-and-98-right-cardinality-estimation-for-big-data/)
 
 [Algebra for Analytics](http://cdn.oreillystatic.com/en/assets/1/event/105/Algebra%20for%20Scalable%20Analytics%20Presentation.pdf)
 
  * [Fast Logistic Regression: Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki)
-
-Does this belong here?
 
  * [Fast Logistic Regression: LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)
 
@@ -84,3 +81,8 @@ vw -c -k -t test.vw -i model -p test.predictions
 ### After
 
 Optional:
+
+ * Read [Probabilistic Data Structures for Web Analytics and Data Mining](http://highlyscalable.wordpress.com/2012/05/01/probabilistic-structures-web-analytics-data-mining/).
+ * Read [Sketching Data Structures](http://lkozma.net/blog/sketching-data-structures/).
+ * Read [Streaming Algorithms and Sketches](http://blog.aggregateknowledge.com/tag/count-min-sketch/).
+ * Read [Fast, Cheap, and 98% Right: Cardinality Estimation for Big Data](http://metamarkets.com/2012/fast-cheap-and-98-right-cardinality-estimation-for-big-data/)
