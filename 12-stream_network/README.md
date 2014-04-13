@@ -36,9 +36,6 @@ Question review.
 
 [Algebra for Analytics](http://cdn.oreillystatic.com/en/assets/1/event/105/Algebra%20for%20Scalable%20Analytics%20Presentation.pdf)
 
-Paper by Will Cukierski, Ben Hammer, and Bo Yang - I think before Will worked for Kaggle:
-[Graph-based Features for Supervised Link Prediction](http://www.kaggle.com/blobs/download/forum-message-attachment-files/183/supervised_link_prediction.pdf)
-
  * [Fast Logistic Regression: Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki)
 
 Does this belong here?
