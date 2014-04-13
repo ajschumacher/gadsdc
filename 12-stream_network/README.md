@@ -45,7 +45,16 @@ Coding activity two:
 
 Brief demo of Vowpal Wabbit.
 
-Perhaps show accessing the Twitter streaming API with the `TwitterAPI` module.
+Perhaps show accessing the Twitter streaming API with the `TwitterAPI` module:
+
+```Python
+from TwitterAPI import TwitterAPI
+api = TwitterAPI(consumer_key, consumer_secret,
+                 access_token_key, access_token_secret)
+r = api.request('statuses/filter', {'track':'data'})
+for tweet in r.get_iterator():
+  print tweet
+```
 
 [Algebra for Analytics](http://cdn.oreillystatic.com/en/assets/1/event/105/Algebra%20for%20Scalable%20Analytics%20Presentation.pdf)
 
