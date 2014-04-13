@@ -34,7 +34,7 @@ Coding activity one:
 
 Discussion of streaming as a general technique for working with data, for both general processing and also for machine learning.
 
-Brief intro to [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki) ([tutorial](http://zinkov.com/posts/2013-08-13-vowpal-tutorial/)) and the `vw` [input validator](http://hunch.net/~vw/validate.html). Pre-processing is a very common necessity, and this is a fine example.
+Brief intro to [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki) and the `vw` [input validator](http://hunch.net/~vw/validate.html). Pre-processing is a very common necessity, and this is a fine example.
 
 Mention the Python Natural Language ToolKit ([nltk](http://www.nltk.org/)) and its application for [stemming](http://en.wikipedia.org/wiki/Stemming). This also illustrates a common pattern of instantiating and then using objects in Python.
 
@@ -54,6 +54,19 @@ Coding activity two:
  * Extension (if not already done): Modify your script to work as a command-line tool, taking input from standard in and sending output to standard out. You might consider the `fileinput` module, for example.
 
 Brief demo of Vowpal Wabbit.
+ * The install process for `vw` can be difficult, but on Ubuntu `sudo apt-get install vowpal-wabbit` should get you at least version 6.1, which is fine for our purposes.
+ * This [tutorial](http://zinkov.com/posts/2013-08-13-vowpal-tutorial/) goes through quite a lot of `vw` in an understandable way. For more options, see the [command line arguments](https://github.com/JohnLangford/vowpal_wabbit/wiki/Command-line-arguments).
+ * There's a lot to like about `vw`, and once you have your data in its format you can easily experiment with a lot of different techniques fairly easily.
+
+Some examples with the training file made with [some_vw.py](some_vw.py):
+
+```bash
+vw train.vw --passes 100 -c
+vw train.vw --passes 100 -c -q tt
+vw train.vw --passes 200 -c --ngram 4
+```
+
+And so on.
 
 Perhaps show accessing the Twitter streaming API with the `TwitterAPI` module:
 
@@ -66,19 +79,7 @@ for tweet in r.get_iterator():
   print tweet
 ```
 
-Logistic in `vw`:
 
-*** 4) Try out Vowpal Wabbit to build a logistic regression model.
-
-```sh
-git clone git://github.com/JohnLangford/vowpal_wabbit.git
-cd vowpal_wabbit
-make install
-```
-
-*** 4a) ... on Ubuntu:
-```sh
-sudo apt-get install vowpal-wabbit
 ```
 
 Create a training file for vowpal wabbit using Python:
