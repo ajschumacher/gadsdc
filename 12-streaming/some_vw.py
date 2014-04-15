@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Usage:
+#   cat train.csv | ./some_vw.py > train.vw
+
 import sys
 import csv
 import re
