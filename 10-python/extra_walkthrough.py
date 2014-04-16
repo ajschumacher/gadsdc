@@ -1,4 +1,4 @@
-# TODO: clean/clarify and probably split across multipe files/days
+# TODO: clean/clarify some more
 
 ##Python Shell
 Python at it's core is a fancy calculator.  Typing `python` into the command line will give you a prompt
@@ -92,31 +92,5 @@ or `enumerate`
 for i, el in enumerate(my_list):
    print i, el
 ```
+
 This will print out the index of the element (starting from 0) and the element.
-
-```
-
-##Pandas
-Pandas is a Python library for data analysis that resembles the tools available in R.  It is also optimized for fast I/O and data manipulation.
-
-```Python
-import pandas as pd
-
-data = pd.read_csv('Dropbox/src/538model/data/2012_poll_data_states.csv', sep='\t')
-#Get a preview of the first six rows
-data.head()
-```
-
-Get descriptive statistics for any or all columns
-```python
-data.describe()
-```
-
-Bin the values of a column
-```python
-data['Poll'].value_counts()
-```
-Aggregate over a particular column
-```python
-data.groupby('Poll')['Obama (D)'].mean()
-```
