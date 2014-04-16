@@ -22,12 +22,12 @@ Application presentation.
 
 Question review.
 
-Warm-up: Write a function that takes a CSV file's name (string) argument and returns the list of lists representation of the file.
+Warm-up: Write a function that takes a CSV file's name (string) argument and returns the list-of-lists representation of the file.
 
 Building up from base Python:
- * `import numpy as np`
- * `import pandas as pd`
- * `sklearn` and friends
+ * `import numpy as np` ([tutorial one](http://scipy-lectures.github.io/intro/numpy/array_object.html), [tutorial two](http://wiki.scipy.org/Tentative_NumPy_Tutorial))
+ * `import pandas as pd` ([tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html))
+ * `sklearn` ([documentation](http://scikit-learn.org/dev/documentation.html)) and friends
 
 The `sklearn` pattern:
  1. Import a class (make it available)
@@ -66,8 +66,6 @@ Go through the following:
  * [Naive Bayes and Logistic Regression](bayes_logistic.md)
 
 These also introduce [`statsmodels`](http://statsmodels.sourceforge.net/)/[`patsy`](http://patsy.readthedocs.org/), scoring/cross-validation with `sklearn`, and some other syntax.
-
-See also: [sklearn documentation](http://scikit-learn.org/dev/documentation.html)
 
 
 ### After
