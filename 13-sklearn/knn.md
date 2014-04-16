@@ -1,14 +1,12 @@
-##Scikits.learn and K Nearest Neighbors
-
-`scikits.learn` has become one of the most popular machine learning packages in Python.  It has a most of the standard machine learning algorithms built-in and often calls faster external C-code that can make execuation fairly quick.
+## `sklearn` and K Nearest Neighbors
 
 ```Python
 from sklearn.datasets import load_iris
 iris = load_iris()
 ```
-This load in one of most well-known toy datasets for machine learning.  It's useful since it's very easy to get good performance on.  Each row contains one flower instance with information on it's petal and sepal measurements.  It's flower is classified into 1 of 3 species.
 
-##K Nearest Neighbors
+This loads in one of most well-known toy datasets for machine learning. It's useful since it's very easy to get good performance on. Each row contains one flower instance with information on it's petal and sepal measurements. Its flower is classified into 1 of 3 species.
+
 ```Python
 from sklearn import neighbors
 X, y = iris.data, iris.target
@@ -19,9 +17,9 @@ knn.fit(X, y)
 print iris.target_names[knn.predict([[3, 5, 4, 2]])]
 ```
 
-Scikits-learn has a very common interface for all it's models making it easy to use and switch between models.  The two major stages are 1) `fit` where we fit a model, or learn from the data and 2) `predict` where we extrapolate from what we learned.
+`sklearn` has a very common interface for all it's models making it easy to use and switch between models.  The two major stages are 1) `fit` where we fit a model, or learn from the data and 2) `predict` where we extrapolate from what we learned.
 
-##Cross Validation
+### Cross Validation
 
 ```Python
 from sklearn.cross_validation import train_test_split
@@ -41,6 +39,5 @@ print metrics.f1_score(y_test, predicted)
 
 ```Python
 from sklearn.cross_validation import cross_val_score
-
 scores = cross_val_score(knn, iris.data, iris.target, cv=5)
 ```
