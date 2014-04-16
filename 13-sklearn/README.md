@@ -22,7 +22,44 @@ Application presentation.
 
 Question review.
 
-[sklearn user guide](http://scikit-learn.org/dev/user_guide.html)
+Warm-up: Write a function that takes a CSV file's name (string) argument and returns the list of lists representation of the file.
+
+Building up from base Python:
+ * `import numpy as np`
+ * `import pandas as pd`
+ * `sklearn` and friends
+
+The `sklearn` pattern:
+ 1. Import a class (make it available)
+ 2. Instantiate (make one)
+ 3. Fit (give it data)
+ 4. Transform/Predict (get results)
+
+For example:
+
+```Python
+# Example data
+data = pd.DataFrame({'score': [10, 4, 29],
+                     'comment': ['it was okay',
+                                 'it was so bad',
+                                 'it was so good']})
+
+# sklearn pattern example one
+from sklearn.feature_extraction.text import CountVectorizer  # 1
+vect = CountVectorizer()                                     # 2
+vect.fit(data.comment)                                       # 3
+train_matrix = vect.transform(data.comment)                  # 4
+test_matrix = vect.transform(["kind of good"])               # 4
+# check vect.get_feature_names() and .toarray() for sparse matrices
+
+# sklearn pattern example two
+from sklearn.linear_model import LinearRegression            # 1
+model = LinearRegression()                                   # 2
+model.fit(train_matrix, data.score)                          # 3
+model.predict(test_matrix)                                   # 4
+```
+
+[sklearn documentation](http://scikit-learn.org/dev/documentation.html)
 
 [Recap of my first Kaggle Competition: Detecting Insults in Social Commentary](http://peekaboo-vision.blogspot.com/2012/09/recap-of-my-first-kaggle-competition.html)
 
@@ -36,7 +73,7 @@ Note: show vectorizers, including probably tf-idf
 
 [Logistic Regression w/ Statsmodel - Well Switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb)
 
-(Assign standard GA logistic assignment from CA here.)
+
 
 http://patsy.readthedocs.org/en/latest/overview.html
 
@@ -44,6 +81,8 @@ http://statsmodels.sourceforge.net/
 
 
 ### After
+
+Do the [logistic regression assignment](../logistic_assignment), due Monday April 28.
 
 Optional:
 
