@@ -23,7 +23,7 @@ print iris.target_names[knn.predict([[3, 5, 4, 2]])]
 
 ```Python
 from sklearn.cross_validation import train_test_split
-X_train, X_test, y_train, y_test = cross_validation.train_test_split(iris.data, iris.target, test_size=0.4, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.4, random_state=0)
 
 knn = neighbors.KNeighborsClassifier(n_neighbors=1)
 knn.fit(X_train, y_train)
