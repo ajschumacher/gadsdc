@@ -59,6 +59,14 @@ model.fit(train_matrix, data.score)                          # 3
 model.predict(test_matrix)                                   # 4
 ```
 
+Go through the following:
+
+ * [KNN](knn.md)
+ * [Linear Regression](linear.md)
+ * [Naive Bayes and Logistic Regression](bayes_logistic.md)
+
+These also introduce `statsmodels`/`patsy` and scoring/cross-validation with `sklearn`.
+
 [sklearn documentation](http://scikit-learn.org/dev/documentation.html)
 
 [Recap of my first Kaggle Competition: Detecting Insults in Social Commentary](http://peekaboo-vision.blogspot.com/2012/09/recap-of-my-first-kaggle-competition.html)
