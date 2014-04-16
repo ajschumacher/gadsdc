@@ -24,6 +24,8 @@ Question review.
 
 [Random Forests and Performance Metrics](http://citizennet.com/blog/2012/11/10/random-forests-ensembles-and-performance-metrics/)
 
+http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/
+
 
 ### After
 

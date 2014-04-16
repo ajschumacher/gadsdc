@@ -4,7 +4,7 @@
 
 ### Assignment prompt
 
-Create a logistic regression model using several independent variables. Explain what the model might predict, and why it is relevant to this data set. You may use your own dataset, find one from the [UCI Machine Learning Repositor](http://archive.ics.uci.edu/ml/) or another source, or use the automotive lemons dataset.
+Create a logistic regression model using several independent variables. Explain what the model might predict, and why it is relevant to this data set. You may use your own dataset, find one from the [UCI Machine Learning Repositor](http://archive.ics.uci.edu/ml/) or another source, or use the automotive [lemons](https://github.com/ajschumacher/gadsdata/tree/master/lemons) dataset.
 
 As with the linear regression exercise, you can pick your data set, but please either include it with your submission or provide a URL where it can be download. We encourage you to try exploring a different data set from what you did in the linear regression assignment because it's useful to get comfortable processing and parsing different data sets.
 
