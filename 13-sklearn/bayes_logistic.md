@@ -46,3 +46,5 @@ You could write out predictions using `pandas` if needed:
 submission = pd.DataFrame({'id': test.id, 'insult': predictions})
 submission.to_csv('submission.csv', index=False)
 ```
+
+See also this blog post: [Recap of my first Kaggle Competition: Detecting Insults in Social Commentary](http://peekaboo-vision.blogspot.com/2012/09/recap-of-my-first-kaggle-competition.html)

@@ -65,27 +65,9 @@ Go through the following:
  * [Linear Regression](linear.md)
  * [Naive Bayes and Logistic Regression](bayes_logistic.md)
 
-These also introduce `statsmodels`/`patsy` and scoring/cross-validation with `sklearn`.
+These also introduce [`statsmodels`](http://statsmodels.sourceforge.net/)/[`patsy`](http://patsy.readthedocs.org/), scoring/cross-validation with `sklearn`, and some other syntax.
 
-[sklearn documentation](http://scikit-learn.org/dev/documentation.html)
-
-[Recap of my first Kaggle Competition: Detecting Insults in Social Commentary](http://peekaboo-vision.blogspot.com/2012/09/recap-of-my-first-kaggle-competition.html)
-
-[538 Election Forecasting Model](https://github.com/jseabold/538model)
-
-[statsmodels](http://statsmodels.sourceforge.net/) for `Python`
-
-
-
-Note: show vectorizers, including probably tf-idf
-
-[Logistic Regression w/ Statsmodel - Well Switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb)
-
-
-
-http://patsy.readthedocs.org/en/latest/overview.html
-
-http://statsmodels.sourceforge.net/
+See also: [sklearn documentation](http://scikit-learn.org/dev/documentation.html)
 
 
 ### After
@@ -95,3 +77,4 @@ Do the [logistic regression assignment](../logistic_assignment), due Monday Apri
 Optional:
 
  * Check out "[Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)".
+ * Look through a notebook on [logistic regression with statsmodels for well switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb).
