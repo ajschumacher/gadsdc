@@ -1,6 +1,6 @@
 ### Before
 
-Read this collection on the [Top 10 algorithms in data mining](http://www.cs.umd.edu/~samir/498/10Algorithms-08.pdf). It includes some things we've seen before, some that we haven't spent time on, and some material on ensembles.
+
 
 Optional:
 
