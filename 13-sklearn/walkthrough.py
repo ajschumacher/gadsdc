@@ -13,7 +13,7 @@ import numpy as np
 x = np.array(a)
 y = np.array(b)
 x + y
-np.concatenate(x, y)
+np.concatenate((x, y))
 z = np.array([a, b])
 z[1, 1]
 z.shape
