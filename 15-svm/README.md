@@ -32,6 +32,8 @@ Reiterate two 'parts' of SVM:
 
 Optional:
 
+ * Read [Support Vector Machines: Hype or Hallelujah?](http://www.bioconductor.org/help/course-materials/2008/BioC2008/labs/ml/ML1.pdf).
+ * Read [Support Vector Machines in R](http://www.jstatsoft.org/v15/i09/paper), which provides a some theory in addition to an overview of implementations in `R`.
  * Read [A Tutorial on Support Vector Machines for Pattern
 Recognition](https://web.archive.org/web/20120105072605/http://www.umiacs.umd.edu/~joseph/support-vector-machines4.pdf), which includes discussion of VC Dimension.
  * Go through this [tutorial](http://www.louisaslett.com/Courses/Data_Mining/ST4003-Lab7-Introduction_to_Support_Vector_Machines.pdf) on SVMs in `R` using `e1071`.
