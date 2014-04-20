@@ -4,6 +4,8 @@
 
 Optional:
 
+* Read this more exacting article, [A User's Guide to Support Vector Machines](http://pyml.sourceforge.net/doc/howto.pdf).
+
 
 ### Questions
 
