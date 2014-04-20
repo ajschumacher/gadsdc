@@ -72,6 +72,7 @@
  * [O'Reilly Strata Conference](http://strataconf.com/) (has also crossed with Hadoop World)
  * [DataGotham](http://www.datagotham.com/)
  * [PyData](http://pydata.org/)
+ * [PyCon](https://us.pycon.org/) ([2014 video](http://pyvideo.org/category/50/pycon-us-2014))
  * [BigConf](http://www.bigconf.io/): The Mid-Atlantic Data Conference
 
 
