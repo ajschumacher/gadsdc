@@ -75,6 +75,7 @@ See also: the [github explanation for forking](https://help.github.com/articles/
 Optional:
  * Make your own EC2 micro Ubuntu instance and set it up a little.
  * Try out [csvkit](http://csvkit.readthedocs.org/), which makes data at the command line a lot more fun!
+ * Learn more handy techniques with this [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet).
  * Do the `emacs` tutorial. (In `emacs`, press `control` and `h`, then press `t`.)
  * Learn the `vim` editor with its tutorial, or perhaps with [a fun game](http://vim-adventures.com/)!
  * Learn more about `sed` and `awk`.
