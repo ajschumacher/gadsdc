@@ -64,6 +64,7 @@
 ### Tools
 
  * [Data Science Toolkit](http://www.datasciencetoolkit.org/) has some handy things packaged for the web, and as a VM.
+ * [mloss.org](http://mloss.org/): "machine learning open source software"
 
 
 ### Conferences:
