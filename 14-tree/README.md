@@ -24,6 +24,10 @@ Question review.
 
 [Demo](tree.py) with sklearn.
 
+Experiment with various arguments to `DecisionTreeClassifier`.
+
+Sketch an algorithm to build decision trees.
+
 
 ### After
 
