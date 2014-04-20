@@ -28,7 +28,7 @@ Reiterate two 'parts' of SVM:
  * maximum margin hyperplane
  * kernel function / kernel trick
 
- Note that radial basis function (RBF) and Guassian kernel refer to the same thing.
+Note that radial basis function (RBF) and Guassian kernel refer to the same thing.
 
 
 ### After
