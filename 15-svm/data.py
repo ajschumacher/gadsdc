@@ -13,4 +13,4 @@ y = y * 100
 d = pd.DataFrame({'feature_1': x,
                   'feature_2': y,
                   'label': z})
-d.to_csv('data.csv')
+d.to_csv('data.csv', index=False)
