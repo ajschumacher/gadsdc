@@ -35,6 +35,7 @@ You may already have data that you're interested in working with. You may have a
  	 * [RDataMining.com](http://www.rdatamining.com/resources/data)
  	 * [KDnuggets](http://www.kdnuggets.com/datasets/index.html)
  	 * [inside-R](http://www.inside-r.org/howto/finding-data-internet)
- * [Datasets subreddit](http://www.reddit.com/r/datasets/): You can ask for help finding a specific data set, or post your own
+ * [Datasets subreddit](http://www.reddit.com/r/datasets/): You can ask for help finding a specific data set, or post your own.
+ * [mldata.org](http://mldata.org/): "machine learning data set repository"
 
 This is just the tip of the iceberg; there's a lot of data out there!
