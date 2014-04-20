@@ -22,11 +22,13 @@ Question review.
 
 [Slides](slides.pdf) on decision trees.
 
-[Demo](tree.py) with sklearn.
+[Demo](tree.py) with `sklearn`.
 
 Experiment with various arguments to `DecisionTreeClassifier`.
 
 Sketch an algorithm to build decision trees.
+
+[Check out](grid.py) `sklearn`'s general cross-validated grid search functionality.
 
 
 ### After
