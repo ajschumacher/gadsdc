@@ -4,7 +4,7 @@
 
 Optional:
 
-* Read this more exacting article, [A User's Guide to Support Vector Machines](http://pyml.sourceforge.net/doc/howto.pdf).
+* Read this more exacting article, [A User's Guide to Support Vector Machines](http://pyml.sourceforge.net/doc/howto.pdf). (The class slides draw from this material.)
 
 
 ### Questions
