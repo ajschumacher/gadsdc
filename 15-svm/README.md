@@ -19,7 +19,9 @@ Question review.
 
 [Slides](slides.pdf) on support vector machines.
 
-Explain two 'parts' of SVM:
+Demonstrate a simple numerical example for the discriminant function. Use the training set ((1, 3), +1), ((2, 2), +1), ((1, 2), -1), ((2, 1), -1). Draw a separating hyperplane, get orthogonal vector (_w_), multiply matrices, find a _b_, interpret a little.
+
+Reiterate two 'parts' of SVM:
  * maximum margin hyperplane
  * kernel function / kernel trick
 
