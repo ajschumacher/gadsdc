@@ -30,7 +30,7 @@ Reiterate two 'parts' of SVM:
 
 Note that radial basis function (RBF) and Guassian kernel refer to the same thing.
 
-Activity: Achieve better than 98% training accuracy with a support vector machine (sklearn's SVC will do nicely) on the data in [data.csv](data.csv). Recommendation: First load the data and get something working. You'll probably use some combination of `pandas` `DataFrame`s and `numpy` `ndarray`s. Things that might be helpful: `values` and `shape`. You might also visualize things with matplotlib's `scatter`, for instance. Think about scaling as well. Remember you have access to functions like `mean` (etc.) on `DataFrame`s. Optionally, compare to other `sklearn` algorithms such as logistic regression.
+Activity: Achieve better than 98% training accuracy with a support vector machine (`sklearn`'s `SVC` will do nicely) on the data in [data.csv](data.csv). Recommendation: First load the data and get something working. You'll probably use some combination of `pandas` `DataFrame`s and `numpy` `ndarray`s. Things that might be helpful: `values` and `shape`. Consider the parameters to `SVC`. You might also visualize things with matplotlib's `scatter`, for instance. Think about scaling as well. Remember you have access to functions like `mean` (etc.) on `DataFrame`s. Optionally, compare to other `sklearn` algorithms such as logistic regression.
 
 
 ### After
