@@ -51,6 +51,7 @@
  * [Twitter Data Analytics](http://tweettracker.fulton.asu.edu/tda/) is available free online as a pre-print; it uses Java and MongoDB.
  * [Little Book of R for Time Series](http://a-little-book-of-r-for-time-series.readthedocs.org/en/latest/)
  * [Introduction to Data Technologies](https://www.stat.auckland.ac.nz/~paul/ItDT/) by Paul Murrell "is a book that provides a basic introduction to a number of computer technologies for working with data (HTML, XML, Databases, SQL, regular expressions, and R)".
+ * [Introduction to Data Science](http://jsresearch.net/), developed by Jeffrey Stanton for the Certificate of Data Science program at Syracuse University’s School of Information Studies.
 
 
 ### Articles/Guides:
