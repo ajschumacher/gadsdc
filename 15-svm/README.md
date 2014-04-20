@@ -10,7 +10,7 @@ Optional:
 
 ### Questions
 
- * Imagine an example dataset with two continuous features corresponding to axes in the plane, and binary label. How well would each of the classification algorithms we've seen so far perform with this data?
+ * Imagine an example dataset with two continuous features corresponding to axes in the plane, and binary label. The label is 1 for examples within some distance of the origin, and 0 otherwise. How well would each of the classification algorithms we've seen so far perform with this data?
  * Say you have a red pile of rocks and a blue pile of rocks on the floor in a room. All the red rocks are to the left of all the blue rocks. How many rocks determine the minimum distance between the two piles? (Is it always the same number?)
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
