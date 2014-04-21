@@ -5,6 +5,7 @@
 
 Optional:
 
+ * Read [Ensemble Methods in Machine Learning](http://www.cs.iastate.edu/~jtian/cs573/Papers/Dietterich-ensemble-00.pdf).
  * Read [A few useful things to know about machine learning](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) for the second time. It should be pretty familiar material by now!
 
 
