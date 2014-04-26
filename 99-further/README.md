@@ -52,6 +52,7 @@
  * [Little Book of R for Time Series](http://a-little-book-of-r-for-time-series.readthedocs.org/en/latest/)
  * [Introduction to Data Technologies](https://www.stat.auckland.ac.nz/~paul/ItDT/) by Paul Murrell "is a book that provides a basic introduction to a number of computer technologies for working with data (HTML, XML, Databases, SQL, regular expressions, and R)".
  * [Introduction to Data Science](http://jsresearch.net/), developed by Jeffrey Stanton for the Certificate of Data Science program at Syracuse University’s School of Information Studies.
+ * [Full Stack Python](http://www.fullstackpython.com/) by [Matt Makai](https://twitter.com/mattmakai) describes using Python for web projects.
 
 
 ### Articles/Guides:
