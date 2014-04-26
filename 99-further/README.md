@@ -29,6 +29,7 @@
  * [Machine Learning Mastery](http://machinelearningmastery.com/): "Making programmers awesome at machine learning"
  * Quora's [Machine Learning section](http://www.quora.com/Machine-Learning) has interesting things sometimes.
  * The [Aggregate Knowledge tech blog](http://blog.aggregateknowledge.com/) has some good stuff on large scale and streaming technology.
+ * [Yet Another Data Blog](http://yet-another-data-blog.blogspot.com/), this one from a Zipfian Academy student.
 
 
 ### Books:
