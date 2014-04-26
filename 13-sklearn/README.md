@@ -5,6 +5,7 @@
 
 Optional:
 
+ * Check out a [An introduction to Numpy and Scipy](http://yet-another-data-blog.blogspot.com/) from Scott Shell at UCSB.
  * Go through a brief [Learn pandas](http://nbviewer.ipython.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/01%20-%20Lesson.ipynb) IPython notebook.
  * Take a peak at the [Machine Learning Cheat Sheet (for scikit-learn)](http://peekaboo-vision.blogspot.com/2013/01/machine-learning-cheat-sheet-for-scikit.html).
 
