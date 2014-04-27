@@ -21,7 +21,13 @@ Optional:
 
 Application presentation.
 
+Warm-up coding: Make a `Pipeline` incorporating a `StandardScaler` and an `SVC` to solve the circular data problem from `15-svm`. What training accuracy do the default settings achieve?
+
 Question review.
+
+Ensemble [slides](slides.pdf).
+
+Work through the provided [code and words](tf-idf_forests.md) on tf-idf and random forests in Python.
 
 
 ### After
