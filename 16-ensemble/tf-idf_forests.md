@@ -64,6 +64,8 @@ vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1,5))
 X_train = vectorizer.fit_transform(twenty_train_subset.data)
 ```
 
+Question: How many features do these various methods produce?
+
 
 ## Random Forests
 
@@ -73,7 +75,7 @@ Random Forests are very popular ensemble classifiers. They are relatively simple
 from sklearn.ensemble import RandomForestClassifier
 
 model = RandomForestClassifier(n_estimators=10)
-model.fit(...)
+model.fit(...) # as usual
 ```
 
 We can use predict using our 20-newsgroup dataset above
@@ -88,17 +90,24 @@ X_train = vectorizer.fit_transform(twenty_train_subset.data)
 tree_model = DecisionTreeClassifier()
 print cross_val_score(tree_model, X_train.toarray(), twenty_train_subset.target)
 
-rf_model = RandomForestClassifier(n_estimators=10)
+rf_model = RandomForestClassifier(n_estimators=20)
 print cross_val_score(rf_model, X_train.toarray(), twenty_train_subset.target)
 ```
 
 ### Getting Important Features
 
-Random Forests have a method for quantifying the importance of features.  Unlike with logistic regression, we don't have coeffcients that tell us relative impact. But we can keep track of what features give us the best splits.
+Random Forests can quantify the importance of features.  Unlike with logistic regression, we don't have coeffcients that tell us relative impact. But we can keep track of what features give us the best splits.
 
 ```Python
 rf_model = RandomForestClassifier(n_estimators=10, compute_importances=True)
+rf_model.fit(X_train.toarray(), twenty_train_subset.target)
 
 # This prints the top 10 most important features
-print sorted(zip(rf_model.feature_importances_, vectorizer.get_feature_names()), reverse=True)[:10]
+print sorted(zip(rf_model.feature_importances_, vectorizer.get_feature_names()), reverse=True)[:20]
 ```
+
+Extensions:
+
+ * Experiment with other options to the various pieces used here.
+ * Evaluate performance for various models on the hold-out test set that was initially loaded.
+ * Explore AdaBoost and other methods in the `sklearn.ensemble` module.
