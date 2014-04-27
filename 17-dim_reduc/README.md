@@ -9,6 +9,8 @@ Optional:
 
 ### Questions
 
+ * Why would we prefer not to have correlated features? For OLS regression, what happens when two features are identical? What happens when they're almost identical (highly correlated)?
+ * What are the possible costs/benefits of having more features rather than fewer? What is a "good" number of features?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
