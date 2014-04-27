@@ -11,6 +11,7 @@ Optional:
 
 ### Questions
 
+ * How do the models we've seen deal with variously scaled features? Which are scale invariant?
  * If you want to know the opinion of the country, why is it better to ask more than just a handful of people? What is the problem with a small sample size? What is the advantage of a larger sample size, and does it always hold?
  * How does the idea of sample size correspond / not correspond to modeling? If it's good to "ask more people", is it also good to "ask more models"?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
