@@ -18,7 +18,7 @@ from collections import Counter
 
 iris = load_iris()
 clf = tree.DecisionTreeClassifier()
-clf = clf.fit(iris.data, iris.target)
+clf.fit(iris.data, iris.target)
 
 dot_data = StringIO.StringIO()
 tree.export_graphviz(clf, out_file=dot_data)
