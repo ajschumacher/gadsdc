@@ -128,6 +128,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [Deep Learning Reading List](http://deeplearning.net/reading-list/) from deeplearning.net
  * [Unsupervised Feature Learning and Deep Learning tutorials](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial) from Stanford
  * The well-known [machine learning couse](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) of Andrew Ng; uses MatLab/Octave and focuses on gradient descent from the beginning
+ * Coursera's [Introduction to Recommender Systems](https://www.coursera.org/course/recsys) with Konstan and Ekstrand
 
 
 ### Face to face educational programs:
