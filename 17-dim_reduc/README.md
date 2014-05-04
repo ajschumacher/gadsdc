@@ -27,4 +27,5 @@ Use this data: http://archive.ics.uci.edu/ml/machine-learning-databases/00253/
 
 Optional:
 
+ * Learn about [random projections](http://users.ics.aalto.fi/ella/publications/randproj_kdd.pdf) and try them [in sci-kit](http://scikit-learn.org/stable/modules/random_projection.html).
  * Learn about t-Distributed Stochastic Neighbor Embedding ([t-SNE](http://homepage.tudelft.nl/19j49/t-SNE.html)), another technique that can be great for making complex data visualizable. It helped [win](http://blog.kaggle.com/2012/11/02/t-distributed-stochastic-neighbor-embedding-wins-merck-viz-challenge/) a Kaggle visualization contest, for example.
