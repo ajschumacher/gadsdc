@@ -28,6 +28,9 @@ Arun's new slides be rockin'
 
 [exercise(s)!](https://github.com/arahuja/GADS7/tree/master/src/lesson14/)
 
+Spotify talk:
+http://www.slideshare.net/erikbern/collaborative-filtering-at-spotify-16182818
+
 
 ### After
 
