@@ -2,6 +2,8 @@
 
 Optional:
 
+ * Read an extensive [chapter](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf) on clustering.
+
 
 ### Questions
 
