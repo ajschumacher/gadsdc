@@ -24,6 +24,8 @@ Question review.
 
 [the exercise!](https://github.com/arahuja/GADS7/tree/master/src/lesson12/kmeans)
 
+Shout-out to other clustering methods!
+
 
 ### After
 
