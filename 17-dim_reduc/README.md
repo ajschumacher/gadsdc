@@ -20,7 +20,16 @@ Application presentation.
 
 Question review.
 
-Use this data: http://archive.ics.uci.edu/ml/machine-learning-databases/00253/
+[Slides](slides.pdf) on dimensionality reduction.
+
+Activity:
+
+ * This activity will use the pure spectra data (the reference panel) from the MicroMass dataset. The learning task is to predict whether bacteria are gram positive or gram negative based on mass spectrometry data.
+     * Find the data online and download it.
+     * Load the spectra data. It should be 571 observations of 1,300 features. What is the sparsity of the data?
+     * Load the corresponding metadata and generate from it a label indicating whether each observation is gram positive or gram negative. You'll probably have to refer to the documentation PDF. What percent of observations are gram positive?
+ * Once you have the data loaded, the task is not very hard; just about any method will do well. So to make it a fair fight, use a single depth-one tree. What training accuracy do you get?
+ * Improve the performance of your stump by reducing the dimensionality of the training data via PCA. What training accuracy do you get now?
 
 
 ### After
