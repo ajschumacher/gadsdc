@@ -27,6 +27,8 @@ Question review.
 
 Ensemble [slides](slides.pdf).
 
+And of course there's _stacking_.
+
 Work through the provided [code and words](tf-idf_forests.md) on tf-idf and random forests in Python.
 
 
