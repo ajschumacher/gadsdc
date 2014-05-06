@@ -1,5 +1,7 @@
 ### Before
 
+ * Explore this very nice [k-means IPython Notebook](http://nbviewer.ipython.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb) and be very sure to play with the interactive bit at the bottom with the three buttons: "Reset", "Assign", and "Update".
+
 Optional:
 
  * Read an extensive [chapter](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf) on clustering.
@@ -7,6 +9,8 @@ Optional:
 
 ### Questions
 
+ * In the IPython Notebook reading, how do you mentally cluster the Mickey Mouse dataset? What mental processes are involved?
+ * In the IPython Notebook reading, what do the three buttons on the interactive ("Reset", "Assign", "Update") each do?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
@@ -16,7 +20,6 @@ Application presentation.
 
 Question review.
 
-[KMeans IPython Notebook](http://nbviewer.ipython.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb)
 
 [Text Clustering in Sklearn](http://scikit-learn.org/dev/auto_examples/document_clustering.html)
 
