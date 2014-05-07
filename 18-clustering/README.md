@@ -20,16 +20,33 @@ Application presentation.
 
 Question review.
 
+[Slides](slides.pdf) on clustering, and k-means clustering in particular.
 
-[Text Clustering in Sklearn](http://scikit-learn.org/dev/auto_examples/document_clustering.html)
+The interactive visual aid from the [reading notebook](http://nbviewer.ipython.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb) is probably worth another look.
 
-[Cloudera ML KMeans](http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/)
+Possibly mention hierarchical clustering, with optional fun [example application](http://planspace.org/2013/07/24/clustered-r-squared-heat-maps-in-r/) in `R`.
 
-[the exercise!](https://github.com/arahuja/GADS7/tree/master/src/lesson12/kmeans)
+Talk about (unit) testing, in particular with [nose](https://nose.readthedocs.org/).
 
-Shout-out to other clustering methods!
+With [kmeans_exercise.py](kmeans_exercise.py) and [test_kmeans_exercise.py](test_kmeans_exercise.py) in your working directory:
+
+```bash
+nosetests
+```
+
+To see just the first line, redirect standard error to standard output and use head:
+
+```bash
+nosetests 2>&1 | head -1
+```
+
+Make those tests pass! (Also, there's at least one place where things could be improved/aligned between code and documentation.)
 
 
 ### After
 
 Optional:
+
+ * Complete your `kmeans_exercise.py` (all the tests passing) and submit 
+ * Check out the [sklearn text clustering example](http://scikit-learn.org/dev/auto_examples/document_clustering.html).
+ * Read Cloudera's [post](http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/) on scaling k-means.
