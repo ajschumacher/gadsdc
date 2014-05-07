@@ -47,6 +47,6 @@ Make those tests pass! (Also, there's at least one place where things could be i
 
 Optional:
 
- * Complete your `kmeans_exercise.py` (all the tests passing) and submit 
+ * Complete your `kmeans_exercise.py` (all the tests passing) and submit to the `18-clustering` directory of the class repo.
  * Check out the [sklearn text clustering example](http://scikit-learn.org/dev/auto_examples/document_clustering.html).
  * Read Cloudera's [post](http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/) on scaling k-means.
