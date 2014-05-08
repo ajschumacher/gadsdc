@@ -1,5 +1,7 @@
 ### Before
 
+ * Read this brief Python [essay](https://www.python.org/doc/essays/graphs/) with a simple graph representation and algorithm.
+
 Optional:
 
 

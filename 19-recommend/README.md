@@ -1,6 +1,10 @@
 ### Before
 
+ * Read a [Walkthrough of Hulu's Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system/).
+
 Optional:
+
+ * Read a more in-depth corresponding paper, [Automatic Generation of Recommendations from Data: A Multifaceted Survey](http://www.deakin.edu.au/sebe/it/research/docs/trc11-4.pdf).
 
 
 ### Questions
@@ -16,7 +20,7 @@ Question review.
 
 Arun's new slides be rockin'
 
-[Walkthrough of Hulu's Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system/)
+
 
 [Xavier Amatriain from Netflix](http://www.cikm2013.org/slides/xavier.pdf) (PDF slides)
 
