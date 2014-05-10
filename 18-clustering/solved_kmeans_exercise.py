@@ -15,10 +15,7 @@ from sklearn.metrics.pairwise import euclidean_distances
           SUM_over_i ( (v2[i] - v2[i]) ^ 2 )
 """
 def distance_function(v1, v2):
-  #TODO: IMPLEMENT
-  # Write a function to compute the euclidean
-  # distance between two vectors, v1 and v2
-  return 0
+  return np.sqrt(np.sum((v1 - v2) ** 2))
 
 
 def _compute_labels_and_score(X, centers):
@@ -48,14 +45,20 @@ def _compute_labels_and_score(X, centers):
 
     # set the default value of labels to -1 to be able to detect errors
     labels = -np.ones(n_samples, np.int32)
-    #TODO: IMPLEMENT
-        # Iterate over the samples and the clusters
-        # Compute the distance between samples and cluster center
-        # Check if the cluster center is closer than any other cluster center
-        # Save the closest cluster center
-        # SCORE is the  SUM of distances from point to closest center
-        # So once we've found the closest center, add the distance to score
-
+    # Iterate over the samples and the clusters
+    # Compute the distance between samples and cluster center
+    # Check if the cluster center is closer than any other cluster center
+    # Save the closest cluster center
+    # SCORE is the  SUM of distances from point to closest center
+    # So once we've found the closest center, add the distance to score
+    for sample_idx in xrange(n_samples):
+        min_dist = -1
+        for center_idx in xrange(n_clusters):
+            dist = distance_function(X[sample_idx], centers[center_idx])
+            if min_dist == -1 or dist < min_dist:
+                min_dist = dist
+                labels[sample_idx] = center_idx
+        score += min_dist
     return labels, score
 
 
@@ -88,8 +91,14 @@ def _recompute_centers( X, labels, n_clusters):
 
     # Compute a center for each label
     # For each label, average over samples and features
-    # TODO: IMPLEMENT
-        # Take all of the samples in a cluster and average their features
+
+    # Take all of the samples in a cluster and average their features
+    for i in range(n_samples):
+        for j in range(n_features):
+            centers[labels[i], j] += X[i, j]
+
+    # Normalize by the size of the cluster
+    centers /= n_samples_in_cluster[:, np.newaxis]
 
     return centers
 
@@ -152,8 +161,11 @@ def k_means(X, n_clusters,
           verbose=verbose, random_state=random_state)
         # determine if these results are the best so far
         # If so, update best_centers, best_labels, best_score
-        # TODO: IMPLEMENT
-
+        if best_score is None or score < best_score:
+            #set the best values
+            best_labels = labels.copy()
+            best_centers = centers.copy()
+            best_score = score
     return best_centers, best_labels, best_score
 
 
@@ -210,7 +222,10 @@ def _kmeans_single(X, n_clusters, max_iter=10, verbose=False, random_state=None)
 
         # Is this run better than the last run?
         # If so, update best_centers, best_labels, best_score
-        # TODO: IMPLEMENT
+        if best_score is None or score < best_score:
+            best_labels = labels.copy()
+            best_centers = centers.copy()
+            best_score = score
 
     return best_labels, best_score, best_centers
 
@@ -310,9 +325,8 @@ class KMeans():
 
     def _check_fitted(self):
         if not hasattr(self, "cluster_centers_"):
-            pass # No problem!
-            # raise AttributeError("Model has not been trained yet.")
-            # TODO: Make this work right again.
+            raise AttributeError("Model has not been trained yet.")
+
 
     def fit(self, X, y=None):
         """Compute k-means clustering.
