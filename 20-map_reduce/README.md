@@ -37,6 +37,10 @@ And so on. (See `aws s3 help`, for example.)
 
 (There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html) for [Elastic Map Reduce](https://aws.amazon.com/elasticmapreduce/) as well, but it is quite old, and depends on Ruby 1.8.7.)
 
+#### Streaming map-reduce with Python
+
+This example uses tweets as the data. The tweets were loaded into Python and then written to disk as stringified dicts. There are about 37 gigs of them at the `gadsdc-twitter` s3 bucket. A manageable chunk containing just 11 tweets is available: [https://s3.amazonaws.com/gadsdc-twitter/out03.txt](https://s3.amazonaws.com/gadsdc-twitter/out03.txt)
+
 
 [Yahoo! Hadoop Tutorial](http://developer.yahoo.com/hadoop/tutorial/)
 
