@@ -4,6 +4,7 @@ These materials have been put together by a lot of excellent people. Here are ju
  * Frank Kane
  * Jason Dolatshahi
  * Ed Podojil
+ * Alice Yu
  * Arun Ahuja
  * Aaron Schumacher
 
