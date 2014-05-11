@@ -35,7 +35,11 @@ Arun's new slides be rockin'
 Spotify talk:
 http://www.slideshare.net/erikbern/collaborative-filtering-at-spotify-16182818
 
+[Using Filtering Agents to Improve Prediction Quality in the GroupLens Research Collaborative Filtering System](http://files.grouplens.org/papers/filterbot-CSCW98.pdf)
+
 
 ### After
 
 Optional:
+
+ * 
