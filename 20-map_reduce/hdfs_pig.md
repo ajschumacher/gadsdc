@@ -24,6 +24,7 @@ hdfs dfs -copyFromLocal <local_file> <folder_on_hdfs>
 So let's start by downloading the dataset we want to work with, the salary data from earlier in the course.
 
 ```sh
+# This no longer exists...
 wget http://bit.ly/15OA4Kr
 mv train* train.csv
 ```
@@ -45,7 +46,7 @@ Pig is a query language developed for Hadoop.  Instead of writing raw map-reduce
 
 ###Loading Data
 
-Data is Pig, by default, is assumed to be tabular, something like comma-separated or tab-separated files.  It does not support header rows, so we will need to specify the schema to start.
+Data in Pig, by default, is assumed to be tabular, something like comma-separated or tab-separated files.  It does not support header rows, so we will need to specify the schema to start.
 
 ```Pig
 table = LOAD '/path/to/file' USING PigStorage(',') as (col1:chararray, col2:int);
@@ -150,57 +151,3 @@ dump top_titles;
 - 1) What is the average salary per source?
 - 2) How many job listings are there per ContractType?
 - 3) What is the most frequently occurring Title?
-
-## Hadoop Streaming
-###Mapper
-
-```Python
-#category_mapper.py
-import sys
-
-for line in sys.stdin:
-  line = line.strip()
-  fields = line.split('\t')
-  category = fields[8]
-  salary = fields[10]
-  print '%s\t%s' % (category, salary)
-```
-
-### Reducer
-```
-#category_reducer.py
-
-import sys
-
-current_cat = None
-current_sum = 0 
-current_length = 0
-
-for line in sys.stdin:
-  line = line.strip()
-  category, salary = line.split('\t',1)
-  try:
-    category = category.strip()
-    salary = float(salary)
-  except:
-    continue
-  if current_cat == category:
-    current_length += 1
-    current_sum += salary
-  else:
-    if current_cat:
-      print '%s\t%f' % (current_cat, current_sum/current_length)
-    current_cat = category
-    current_sum = salary
-    current_length = 1
-if current_cat == category:
-  print '%s\t%f' % (current_cat, current_sum/current_length)
-```
-
-###Running it on your command line
-
-```sh
-cat train.tsv | python category_mapper.py
-cat train.tsv | python category_mapper.py | python category_reducer.py
-##Why is the last one wrong?
-cat train.tsv | python category_mapper.py | sort | python category_reducer.py
