@@ -18,8 +18,9 @@ Application presentation.
 
 Question review.
 
-Arun's new slides be rockin'
+[Slides](slides.pdf) on recommender systems.
 
+(The matrix factorization model in the slides is taken from [Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model](http://public.research.att.com/~volinsky/netflix/kdd08koren.pdf).)
 
 
 [Xavier Amatriain from Netflix](http://www.cikm2013.org/slides/xavier.pdf) (PDF slides)
