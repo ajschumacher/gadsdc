@@ -79,3 +79,10 @@ Arun's Spark slides...
 ### After
 
 Optional:
+
+ * [Writing an Hadoop MapReduce Program in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/) is a streaming walk-through that runs Hadoop directly.
+ * [An elastic-mapreduce streaming example with python and ngrams on AWS](http://dbaumgartel.wordpress.com/2014/04/10/an-elastic-mapreduce-streaming-example-with-python-and-ngrams-on-aws/) is another walk-through that uses the EMR CLI.
+ * Check out an [overview](http://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/) of algorithms over map-reduce.
+ * For more on doing joins with map-reduce, see this [thesis](http://www.inf.ed.ac.uk/publications/thesis/online/IM100859.pdf).
+ * [Read about](http://www.cs.stanford.edu/people/ang//papers/nips06-mapreducemulticore.pdf) doing ML faster by using more cores, using map-reduce.
+ * Go through an old Twitter [deck](http://www.slideshare.net/kevinweil/hadoop-pig-and-twitter-nosql-east-2009) on why Pig is good.
