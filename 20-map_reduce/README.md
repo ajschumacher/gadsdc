@@ -51,18 +51,12 @@ cat input | ./map.py | sort | ./reduce.py > output
 You can also run [streaming jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/CLI_CreateStreaming.html).
 
 
-#### Streaming map-reduce with Pig
+#### More abstraction
 
-You can run [Pig jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-pig-launch.html).
+[Pig](http://pig.apache.org/) lets you write [Pig Latin](http://pig.apache.org/docs/r0.7.0/piglatin_ref2.html) scripts for doing complex map-reduce tasks more easily. [Hortonworks](http://hortonworks.com/) has an introductory [tutorial](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/). You can also run [Pig jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-pig-launch.html).
 
 
 [Yahoo! Hadoop Tutorial](http://developer.yahoo.com/hadoop/tutorial/)
-
-[Hadoop and Pig at Twitter](http://www.slideshare.net/kevinweil/hadoop-pig-and-twitter-nosql-east-2009) presentation
-
-[MapReduce Patterns, Algorithms, and Use Cases](http://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/)
-
-[Writing an Hadoop MapReduce Program in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/)
 
 Arun's Spark slides...
 
