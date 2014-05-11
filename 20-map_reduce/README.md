@@ -32,7 +32,7 @@ aws s3 sync s3://mybucket .
 
 And so on. (See `aws s3 help`, for example.)
 
-(There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html) for [Elastic Map Reduce](https://aws.amazon.com/elasticmapreduce/) as well, but it is quite old. It seems to depend on Ruby 1.8.7, for example.)
+(There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html) for [Elastic Map Reduce](https://aws.amazon.com/elasticmapreduce/) as well, but it is quite old, and depends on Ruby 1.8.7.)
 
 
 [Yahoo! Hadoop Tutorial](http://developer.yahoo.com/hadoop/tutorial/)
