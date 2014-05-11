@@ -27,6 +27,7 @@ Now you can easily move files into and out of S3 buckets:
 
 ```bash
 aws s3 cp myfile s3://mybucket
+aws s3 sync s3://mybucket .
 ```
 
 And so on. (See `aws s3 help`, for example.)
