@@ -20,7 +20,7 @@ Question review.
 
 [Slides](slides.pdf) on recommender systems.
 
-(The matrix factorization model in the slides is taken from [Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model](http://public.research.att.com/~volinsky/netflix/kdd08koren.pdf).)
+(The matrix factorization model in the slides is taken from [Matrix Factorization Techniques for Recommender Systems](http://www2.research.att.com/~volinsky/papers/ieeecomputer.pdf).)
 
 
 [Xavier Amatriain from Netflix](http://www.cikm2013.org/slides/xavier.pdf) (PDF slides)
@@ -43,4 +43,4 @@ http://www.slideshare.net/erikbern/collaborative-filtering-at-spotify-16182818
 
 Optional:
 
- * 
+ * For more advanced recommenders, see  [Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model](http://public.research.att.com/~volinsky/netflix/kdd08koren.pdf).)
