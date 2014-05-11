@@ -48,7 +48,12 @@ Here are simple [map](map.py) and [reduce](reduce.py) scripts. You can run local
 cat input | ./map.py | sort | ./reduce.py > output
 ```
 
-You can also run [streaming jobs on Amazon's EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/CLI_CreateStreaming.html).
+You can also run [streaming jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/CLI_CreateStreaming.html).
+
+
+#### Streaming map-reduce with Pig
+
+You can run [Pig jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-pig-launch.html).
 
 
 [Yahoo! Hadoop Tutorial](http://developer.yahoo.com/hadoop/tutorial/)
@@ -86,3 +91,4 @@ Optional:
  * For more on doing joins with map-reduce, see this [thesis](http://www.inf.ed.ac.uk/publications/thesis/online/IM100859.pdf).
  * [Read about](http://www.cs.stanford.edu/people/ang//papers/nips06-mapreducemulticore.pdf) doing ML faster by using more cores, using map-reduce.
  * Go through an old Twitter [deck](http://www.slideshare.net/kevinweil/hadoop-pig-and-twitter-nosql-east-2009) on why Pig is good.
+ * See also [mrjob](https://github.com/Yelp/mrjob), a [Yelp](http://www.yelp.com/), a Python interface to Hadoop map-reduce.
