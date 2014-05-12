@@ -23,6 +23,10 @@ Question review.
 
 Many things can be viewed as graphs even if they aren't obviously graphs to begin with. The transformation is in determining what a node is and what it means to be connected. A not uncommon way to do this is to use co-occurence of words. You could check out a [simple example](http://planspace.org/2013/01/30/visualize-co_occurrence/) using the `igraph` package in `R`.
 
+In Python the go-to for graphs is [networkx](http://networkx.github.io/). They have a [tutorial](networkx.github.io/documentation/latest/tutorial/) to get you started.
+
+Graph visualization can be difficult in part because graphs don't have any terribly natural layout or orientation. [Gephi](https://gephi.org/) is a point-and-click application useful for working with graphs in an interactive manner. It describes itself as "Like Photoshop™ for graphs.".
+
 
 ### After
 
