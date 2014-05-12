@@ -33,3 +33,4 @@ Optional:
  * Check out some of the things [Wolfram](http://www.wolframalpha.com/facebook/) does with Facebook data: [Data Science of the Facebook World](http://blog.stephenwolfram.com/2013/04/data-science-of-the-facebook-world/).
  * Read a Facebook/academic paper on [The Role of Social Networks in Information Diffusion](http://arxiv.org/abs/1201.4145).
  * A fairly interesting read showing how network data can become a story: [When Your Twitter Friend Turns Out To Be The Boston Bomber](http://digg.com/originals/dzhokhar-tsarnaev-twitter-map).
+ * The [book](http://www.cambridge.org/us/academic/subjects/computer-science/algorithmics-complexity-computer-algebra-and-computational-g/networks-crowds-and-markets-reasoning-about-highly-connected-world) _Networks, Crowds, and Markets: Reasoning About a Highly Connected World_ is available [online](http://www.cs.cornell.edu/home/kleinber/networks-book/).
