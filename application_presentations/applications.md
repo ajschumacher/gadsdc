@@ -1,3 +1,4 @@
+ * Facebook Immune System [[1]](http://research.microsoft.com/en-us/projects/ldg/a10-stein.pdf)
  * Google Pagerank [[1]](http://www.nybooks.com/articles/archives/2011/aug/18/how-google-dominates-us/) [[2]](http://en.wikipedia.org/wiki/PageRank)
  * Amazon anticipatory ordering [[1]](http://www.usatoday.com/story/money/business/2014/01/18/amazon-anticipates-orders/4637895/)
  * Predicting crime and criminality [[1]](http://www.npr.org/2011/11/26/142758000/at-lapd-predicting-crimes-before-they-happen) [[2]](http://www.bloomberg.com/news/2013-08-14/how-big-data-could-help-identify-the-next-felon-or-blame-the-wrong-guy.html)
