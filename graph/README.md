@@ -30,3 +30,4 @@ Optional:
 
  * For a very gentle and traditional introduction to graphs, check out this [chapter](http://www.mhhe.com/math/ltbmath/bennett_nelson/conceptual/netgraphs/graphs.htm) featuring [Pólya-style](http://en.wikipedia.org/wiki/How_to_Solve_It) exercises.
  * For a little more mathematics in connection with network graphs, see [The mathematics of networks](http://www-personal.umich.edu/~mejn/papers/palgrave.pdf).
+ * Check out some of the things [Wolfram](http://www.wolframalpha.com/facebook/) does with Facebook data: [Data Science of the Facebook World](http://blog.stephenwolfram.com/2013/04/data-science-of-the-facebook-world/).
