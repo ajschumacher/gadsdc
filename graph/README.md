@@ -25,6 +25,14 @@ Many things can be viewed as graphs even if they aren't obviously graphs to begi
 
 In Python the go-to for graphs is [networkx](http://networkx.github.io/). They have a [tutorial](networkx.github.io/documentation/latest/tutorial/) to get you started.
 
+Super-mini `networkx` demo:
+
+```Python
+import networkx as nx
+g = nx.florentine_families_graph()
+sorted(nx.eigenvector_centrality(g).items(), key=lambda x: x[1])
+```
+
 Graph visualization can be difficult in part because graphs don't have any terribly natural layout or orientation. [Gephi](https://gephi.org/) is a point-and-click application useful for working with graphs in an interactive manner. It describes itself as "Like Photoshop™ for graphs.".
 
 An easy way to get a graph into Gephi is to create CSV files for the nodes and edges. It's easiest if you follow Gephi's conventions for the column names:
