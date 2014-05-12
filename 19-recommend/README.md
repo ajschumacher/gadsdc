@@ -32,7 +32,7 @@ There are also recommendation system libraries:
 
 #### Activity
 
-We have [user_brand.csv] in the [gadsdata repo](https://github.com/ajschumacher/gadsdata), which includes 23,803 rows (no header) of `user,brand` data, indicating a user likes a brand. Write a recommender to recommend five brands, given a user (or equivalently, a set of brands).
+We have `user_brand.csv` in the [gadsdata repo](https://github.com/ajschumacher/gadsdata), which includes 23,803 rows (no header) of `user,brand` data, indicating a user likes a brand. Write a recommender to recommend five brands, given a user (or equivalently, a set of brands).
 
  * There are many ways to do this, but one is to frame it as user-based collaborative filtering.
      * Step one: Find users similar to the target user (or set of brands).
