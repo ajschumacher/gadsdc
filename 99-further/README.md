@@ -55,6 +55,7 @@
  * [Introduction to Data Science](http://jsresearch.net/), developed by Jeffrey Stanton for the Certificate of Data Science program at Syracuse University’s School of Information Studies.
  * [Full Stack Python](http://www.fullstackpython.com/) by [Matt Makai](https://twitter.com/mattmakai) describes using Python for web projects.
  * [Introductory Graph Theory](http://www.amazon.com/Introductory-Graph-Theory-Gary-Chartrand/dp/0486247759) is an inexpensive text to pick up.
+ * The [book](http://www.cambridge.org/us/academic/subjects/computer-science/algorithmics-complexity-computer-algebra-and-computational-g/networks-crowds-and-markets-reasoning-about-highly-connected-world) _Networks, Crowds, and Markets: Reasoning About a Highly Connected World_ is available [online](http://www.cs.cornell.edu/home/kleinber/networks-book/).
 
 
 ### Articles/Guides:
