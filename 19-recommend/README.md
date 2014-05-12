@@ -30,6 +30,22 @@ There are also recommendation system libraries:
  * [LensKit](http://lenskit.grouplens.org/): a Java-based open source toolkit for building, researching, and studying recommender systems
 
 
+#### Activity
+
+We have [user_brand.csv] in the [gadsdata repo](https://github.com/ajschumacher/gadsdata), which includes 23,803 rows (no header) of `user,brand` data, indicating a user likes a brand. Write a recommender to recommend five brands, given a user (or equivalently, a set of brands).
+
+ * There are many ways to do this, but one is to frame it as user-based collaborative filtering.
+     * Step one: Find users similar to the target user (or set of brands).
+     * Step two: Recommend things that similar users like.
+ * Alternatively, you could do item-based collaborative filtering.
+     * Step one: Determine similarity of brands to one another (via users).
+     * Step two: Recommend things that are similar to what the target user likes.
+
+It will probably be easiest to use a [Jaccard](http://en.wikipedia.org/wiki/Jaccard_index)-like metric for similarity, since the data is all just yes or no inclusion, rather than proper scores.
+
+The data is typical in that some things are much more prevalent than others. Think about how to give recommendations that are not always the same. Ideally the recommendations will actually be personalized, rather than just predicting the most popular items.
+
+
 ### After
 
 Optional:
