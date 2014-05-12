@@ -41,7 +41,7 @@ We have [user_brand.csv] in the [gadsdata repo](https://github.com/ajschumacher/
      * Step one: Determine similarity of brands to one another (via users).
      * Step two: Recommend things that are similar to what the target user likes.
 
-It will probably be easiest to use a [Jaccard](http://en.wikipedia.org/wiki/Jaccard_index)-like metric for similarity, since the data is all just yes or no inclusion, rather than proper scores.
+Think about how to load and organize the data. It will probably be easiest to use a [Jaccard](http://en.wikipedia.org/wiki/Jaccard_index)-like metric for similarity, since the data is all just yes or no inclusion, rather than proper scores.
 
 The data is typical in that some things are much more prevalent than others. Think about how to give recommendations that are not always the same. Ideally the recommendations will actually be personalized, rather than just predicting the most popular items.
 
