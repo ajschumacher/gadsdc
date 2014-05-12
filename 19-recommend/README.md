@@ -20,27 +20,22 @@ Question review.
 
 [Slides](slides.pdf) on recommender systems.
 
-(The matrix factorization model in the slides is taken from [Matrix Factorization Techniques for Recommender Systems](http://www2.research.att.com/~volinsky/papers/ieeecomputer.pdf).)
+(The matrix factorization model in the slides is taken from [Matrix Factorization Techniques for Recommender Systems](http://www2.research.att.com/~volinsky/papers/ieeecomputer.pdf).) For more, and some code and explanation on implementing solutions with alternating least squares, see [Alternating Least Squares Method for Collaborative Filtering](http://bugra.github.io/work/notes/2014-04-19/alternating-least-squares-method-for-collaborative-filtering/).
 
+There are also recommendation system libraries:
 
-[Xavier Amatriain from Netflix](http://www.cikm2013.org/slides/xavier.pdf) (PDF slides)
-
-[Yhat Beer Recommendation](http://nbviewer.ipython.org/gist/glamp/20a18d52c539b87de2af)
-
-[Mendeley RecSys](http://mendeley.github.io/mrec/)
-
-[Crab: a recommender framework in Python](http://muricoca.github.io/crab/tutorial.html)
-
-[exercise(s)!](https://github.com/arahuja/GADS7/tree/master/src/lesson14/)
-
-Spotify talk:
-http://www.slideshare.net/erikbern/collaborative-filtering-at-spotify-16182818
-
-[Using Filtering Agents to Improve Prediction Quality in the GroupLens Research Collaborative Filtering System](http://files.grouplens.org/papers/filterbot-CSCW98.pdf)
+ * [mrec](http://mendeley.github.io/mrec/): a Python package developed at [Mendeley](http://www.mendeley.com/) to support recommender systems development and evaluation
+ * [crab](http://muricoca.github.io/crab/): a recommender framework in Python
+     * `crab` seems to be unfortunately extinct, but some of the materials could still be worthwhile.
+ * [LensKit](http://lenskit.grouplens.org/): a Java-based open source toolkit for building, researching, and studying recommender systems
 
 
 ### After
 
 Optional:
 
+ * It might be fun to check out yhat's notebook on a [beer recommender](http://nbviewer.ipython.org/gist/glamp/20a18d52c539b87de2af).
+ * An engineer from Spotify gave an interesting [talk](http://www.slideshare.net/erikbern/collaborative-filtering-at-spotify-16182818) about how they do collaborative filtering.
  * For more advanced recommenders, see  [Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model](http://public.research.att.com/~volinsky/netflix/kdd08koren.pdf).)
+ * For an interesting data-enrichment technique, see [Using Filtering Agents to Improve Prediction Quality in the GroupLens Research Collaborative Filtering System](http://files.grouplens.org/papers/filterbot-CSCW98.pdf).
+ * And there's Xavier Amatriain's graphic-rich [presentation](http://www.cikm2013.org/slides/xavier.pdf) on recommending at Netflix.
