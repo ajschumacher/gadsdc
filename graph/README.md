@@ -27,6 +27,11 @@ In Python the go-to for graphs is [networkx](http://networkx.github.io/). They h
 
 Graph visualization can be difficult in part because graphs don't have any terribly natural layout or orientation. [Gephi](https://gephi.org/) is a point-and-click application useful for working with graphs in an interactive manner. It describes itself as "Like Photoshop™ for graphs.".
 
+An easy way to get a graph into Gephi is to create CSV files for the nodes and edges. It's easiest if you follow Gephi's conventions for the column names:
+
+ * nodes file: `Id` and `label` will correspond to how nodes are referred to in the edges file and what is displayed in the visualization when labels are turned on. (Possibly the same thing.) Additional columns can be used to control visual properties of the nodes, as adjusted in the UI.
+ * edges file: `source` and `target` refer to node IDs from the nodes file. They edges are directed unless there is a column `type` with values `undirected`. `weight` will be automatically used for edge weights. Additional columns can also be included.
+
 
 ### After
 
