@@ -1,8 +1,9 @@
 ### Before
 
+ * Check out the [original map-reduce paper](http://research.google.com/archive/mapreduce.html) from Google.
+
 Optional:
 
- * Check out the [original map-reduce paper](http://research.google.com/archive/mapreduce.html) from Google.
  * Install [VirtualBox](https://www.virtualbox.org/) so you can run virtual machines on your local computer. Then download an image with Hadoop set up for you to play with, such as Cloudera's [QuickStart VM](http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html?productID=F6mO278Rvo). Alternatively, you could install Hadoop on your local machine directly. There's an [walk-through](http://blog.tundramonkey.com/2013/02/24/setting-up-hadoop-on-osx-mountain-lion) for installing it on a Mac with `brew`.
 
 
@@ -16,6 +17,7 @@ Optional:
 Application presentation.
 
 Question review.
+
 
 #### The AWS Command Line Interface (CLI)
 
@@ -55,12 +57,12 @@ You can also run [streaming jobs on Amazon EMR](http://docs.aws.amazon.com/Elast
 
 [Pig](http://pig.apache.org/) lets you write [Pig Latin](http://pig.apache.org/docs/r0.7.0/piglatin_ref2.html) scripts for doing complex map-reduce tasks more easily. [Hortonworks](http://hortonworks.com/) has an introductory [tutorial](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/). You can also run [Pig jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-pig-launch.html).
 
+Hive.
+
+Spark.
+
 
 [Yahoo! Hadoop Tutorial](http://developer.yahoo.com/hadoop/tutorial/)
-
-Arun's Spark slides...
-
-[Spark on EC2](spark_on_ec2.md)
 
 [Spark Examples](https://spark.incubator.apache.org/examples.html)
 
@@ -72,7 +74,7 @@ Arun's Spark slides...
 
 [Ad Click Prediction: a View from the Trenches at Google](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41159.pdf)
 
- * [Fast Logistic Regression: Mahout](https://cwiki.apache.org/MAHOUT/logistic-regression.html)
+[Fast Logistic Regression: Mahout](https://cwiki.apache.org/MAHOUT/logistic-regression.html)
 
 
 ### After
