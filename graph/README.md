@@ -26,3 +26,6 @@ Many things can be viewed as graphs even if they aren't obviously graphs to begi
 ### After
 
 Optional:
+
+ * For a very gentle and traditional introduction to graphs, check out this [chapter](http://www.mhhe.com/math/ltbmath/bennett_nelson/conceptual/netgraphs/graphs.htm) featuring [Pólya-style](http://en.wikipedia.org/wiki/How_to_Solve_It) exercises.
+ * For a little more mathematics in connection with network graphs, see [The mathematics of networks](http://www-personal.umich.edu/~mejn/papers/palgrave.pdf).
