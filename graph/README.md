@@ -1,9 +1,10 @@
 ### Before
 
- * Read this brief Python [essay](https://www.python.org/doc/essays/graphs/) with a simple graph representation and algorithm.
+ * Read this post on [Graphs and their Representation](http://www.stoimen.com/blog/2012/08/31/computer-algorithms-graphs-and-their-representation/) to pick up some terms and the common methods for representating graphs.
 
 Optional:
 
+ * Read this brief [essay](https://www.python.org/doc/essays/graphs/) with a simple graph representation and algorithm implementations in Python.
  * Read [Graph-based Features for Supervised Link Prediction](http://www.kaggle.com/blobs/download/forum-message-attachment-files/183/supervised_link_prediction.pdf), a paper on extracting features from graphs for predictive modeling, for a particular example.
 
 
