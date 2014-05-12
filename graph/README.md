@@ -32,3 +32,4 @@ Optional:
  * For a little more mathematics in connection with network graphs, see [The mathematics of networks](http://www-personal.umich.edu/~mejn/papers/palgrave.pdf).
  * Check out some of the things [Wolfram](http://www.wolframalpha.com/facebook/) does with Facebook data: [Data Science of the Facebook World](http://blog.stephenwolfram.com/2013/04/data-science-of-the-facebook-world/).
  * Read a Facebook/academic paper on [The Role of Social Networks in Information Diffusion](http://arxiv.org/abs/1201.4145).
+ * A fairly interesting read showing how network data can become a story: [When Your Twitter Friend Turns Out To Be The Boston Bomber](http://digg.com/originals/dzhokhar-tsarnaev-twitter-map).
