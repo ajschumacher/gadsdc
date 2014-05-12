@@ -54,6 +54,7 @@
  * [Introduction to Data Technologies](https://www.stat.auckland.ac.nz/~paul/ItDT/) by Paul Murrell "is a book that provides a basic introduction to a number of computer technologies for working with data (HTML, XML, Databases, SQL, regular expressions, and R)".
  * [Introduction to Data Science](http://jsresearch.net/), developed by Jeffrey Stanton for the Certificate of Data Science program at Syracuse University’s School of Information Studies.
  * [Full Stack Python](http://www.fullstackpython.com/) by [Matt Makai](https://twitter.com/mattmakai) describes using Python for web projects.
+ * [Introductory Graph Theory](http://www.amazon.com/Introductory-Graph-Theory-Gary-Chartrand/dp/0486247759) is an inexpensive text to pick up.
 
 
 ### Articles/Guides:
