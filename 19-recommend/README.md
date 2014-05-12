@@ -37,5 +37,6 @@ Optional:
  * It might be fun to check out yhat's notebook on a [beer recommender](http://nbviewer.ipython.org/gist/glamp/20a18d52c539b87de2af).
  * An engineer from Spotify gave an interesting [talk](http://www.slideshare.net/erikbern/collaborative-filtering-at-spotify-16182818) about how they do collaborative filtering.
  * For more advanced recommenders, see  [Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model](http://public.research.att.com/~volinsky/netflix/kdd08koren.pdf).)
+ * See also [Collaborative Filtering for Implicit Feedback Datasets](http://labs.yahoo.com/files/HuKorenVolinsky-ICDM08.pdf).
  * For an interesting data-enrichment technique, see [Using Filtering Agents to Improve Prediction Quality in the GroupLens Research Collaborative Filtering System](http://files.grouplens.org/papers/filterbot-CSCW98.pdf).
  * And there's Xavier Amatriain's graphic-rich [presentation](http://www.cikm2013.org/slides/xavier.pdf) on recommending at Netflix.
