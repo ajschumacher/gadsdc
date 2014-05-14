@@ -74,7 +74,7 @@ Totally separate from Hadoop, [MongoDB](http://www.mongodb.org/) has an internal
 
 Cloudera's [Impala](http://www.cloudera.com/content/cloudera/en/products-and-services/cdh/impala.html) is inspired by Google's [Dremel](http://research.google.com/pubs/pub36632.html). Of course there's also [Drill](http://incubator.apache.org/drill/). And if you want to get Dremel straight from the source, you can buy it as a service from Google as [BigQuery](https://cloud.google.com/products/bigquery/).
 
-[Spark](http://spark.apache.org/) keeps things in memory to be much faster. This is especially useful for iterative processes. See, for example, their [examples](https://spark.incubator.apache.org/examples.html), which feature their nice Python API. There's also [Shark](http://shark.cs.berkeley.edu/), which gives much faster HiveQL query performance.
+[Spark](http://spark.apache.org/) keeps things in memory to be much faster. This is especially useful for iterative processes. See, for example, their [examples](https://spark.incubator.apache.org/examples.html), which feature their nice Python API. There's also [Shark](http://shark.cs.berkeley.edu/), which gives much faster HiveQL query performance. You can [run Spark/Shark on EMR](https://aws.amazon.com/articles/Elastic-MapReduce/4926593393724923) too.
 
 
 #### `sklearn` for huge data?
