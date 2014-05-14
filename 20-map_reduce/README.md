@@ -69,17 +69,17 @@ There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/
 Totally separate from Hadoop, [MongoDB](http://www.mongodb.org/) has an internal implementation of map-reduce.
 
 
-Spark.
+[Spark](http://spark.apache.org/).
 
 [Spark Examples](https://spark.incubator.apache.org/examples.html)
 
 
-Shark.
+[Shark](http://shark.cs.berkeley.edu/).
 
 
-Mahout
+[Mahout](http://mahout.apache.org/)
 
-MLlib
+[MLlib](http://spark.apache.org/docs/0.9.0/mllib-guide.html)
 
 
 ### After
