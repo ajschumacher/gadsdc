@@ -55,14 +55,19 @@ You can run cluster [streaming jobs on Amazon EMR](http://docs.aws.amazon.com/El
 
 There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html) for [Elastic Map Reduce](https://aws.amazon.com/elasticmapreduce/) as well, but it a bit old, and depends on Ruby 1.8.7.
 
-[mrjob](https://github.com/Yelp/mrjob) is a Python library from [Yelp](http://www.yelp.com/) that wraps map-reduce and can run jobs on EMR.
-
 
 #### More abstraction
 
 [Pig](http://pig.apache.org/) lets you write [Pig Latin](http://pig.apache.org/docs/r0.7.0/piglatin_ref2.html) scripts for doing complex map-reduce tasks more easily. [Hortonworks](http://hortonworks.com/) has an introductory [tutorial](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/). [Mortar](http://www.mortardata.com/) has a [tutorial](http://help.mortardata.com/technologies/pig/learn_pig) as well. You can also run [Pig jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-pig-launch.html).
 
 [Hive](http://hive.apache.org/) let's you write [HiveQL](https://cwiki.apache.org/confluence/display/Hive/LanguageManual), which is very close to SQL. You can also run [Hive jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-hive.html).
+
+ * [mrjob](https://github.com/Yelp/mrjob) is a Python library from [Yelp](http://www.yelp.com/) that wraps map-reduce and can run jobs on EMR.
+ * [Luigi](https://github.com/spotify/luigi) is a Python library from [Spotify](https://www.spotify.com/us/) that lets you write map-reduce workflows more easily.
+ * [Cascading](http://www.cascading.org/) is a layer on top of Hadoop that has further layers such as [Scalding](https://github.com/twitter/scalding) ([Scala](http://www.scala-lang.org/)) from [Twitter](https://twitter.com/) - yet another way to simplify working with map-reduce.
+
+Totally separate from Hadoop, [MongoDB](http://www.mongodb.org/) has an internal implementation of map-reduce.
+
 
 Spark.
 
