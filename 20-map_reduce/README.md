@@ -20,7 +20,7 @@ Question review.
 
 [Slides](slides.pdf) on map-reduce.
 
-Walk-through for doing map-reduce on Amazon Elastic MapReduce:
+Walk-through for doing map-reduce on Amazon Elastic MapReduce (EMR):
 
 #### The AWS Command Line Interface (CLI)
 
@@ -60,7 +60,7 @@ There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/
 
 [Pig](http://pig.apache.org/) lets you write [Pig Latin](http://pig.apache.org/docs/r0.7.0/piglatin_ref2.html) scripts for doing complex map-reduce tasks more easily. [Hortonworks](http://hortonworks.com/) has an introductory [tutorial](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/). [Mortar](http://www.mortardata.com/) has a [tutorial](http://help.mortardata.com/technologies/pig/learn_pig) as well. You can also run [Pig jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-pig-launch.html).
 
-[Hive](http://hive.apache.org/) let's you write [HiveQL](https://cwiki.apache.org/confluence/display/Hive/LanguageManual), which is very close to SQL. You can also run [Hive jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-hive.html).
+[Hive](http://hive.apache.org/) adds some more structure to data and let's you write [HiveQL](https://cwiki.apache.org/confluence/display/Hive/LanguageManual), which is very close to SQL. You can also run [Hive jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-hive.html).
 
  * [mrjob](https://github.com/Yelp/mrjob) is a Python library from [Yelp](http://www.yelp.com/) that wraps map-reduce and can run jobs on EMR.
  * [Luigi](https://github.com/spotify/luigi) is a Python library from [Spotify](https://www.spotify.com/us/) that lets you write map-reduce workflows more easily.
@@ -74,7 +74,7 @@ Totally separate from Hadoop, [MongoDB](http://www.mongodb.org/) has an internal
 
 Cloudera's [Impala](http://www.cloudera.com/content/cloudera/en/products-and-services/cdh/impala.html) is inspired by Google's [Dremel](http://research.google.com/pubs/pub36632.html). Of course there's also [Drill](http://incubator.apache.org/drill/). And if you want to get Dremel straight from the source, you can buy it as a service from Google as [BigQuery](https://cloud.google.com/products/bigquery/).
 
-[Spark](http://spark.apache.org/) builds on Hive considerably, keeping things in memory to be much faster. This is especially useful for iterative processes. See, for example, their [examples](https://spark.incubator.apache.org/examples.html), which feature their nice Python API. There's also [Shark](http://shark.cs.berkeley.edu/), which .
+[Spark](http://spark.apache.org/) keeps things in memory to be much faster. This is especially useful for iterative processes. See, for example, their [examples](https://spark.incubator.apache.org/examples.html), which feature their nice Python API. There's also [Shark](http://shark.cs.berkeley.edu/), which gives much faster HiveQL query performance.
 
 
 #### `sklearn` for huge data?
@@ -90,7 +90,7 @@ Not exactly. But there are some projects that step in that direction:
 
 Optional:
 
- * UC Berkeley's [AMP Camp](http://ampcamp.berkeley.edu/) provides great resources for learning a range of technologies including Spark.
+ * UC Berkeley's [AMP Camp](http://ampcamp.berkeley.edu/) provides great resources for learning a range of technologies including Spark. (Berkeley's [AMP Lab](https://amplab.cs.berkeley.edu/software/) is responsible for a lot of these cool technologies.)
  * This [paper](http://arxiv.org/pdf/1402.6076v1.pdf) describes large-scale machine learning in a very real-world advertising setting.
  * See also [Ad Click Prediction: a View from the Trenches at Google](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41159.pdf).
  * You might be interested in the classic [Yahoo! Hadoop Tutorial](http://developer.yahoo.com/hadoop/tutorial/).
