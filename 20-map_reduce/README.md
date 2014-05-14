@@ -65,21 +65,25 @@ There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/
  * [mrjob](https://github.com/Yelp/mrjob) is a Python library from [Yelp](http://www.yelp.com/) that wraps map-reduce and can run jobs on EMR.
  * [Luigi](https://github.com/spotify/luigi) is a Python library from [Spotify](https://www.spotify.com/us/) that lets you write map-reduce workflows more easily.
  * [Cascading](http://www.cascading.org/) is a layer on top of Hadoop that has further layers such as [Scalding](https://github.com/twitter/scalding) ([Scala](http://www.scala-lang.org/)) from [Twitter](https://twitter.com/) - yet another way to simplify working with map-reduce.
+ * [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki) provides an interface for running `R` on Hadoop.
 
 Totally separate from Hadoop, [MongoDB](http://www.mongodb.org/) has an internal implementation of map-reduce.
 
 
-[Spark](http://spark.apache.org/).
+#### Beyond Map-Reduce
 
-[Spark Examples](https://spark.incubator.apache.org/examples.html)
+Cloudera's [Impala](http://www.cloudera.com/content/cloudera/en/products-and-services/cdh/impala.html) is inspired by Google's [Dremel](http://research.google.com/pubs/pub36632.html). Of course there's also [Drill](http://incubator.apache.org/drill/). And if you want to get Dremel straight from the source, you can buy it as a service from Google as [BigQuery](https://cloud.google.com/products/bigquery/).
+
+[Spark](http://spark.apache.org/) builds on Hive considerably, keeping things in memory to be much faster. This is especially useful for iterative processes. See, for example, their [examples](https://spark.incubator.apache.org/examples.html), which feature their nice Python API. There's also [Shark](http://shark.cs.berkeley.edu/), which .
 
 
-[Shark](http://shark.cs.berkeley.edu/).
+#### `sklearn` for huge data?
 
+Not exactly. But there are some projects that step in that direction:
 
-[Mahout](http://mahout.apache.org/)
+[Mahout](http://mahout.apache.org/) is a project for doing large scale machine learning. It was originally mostly map-reduce oriented, but in April 2014 announced a move toward Spark.
 
-[MLlib](http://spark.apache.org/docs/0.9.0/mllib-guide.html)
+[MLlib](http://spark.apache.org/docs/0.9.0/mllib-guide.html) is the machine learning functionality directly on Spark, which is actively growing.
 
 
 ### After
