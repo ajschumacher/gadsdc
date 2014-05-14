@@ -53,7 +53,7 @@ cat input | ./map.py | sort | ./reduce.py > output
 
 You can run cluster [streaming jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/CLI_CreateStreaming.html) through the AWS console.
 
-There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html) for [Elastic Map Reduce](https://aws.amazon.com/elasticmapreduce/) as well, but it a bit old, and depends on Ruby 1.8.7.
+There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html) for [Elastic Map Reduce](https://aws.amazon.com/elasticmapreduce/) as well, but it's a bit old, and depends on Ruby 1.8.7.
 
 
 #### More abstraction
