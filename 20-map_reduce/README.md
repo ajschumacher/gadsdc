@@ -58,9 +58,9 @@ There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/
 
 #### More abstraction
 
-[Pig](http://pig.apache.org/) lets you write [Pig Latin](http://pig.apache.org/docs/r0.7.0/piglatin_ref2.html) scripts for doing complex map-reduce tasks more easily. [Hortonworks](http://hortonworks.com/) has an introductory [tutorial](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/). [Mortar](http://www.mortardata.com/) has a [tutorial](http://help.mortardata.com/technologies/pig/learn_pig) as well. You can also run [Pig jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-pig-launch.html).
+[Pig](http://pig.apache.org/) lets you write [Pig Latin](http://pig.apache.org/docs/r0.7.0/piglatin_ref2.html) scripts for doing complex map-reduce tasks more easily. [Hortonworks](http://hortonworks.com/) has an introductory [tutorial](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/). [Mortar](http://www.mortardata.com/) has a [tutorial](http://help.mortardata.com/technologies/pig/learn_pig) as well. You can also run [Pig on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-pig-launch.html).
 
-[Hive](http://hive.apache.org/) adds some more structure to data and let's you write [HiveQL](https://cwiki.apache.org/confluence/display/Hive/LanguageManual), which is very close to SQL. You can also run [Hive jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-hive.html).
+[Hive](http://hive.apache.org/) adds some more structure to data and let's you write [HiveQL](https://cwiki.apache.org/confluence/display/Hive/LanguageManual), which is very close to SQL. You can also run [Hive on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-hive.html).
 
  * [mrjob](https://github.com/Yelp/mrjob) is a Python library from [Yelp](http://www.yelp.com/) that wraps map-reduce and can run jobs on EMR.
  * [Luigi](https://github.com/spotify/luigi) is a Python library from [Spotify](https://www.spotify.com/us/) that lets you write map-reduce workflows more easily.
