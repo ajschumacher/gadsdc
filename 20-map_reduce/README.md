@@ -53,6 +53,14 @@ cat input | ./map.py | sort | ./reduce.py > output
 
 You can run cluster [streaming jobs on Amazon EMR](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/CLI_CreateStreaming.html) through the AWS console.
 
+More things to try implementing this way:
+
+ * What were the most popular hashtags?
+ * How many tweets came in each per hour?
+     * Did the stream get rate-limited?
+ * What tweets / which people were most re-tweeted?
+ * Can you induce a graph of from "conversations"?
+
 There is a [command line interface](http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-reference.html) for [Elastic Map Reduce](https://aws.amazon.com/elasticmapreduce/) as well, but it's a bit old, and depends on Ruby 1.8.7.
 
 
