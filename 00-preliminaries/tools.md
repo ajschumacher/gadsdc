@@ -36,7 +36,7 @@ For each, you can go as deep as you need to feel comfortable:
 
 ### Install
 
- * You really want the Anaconda `python` distribution. [Download and install](http://continuum.io/downloads) as appropriate for your system.
+ * You really want the Anaconda `python` distribution. [Download and install](http://continuum.io/downloads) as appropriate for your system. We're going to use Python 2.7x (rather than 3.x) for this course.
 
 ### Gentle Introduction
 
