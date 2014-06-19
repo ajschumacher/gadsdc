@@ -28,7 +28,7 @@ There are a lot of things you could try in this process. This will list some of 
 
  * Split the `train.csv` data into your own training and test sets. Use one as your training set and the other for validation. At the end you may train your final parameters on the full dataset.
 
- * Use cross-validation to evaluate your model performance. The `DAAG` `R` package includes `cv.lm` function which you might investigate. It may or may not be better than using your own.
+ * Use cross-validation to evaluate your model performance. The `boot` `R` package includes a `cv.glm` function which you might investigate. (Note that `cv.glm` requires that you build your linear model using `glm` rather than `lm`.) Or, you can build your own framework for cross-validation.
 
  * Build an OLS-fitted linear regression model using available categorical variables. Try adding and dropping features and see if they improve the model. Try adding interaction effects to improve your model. (Note: Be aware of the computational overhead!)
 
