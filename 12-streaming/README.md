@@ -1,7 +1,7 @@
 ### Before
 
  * Read [The Unreasonable Effectiveness of Data](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/35179.pdf). This is an interesting article from which to think about the costs and benefits of working with larger data sets.
- * Install [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit). This isn't always easy, but give it a shot.
+ * Install [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit). This isn't always easy, but give it a shot. Here are instructions for [Mac OS X](http://planspace.org/2013/02/02/install-vowpal-wabbit-on-mac-os-x/) and [Windows](http://mlwave.com/install-vowpal-wabbit-on-windows-and-cygwin/).
 
 Optional:
 
