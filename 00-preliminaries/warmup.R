@@ -17,6 +17,9 @@
 x <- rnorm(100)
 y <- rnorm(100)
 
+'%==%' <- function(x, y)
+{ result = isTRUE(all.equal(x, y)) }
+
 stopifnot(my.mean(x) == mean(x))
 stopifnot(my.var(x) == var(x))
 stopifnot(my.cov(x, y) == cov(x, y))
