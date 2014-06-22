@@ -9,5 +9,6 @@ These materials have been put together by a lot of excellent people. Here are ju
  * Aaron Schumacher
  * Tom Shen
  * Max Richman
+ * Kevin Markham
 
 And many, many others who have produced the various resources that are also included!
