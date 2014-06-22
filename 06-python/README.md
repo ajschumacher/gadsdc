@@ -33,7 +33,13 @@ Exercise: [Pair](http://en.wikipedia.org/wiki/Pair_programming) up and write Fiz
 
 Introduce IPython (with `?`, tab completion, `%time` and `%timeit`, `%run`, `%paste`).
 
-Stupid Python tricks: `from __future__ import division`, mutable lists, `str.join`, etc.
+Stupid Python tricks:
+
+ * see again: `import this`
+ * useful: `from __future__ import division`
+ * funny: `from __future__ import braces`
+ * dangerous: mutable lists
+ * unique: `str.join` for joining lists
 
 Exercise: Pair up and use IPython to read in the linear regression assignment (salary) training data, using the `csv` module. Use the Python docs! Use Python to calculate the average salary.
 
