@@ -15,6 +15,7 @@ Public questions/comments/ideas:
 Concrete fixes/improvements/additions:
 
  * Fork the repo on github, create a topic branch, and when ready submit a nice pull request through the github interface.
+     * Even if you're a committer, still introduce changes to `master` via github pull requests. You can merge in your own pull request - the purpose is to keep things clear and to notify other committers of your work. The only thing you can skip a PR on would be _very_ minor typo fixes.
  * There's no hard and fast style guide, but please consider the following:
      * Try to be consistent with existing files. For example, all the class READMEs include certain sections formatted in particular ways.
      * In markdown files, write markdown. Remember that markdown doesn't care much about your single newlines, so what looks like a list in a text editor may not look like a list when viewed on github. Don't leave URLs bare, write markdown links. Declare the language of code blocks. And so on.
