@@ -1,6 +1,7 @@
 ### Before
 
-Read [The Gospel According to Tufte](http://www-personal.umich.edu/~jpboyd/eng403_chap2_tuftegospel.pdf), which is the best freely available summary of Tufte that I've been able to find.
+ * Read [That's Funny... A window on data can be a window on discovery](http://www.americanscientist.org/issues/pub/2009/4/thats-funny).
+ * Read [The Gospel According to Tufte](http://www-personal.umich.edu/~jpboyd/eng403_chap2_tuftegospel.pdf), which is the best freely available summary of Tufte that I've been able to find.
 
 Optional:
 
