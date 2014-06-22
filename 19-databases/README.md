@@ -4,16 +4,12 @@
 
 Optional:
 
- * Install a JSON viewer for your browser, such as [JSONview](http://jsonview.com/).
  * Go through Zed Shaw's work-in-progress [Learn SQL the Hard Way](http://sql.learncodethehardway.org/book/), which will still take you through even more SQL with SQLite that we'll do in class.
- * Read this chapter from the Bad Data Handbook: "Data intended for human consumption, not machine consumption"
 
 
 ### Questions
 
  * What are the negatives of "tidy data"? When would it not be a good idea to have data in a "tidy" format? 
- * What data formats have you worked with? What are their strengths and weaknesses?
- * How can you get data? What data would you like to get for your final project? Where could you get it? Where have you looked?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
@@ -22,10 +18,6 @@ Optional:
 Application presentation.
 
 Question review.
-
-Slides on data and formats.
-
-[API lab](lab_API.md) on getting data from the web.
 
 Slides on databases.
 
