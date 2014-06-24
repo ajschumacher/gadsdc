@@ -17,10 +17,11 @@
 x <- rnorm(100)
 y <- rnorm(100)
 
-'%==%' <- function(x, y)
-{ result = isTRUE(all.equal(x, y)) }
+equal <- function(a, b) {
+  return(isTRUE(all.equal(a, b)))
+}
 
-stopifnot(my.mean(x) == mean(x))
-stopifnot(my.var(x) == var(x))
-stopifnot(my.cov(x, y) == cov(x, y))
-stopifnot(my.cor(x, y) == cor(x, y))
+stopifnot(equal(my.mean(x), mean(x)))
+stopifnot(equal(my.var(x), var(x)))
+stopifnot(equal(my.cov(x, y), cov(x, y)))
+stopifnot(equal(my.cor(x, y), cor(x, y)))
