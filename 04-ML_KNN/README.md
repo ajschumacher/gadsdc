@@ -9,6 +9,7 @@ Strengthen your R skills by reading these sections from [Advanced R programming]
 Optional:
 
  * Also read the part on functional programming in R.
+ * Read about [R: the good parts](http://blog.datascienceretreat.com/post/69789735503/r-the-good-parts)
 
 
 ### Questions
