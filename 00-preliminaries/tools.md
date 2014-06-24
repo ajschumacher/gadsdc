@@ -5,7 +5,7 @@ This document helps you get up to speed with three tool families:
  * The `R` statistical programming environment.
  * The `python` programming language.
  * Command Line Interface (CLI) tools, organized around the `bash` shell and `git` for version control.
- 
+
 For each, you can go as deep as you need to feel comfortable:
 
  * Installing the software: This is the bare minimum to have the tools available.
@@ -42,7 +42,7 @@ For each, you can go as deep as you need to feel comfortable:
 
  * [Learn Python (Codecademy)](http://www.codecademy.com/tracks/python): An interactive, in-browser tutorial from Codecademy with 20+ modules and 200+ exercises. It is geared toward novice programmers, and thus glosses over some of the details that programmers coming from other languages might find useful. It would take many hours to work through all of the exercises; skip the projects or the more repetitive exercises if you just want to work through the syntax.
  * [Google's Python Class](https://developers.google.com/edu/python/): A bundle of written materials, video lectures, and programming assignments from an introductory two-day Python class at Google. It's a good follow-up to the Codecademy course (and is more challenging), providing less breadth than Codecademy but more depth on the most important Python topics.
- 
+
 ### Deeper Dive
 
  * [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/): A 200-page e-book available for free in PDF or HTML format. It starts out very basic but eventually includes some sophisticated general ideas about programming.
@@ -79,4 +79,4 @@ Although much of the Data Science course will be taught within a "visual interfa
 
 ## Even more
 
-There is also a [less selective list](yet_more_tools.md) of resources if you'd like to choose from a wider range.
+There is also a [less selective list](tools_more.md) of resources if you'd like to choose from a wider range.

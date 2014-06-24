@@ -14,4 +14,4 @@ These resources help to explain what people talk about when they talk about data
 
 ## Even more
 
-There is also am [additional list](yet_more_data_science.md) of resources if you'd like to peruse and even wider range.
+There is also am [additional list](data_science_more.md) of resources if you'd like to peruse and even wider range.
