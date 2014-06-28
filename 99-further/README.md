@@ -139,7 +139,7 @@ People publish in a lot of places; other journal suggestions welcomed!
 
  * [Software Carpentry](http://software-carpentry.org/) is pretty great.
  * [District Data Labs](http://www.districtdatalabs.com/) (DC)
- * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco): Their Data Science Immersive is 12 weeks and costs $16,000. Here are [two](http://nyghtowl.io/) [blogs](http://yet-another-data-blog.blogspot.com/) documenting the Zipfian experience is some depth. Zipfian also has two other [programs](http://www.zipfianacademy.com/programs/): Data Fellows and Data Engineering.
+ * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco): Their Data Science Immersive is 12 weeks and costs $16,000. Here are [two](http://nyghtowl.io/) [blogs](http://yet-another-data-blog.blogspot.com/) documenting the Zipfian experience in some depth. Zipfian also has two other [programs](http://www.zipfianacademy.com/programs/): Data Fellows and Data Engineering.
  * [Persontyle](http://www.persontyle.com/) school of data science
  * [Data Science Retreat](http://datascienceretreat.com/) in Berlin, from the makers of [HackerRetreat](http://hackerretreat.com/).
  * [Comparison](http://yet-another-data-blog.blogspot.com/2014/04/data-science-bootcamp-landscape-full.html) of various bootcamp programs.
