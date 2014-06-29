@@ -42,3 +42,7 @@ Complete your [linear regression assignment](../linear_assignment). When you're 
 Optional:
  * Read this [glmnet vignette](http://www.stanford.edu/~hastie/glmnet/glmnet_alpha.html) for even more about using `R`'s `glmnet` package.
  * The `DAAG` `R` package includes `cv.lm` function which you might investigate. It may or may not be better than using your own.
+
+ * Check out the [intro to scikit-learn][] video series from SciPy2013.
+
+[intro to scikit-learn]: https://www.youtube.com/watch?v=r4bRUvvlaBw
