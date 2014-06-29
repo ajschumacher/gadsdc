@@ -34,4 +34,6 @@ Some intro and activity with [D3](http://d3js.org/).
 
 Optional:
 
- * Something.
+ * Read Tom Levine's scraping wisdom:
+     * [Websites to data tables](http://dada.pink/dada/web-sites-to-data-tables/)
+	 * [Websites to data tables, in depth][http://dada.pink/dada/web-sites-to-data-tables-in-depth/]
