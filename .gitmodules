@@ -1,0 +1,3 @@
+[submodule "homework_skeleton"]
+	path = homework_skeleton
+	url = git@github.com:ajschumacher/gadsdc0.git
