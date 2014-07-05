@@ -67,6 +67,7 @@
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
  * Facebook article on deep learning for facial recognition: [DeepFace: Closing the Gap to Human-Level Performance in Face Verification](https://www.facebook.com/publications/546316888800776/)
  * The [UCLA IDRE Statistical Computing site](https://idre.ucla.edu/stats) is a rich resource for several computing environments (`R`, Stata, SPSS, SAS, etc.).
+ * [Probabilistic topic models](http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf): largely on Latent Dirichlet Allocation (LDA)
 
 
 ### Tools
