@@ -81,6 +81,7 @@
  * [PyData](http://pydata.org/)
  * [PyCon](https://us.pycon.org/) ([2014 video](http://pyvideo.org/category/50/pycon-us-2014))
  * [BigConf](http://www.bigconf.io/): The Mid-Atlantic Data Conference
+ * [csv,conf](http://csvconf.com/): A conference for data makers everywhere. (a fringe event of the [Open Knowledge Festival](http://okfestival.org/))
 
 
 # Journals:
@@ -133,6 +134,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * The well-known [machine learning couse](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) of Andrew Ng; uses MatLab/Octave and focuses on gradient descent from the beginning
  * Coursera's [Introduction to Recommender Systems](https://www.coursera.org/course/recsys) with Konstan and Ekstrand
  * MIT OpenCourseWare: [Networks, Complexity and Its Applications](http://ocw.mit.edu/courses/media-arts-and-sciences/mas-961-networks-complexity-and-its-applications-spring-2011/)
+ * [Data Origami](https://www.dataorigami.net/) is a subscription site with screencasts on doing things with data.
 
 
 ### Face to face educational programs:

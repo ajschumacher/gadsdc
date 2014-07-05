@@ -55,3 +55,4 @@ Optional:
 
  * Check out "[Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)".
  * Look through a notebook on [logistic regression with statsmodels for well switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb).
+ * There are other kinds of analyis such as survival analysis which can also be done in Python with, e.g., [lifelines](http://lifelines.readthedocs.org/).
