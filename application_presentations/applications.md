@@ -1,3 +1,4 @@
+ * Topological Data Analysis [[1]](http://normaldeviate.wordpress.com/2012/07/01/topological-data-analysis/) [[2]](http://www.cs.dartmouth.edu/~afra/papers/ams12/tda.pdf) [[3]](http://www.nature.com/srep/2013/130207/srep01236/full/srep01236.html) [[4]](https://www.youtube.com/watch?v=XfWibrh6stw) [[5]](http://www.ayasdi.com/resources/) [[6]](http://web.cse.ohio-state.edu/~tamaldey/course/CTDA/CTDA.html)
  * Facebook Immune System [[1]](http://research.microsoft.com/en-us/projects/ldg/a10-stein.pdf)
  * Google Pagerank [[1]](http://www.nybooks.com/articles/archives/2011/aug/18/how-google-dominates-us/) [[2]](http://en.wikipedia.org/wiki/PageRank)
  * Amazon anticipatory ordering [[1]](http://www.usatoday.com/story/money/business/2014/01/18/amazon-anticipates-orders/4637895/)
