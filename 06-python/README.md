@@ -49,6 +49,8 @@ Handy shortcut:
 
     alias nb='ipython notebook --pylab=inline'
 
+(Note that `--pylab=inline` is a blunt instrument; it imports a lot of things into the root namespace. You might consider loading things as needed, setting up graphing as needed after starting a notebook with `%matplotlib inline`, for example. For more, see IPython's [core.magics.pylab](http://ipython.org/ipython-doc/2/api/generated/IPython.core.magics.pylab.html).)
+
 Exercise: Make a histogram of salaries (from the linear regression assignment training data) in an IPython Notebook, using Python (i.e., not `rpy2`).
 
 There are pretty many Python visualization options now. Here are a few:
