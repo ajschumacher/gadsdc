@@ -37,3 +37,9 @@ Optional:
  * Read Tom Levine's scraping wisdom:
      * [Websites to data tables](http://dada.pink/dada/web-sites-to-data-tables/)
 	 * [Websites to data tables, in depth][http://dada.pink/dada/web-sites-to-data-tables-in-depth/]
+ * Check out [Crossfilter](http://square.github.io/crossfilter/), a
+   fairly spectacular JavaScript library that lets you work with a lot
+   of data in the browser and achieve neat interactive displays with
+   scrubbing and so on. There's a nice
+   [tutorial](http://blog.rusty.io/2012/09/17/crossfilter-tutorial/)
+   that you might start with.
