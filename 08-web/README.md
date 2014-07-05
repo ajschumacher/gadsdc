@@ -23,6 +23,12 @@ Question review.
 
 Play with basic [web scraping](scrape.py) using [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
+```bash
+pip install beautifulsoup
+pip install lxml
+pip install cssselect
+```
+
 Slides on data and formats.
 
 [API lab](lab_API.md) on getting data from the web.
@@ -36,4 +42,11 @@ Optional:
 
  * Read Tom Levine's scraping wisdom:
      * [Websites to data tables](http://dada.pink/dada/web-sites-to-data-tables/)
-	 * [Websites to data tables, in depth][http://dada.pink/dada/web-sites-to-data-tables-in-depth/]
+	 * [Websites to data tables, in depth](http://dada.pink/dada/web-sites-to-data-tables-in-depth/)
+ * `scrapy` is a Python package for doing web scraping with a little bit bigger framework. Check out their [tutorial](http://doc.scrapy.org/en/latest/intro/tutorial.html).
+ * Check out [Crossfilter](http://square.github.io/crossfilter/), a
+   fairly spectacular JavaScript library that lets you work with a lot
+   of data in the browser and achieve neat interactive displays with
+   scrubbing and so on. There's a nice
+   [tutorial](http://blog.rusty.io/2012/09/17/crossfilter-tutorial/)
+   that you might start with.

@@ -7,6 +7,7 @@ You may already have data that you're interested in working with. You may have a
  * There are a variety of open data catalogs from various governments and NGOs:
      * [NYC Open Data](https://nycopendata.socrata.com/)
      * [DC Data Catalog](http://data.dc.gov/) / [OpenDataDC](http://www.opendatadc.org/)
+     * [Los Angeles Open Data](https://data.lacity.org/)
      * [data.gov](https://www.data.gov/) (see also: [Project Open Data Dashboard](http://data.civicagency.org/))
      * [data.gov.uk](http://data.gov.uk/)
      * [The US Census](http://www.census.gov/)

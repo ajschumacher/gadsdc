@@ -14,8 +14,6 @@
 
  * [US state metadata and other incredible fun stuff](https://github.com/unitedstates/python-us)
 
-```bash
-pip install beautifulsoup
-pip install lxml
-pip install cssselect
-```
+ * The mapmaker's cheatsheet: "popular tourist locations on the wild and exciting quest to make web maps in fewer tries"
+     * Original [Tom MacWright version](https://github.com/tmcw/mapmakers-cheatsheet)
+	 * Forked [Jue Yang version](https://github.com/jueyang/mapmakers-cheatsheet) with some inline images
