@@ -103,6 +103,7 @@ Not exactly. But there are some projects that step in that direction:
 Optional:
 
  * UC Berkeley's [AMP Camp](http://ampcamp.berkeley.edu/) provides great resources for learning a range of technologies including Spark. (Berkeley's [AMP Lab](https://amplab.cs.berkeley.edu/software/) is responsible for a lot of these cool technologies.)
+ * [HUE](http://gethue.com/) "Hadoop User Experience" "is a Web interface for analyzing data with Apache Hadoop" that you might find inside various vendors' platforms, or separately.
  * This [paper](http://arxiv.org/pdf/1402.6076v1.pdf) describes large-scale machine learning in a very real-world advertising setting.
  * See also [Ad Click Prediction: a View from the Trenches at Google](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41159.pdf).
  * [Writing an Hadoop MapReduce Program in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/) is a streaming walk-through that runs Hadoop directly.
