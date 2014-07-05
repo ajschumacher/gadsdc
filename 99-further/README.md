@@ -146,6 +146,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [Persontyle](http://www.persontyle.com/) school of data science
  * [Data Science Retreat](http://datascienceretreat.com/) in Berlin, from the makers of [HackerRetreat](http://hackerretreat.com/).
  * [Comparison](http://yet-another-data-blog.blogspot.com/2014/04/data-science-bootcamp-landscape-full.html) of various bootcamp programs.
+ * Kaplan runs "[Metis](http://www.thisismetis.com/)" 12-week bootcamps in a couple subjects, including data science.
 
 
 ### Other resource collections
