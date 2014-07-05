@@ -81,6 +81,7 @@
  * [PyData](http://pydata.org/)
  * [PyCon](https://us.pycon.org/) ([2014 video](http://pyvideo.org/category/50/pycon-us-2014))
  * [BigConf](http://www.bigconf.io/): The Mid-Atlantic Data Conference
+ * [csv,conf](http://csvconf.com/): A conference for data makers everywhere. (a fringe event of the [Open Knowledge Festival](http://okfestival.org/))
 
 
 # Journals:
