@@ -42,7 +42,8 @@ Optional:
 
  * Read Tom Levine's scraping wisdom:
      * [Websites to data tables](http://dada.pink/dada/web-sites-to-data-tables/)
-	 * [Websites to data tables, in depth][http://dada.pink/dada/web-sites-to-data-tables-in-depth/]
+	 * [Websites to data tables, in depth](http://dada.pink/dada/web-sites-to-data-tables-in-depth/)
+ * `scrapy` is a Python package for doing web scraping with a little bit bigger framework. Check out their [tutorial](http://doc.scrapy.org/en/latest/intro/tutorial.html).
  * Check out [Crossfilter](http://square.github.io/crossfilter/), a
    fairly spectacular JavaScript library that lets you work with a lot
    of data in the browser and achieve neat interactive displays with
