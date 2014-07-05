@@ -2,6 +2,7 @@
 
  * Read [The Unreasonable Effectiveness of Data](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/35179.pdf). This is an interesting article from which to think about the costs and benefits of working with larger data sets.
  * Install [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit). This isn't always easy, but give it a shot. Here are instructions for [Mac OS X](http://planspace.org/2013/02/02/install-vowpal-wabbit-on-mac-os-x/) and [Windows](http://mlwave.com/install-vowpal-wabbit-on-windows-and-cygwin/).
+ * You should know about hashing, which is used all over the place. There's a [reasonable introduction on stackoverflow](http://stackoverflow.com/questions/730620/how-does-a-hash-table-work) that will give you the basic idea. It's used not just for search, but also for checking identity. It's used inside data structures, inside git, and inside bitcoin, for starters.
 
 Optional:
 
