@@ -57,6 +57,9 @@
  * [Introductory Graph Theory](http://www.amazon.com/Introductory-Graph-Theory-Gary-Chartrand/dp/0486247759) is an inexpensive text to pick up.
  * The [book](http://www.cambridge.org/us/academic/subjects/computer-science/algorithmics-complexity-computer-algebra-and-computational-g/networks-crowds-and-markets-reasoning-about-highly-connected-world) _Networks, Crowds, and Markets: Reasoning About a Highly Connected World_ is available [online](http://www.cs.cornell.edu/home/kleinber/networks-book/).
  * [Statistics: Methods and Applications](http://www.statsoft.com/Textbook) is a book from [StatSoft](http://www.statsoft.com/) which has been available online and now is also available as a [printed book](http://www.amazon.com/Statistics-Methods-Applications-Thomas-Hill/dp/1884233597/). The book has some decent explanations, usually avoids mathematics, and frequently references the company's commercial software.
+ * [Sams Teach Yourself SQL in 10 Minutes](http://www.amazon.com/Sams-Teach-Yourself-Minutes-Edition/dp/0672336073)
+ * [Beginning SQL Queries: From Novice to Professional](http://www.amazon.com/Beginning-SQL-Queries-Professional-Professionals/dp/1590599438)
+ * [Applied Mathematics for Database Professionals](http://www.amazon.http://www.amazon.com/Applied-Mathematics-Database-Professionals-Haan/dp/1430242841)
 
 
 ### Articles/Guides:
