@@ -112,6 +112,7 @@ People publish in a lot of places; other journal suggestions welcomed!
 
 ### Online educational resources:
 
+ * Harvards "CS109 Data Science" class has a collection of [slides online](https://drive.google.com/folderview?id=0BxYkKyLxfsNVd0xicUVDS1dIS0k).
  * A Udacity course on [Exploratory Data Analysis](https://www.udacity.com/course/ud651). "Investigate, Visualize, and Summarize Data Using R" - materials available for free.
  * Roger Peng's [YouTube playlists](https://www.youtube.com/user/rdpeng/playlists) include his Computing for Data Analysis videos, which are quite good. `R` plotting content is in [week three](https://www.youtube.com/playlist?list=PLjTlxb-wKvXOzI2h0F2_rYZHIXz8GWBop).
  * [CS 194-16](http://datascienc.es/) Introduction to Data Science, a course by Jeff Hammerbacher and Mike Franklin
