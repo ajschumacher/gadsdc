@@ -66,5 +66,6 @@ Prepare three visualizations based on your final project data. Each one should s
 Optional:
 
  * If you'd like to walk through Python basics even more, check out this notebook [Introduction to Python](http://nbviewer.ipython.org/urls/bitbucket.org/amjoconn/watpy-learning-to-code-with-python/raw/3441274a54c7ff6ff3e37285aafcbbd8cb4774f0/notebook/Learn%20to%20Code%20with%20Python.ipynb). Or this one on [Python data structures](http://nbviewer.ipython.org/github/profjsb/python-bootcamp/blob/master/DataFiles_and_Notebooks/02_AdvancedDataStructures/data_structures.ipynb). There are a ton of public notebooks - just have fun exploring the [IPython Notebook Viewer](http://nbviewer.ipython.org/) and follow your interest!
+ * Get more introduction to pandas with Greg Reda's [Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/).
  * For some performance benchmarks, check out Cook's [Benchmarking C++, Python, R, etc.](http://www.johndcook.com/blog/2014/06/20/benchmarking-c-python-r-etc/). Python tends to outperform R, and using [numba](http://numba.pydata.org/) can speed Python up even more.
  * You can run `R` code from _within_ IPython! Check out [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html).

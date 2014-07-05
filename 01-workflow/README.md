@@ -79,6 +79,7 @@ Optional:
  * Do the `emacs` tutorial. (In `emacs`, press `control` and `h`, then press `t`.)
  * Learn the `vim` editor with its tutorial, or perhaps with [a fun game](http://vim-adventures.com/)!
  * Read this nice exposition on [Useful Unix commands for data science](http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/).
+ * Learn regular expressions interactively with [RegExr](http://www.regexr.com/).
  * Learn more about `sed` and `awk`.
  * To get into _a lot_ more at the command line, check out the fine [presentation](http://files.meetup.com/1406240/Command%20Line%20Data%20Science.pdf) from Jeroen Janssens. See also his [blog post](http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html) on some of the same tools.
  * Read this chapter from the Bad Data Handbook: "Myths of cloud computing"
