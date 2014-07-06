@@ -19,7 +19,7 @@ import numpy as np
 x, y = (np.random.randn(100) for _ in range(2))
 
 def equal(a, b):
-  np.testing.assert_array_equal(a, b)
+  np.testing.assert_allclose(a, b)
 
 equal(my_mean(x), np.mean(x))
 equal(my_var(x), np.var(x))
