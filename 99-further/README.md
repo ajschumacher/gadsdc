@@ -59,7 +59,7 @@
  * [Statistics: Methods and Applications](http://www.statsoft.com/Textbook) is a book from [StatSoft](http://www.statsoft.com/) which has been available online and now is also available as a [printed book](http://www.amazon.com/Statistics-Methods-Applications-Thomas-Hill/dp/1884233597/). The book has some decent explanations, usually avoids mathematics, and frequently references the company's commercial software.
  * [Sams Teach Yourself SQL in 10 Minutes](http://www.amazon.com/Sams-Teach-Yourself-Minutes-Edition/dp/0672336073)
  * [Beginning SQL Queries: From Novice to Professional](http://www.amazon.com/Beginning-SQL-Queries-Professional-Professionals/dp/1590599438)
- * [Applied Mathematics for Database Professionals](http://www.amazon.http://www.amazon.com/Applied-Mathematics-Database-Professionals-Haan/dp/1430242841)
+ * [Applied Mathematics for Database Professionals](http://www.amazon.com/Applied-Mathematics-Database-Professionals-Haan/dp/1430242841)
 
 
 ### Articles/Guides:
