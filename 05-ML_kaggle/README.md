@@ -48,5 +48,6 @@ Implement 10-fold cross-validation for KNN classification accuracy. This should 
 
 Optional:
 
+ * This [interactive visualization](http://www.navan.name/roc/) may help you to gain a better intuitive understanding of ROC curves and area under the curve (AUC).
  * Read [An introduction to ROC analysis](https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf) for more on area under the ROC curve.
  * Follow along with Wehrley's [soup to nuts kaggle Titanic solution](https://github.com/wehrley/wehrley.github.io/blob/master/SOUPTONUTS.md) which includes a lot of interesting commentary and plots as well. There's plenty on feature generation and dealing with missing data.

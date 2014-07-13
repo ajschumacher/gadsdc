@@ -43,3 +43,4 @@ If you have the time, these are video-based courses in statistics that various s
  * [Khan Academy: Probability & Statistics](https://www.khanacademy.org/math/probability)
  * [Coursera: Intro Statistics](https://www.coursera.org/course/introstats)
  * [edX: Intro Statistics](https://www.edx.org/course/uc-berkeleyx/uc-berkeleyx-stat2-1x-introduction-1138)
+ * [Statistics 110 (Probability) at Harvard University](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo)
