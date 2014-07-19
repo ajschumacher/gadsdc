@@ -21,7 +21,14 @@ An example of an analysis using version control data
 
 [Application Presentations](../application_presentations) assigned and scheduled.
 
-(End work from slides.)
+Introduction to Git and GitHub ([slides](git_slides.pdf)):
+ * Create a [GitHub](https://github.com/) account, [download git](http://git-scm.com/downloads)
+ * [Generate SSH keys](https://help.github.com/articles/generating-ssh-keys)
+ * Class repo: [gadsdc2](https://github.com/ajschumacher/gadsdc2)
+
+`git` basics: `git init`, `git status`, `git add`, `git commit`, `git push`, `git clone`, `git pull`, `git log`, `git remote`, `git checkout`, `git branch`
+
+GitHub basics: navigating repos, [forking](https://help.github.com/articles/fork-a-repo), submitting [pull requests](https://help.github.com/articles/using-pull-requests). And understanding the [workflow](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/)!
 
 Setting up a machine on [AWS EC2](http://aws.amazon.com/ec2/) and getting set up with [git](http://git-scm.com/) and [github](https://github.com/). These blog posts describe much of the process demonstrated in class:
 
@@ -41,10 +48,6 @@ Learn some `readline`/`emacs` [keyboard navigation shortcuts](http://www.catonma
 
 You should know at least one command-line text editor. When in doubt, you can usually fall back on `nano`. In some cases `vi` is the only thing available, so at least know how to get out by hitting `esc` and then entering `q!`. People generally develop proficiency in at least one of `vim` or `emacs`. There's nothing wrong with using a GUI editor such as [Sublime Text](http://www.sublimetext.com/), [TextWrangler](http://www.barebones.com/products/textwrangler/), [TextMate](http://macromates.com/), or [Notepad++](http://notepad-plus-plus.org/) as well.
 
-For `git`: `git init`, `git status`, `git add`, `git commit`, `git push`, `git clone`, `git pull`, `git log`, etc.
-
-On github, be able to fork and submit pull requests.
-
 More command-line tools: `man`, `time`, `wget`, `curl`, [`tmux`](http://robots.thoughtbot.com/a-tmux-crash-course), `echo`, `cat`, `diff`, `tr`, `sort`, `wc`, `more`, `less`, `head`, `tail`, `cut`, `uniq`, `join`, `grep`, `bc`.
 
 [Command-Line Data Manipulation](http://planspace.org/2013/05/21/command-line-data-manipulation/)
@@ -57,8 +60,6 @@ You'll need to know some [markdown](https://daringfireball.net/projects/markdown
 
 Play with git logs to do a simple analysis of open source projects. (Perhaps choose some that are [trending](https://github.com/trending).)
 
-See also: the [github explanation for forking](https://help.github.com/articles/fork-a-repo).
-
 
 ### Questions
 
@@ -70,11 +71,12 @@ See also: the [github explanation for forking](https://help.github.com/articles/
 ### After
 
  * If you don't have them already, make a [twitter](https://twitter.com/) account and a [blog](http://sixrevisions.com/tools/top-free-online-blogging/). Communication is a good thing!
- * In your fork of the class repository, in the `01-workflow` directory, make a file named `yourname.md` containing links to your twitter account and blog. Commit, push to github, and submit a pull request to get your file in the class repository.
+ * In your fork of the class repository, in the `01-workflow` directory, update the file named `yourname.md` by adding links to your twitter account and blog. Commit, push to github, and submit a pull request.
 
 Optional:
  * Make your own EC2 micro Ubuntu instance and set it up a little.
  * Try out [csvkit](http://csvkit.readthedocs.org/), which makes data at the command line a lot more fun!
+ * For a deeper introduction to git, read a few chapters of [Pro Git](http://git-scm.com/book). For reference, [gitref.org](http://gitref.org/) is excellent or here is a [quick reference](http://www.dataschool.io/git-quick-reference-for-beginners/). Most of the git/GitHub presentation from today is also available in [video](https://www.youtube.com/playlist?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD) form.
  * Learn more handy techniques with this [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet).
  * Do the `emacs` tutorial. (In `emacs`, press `control` and `h`, then press `t`.)
  * Learn the `vim` editor with its tutorial, or perhaps with [a fun game](http://vim-adventures.com/)!
