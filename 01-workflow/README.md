@@ -21,7 +21,7 @@ An example of an analysis using version control data
 
 [Application Presentations](../application_presentations) assigned and scheduled.
 
-[Introduction to Git and GitHub](../git_slides.pdf):
+Introduction to Git and GitHub ([slides](git_slides.pdf)):
  * Create a [GitHub](https://github.com/) account, [download git](http://git-scm.com/downloads)
  * [Generate SSH keys](https://help.github.com/articles/generating-ssh-keys)
  * Class repo: [gadsdc2](https://github.com/ajschumacher/gadsdc2)
