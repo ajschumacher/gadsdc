@@ -30,6 +30,8 @@ Introduction to Git and GitHub ([slides](slides_git.pdf)):
 
 GitHub basics: navigating repos, [forking](https://help.github.com/articles/fork-a-repo), submitting [pull requests](https://help.github.com/articles/using-pull-requests). And understanding the [workflow](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/)!
 
+[An alternate command-line activity.](command_line_538.md)
+
 Setting up a machine on [AWS EC2](http://aws.amazon.com/ec2/) and getting set up with [git](http://git-scm.com/) and [github](https://github.com/). These blog posts describe much of the process demonstrated in class:
 
  * [Easy AWS EC2 Ubuntu Quick Start](http://planspace.org/2014/01/25/easy-aws-ec2-ubuntu-quick-start/)
