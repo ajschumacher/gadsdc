@@ -16,10 +16,15 @@ Optional:
 
 Email instructors.
 
+Do first question assignment (on Venn diagram).
+
 An example of an analysis using version control data
  * "Collaboration in the open-source arena: The WebKit case" [[arXiv]](http://arxiv.org/abs/1401.5996) [[PDF]](http://arxiv.org/pdf/1401.5996v1.pdf) [[more]](http://users.utu.fi/joante/WebKitSNA/)
 
 [Application Presentations](../application_presentations) assigned and scheduled.
+
+
+#### Git and GitHub
 
 Introduction to Git and GitHub ([slides](slides_git.pdf)):
  * Create a [GitHub](https://github.com/) account, [download git](http://git-scm.com/downloads)
@@ -30,17 +35,34 @@ Introduction to Git and GitHub ([slides](slides_git.pdf)):
 
 GitHub basics: navigating repos, [forking](https://help.github.com/articles/fork-a-repo), submitting [pull requests](https://help.github.com/articles/using-pull-requests). And understanding the [workflow](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/)!
 
-[An alternate command-line activity.](command_line_538.md)
 
-Setting up a machine on [AWS EC2](http://aws.amazon.com/ec2/) and getting set up with [git](http://git-scm.com/) and [github](https://github.com/). These blog posts describe much of the process demonstrated in class:
+#### Command Line / Shell / Bash (often)
+
+Life advice:
+ * Please never put spaces in filenames.
+ * Please always end files with a newline.
+
+
+##### Self-contained command line activity one
+
+[Working with some election poll data.](command_line_538.md)
+
+
+##### Self-contained command line activity two
+
+[Working with some manufactured data.](http://planspace.org/2013/05/21/command-line-data-manipulation/)
+
+
+##### Working with Amazon Web Services (AWS) Elastic Compute Cloud (EC2)
+
+Setting up a machine on [AWS EC2](http://aws.amazon.com/ec2/) and getting set up with [git](http://git-scm.com/) and [github](https://github.com/). These blog posts describe some of a process:
 
  * [Easy AWS EC2 Ubuntu Quick Start](http://planspace.org/2014/01/25/easy-aws-ec2-ubuntu-quick-start/)
  * [A shared playground on Ubuntu](http://planspace.org/2014/02/15/a-shared-playground-on-ubuntu/)
  * [Set up git/hub on Ubuntu](http://planspace.org/2014/02/16/set-up-github-on-ubuntu/)
 
-Please never put spaces in filenames.
 
-Please always end files with a newline.
+##### Commands / Tools
 
 You should know these: `pwd`, `ls`, `cd`, `cp`, `mv`, `rm`, `hostname`, `whoami`, `passwd`, `ssh`, `env`, `export`.
 
@@ -52,15 +74,13 @@ You should know at least one command-line text editor. When in doubt, you can us
 
 More command-line tools: `man`, `time`, `wget`, `curl`, [`tmux`](http://robots.thoughtbot.com/a-tmux-crash-course), `echo`, `cat`, `diff`, `tr`, `sort`, `wc`, `more`, `less`, `head`, `tail`, `cut`, `uniq`, `join`, `grep`, `bc`.
 
-[Command-Line Data Manipulation](http://planspace.org/2013/05/21/command-line-data-manipulation/)
-
 Just enough `sed` and regular expressions to know what they are:
 
     cat file.txt | sed 's/^/ * /'
 
 You'll need to know some [markdown](https://daringfireball.net/projects/markdown/syntax), and [github-flavored markdown](https://help.github.com/articles/github-flavored-markdown) is often handy too. This [live markdown editor](http://jrmoran.com/playground/markdown-live-editor/) can be useful.
 
-Play with git logs to do a simple analysis of open source projects. (Perhaps choose some that are [trending](https://github.com/trending).)
+You could play with git logs to do a simple analysis of open source projects. (Perhaps choose some that are [trending](https://github.com/trending).)
 
 
 ### Questions
