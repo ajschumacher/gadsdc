@@ -12,7 +12,7 @@ Optional:
 
 ### During
 
-(Work from slides.)
+(Work from slides/hackpad.)
 
 Email instructors.
 
@@ -21,7 +21,7 @@ An example of an analysis using version control data
 
 [Application Presentations](../application_presentations) assigned and scheduled.
 
-Introduction to Git and GitHub ([slides](git_slides.pdf)):
+Introduction to Git and GitHub ([slides](slides_git.pdf)):
  * Create a [GitHub](https://github.com/) account, [download git](http://git-scm.com/downloads)
  * [Generate SSH keys](https://help.github.com/articles/generating-ssh-keys)
  * Class repo: [gadsdc2](https://github.com/ajschumacher/gadsdc2)
