@@ -25,6 +25,7 @@ For `R`:
 
 
 For `python`:
+ * [Rami](https://twitter.com/necaris) put together a Python [refresher deck](http://necaris.net/_static/python-refresher-ga.html) using [reveal.js](http://lab.hakim.se/reveal-js/), authored in [emacs](http://www.gnu.org/software/emacs/) [org-reveal](https://github.com/yjwen/org-reveal/).
  * MIT's [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-0) covers not just Python but also a lot of conceptual material.
  * Mark Pilgrim's [Dive Into Python](http://www.diveintopython.net/) and [Dive Into Python 3](http://www.diveintopython3.net/) are both good options.
  * Alan Gauld's [Learning to Program](http://www.alan-g.me.uk/) is available for Python 2 and 3.
