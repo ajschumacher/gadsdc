@@ -1,0 +1,1 @@
+Twitter: @rtheman | Blog: https://medium.com/@richleung
