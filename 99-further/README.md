@@ -8,6 +8,7 @@
  * Hilary Mason's [blog](http://www.hilarymason.com/) always has good things.
  * [Paco Nathan](http://liber118.com/pxn/) has a very nice web site and email newsletter.
  * [DataTau](http://www.datatau.com/) is like [Hacker News](https://news.ycombinator.com/) for data.
+ * [Data for Good](http://www.dataforgood.co/) is a "public-good-only fork of DataTau"
  * [r/MachineLearning](http://www.reddit.com/r/MachineLearning/) on reddit
  * [yhat's blog](http://blog.yhathq.com/) often has good original content, often on data science with `python`.
  * [The Endeavor](http://www.johndcook.com/blog/) is the blog of John D. Cook, with a focus on applied statistics.
