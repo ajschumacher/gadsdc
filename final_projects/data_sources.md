@@ -39,5 +39,6 @@ You may already have data that you're interested in working with. You may have a
      * [100+ Interesting Data Sets for Statistics](http://rs.io/2014/05/29/list-of-data-sets.html)
  * [Datasets subreddit](http://www.reddit.com/r/datasets/): You can ask for help finding a specific data set, or post your own.
  * [mldata.org](http://mldata.org/): "machine learning data set repository"
+ * [Blog posts](http://www.datainnovation.org/category/publications/data-set-blog/) by the Center for Data Innovation about interesting, recently-released data sets.
 
 This is just the tip of the iceberg; there's a lot of data out there!
