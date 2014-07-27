@@ -26,3 +26,7 @@
  * Double Entendre Identification [[1]](http://aclweb.org/anthology//P/P11/P11-2016.pdf)
  * Generating jokes from data [[1]](http://homepages.inf.ed.ac.uk/s0894589/petrovic13unsupervised.pdf)
  * Analyzing and predicting YouTube comments [[1]](http://www.l3s.de/~siersdorfer/sources/2010/wfp0542-siersdorfer.pdf)
+ * Winning the Galaxy Zoo Challenge on Kaggle [[1]](http://blog.kaggle.com/2014/04/18/winning-the-galaxy-challenge-with-convnets/) [[2]](http://benanne.github.io/2014/04/05/galaxy-zoo.html) [[3]](http://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/forums/t/7599/so-what-were-your-approaches)
+ * Winning the March Machine Learning Mania on Kaggle [[1]](http://blog.kaggle.com/2014/04/21/qa-with-gregory-and-michael-1st-place-in-march-ml-mania/) [[2]](https://www.kaggle.com/c/march-machine-learning-mania/forums/t/7637/end-of-competition-thread)
+ * Event Recommendation Challenge on Kaggle [[1]](http://blog.kaggle.com/2013/02/25/5-lessons-learned-for-the-event-recommendation-challenge/) [[2]](http://www.kaggle.com/c/event-recommendation-engine-challenge/forums/t/3894/solutions/20972)
+ 
