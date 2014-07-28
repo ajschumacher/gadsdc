@@ -29,4 +29,5 @@
  * Winning the Galaxy Zoo Challenge on Kaggle [[1]](http://blog.kaggle.com/2014/04/18/winning-the-galaxy-challenge-with-convnets/) [[2]](http://benanne.github.io/2014/04/05/galaxy-zoo.html) [[3]](http://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/forums/t/7599/so-what-were-your-approaches)
  * Winning the March Machine Learning Mania on Kaggle [[1]](http://blog.kaggle.com/2014/04/21/qa-with-gregory-and-michael-1st-place-in-march-ml-mania/) [[2]](https://www.kaggle.com/c/march-machine-learning-mania/forums/t/7637/end-of-competition-thread)
  * Event Recommendation Challenge on Kaggle [[1]](http://blog.kaggle.com/2013/02/25/5-lessons-learned-for-the-event-recommendation-challenge/) [[2]](http://www.kaggle.com/c/event-recommendation-engine-challenge/forums/t/3894/solutions/20972)
+ * The Importance of Reproducible Research in High-Throughput Biology (Duke cancer treatment scandal) [[1]](http://www.economist.com/node/21528593) [[2]](http://www.cbsnews.com/news/deception-at-duke-fraud-in-cancer-care/) [[3]](https://www.youtube.com/watch?v=7gYIs7uYbMo) [[4]](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/)
  
