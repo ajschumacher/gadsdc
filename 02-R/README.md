@@ -36,7 +36,7 @@ Solve problem 8 from [Project Euler](http://projecteuler.net/). Solve more, if y
 
 Dataset Research assigned.
 
-For a substantial extension bases on the Monty Hall problem, go through the concepts in [monty_hall.R](monty_hall.R).
+For a substantial extension based on the Monty Hall problem, go through the concepts in [monty_hall.R](monty_hall.R).
 
 
 ### After
