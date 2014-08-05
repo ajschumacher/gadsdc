@@ -35,13 +35,16 @@
 
 ### Books:
 
- * [Exploratory Data Analysis](http://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160) (EDA) by John Tukey deserves more attention than it gets.
- * These two are related and both quite good. The first is more elementary than the second.
+ * These two are related, quite good, and available as free PDFs. The first is more elementary than the second.
      * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
      * [The Elements of Statistical Learning](http://www-stat.stanford.edu/~tibs/ElemStatLearn/)
+ * [Think Stats](http://www.greenteapress.com/thinkstats/) is an introduction to statistics with programming and available as a free PDF.
+ * [Mining of Massive Datasets](http://infolab.stanford.edu/~ullman/mmds.html) is also available as a free PDF from the author.
+ * [Exploratory Data Analysis](http://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160) (EDA) by John Tukey deserves more attention than it gets.
  * [Data Analysis with Open Source Tools](http://www.amazon.com/Data-Analysis-Open-Source-Tools/dp/0596802358) is quite a good intro to a range of tools.
  * [Practical Data Science with R](http://www.manning.com/zumel/): A fair book that crosses `R` and consulting ideas, by the main folks at [Win-Vector](http://www.win-vector.com/).
  * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
+ * [Statistics in a Nutshell](http://www.amazon.com/Statistics-Nutshell-Sarah-Boslaugh/dp/1449316824)
  * [Statistics Done Wrong](http://www.refsmmat.com/statistics/)
  * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
  * Machine Learning for Hackers [[amazon]](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714/) [[code]](https://github.com/johnmyleswhite/ML_for_Hackers) by Drew Conway and John Myles White
@@ -49,6 +52,8 @@
  * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Cathy-ONeil/dp/1449358659) is a book that came out of the data science course at Columbia and [Cathy O'Neil](http://mathbabe.org/)'s blogging of said course.
  * Data Mining with R: Learning with Case Studies [[book site]](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/) [[amazon]](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
  * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
+ * [Data Smart: Using Data Science to Transform Information into Insight](http://www.amazon.com/gp/product/111866146X/)
+ * [Big Data, Data Mining, and Machine Learning: Value Creation for Business Leaders and Practitioners](http://www.amazon.com/Data-Mining-Machine-Learning-Practitioners/dp/1118618041/)
  * Microsoft's [Deep Learning: Methods and Applications](http://research.microsoft.com/pubs/209355/NOW-Book-Revised-Feb2014-online.pdf) (free PDF)
  * [Mining the Social Web, 2nd Edition](http://shop.oreilly.com/product/0636920030195.do) is available for sale and also has a fairly comprehensive [github repository](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition) with all the code from the book, in friendly IPython Notebook format, even with a whole virtual machine setup.
  * [Twitter Data Analytics](http://tweettracker.fulton.asu.edu/tda/) is available free online as a pre-print; it uses Java and MongoDB.
