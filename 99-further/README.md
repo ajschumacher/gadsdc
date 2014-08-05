@@ -89,7 +89,7 @@
  * [csv,conf](http://csvconf.com/): A conference for data makers everywhere. (a fringe event of the [Open Knowledge Festival](http://okfestival.org/))
 
 
-# Journals:
+### Journals:
 
 People publish in a lot of places; other journal suggestions welcomed!
 
