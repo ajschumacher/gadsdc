@@ -58,8 +58,8 @@ Although much of the Data Science course will be taught within a "visual interfa
 ### Install
 
  * If you're running Mac OS X, `bash` is what you have by default in `Terminal`. You should [install homebrew](http://brew.sh/#install). Then `brew install git`.
- * If you're running Windows, you should [install Git Bash](http://git-scm.com/downloads).
- * If you're running Linux, you run `bash` or know better, and can install `git`.
+ * If you're running Windows, you should download and install [Git for Windows](http://msysgit.github.io/). This will get you git-bash, a nice environment to use on Windows.
+ * If you're running Linux, you run `bash` or know better, and can install `git` (using `apt-get install git` or similar).
  * Create a [GitHub](https://github.com/) account, and then [set up Git](https://help.github.com/articles/set-up-git) using the same email address that you used for your GitHub account.
 
 ### Gentle Introduction
