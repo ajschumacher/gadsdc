@@ -155,6 +155,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [Comparison](http://yet-another-data-blog.blogspot.com/2014/04/data-science-bootcamp-landscape-full.html) of various bootcamp programs.
  * Kaplan runs "[Metis](http://www.thisismetis.com/)" 12-week bootcamps in a couple subjects, including data science.
  * [Data Science Dojo](http://datasciencedojo.com/): "unleash the data scientist in you" (some workshops and so on in Seattle and Silicon Valley)
+ * [Insight Data Science Fellows Program](http://insightdatascience.com/): "An intensive six week post-doctoral training fellowship bridging the gap between academia and data science"
 
 
 ### Other resource collections
