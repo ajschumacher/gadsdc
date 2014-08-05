@@ -35,12 +35,16 @@
 
 ### Books:
 
- * These two are related and both quite good. The first is more elementary than the second.
+ * These two are related, quite good, and available as free PDFs. The first is more elementary than the second.
      * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
      * [The Elements of Statistical Learning](http://www-stat.stanford.edu/~tibs/ElemStatLearn/)
+ * [Think Stats](http://www.greenteapress.com/thinkstats/) is an introduction to statistics with programming and available as a free PDF.
+ * [Mining of Massive Datasets](http://infolab.stanford.edu/~ullman/mmds.html) is also available as a free PDF from the author.
+ * [Exploratory Data Analysis](http://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160) (EDA) by John Tukey deserves more attention than it gets.
  * [Data Analysis with Open Source Tools](http://www.amazon.com/Data-Analysis-Open-Source-Tools/dp/0596802358) is quite a good intro to a range of tools.
  * [Practical Data Science with R](http://www.manning.com/zumel/): A fair book that crosses `R` and consulting ideas, by the main folks at [Win-Vector](http://www.win-vector.com/).
  * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
+ * [Statistics in a Nutshell](http://www.amazon.com/Statistics-Nutshell-Sarah-Boslaugh/dp/1449316824)
  * [Statistics Done Wrong](http://www.refsmmat.com/statistics/)
  * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
  * Machine Learning for Hackers [[amazon]](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714/) [[code]](https://github.com/johnmyleswhite/ML_for_Hackers) by Drew Conway and John Myles White
@@ -48,6 +52,8 @@
  * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Cathy-ONeil/dp/1449358659) is a book that came out of the data science course at Columbia and [Cathy O'Neil](http://mathbabe.org/)'s blogging of said course.
  * Data Mining with R: Learning with Case Studies [[book site]](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/) [[amazon]](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
  * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
+ * [Data Smart: Using Data Science to Transform Information into Insight](http://www.amazon.com/gp/product/111866146X/)
+ * [Big Data, Data Mining, and Machine Learning: Value Creation for Business Leaders and Practitioners](http://www.amazon.com/Data-Mining-Machine-Learning-Practitioners/dp/1118618041/)
  * Microsoft's [Deep Learning: Methods and Applications](http://research.microsoft.com/pubs/209355/NOW-Book-Revised-Feb2014-online.pdf) (free PDF)
  * [Mining the Social Web, 2nd Edition](http://shop.oreilly.com/product/0636920030195.do) is available for sale and also has a fairly comprehensive [github repository](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition) with all the code from the book, in friendly IPython Notebook format, even with a whole virtual machine setup.
  * [Twitter Data Analytics](http://tweettracker.fulton.asu.edu/tda/) is available free online as a pre-print; it uses Java and MongoDB.
@@ -65,6 +71,7 @@
 
 ### Articles/Guides:
 
+ * [The future of data analysis](http://www.stanford.edu/%7Egavish/documents/Tukey_the_future_of_data_analysis.pdf) by John tukey in 1961 is still interesting and relevant.
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
  * Facebook article on deep learning for facial recognition: [DeepFace: Closing the Gap to Human-Level Performance in Face Verification](https://www.facebook.com/publications/546316888800776/)
  * The [UCLA IDRE Statistical Computing site](https://idre.ucla.edu/stats) is a rich resource for several computing environments (`R`, Stata, SPSS, SAS, etc.).
@@ -89,7 +96,7 @@
  * [csv,conf](http://csvconf.com/): A conference for data makers everywhere. (a fringe event of the [Open Knowledge Festival](http://okfestival.org/))
 
 
-# Journals:
+### Journals:
 
 People publish in a lot of places; other journal suggestions welcomed!
 
@@ -121,6 +128,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * A Udacity course on [Exploratory Data Analysis](https://www.udacity.com/course/ud651). "Investigate, Visualize, and Summarize Data Using R" - materials available for free.
  * Roger Peng's [YouTube playlists](https://www.youtube.com/user/rdpeng/playlists) include his Computing for Data Analysis videos, which are quite good. `R` plotting content is in [week three](https://www.youtube.com/playlist?list=PLjTlxb-wKvXOzI2h0F2_rYZHIXz8GWBop).
  * [CS 194-16](http://datascienc.es/) Introduction to Data Science, a course by Jeff Hammerbacher and Mike Franklin
+ * UC Berkely School of Information has course videos for "[Analyzing Big Data with Twitter](http://www.ischool.berkeley.edu/newsandevents/audiovideo/webcast/21963)".
  * [Software Carpentry](http://software-carpentry.org/)
  * [School of Data](http://schoolofdata.org/)
  * [videolectures.net](http://videolectures.net/)
@@ -152,6 +160,8 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [Data Science Retreat](http://datascienceretreat.com/) in Berlin, from the makers of [HackerRetreat](http://hackerretreat.com/).
  * [Comparison](http://yet-another-data-blog.blogspot.com/2014/04/data-science-bootcamp-landscape-full.html) of various bootcamp programs.
  * Kaplan runs "[Metis](http://www.thisismetis.com/)" 12-week bootcamps in a couple subjects, including data science.
+ * [Data Science Dojo](http://datasciencedojo.com/): "unleash the data scientist in you" (some workshops and so on in Seattle and Silicon Valley)
+ * [Insight Data Science Fellows Program](http://insightdatascience.com/): "An intensive six week post-doctoral training fellowship bridging the gap between academia and data science"
 
 
 ### Other resource collections

@@ -2,6 +2,7 @@
 
 # This is a short solution that is reasonably efficient.
 
+n <- 13 # number of digits
 s <- "73167176531330624919225119674426574742355349194934
       96983520312774506326239578318016984801869478851843
       85861560789112949495459501737958331952853208805511
@@ -24,4 +25,4 @@ s <- "73167176531330624919225119674426574742355349194934
       71636269561882670428252483600823257530420752963450"
 s <- gsub("[\n ]", "", s)
 s <- as.integer(unlist(strsplit(s, NULL)))
-max(sapply(seq_len(length(s)-4), function(i) prod(s[i:(i+4)])))
+max(sapply(seq_len(length(s)-(n-1)), function(i) prod(s[i:(i+(n-1))])))

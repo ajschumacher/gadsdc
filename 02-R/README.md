@@ -47,3 +47,4 @@ For a substantial extension based on the Monty Hall problem, go through the conc
 Optional:
  * Write up your `R` simulator for the Monty Hall problem. Get a `name.R` file into the `02-R/monty_hall/` directory of the class repo. Your script should output a probability of winning for the always-switching strategy and the never-switching scenario. Feel free to explore and experiment!
  * Write up your `R` solution to [Project Euler](http://projecteuler.net/) problem 8. Get a `name.R` file into the `02-R/problem_8/` directory of the class repo. Your script should output the solution to the problem. (I don't think putting your solution in the class repo violates the spirit of Project Euler's no-solution-publication rule.)
+ * It is not very commonly done, but it is possible to manage your `R` version(s) (cf. Python's `virtualenv`, Ruby's `rbenv`, `rvm`, etc.) using [Renv](https://github.com/viking/Renv).

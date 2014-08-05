@@ -5,7 +5,7 @@
 git clone https://github.com/jseabold/538model
 ```
 
-### Processing the data
+### Working with the data
 
 First, we may want to get some general id of what is in the folder.
 Here we will use to two basic command, `cd`, to change directory and
@@ -26,6 +26,14 @@ less census_demographics.csv
 cat census_demographics.csv
 wc census_demographics.csv
 wc -l census_demographics.csv
+```
+
+A useful technique is to use `head`, which ordinarily gives the first
+ten lines of a file, with the `-1` argument to get just the header
+line.
+
+```sh
+head -1 census_demographics.csv
 ```
 
 This file is comma-separated, so we can use the `cut` command to view
@@ -49,15 +57,17 @@ state.  `uniq -c` gives us a count of each unique element.  Note,
 `sort` must always proceed `uniq` as it expects sorted input.
 
 ```sh
-cat 2012_poll_data_states.csv  | cut -f8 | sort | uniq -c | sort -nrk2
+cat 2012_poll_data_states.csv  | cut -f8 | sort | uniq -c | sort -nr
 ```
 
 Our results look a bit funny - we've got "State" mixed in since it was
 a header column.  We can skip that row by using `tail` which gives the
-last n lines.  `tail +n` gives all but first n lines.
+last n lines.  `tail -n +2` gives all but first 2 lines, though this
+may not work for your `tail` program - `tail +n2` is another variant
+to try.
 
 ```sh
-cat 2012_poll_data_states.csv  | cut -f8 | tail +n2 | sort | uniq -c | sort -nrk2
+cat 2012_poll_data_states.csv  | cut -f8 | tail -n +2 | sort | uniq -c | sort -nr
 ```
 
 We may want to look at just the September polls, since those were the
@@ -86,6 +96,7 @@ cat 2012_poll_data_states.csv | grep ^9 | grep -v "Obama +" | grep -v "Romney +"
 ```
 
 These polls returned are all ties with neither candidate ahead.
+
 
 ### Further exercises
 

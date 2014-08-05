@@ -1,18 +1,34 @@
 # Dataset Research
 
-This homework will introduce you to a dataset - and give you something to work with in `R`. You aren't limited to just the dataset you work with here, but it will give you something to start from. Becoming familiar with a dataset is an important first step. Those included in the [starter list of datasets](datasets.md) are fairly small and well known. Many are already included in `R` or an `R` package that you can easily find.
+This homework will introduce you to a dataset - and give you something
+to work with in `R`. You aren't limited to just the dataset you work
+with here, but it will give you something to start from. Becoming
+familiar with a dataset is an important first step. Those included in
+the [starter list of datasets](datasets.md) are fairly small and well
+known. Many are already included in `R` or an `R` package that you can
+easily find. You can use a dataset from the provided list, or (even
+better) find your own dataset - but do try to ensure that your dataset
+is not *too* difficult (perhaps hundreds or a few thousand rows, not
+more than ten or twenty columns, at least some of them numeric, not
+too messy, not too many missing values) as the goal is to have
+something to practice basic loading/manipulation and visualization
+with.
 
 You should write a markdown file covering the following:
 
- * What are the structure and contents of your dataset? (Number of records, columns, missing values, etc.)
+ * What are the structure and contents of your dataset? (Number of
+   records, columns, missing values, etc.)
  * What is the history of your dataset (How was it created?)
  * Has your dataset been written about? What have others used it for?
  * How do you acquire and load the dataset into `R`? (Include code.)
  * What are some simple statistics describing the dataset?
 
-For datasets already available in `R`, don't neglect to check the included documentation! (`?dataset_name`)
+For datasets already available in `R`, don't neglect to check the
+included documentation! (`?dataset_name`)
 
 How do you know you're done?
 
- * You have a markdown file in the class repository `dataset_research` folder, including the above.
- * You have loaded the data into a `data.frame` in `R` and are ready to work with it further.
+ * You have a markdown file in the class repository `dataset_research`
+   folder, including the above.
+ * You have loaded the data into a `data.frame` in `R` and are ready
+   to work with it further.
