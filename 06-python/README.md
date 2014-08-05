@@ -45,6 +45,19 @@ Python as an executable with a shebang:
 
 Compare to `R` with `Rscript`, and `rnorm` vs. `np.random.normal`.
 
+
+Demo some of the environments in which to write Python:
+
+ * Editor + Python/IPython
+ * [Spyder][]
+ * [Komodo][]
+ * [PyCharm][]
+
+[Spyder]: https://code.google.com/p/spyderlib/
+[Komodo]: http://komodoide.com/
+[PyCharm]: http://www.jetbrains.com/pycharm/
+
+
 Exercise: [Pair][] up and write FizzBuzz in Python.
 
 [Pair]: http://en.wikipedia.org/wiki/Pair_programming
