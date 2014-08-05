@@ -123,6 +123,7 @@ People publish in a lot of places; other journal suggestions welcomed!
  * A Udacity course on [Exploratory Data Analysis](https://www.udacity.com/course/ud651). "Investigate, Visualize, and Summarize Data Using R" - materials available for free.
  * Roger Peng's [YouTube playlists](https://www.youtube.com/user/rdpeng/playlists) include his Computing for Data Analysis videos, which are quite good. `R` plotting content is in [week three](https://www.youtube.com/playlist?list=PLjTlxb-wKvXOzI2h0F2_rYZHIXz8GWBop).
  * [CS 194-16](http://datascienc.es/) Introduction to Data Science, a course by Jeff Hammerbacher and Mike Franklin
+ * UC Berkely School of Information has course videos for "[Analyzing Big Data with Twitter](http://www.ischool.berkeley.edu/newsandevents/audiovideo/webcast/21963)".
  * [Software Carpentry](http://software-carpentry.org/)
  * [School of Data](http://schoolofdata.org/)
  * [videolectures.net](http://videolectures.net/)
