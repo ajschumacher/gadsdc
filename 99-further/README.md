@@ -35,6 +35,7 @@
 
 ### Books:
 
+ * [Exploratory Data Analysis](http://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160) (EDA) by John Tukey deserves more attention than it gets.
  * These two are related and both quite good. The first is more elementary than the second.
      * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
      * [The Elements of Statistical Learning](http://www-stat.stanford.edu/~tibs/ElemStatLearn/)
@@ -65,6 +66,7 @@
 
 ### Articles/Guides:
 
+ * [The future of data analysis](http://www.stanford.edu/%7Egavish/documents/Tukey_the_future_of_data_analysis.pdf) by John tukey in 1961 is still interesting and relevant.
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
  * Facebook article on deep learning for facial recognition: [DeepFace: Closing the Gap to Human-Level Performance in Face Verification](https://www.facebook.com/publications/546316888800776/)
  * The [UCLA IDRE Statistical Computing site](https://idre.ucla.edu/stats) is a rich resource for several computing environments (`R`, Stata, SPSS, SAS, etc.).
