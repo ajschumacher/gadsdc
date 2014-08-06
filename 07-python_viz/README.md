@@ -17,6 +17,8 @@
 
 ### During
 
+and `rnorm` vs. `np.random.normal`.
+
 Things that could go in here, or in `06-python`: see the `sklearn` and `streaming` directories.
 
 Introduce [IPython Notebook][] and show some basic plotting. Be sure

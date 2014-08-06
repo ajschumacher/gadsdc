@@ -28,26 +28,16 @@ Application presentation.
 
 Question review.
 
-Python [slides](slides.pdf).
 
 Running Python interactively, running Python as a script, running
 Python as an executable with a shebang:
 
     #!/usr/bin/env python
 
-Compare to `R` with `Rscript`, and `rnorm` vs. `np.random.normal`.
+(Compare to `R` with `Rscript`.)
 
 
-Demo some of the environments in which to write Python:
-
- * Editor + Python/IPython
- * [Spyder][]
- * [Komodo][]
- * [PyCharm][]
-
-[Spyder]: https://code.google.com/p/spyderlib/
-[Komodo]: http://komodoide.com/
-[PyCharm]: http://www.jetbrains.com/pycharm/
+Go through the [walking introduction to Python - part 1](walking_intro1.py).
 
 
 Exercise: [Pair][] up and write FizzBuzz in Python.
@@ -59,16 +49,54 @@ Exercise: [Pair][] up and write FizzBuzz in Python.
   multiples of five print “Buzz”. For numbers which are multiples of
   both three and five print “FizzBuzz”.
 
+
 Introduce IPython (with `?`, tab completion, `%time` and `%timeit`,
 `%run`, `%paste`).
 
+Demo some of the environments in which to write Python:
+
+ * Editor + IPython
+ * [Spyder][]
+ * [Komodo][]
+ * [PyCharm][]
+
+[Spyder]: https://code.google.com/p/spyderlib/
+[Komodo]: http://komodoide.com/
+[PyCharm]: http://www.jetbrains.com/pycharm/
+
+
+Go through the [walking introduction to Python - part 2](walking_intro2.py).
+
+
+Exercise:
+
+ * Write a Python script that accepts a stream of numbers entered at
+   the keyboard, using `raw_input()`. After each new number is
+   entered, it should `print` the mean of all numbers entered so far.
+ * After you have a working solution, consider the long term memory
+   usage of your script. If your solution is not yet constant memory,
+   modify it to work in constant memory (neglecting overflow issues).
+ * Extension: Test your script for behavior on problematic input and
+   adjust as needed.
+ * Big extension: Change your script so that instead of accepting
+   keyboard input with `raw_input()`, it runs as a web service and
+   accepts input via HTTP POST requests, maintaining the running mean
+   as the GET response. (This is outside the scope of the class but
+   it's kind of fun and you could work it out if you wanted to.)
+
+
+Go through the [walking introduction to Python - part 3](walking_intro3.py).
+
+
 Stupid Python tricks:
 
- * see again: `import this`
- * useful: `from __future__ import division`
- * funny: `from __future__ import braces`
- * dangerous: mutable lists
+ * `import this`
+ * `from __future__ import braces`
  * unique: `str.join` for joining lists
+
+
+Python [slides](slides.pdf) also exist.
+
 
 Exercise: Pair up and use IPython to read in the linear regression
 assignment (salary) training data, using the `csv` module. Use the
