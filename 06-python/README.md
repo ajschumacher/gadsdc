@@ -32,10 +32,23 @@ Question review.
 Running Python interactively, running Python as a script, running
 Python as an executable with a shebang:
 
-    #!/usr/bin/env python
+```python
+#!/usr/bin/env python
+```
 
 (Compare to `R` with `Rscript`.)
 
+And the `__main__` setup:
+
+```python
+#!/usr/bin/env python
+
+def main():
+   pass
+
+if __name__ == '__main__':
+   main()
+```
 
 Go through the [walking introduction to Python - part 1](walking_intro1.py).
 
