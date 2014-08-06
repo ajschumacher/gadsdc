@@ -62,3 +62,8 @@ try:
 except:
     x = float('inf')
     # not a real solution
+
+# More on strings:
+"|".join(["some", "list", "elements"])
+"a big cow".replace("big", "cute")
+# and the `re` module...

@@ -92,7 +92,6 @@ Stupid Python tricks:
 
  * `import this`
  * `from __future__ import braces`
- * unique: `str.join` for joining lists
 
 
 Python [slides](slides.pdf) also exist.
