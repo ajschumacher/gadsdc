@@ -27,12 +27,6 @@ Application presentation.
 
 Question review.
 
-Coding activity one:
- * Write a Python script that accepts a stream of numbers entered at the keyboard, using `raw_input()`. After each new number is entered, it should `print` the mean of all numbers entered so far.
- * After you have a working solution, consider the long term memory usage of your script. If your solution is not yet constant memory, modify it to work in constant memory (neglecting overflow issues).
- * Extension: Test your script for behavior on problematic input and adjust as needed.
- * Big extension: Change your script so that instead of accepting keyboard input with `raw_input()`, it runs as a web service and accepts input via HTTP POST requests, maintaining the running mean as the GET response. (This is well outside the scope of the class but it's kind of fun and you could work it out if you wanted to.)
-
 Discussion of streaming as a general technique for working with data, for both general processing and also for machine learning.
 
 Brief intro to [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki) and the `vw` [input validator](http://hunch.net/~vw/validate.html). Pre-processing is a very common necessity, and this is a fine example.
