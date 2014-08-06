@@ -54,6 +54,8 @@ print x
 
 from csv import *
 # no no no
+import csv as c
+# yes but don't for csv
 
 # Exceptions and `try`ing
 try:
