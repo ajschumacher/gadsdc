@@ -25,6 +25,9 @@ Optional:
    is, if a technique only gives a probability of "yes" vs. "no" (for
    some question) how can you use the technique for questions with
    more than two possible answers?
+ * How do K Nearest Neighbors, Naive Bayes, and linear models compare
+   in terms of model interpretability? How/when could this inform
+   model choices?
  * What are the negatives of "tidy data"? When would it not be a good
    idea to have data in a "tidy" format?
  * What other thoughts, comments, concerns, and questions do you have?

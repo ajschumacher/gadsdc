@@ -11,6 +11,7 @@ Optional:
 
 ### Questions
 
+ * What determines the complexity of a linear model, as it relates to model bias and variance? How can you control this complexity?
  * Paul Graham makes some predictions in his Plan for Spam. How well has he done with these predictions?
  * There are several adjustments to a "pure" Bayesian algorithm in what Paul Graham describes in his Plan for Spam. What are they, and how do you think they were arrived at?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?

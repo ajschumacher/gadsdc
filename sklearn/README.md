@@ -11,9 +11,6 @@ Optional:
 
 ### Questions
 
- * Try to describe "the machine learning process" without reference to any particular algorithm(s). What are the generic "objects" and "actions" of the process?
- * When coding, do you tend to prefer more fine-grained control over details or more high-level abstractions? When is one more useful than the other?
- * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
 ### During

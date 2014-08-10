@@ -9,9 +9,14 @@ Optional:
 
 ### Questions
 
- * How do K Nearest Neighbors, Naive Bayes, and linear models compare in terms of model interpretability? How/when could this inform model choices?
- * What determines the complexity of a linear model, as it relates to model bias and variance? How can you control this complexity?
- * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
+ * Try to describe "the machine learning process" without reference to
+   any particular algorithm(s). What are the generic "objects" and
+   "actions" of the process?
+ * When coding, do you tend to prefer more fine-grained control over
+   details or more high-level abstractions? When is one more useful
+   than the other?
+ * What other thoughts, comments, concerns, and questions do you have?
+   What's on your mind?
 
 
 ### During
