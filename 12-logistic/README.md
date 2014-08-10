@@ -42,6 +42,8 @@ To get started with a beefier example, predict whether a car is a bad buy using 
 
 ### After
 
+Do the [logistic regression assignment](../logistic_assignment), due Monday April 28.
+
 Optional:
 
  * Read [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf). This will likely help you to better understand both Naive Bayes and logistic regression, and how they can be thought of as related.

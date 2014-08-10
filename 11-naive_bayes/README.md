@@ -11,6 +11,7 @@ Optional:
 
 ### Questions
 
+ * What determines the complexity of a linear model, as it relates to model bias and variance? How can you control this complexity?
  * Paul Graham makes some predictions in his Plan for Spam. How well has he done with these predictions?
  * There are several adjustments to a "pure" Bayesian algorithm in what Paul Graham describes in his Plan for Spam. What are they, and how do you think they were arrived at?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
@@ -70,8 +71,6 @@ For these questions, create a `name.md` file that will eventually get to the `06
 
 
 ### After
-
-Prepare a 30-second "elevator pitch" describing your project. (This could be just a current project idea if you aren't sure what you're working on yet, but you should have some idea.) Get a `name.md` file into the `06-naive_bayes/elevator/` directory of the class repo. We'll share these elevator pitches next Wednesday. Keep working on your project!
 
 Optional:
 
