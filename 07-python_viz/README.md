@@ -63,19 +63,6 @@ There are pretty many Python visualization options now. Here are a few:
 
 ### After
 
-Prepare three visualizations based on your final project data. Each
-one should show the viewer something about the data - the viewer
-should know something more, hopefully something interesting, after
-viewing the visualization. Clear labels will be important. You can use
-`R` or `python` (or both) and include code (including R markdown
-and/or IPython Notebooks) but you should also produce image files that
-can be viewed separately. Leave your image and source files in the
-`10-python` directory of the class repo. It would be good to name your
-files something consistent, like `name01.png`, `name02.png`, `name.R`,
-etc. The purpose of submitting image files in this way is so that they
-can be easily viewed all together when they are presented next week
-Wednesday.
-
  * [Plotting and Visualization in Python](http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850463/raw/a29d9ffb863bfab09ff6c1fc853e1d5bf69fe3e4/3.+Plotting+and+Visualization.ipynb)
  * [A Gallery of Statistical Graphs in Matplotlib](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_03_statistical_graphs.ipynb)
  * [Implementation of typographic and design principles in matplotlib and iPython notebook](http://nbviewer.ipython.org/gist/olgabot/5357268)
