@@ -21,6 +21,9 @@ Application presentation.
 
 Question review.
 
+
+#### Web Scraping
+
 Play with basic [web scraping](scrape.py) using [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
 ```bash
@@ -29,9 +32,15 @@ pip install lxml
 pip install cssselect
 ```
 
-Slides on data and formats.
+
+#### Web APIs
+
+[Slides](slides.pdf) on data and formats.
 
 [API lab](lab_API.md) on getting data from the web.
+
+
+#### Web visualization with D3
 
 Some intro and activity with [D3](http://d3js.org/).
 
