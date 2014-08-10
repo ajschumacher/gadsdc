@@ -5,6 +5,12 @@
 
 ### Questions
 
+ * How do the abstractions for data that we've seen in Python compare
+   to those that we know for R?
+ * How does Python's csv module compare to R's read.csv function? What
+   are the advantages of the csv module?
+ * What other thoughts, comments, concerns, and questions do you have?
+   What's on your mind?
 
 
 ### During
