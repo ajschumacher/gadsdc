@@ -26,8 +26,6 @@ Optional:
 
 Application presentation.
 
-Project elevator pitches.
-
 Question review.
 
 [Slides](slides.pdf) on regularization for linear regression.
