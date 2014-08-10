@@ -29,7 +29,7 @@ pip install lxml
 pip install cssselect
 ```
 
-Slides on data and formats.
+[Slides](slides.pdf) on data and formats.
 
 [API lab](lab_API.md) on getting data from the web.
 
