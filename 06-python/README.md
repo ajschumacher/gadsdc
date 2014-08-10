@@ -69,10 +69,12 @@ Introduce IPython (with `?`, tab completion, `%time` and `%timeit`,
 Demo some of the environments in which to write Python:
 
  * Editor + IPython
+ * [IDLE][]
  * [Spyder][]
  * [Komodo][]
  * [PyCharm][]
 
+[IDLE]: http://en.wikipedia.org/wiki/IDLE_(Python)
 [Spyder]: https://code.google.com/p/spyderlib/
 [Komodo]: http://komodoide.com/
 [PyCharm]: http://www.jetbrains.com/pycharm/
