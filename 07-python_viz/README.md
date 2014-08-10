@@ -5,14 +5,6 @@
 
 ### Questions
 
- * Consider thinking of boolean multinomial Naive Bayes likelihood
-   probabilities as coefficients on word dummy features. How are they
-   similar or different as compared with logistic regression
-   coefficients? (not yet asked; to move)
- * How can binary classifiers be used for multiclass problems? That
-   is, if a technique only gives a probability of "yes" vs. "no" (for
-   some question) how can you use the technique for questions with
-   more than two possible answers? (asked; but should move)
 
 
 ### During
