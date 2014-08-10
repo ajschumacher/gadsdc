@@ -10,6 +10,7 @@ len(c)
 
 # Vectorization (etc.) with numpy
 import numpy as np
+
 x = np.array(a)
 y = np.array(b)
 x + y
