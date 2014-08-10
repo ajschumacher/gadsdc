@@ -4,6 +4,11 @@
  * Read at least the first two parts from [Greg Reda on pandas](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/).
  * Go through a [brief matplotlib tutorial](http://jakevdp.github.io/mpl_tutorial/).
 
+Optional:
+
+ * Watch the [10-minute tour of pandas](http://vimeo.com/59324550).
+ * David Rojas has over ten [lessons on pandas in IPython Notebooks](https://bitbucket.org/hrojas/learn-pandas).
+
 
 ### Questions
 
@@ -16,6 +21,11 @@
 
 
 ### During
+
+Building up from base Python:
+ * `import numpy as np` ([tutorial one](http://scipy-lectures.github.io/intro/numpy/array_object.html), [tutorial two](http://wiki.scipy.org/Tentative_NumPy_Tutorial))
+ * `import pandas as pd` ([tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html))
+
 
 and `rnorm` vs. `np.random.normal`.
 
