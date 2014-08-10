@@ -1,6 +1,8 @@
 ### Before
 
- * A reading about Python data visualization or related topic.
+ * Check out a [An introduction to Numpy and Scipy](http://www.engr.ucsb.edu/~shell/che210d/numpy.pdf) from Scott Shell at UCSB.
+ * Read at least the first two parts from [Greg Reda on pandas](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/).
+ * Go through a [brief matplotlib tutorial](http://jakevdp.github.io/mpl_tutorial/).
 
 
 ### Questions
@@ -64,7 +66,6 @@ etc. The purpose of submitting image files in this way is so that they
 can be easily viewed all together when they are presented next week
 Wednesday.
 
- * Get more introduction to pandas with Greg Reda's [Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/).
  * [Plotting and Visualization in Python](http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850463/raw/a29d9ffb863bfab09ff6c1fc853e1d5bf69fe3e4/3.+Plotting+and+Visualization.ipynb)
  * [A Gallery of Statistical Graphs in Matplotlib](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_03_statistical_graphs.ipynb)
  * [Implementation of typographic and design principles in matplotlib and iPython notebook](http://nbviewer.ipython.org/gist/olgabot/5357268)
