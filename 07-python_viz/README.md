@@ -26,8 +26,9 @@ Building up from base Python:
  * `import numpy as np` ([tutorial one](http://scipy-lectures.github.io/intro/numpy/array_object.html), [tutorial two](http://wiki.scipy.org/Tentative_NumPy_Tutorial))
  * `import pandas as pd` ([tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html))
 
+Go through the [walk-through](walkthrough.py) together.
 
-and `rnorm` vs. `np.random.normal`.
+Compare R's `rnorm` vs. Python's `np.random.normal`.
 
 Things that could go in here, or in `06-python`: see the `sklearn` and `streaming` directories.
 
