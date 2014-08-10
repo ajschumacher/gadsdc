@@ -50,3 +50,4 @@ Optional:
    scrubbing and so on. There's a nice
    [tutorial](http://blog.rusty.io/2012/09/17/crossfilter-tutorial/)
    that you might start with.
+ * For more coding practice, you might check out one of [many coding competition sites/platforms](http://codecondo.com/coding-challenges).
