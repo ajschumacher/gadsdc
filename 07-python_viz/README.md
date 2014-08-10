@@ -55,7 +55,7 @@ not `rpy2`).
 
 There are pretty many Python visualization options now. Here are a few:
 
- * [Matplotlib](http://matplotlib.org/) ([tutorial](http://jakevdp.github.io/mpl_tutorial/))
+ * [Matplotlib](http://matplotlib.org/)
  * [ggplot for Python](https://github.com/yhat/ggplot/) ([introductory blog post](http://blog.yhathq.com/posts/ggplot-for-python.html))
  * [Vincent](https://vincent.readthedocs.org/)
  * [Bokeh](https://github.com/ContinuumIO/bokeh)
