@@ -30,6 +30,8 @@ Go through the [walk-through](walkthrough.py) together.
 
 Compare R's `rnorm` vs. Python's `np.random.normal`.
 
+Exercise: Re-implement the `health.csv` objectives from [last time](../06-python/) using `pandas`. (You will likely find it easier, or at least more concise.)
+
 Introduce [IPython Notebook][] and the [IPython Notebook Viewer][]!
 
 [IPython Notebook]: http://ipython.org/ipython-doc/dev/notebook/
@@ -47,15 +49,14 @@ needed, setting up graphing as needed after starting a notebook with
 
 [core.magics.pylab]: http://ipython.org/ipython-doc/2/api/generated/IPython.core.magics.pylab.html
 
-Exercise: Make a histogram of salaries (from the linear regression
-assignment training data) in an IPython Notebook.
-
 There are pretty many Python visualization options now. Here are a few:
 
  * [Matplotlib](http://matplotlib.org/)
  * [ggplot for Python](https://github.com/yhat/ggplot/) ([introductory blog post](http://blog.yhathq.com/posts/ggplot-for-python.html))
  * [Vincent](https://vincent.readthedocs.org/)
  * [Bokeh](https://github.com/ContinuumIO/bokeh)
+
+Exercise: Load your own dataset using `pandas` and make some Python visualizations.
 
 
 ### After
