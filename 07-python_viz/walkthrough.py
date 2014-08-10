@@ -57,6 +57,14 @@ batting = pd.read_csv('../../gadsdata/baseball/batting.csv')
 player_stats = master_salaries.merge(batting, on='playerID')
 
 hr_rbi = player_stats.groupby('HR').RBI.mean()
+
+# matplotlib scatter
 plt.plot(hr_rbi) # problem
 plt.plot(hr_rbi.index, hr_rbi)
+# add 'o', check plt.plot?, etc.
+
+# pandas plotting
 hr_rbi.plot()
+# add kind='', check pd.Series.plot?, pd.DataFrame.plot? etc.
+master.birthState.value_counts()[10::-1].plot(kind='barh')
+# and so on
