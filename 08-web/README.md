@@ -1,5 +1,6 @@
 ### Before
 
+ * Read the Python Guide on [HTML Scraping](http://docs.python-guide.org/en/latest/scenarios/scrape/).
  * Read Scott Murray's [tutorial on D3](http://alignedleft.com/tutorials/d3/).
 
 Optional:
