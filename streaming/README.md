@@ -69,16 +69,7 @@ vw train.vw --passes 200 -c --ngram 4
 
 And so on. It's easy to add regularization and much more.
 
-Perhaps show accessing the Twitter streaming API with the `TwitterAPI` module:
-
-```Python
-from TwitterAPI import TwitterAPI
-api = TwitterAPI(consumer_key, consumer_secret,
-                 access_token_key, access_token_secret)
-r = api.request('statuses/filter', {'track':'search_string'})
-for tweet in r.get_iterator():
-  print tweet
-```
+Also note that some data sources (like Twitter) are naturally considered as streaming; this is another consideration in designing systems.
 
 
 ### After
