@@ -2,6 +2,16 @@
 
 Read _Chapter 3: Linear Regression_ from [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf) (internal pages 59 to 126, PDF pages 74 to 141).
 
+Optional:
+
+ * Watch the related videos from the [Statistical Learning course](https://class.stanford.edu/courses/HumanitiesScience/StatLearning/Winter2014/about) taught by the authors of the book:
+   * [Simple Linear Regression](https://www.youtube.com/watch?v=PsE9UqoWtS4) (13:01)
+   * [Hypothesis Testing and Confidence Intervals](https://www.youtube.com/watch?v=J6AdoiNUyWI) (8:24)
+   * [Multiple Linear Regression](https://www.youtube.com/watch?v=1hbCJyM9ccs) (15:37)
+   * [Some Important Questions](https://www.youtube.com/watch?v=3T6RXmIHbJ4) (14:51)
+   * [Extensions of the Linear Model](https://www.youtube.com/watch?v=IFzVxLv0TKQ) (14:16)
+   * [Linear Regression in R](https://www.youtube.com/watch?v=5ONFqIk3RFg) (22:10)
+
 
 ### Questions
 
