@@ -1,10 +1,11 @@
+
 # Example solution to the `health.csv` exercise
 
 from __future__ import division
 import csv
 
 # "Read health.csv into a list of (row) lists."
-with open('health.csv') as f:
+with open('health.csv', 'rU') as f:
     r = csv.reader(f)
     header = r.next()
     health = [line for line in r]

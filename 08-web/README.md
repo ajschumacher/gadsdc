@@ -40,10 +40,50 @@ pip install cssselect
 
 [API lab](lab_API.md) on getting data from the web.
 
+Exercise:
+
+ * Pull some Sunlight API data into Python using `requests`.
+ * Use the `json` library to `json.loads()` the Sunlight data into a Python data structure.
+ * Re-structure the data into a list of lists or a `pandas` `DataFrame`.
+
+One popular web API requiring OAuth is Twitter. You have to "create an application" through [dev.twitter.com](https://dev.twitter.com/) to get the required keys and tokens. Then after `pip install TwitterAPI` it's easy to access Twitter data through Python:
+
+```Python
+from TwitterAPI import TwitterAPI
+api = TwitterAPI(consumer_key, consumer_secret,
+                 access_token_key, access_token_secret)
+r = api.request('statuses/user_timeline',
+                {'screen_name':'planarrowspace'})
+tweets = [tweet for tweet in r]
+for tweet in tweets:
+    print tweet['text']
+# etc.
+```
+
 
 #### Web visualization with D3
 
-Some intro and activity with [D3](http://d3js.org/).
+[D3](http://d3js.org/) is a much-loved JavaScript library for web-stack data visualization: Data Driven Documents. The library gives you a lot of control. D3 creator Mike Bostock's [Let's Make a Bar Chart](http://bost.ocks.org/mike/bar/) currently runs to three parts and is not yet complete. To fully take advantage of all the functionality of D3 requires some considerable familiarity with HTML, CSS, and JavaScript - but there are also a lot of examples that you can start from and modify!
+
+Use the [d3.js bar chart generator](http://d3-generator.com/) to quickly get a bar chart made from some CSV data such as [lab_API-deficit.csv](lab_API-deficit.csv). This quickly gets you code that you can tweak in the browser.
+
+Save the generated HTML to your computer and take advantage of Python's built-in web server:
+
+```bash
+python -m SimpleHTTPServer
+```
+
+View the page as served by Python.
+
+Exercise:
+
+ * Add an H1 header to the page.
+ * Change the font face of the value labels with CSS.
+ * Add commas to the axis labels.
+ * Extract the CSV data to a separate file.
+ * Extract the JavaScript to a separate file.
+ * Add an animation ("transition").
+ * Switch the chart from horizontal to vertical.
 
 
 ### After
