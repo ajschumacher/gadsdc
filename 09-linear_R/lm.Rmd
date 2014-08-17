@@ -2,14 +2,18 @@
 
 ### `pace` example
 
-This dataset represents pedestrian walking speed and population for fifteen cities. Let's predict walking speed from population density.
+This dataset represents pedestrian walking speed and population for
+fifteen cities. Let's predict walking speed from population density.
 
 ```{r}
 pace <- read.csv('pace.csv')
 head(pace)
 ```
 
-It's not uncommon to be handed a dataset like this with no documentation. In the case of this example, you would be able to find out a lot with some searching. Here's a little more context. The cities are:
+It's not uncommon to be handed a dataset like this with no
+documentation. In the case of this example, you would be able to find
+out a lot with some searching. Here's a little more context. The
+cities are:
 
  * Brno, Czechoslovakia
  * Prague, Czechoslovakia
@@ -27,9 +31,12 @@ It's not uncommon to be handed a dataset like this with no documentation. In the
  * New Haven, U.S.A.
  * Brooklyn, U.S.A.
 
-The units are feet per second for speed and count of population in millions for population. The data comes originally from an article in _Nature_, and has since been popularized by educators.
+The units are feet per second for speed and count of population in
+millions for population. The data comes originally from an article in
+_Nature_, and has since been popularized by educators.
 
-> Bornstein, Marc H., and Bornstein, Helen G. "The Pace of Life," Nature 259 (19 February 1976): 557-559.
+> Bornstein, Marc H., and Bornstein, Helen G. "The Pace of Life,"
+  Nature 259 (19 February 1976): 557-559.
 
 A scatterplot of the data shows an obviously nonlinear relationship.
 
@@ -41,33 +48,46 @@ library(ggplot2)
 ggplot(pace, aes(y=speed, x=pop, label=city)) + geom_text()
 ```
 
-Fitting a linear model to this dataset produces significant coefficients with an R-squared of ~43%, which is not bad. But based on the shape of the data, we can probably do better.
+Fitting a linear model to this dataset produces significant
+coefficients with an R-squared of ~43%, which is not bad. But based on
+the shape of the data, we can probably do better.
 
 ```{r}
 linear.fit <- lm(speed ~ pop, data=pace)
 summary(linear.fit)
 ```
 
-Notice that the fitted linear model is stored as an object, here called `linear.fit`. This object contains a lot, but we'll generally access these contents with other methods, like `summary()`.
+Notice that the fitted linear model is stored as an object, here
+called `linear.fit`. This object contains a lot, but we'll generally
+access these contents with other methods, like `summary()`.
 
 What do the coefficient estimates mean?
 
-There are a lot of diagnostics you can do on linear models quite distinct from cross-validation. In this simple case, you can plot the fit:
+There are a lot of diagnostics you can do on linear models quite
+distinct from cross-validation. In this simple case, you can plot the
+fit:
 
 ```{r}
 plot(speed ~ pop, data=pace)
 abline(linear.fit, col="red")
 ```
 
-In general you can't plot that "line". Plotting an `lm` object will show you four diagnostic plots:
+In general you can't plot that "line". Plotting an `lm` object will
+show you four diagnostic plots:
 
 ```{r}
 plot(linear.fit)
 ```
 
-In the presence of troublesome outliers one might consider robust regression. This is another way of fitting linear models, different from plain OLS. See, for example, `rlm()` from the `MASS package. UCLA's IDRE has a [walkthrough](http://www.ats.ucla.edu/stat/r/dae/rreg.htm).
+In the presence of troublesome outliers one might consider robust
+regression. This is another way of fitting linear models, different
+from plain OLS. See, for example, `rlm()` from the `MASS package.
+UCLA's IDRE has a [walkthrough][].
 
-An important thing we can do with our fitted model is make predictions for new data.
+[walkthrough]: http://www.ats.ucla.edu/stat/r/dae/rreg.htm
+
+An important thing we can do with our fitted model is make predictions
+for new data.
 
 ```{r}
 predict(linear.fit, data.frame(pop=200))
@@ -87,9 +107,16 @@ cor(pace$speed, predict(linear.fit))^2
 1-var(residuals(linear.fit))/var(pace$speed)
 ```
 
-Only the last one is the general definition of R-squared for models in the "percent of variance explained" sense. Using OLS regression produces the equality of them all. This post goes through the math: [Correlation and R-Squared](http://www.win-vector.com/blog/2011/11/correlation-and-r-squared/).
+Only the last one is the general definition of R-squared for models in
+the "percent of variance explained" sense. Using OLS regression
+produces the equality of them all. This post goes through the math:
+[Correlation and R-Squared][].
 
-It's often not a bad idea to explore your data for linear relationships. This can be done graphically and numerically. For example, the `iris` dataset:
+[Correlation and R-Squared]: http://www.win-vector.com/blog/2011/11/correlation-and-r-squared/
+
+It's often not a bad idea to explore your data for linear
+relationships. This can be done graphically and numerically. For
+example, the `iris` dataset:
 
 ```{r}
 plot(iris, pch=19, col=iris$Species)
@@ -99,9 +126,13 @@ round(cor(iris[, 1:4])^2, 2)
 
 ### Formulas and design matrices
 
-The main linear regression function in R is the `lm` function. This function usually takes a _formula_ specifying the regression to run and a data frame containing the data.
+The main linear regression function in R is the `lm` function. This
+function usually takes a _formula_ specifying the regression to run
+and a data frame containing the data.
 
-A formula in `R` allows you to specify a functional relationship between variables. In R a formula is generally specified with text, but it is itself an object.
+A formula in `R` allows you to specify a functional relationship
+between variables. In R a formula is generally specified with text,
+but it is itself an object.
 
 ```{r}
 my.formula <- Y ~ X1 + X2 + X3
@@ -110,59 +141,79 @@ class(my.formula)
 str(my.formula)
 ```
 
-`R` automatically assumes there is an intercept term. You can make this explicit by adding it as follows:
+`R` automatically assumes there is an intercept term. You can make
+this explicit by adding it as follows:
 
 ```{r, eval=FALSE}
 Y ~ 1 + X1 + X2 + X3
 ```
 
-You can also "remove" the intercept term (setting it to zero) in either of the following ways:
+You can also "remove" the intercept term (setting it to zero) in
+either of the following ways:
 
 ```{r, eval=FALSE}
 Y ~  0 + X1 + X2 + X3
 Y ~ -1 + X1 + X2 + X3
 ```
 
-As you can see, `+` and `-` don't act as addition and subtraction operators but instead add and remove terms from the formula. There are other operators that lose their algebraic meaning in a formula.  `:` adds the _interaction_ of two variables. `*` adds the original terms as well as their interaction. The following are equivalent:
+As you can see, `+` and `-` don't act as addition and subtraction
+operators but instead add and remove terms from the formula. There are
+other operators that lose their algebraic meaning in a formula.  `:`
+adds the _interaction_ of two variables. `*` adds the original terms
+as well as their interaction. The following are equivalent:
 
 ```{r, eval=FALSE}
 Y ~ X1 * X2 + X3
 Y ~ X1 + X2 + X1:X2 + X3
 ```
 
-The dot ("`.`") is sometimes useful in formulas. It stands in for all variables in the data frame that have not been otherwise specified. This and more is explained in `?formula`.
+The dot ("`.`") is sometimes useful in formulas. It stands in for all
+variables in the data frame that have not been otherwise specified.
+This and more is explained in `?formula`.
 
-These formulas are very convenient for writing human-readable model specifications. But linear regression is fundamentally just going to work on numeric matrices. So what's going on? Internally, `lm` (and many other `R` functions) create a _design matrix_ using `model.matrix()` (or similar). Recalling our simple fit from earlier we can see what this does:
+These formulas are very convenient for writing human-readable model
+specifications. But linear regression is fundamentally just going to
+work on numeric matrices. So what's going on? Internally, `lm` (and
+many other `R` functions) create a _design matrix_ using
+`model.matrix()` (or similar). Recalling our simple fit from earlier
+we can see what this does:
 
 ```{r}
 head(model.matrix(speed ~ pop, data=pace))
 ```
 
-Note that the response variable (the label) is not present. Another important thing that `model.matrix` does is making "dummies" for categorical data:
+Note that the response variable (the label) is not present. Another
+important thing that `model.matrix` does is making "dummies" for
+categorical data:
 
 ```{r}
 head(model.matrix(Sepal.Width ~ ., data=iris))
 ```
 
-You can get another view into how `R` treats categorical data as follows:
+You can get another view into how `R` treats categorical data as
+follows:
 
 ```{r}
 contrasts(iris$Species)
 ```
 
-_Important note_: You'll generally need exactly the same columns in your train and test design matrices. Be careful when building a design matrix depends on the data it happens to see!
+_Important note_: You'll generally need exactly the same columns in
+your train and test design matrices. Be careful when building a design
+matrix depends on the data it happens to see!
 
 
 ### Linear regression as conditional mean
 
  * What is the mean of `Petal.Length` for each `iris` `Species`?
- * What are the coefficients of a regression of `Petal.Length` on `Species`?
+ * What are the coefficients of a regression of `Petal.Length` on
+   `Species`?
  * What's the connection?
 
 
 ### Polynomial regression
 
-We saw that `speed` curves up as `pop` increases, so we might want to try a quadratic linear model. How can we do this?
+We saw that `speed` curves up as `pop` increases, so we might want to
+try a quadratic linear model. How can we do this?
 
 ```{r}
 head(model.matrix(speed ~ pop^2, data=pace))
@@ -175,13 +226,17 @@ head(model.matrix(speed ~ pop + I(pop^2), data=pace))
 summary(lm(speed ~ pop + I(pop^2), data=pace))
 ```
 
-This works, and R-squared is a little higher than before, but none of the coefficients are significant. A feature and its square are correlated, in general, and this is not good for fitting our model. In the case of identical features, `lm` will have real problems:
+This works, and R-squared is a little higher than before, but none of
+the coefficients are significant. A feature and its square are
+correlated, in general, and this is not good for fitting our model. In
+the case of identical features, `lm` will have real problems:
 
 ```{r}
 summary(lm(rnorm(100) ~ cbind(1:100, 1:100)))
 ```
 
-The `poly()` function will address the correlations between powers of a feature.
+The `poly()` function will address the correlations between powers of
+a feature.
 
 ```{r}
 round(cor(model.matrix(speed ~ 0 + pop + I(pop^2), data=pace)), 2)
@@ -190,31 +245,47 @@ head(model.matrix(speed ~ poly(pop, 2), data=pace))
 summary(lm(speed ~ poly(pop, 2), data=pace))
 ```
 
-De-correlating the related features like this is nice in some ways, but could be troublesome for predicting on new data. If we aren't concerned about standard errors, it might be better not to do. Note that the R-squared is the same, and the predictions are also the same. Of course in the present case the quadratic model is still pretty weak.
+De-correlating the related features like this is nice in some ways,
+but could be troublesome for predicting on new data. If we aren't
+concerned about standard errors, it might be better not to do. Note
+that the R-squared is the same, and the predictions are also the same.
+Of course in the present case the quadratic model is still pretty
+weak.
 
 
 ### Linear models with transformations
 
-This scatterplot shows the relationship in the `pace` data after a log-log transformation based on this (and the previous) plot, we should expect the transformed data to produce a better linear fit.
+This scatterplot shows the relationship in the `pace` data after a
+log-log transformation based on this (and the previous) plot, we
+should expect the transformed data to produce a better linear fit.
 
 ```{r}
 ggplot(pace, aes(y=log(speed), x=log(pop))) + geom_point()
 ```
 
-Why is this true? Because the nonlinear relationship we saw before is an example of a "power law", i.e.,	$y = x ^ b$. The log-log transformation maps this nonlinear relationship to a linear relationship, effectively transforming the complicated problem to a simpler problem.
+Why is this true? Because the nonlinear relationship we saw before is
+an example of a "power law", i.e.,	$y = x ^ b$. The log-log
+transformation maps this nonlinear relationship to a linear
+relationship, effectively transforming the complicated problem to a
+simpler problem.
 
 $$y = x ^ b$$
 $$log(y) = log(x^b)$$
 $$log(y) = b \cdot log(x)$$
 $$y' = b \cdot x'$$
 
-This is a linear fit on the transformed variables... Note that R-squared has nearly doubled.
+This is a linear fit on the transformed variables... Note that
+R-squared has nearly doubled.
 
 ```{r}
 log.fit <- lm(log(speed) ~ log(pop), data=pace)
 summary(log.fit)
 ```
 
-This kind of manuever, mapping a nonlinear problem to a linear problem, and feature transformation generally, is often useful. We hope that our residuals will look nicer and the model will be more predictive. Think about what will need to be done to make predictions with this model.
+This kind of manuever, mapping a nonlinear problem to a linear
+problem, and feature transformation generally, is often useful. We
+hope that our residuals will look nicer and the model will be more
+predictive. Think about what will need to be done to make predictions
+with this model.
 
 Note that we still haven't done any cross-validation!
