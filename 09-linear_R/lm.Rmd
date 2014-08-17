@@ -72,11 +72,17 @@ plot(speed ~ pop, data=pace)
 abline(linear.fit, col="red")
 ```
 
-In general you can't plot that "line". Plotting an `lm` object will
-show you four diagnostic plots:
+The residuals then are what is left after subtracting out the line:
 
 ```{r}
-plot(linear.fit)
+plot(speed - predict(linear.fit) ~ pop, data=pace)
+```
+
+With more dimensions, you can't easily plot these "lines". Here's one
+approach:
+
+```{r}
+plot(linear.fit, 1)
 ```
 
 In the presence of troublesome outliers one might consider robust
