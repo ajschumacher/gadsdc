@@ -15,9 +15,8 @@ Optional:
 
 ### Questions
 
- * Suppose you have features that correspond to length, width, and height, and you're predicting a label which is volume. Could you use KNN? Explain how it could work (with some relevant implementation details), or why it wouldn't work.
- * Suppose you have features that correspond to length, width, and height, and you're predicting a label which is volume. Could you use a Bayesian approach? Explain how it could work (with some relevant implementation details), or why it wouldn't work.
- * Suppose you have features that correspond to length, width, and height, and you're predicting a label which is volume. Could you use linear regression? Explain how it could work (with some relevant implementation details), or why it wouldn't work.
+ * What is your background with linear regression? What have you used it for, and how have you used it?
+ * What questions or uncertainties do you have about your final project? What kinds of support would be helpful?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
