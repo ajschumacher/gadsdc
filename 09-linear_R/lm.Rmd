@@ -38,7 +38,7 @@ _Nature_, and has since been popularized by educators.
 > Bornstein, Marc H., and Bornstein, Helen G. "The Pace of Life,"
   Nature 259 (19 February 1976): 557-559.
 
-A scatterplot of the data shows an obviously nonlinear relationship.
+A scatterplot of the data shows a possible relationship.
 
 ```{r}
 # Base R
@@ -54,6 +54,11 @@ the shape of the data, we can probably do better.
 
 ```{r}
 linear.fit <- lm(speed ~ pop, data=pace)
+# evaluating with root mean squared error (training)
+rmse <- function(x, y) {
+  return(sqrt(mean((x-y)^2)))
+}
+rmse(pace$speed, predict(linear.fit))
 summary(linear.fit)
 ```
 
@@ -78,11 +83,13 @@ The residuals then are what is left after subtracting out the line:
 plot(speed - predict(linear.fit) ~ pop, data=pace)
 ```
 
+(Or just use `residuals()`.)
+
 With more dimensions, you can't easily plot these "lines". Here's one
 approach:
 
 ```{r}
-plot(linear.fit, 1)
+plot(linear.fit, 1) # the first available diagnostic plot
 ```
 
 In the presence of troublesome outliers one might consider robust
@@ -173,6 +180,11 @@ Y ~ X1 * X2 + X3
 Y ~ X1 + X2 + X1:X2 + X3
 ```
 
+Interactions are multiplications. `R` will not give you interactions
+of a variable with itself unless you ask inside `I()` or use `poly()`,
+which adds some additional complexity which we will return to later,
+when we talk about dimensionality reduction.
+
 The dot ("`.`") is sometimes useful in formulas. It stands in for all
 variables in the data frame that have not been otherwise specified.
 This and more is explained in `?formula`.
@@ -205,7 +217,7 @@ contrasts(iris$Species)
 
 _Important note_: You'll generally need exactly the same columns in
 your train and test design matrices. Be careful when building a design
-matrix depends on the data it happens to see!
+matrix whose dimensions depend on the data (categorical, text)!
 
 
 ### Linear regression as conditional mean
@@ -214,49 +226,6 @@ matrix depends on the data it happens to see!
  * What are the coefficients of a regression of `Petal.Length` on
    `Species`?
  * What's the connection?
-
-
-### Polynomial regression
-
-We saw that `speed` curves up as `pop` increases, so we might want to
-try a quadratic linear model. How can we do this?
-
-```{r}
-head(model.matrix(speed ~ pop^2, data=pace))
-```
-
-That doesn't work, but we could force it to do what we intend:
-
-```{r}
-head(model.matrix(speed ~ pop + I(pop^2), data=pace))
-summary(lm(speed ~ pop + I(pop^2), data=pace))
-```
-
-This works, and R-squared is a little higher than before, but none of
-the coefficients are significant. A feature and its square are
-correlated, in general, and this is not good for fitting our model. In
-the case of identical features, `lm` will have real problems:
-
-```{r}
-summary(lm(rnorm(100) ~ cbind(1:100, 1:100)))
-```
-
-The `poly()` function will address the correlations between powers of
-a feature.
-
-```{r}
-round(cor(model.matrix(speed ~ 0 + pop + I(pop^2), data=pace)), 2)
-round(cor(model.matrix(speed ~ 0 + poly(pop, 2), data=pace)), 2)
-head(model.matrix(speed ~ poly(pop, 2), data=pace))
-summary(lm(speed ~ poly(pop, 2), data=pace))
-```
-
-De-correlating the related features like this is nice in some ways,
-but could be troublesome for predicting on new data. If we aren't
-concerned about standard errors, it might be better not to do. Note
-that the R-squared is the same, and the predictions are also the same.
-Of course in the present case the quadratic model is still pretty
-weak.
 
 
 ### Linear models with transformations

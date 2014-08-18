@@ -1,0 +1,43 @@
+(continuing from `lm.Rmd` in `09-linear_R`)
+
+### Polynomial regression
+
+We saw that `speed` curves up as `pop` increases, so we might want to
+try a quadratic linear model. How can we do this?
+
+```{r}
+head(model.matrix(speed ~ pop^2, data=pace))
+```
+
+That doesn't work, but we could force it to do what we intend:
+
+```{r}
+head(model.matrix(speed ~ pop + I(pop^2), data=pace))
+summary(lm(speed ~ pop + I(pop^2), data=pace))
+```
+
+This works, and R-squared is a little higher than before, but none of
+the coefficients are significant. A feature and its square are
+correlated, in general, and this is not good for fitting our model. In
+the case of identical features, `lm` will have real problems:
+
+```{r}
+summary(lm(rnorm(100) ~ cbind(1:100, 1:100)))
+```
+
+The `poly()` function will address the correlations between powers of
+a feature.
+
+```{r}
+round(cor(model.matrix(speed ~ 0 + pop + I(pop^2), data=pace)), 2)
+round(cor(model.matrix(speed ~ 0 + poly(pop, 2), data=pace)), 2)
+head(model.matrix(speed ~ poly(pop, 2), data=pace))
+summary(lm(speed ~ poly(pop, 2), data=pace))
+```
+
+De-correlating the related features like this is nice in some ways,
+but could be troublesome for predicting on new data. If we aren't
+concerned about standard errors, it might be better not to do. Note
+that the R-squared is the same, and the predictions are also the same.
+Of course in the present case the quadratic model is still pretty
+weak.
