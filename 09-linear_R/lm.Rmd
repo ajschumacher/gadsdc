@@ -230,11 +230,17 @@ matrix whose dimensions depend on the data (categorical, text)!
 
 ### Colinearity / Redundancy
 
-# possibly misleading
-summary(lm(1:100*2 ~ cbind(replicate(2, {1:100+rnorm(100)}))))
+When predictors are correlated, it can be misleading.
 
-# singularity
+```{r}
+summary(lm(1:100*2 ~ cbind(1:100+rnorm(100), 1:100+rnorm(100, sd=3))))
+```
+
+Perfect colinearity will keep OLS from finding a solution. (Singularity)
+
+```{r}
 summary(lm(1:100*2 ~ cbind(replicate(2, {1:100}))))
+```
 
 
 ### Linear models with transformations
