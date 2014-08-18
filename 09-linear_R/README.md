@@ -28,6 +28,8 @@ Question review.
 
 [Slides](slides.pdf) on linear regression.
 
+A pragmatic approach to model assumptions from Gelman: "[What are the key assumptions of linear regression?](http://andrewgelman.com/2013/08/04/19470/)".
+
 Linear regression [exploration in R](lm.Rmd).
 
 Extended exploration with [baseball data](https://github.com/ajschumacher/gadsdata/tree/master/baseball):
