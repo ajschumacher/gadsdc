@@ -228,6 +228,15 @@ matrix whose dimensions depend on the data (categorical, text)!
  * What's the connection?
 
 
+### Colinearity / Redundancy
+
+# possibly misleading
+summary(lm(1:100*2 ~ cbind(replicate(2, {1:100+rnorm(100)}))))
+
+# singularity
+summary(lm(1:100*2 ~ cbind(replicate(2, {1:100}))))
+
+
 ### Linear models with transformations
 
 This scatterplot shows the relationship in the `pace` data after a
