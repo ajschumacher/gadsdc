@@ -32,21 +32,31 @@ A pragmatic approach to model assumptions from Gelman: "[What are the key assump
 
 Linear regression [exploration in R](lm.Rmd).
 
-Extended exploration with [baseball data](https://github.com/ajschumacher/gadsdata/tree/master/baseball):
+Exercise: Extended exploration with secret data: [train](train.csv) and [test](test.csv). Both sets include the `response` variable, so you can evaluate your performance yourself. Use test set RMSE (root mean squared error) to describe how well you're doing.
 
  * Download and load the data into `R`.
- * Combine some/all of the data (using `merge`) to create a dataset from which to model `salary`.
- * Make a couple exploratory graphs and models.
+ * Look at the data.
+ * Make exploratory graphs.
+ * Make exploratory models.
+ * Are there relationships between the variables? Make some notes (comments in code could be enough) as you notice things about the variables.
  * Consider tranforming values. Could it be helpful?
- * Build out a cross-validation framework for testing `lm` models. (What evaluation metric are you using?)
- * See how good a model you can build.
+ * What RMSE can you get on the training data? On the test data?
+     * Usually training error will be lower than test error, but this may not be the case for you with this data. Why not?
+ * See how good a model you can build. How low can you get RMSE?
+
+Hints:
+
+ * Interactions are worth investigating!
+ * While it may not be obvious, the data was made with a physical system in mind. Think like a physicist!
+ * Do all the numeric values behave like numeric values?
+ * Unlike a real-world problem, we know exactly how this data was created, so we also (as a result) know how what the *best* achievable performance is. Also unlike a real-world problem, the best achievable performance is zero test-set RMSE.
 
 
 ### After
 
 Optional:
 
- * Write up your baseball salary modeling. You can submit a file to the `07-linear` directory of the class repo.
+ * Write up your exploratory modeling. You can submit a file to the `09-linear_R` directory of the class repo.
  * Read the yhat [Fitting & Interpreting Linear Models in R](http://blog.yhathq.com/posts/r-lm-summary.html) to solidify your comfort with `lm`.
  * Read the Win-Vector post on [Correlation and R-Squared](http://www.win-vector.com/blog/2011/11/correlation-and-r-squared/).
  * Read about [robust regression](http://www.ats.ucla.edu/stat/r/dae/rreg.htm) at the UCLA Institute for Digital Research and Education sight.
