@@ -70,7 +70,6 @@ Optional:
  * Check out the [intro to scikit-learn][] video series from SciPy2013.
  * Learn more about sklearn by reading [API design for machine learning software: experiences from the scikit-learn project](http://arxiv.org/abs/1309.0238).
  * Check out "[Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)".
- * Look through a notebook on [logistic regression with statsmodels for well switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb).
  * There are other kinds of analyis such as survival analysis which can also be done in Python with, e.g., [lifelines](http://lifelines.readthedocs.org/).
 
 [intro to scikit-learn]: https://www.youtube.com/watch?v=r4bRUvvlaBw
