@@ -56,7 +56,10 @@ Go through the following:
  * [KNN](knn.md)
  * [Linear Regression](linear.md)
 
-These also introduce [`statsmodels`](http://statsmodels.sourceforge.net/)/[`patsy`](http://patsy.readthedocs.org/), scoring/cross-validation with `sklearn`, and some other syntax.
+These also introduce `patsy`, `statsmodels`, and evaluation/cross-validation with `sklearn`.
+
+ * [`patsy`](http://patsy.readthedocs.org/) (see also: [patsy quick start](https://patsy.readthedocs.org/en/latest/quickstart.html) (see also: [Why's it called "patsy"?](http://seveninchesofyourtime.com/wp-content/uploads/2014/08/montypython7.gif))
+ * [`statsmodels`](http://statsmodels.sourceforge.net/devel/)
 
 
 ### After
