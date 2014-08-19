@@ -55,7 +55,6 @@ Go through the following:
 
  * [KNN](knn.md)
  * [Linear Regression](linear.md)
- * [Naive Bayes and Logistic Regression](bayes_logistic.md)
 
 These also introduce [`statsmodels`](http://statsmodels.sourceforge.net/)/[`patsy`](http://patsy.readthedocs.org/), scoring/cross-validation with `sklearn`, and some other syntax.
 

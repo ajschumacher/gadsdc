@@ -39,6 +39,10 @@ Note that everything we've talked about with regard to test sets and cross-valid
 
 To get started with a beefier example, predict whether a car is a bad buy using the prepared [lemons](https://github.com/ajschumacher/gadsdata/tree/master/lemons) data.
 
+Both Naive Bayes and Logistic Regression with `sklearn`:
+
+ * [Naive Bayes and Logistic Regression](bayes_logistic.md)
+
 
 ### After
 
