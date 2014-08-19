@@ -32,16 +32,14 @@ Question review.
 
 `glmnet` [demo](glmnet.Rmd).
 
-Introduce the [linear regression assignment](../linear_assignment).
-
- * Write out a mean squared error function.
- * Experiment with some null models for `SalaryNormalized` - try zeros, and the intercept-only model.
- * Mention the idea of checking some distributions.
- * Use `grep` to hand-dummy some columns based on the text descriptions.
- * Note that the answers are available in `solution.csv` but performance should only be checked there as a _final_ step.
-
 Building up from base Python:
- * `sklearn` ([documentation](http://scikit-learn.org/dev/documentation.html)) and friends
+ * `numpy`
+ * `pandas`
+ * [`patsy`](http://patsy.readthedocs.org/) (see also: [patsy quick start](https://patsy.readthedocs.org/en/latest/quickstart.html) (see also: [Why's it called "patsy"?](http://seveninchesofyourtime.com/wp-content/uploads/2014/08/montypython7.gif))
+ * [`statsmodels`](http://statsmodels.sourceforge.net/devel/)
+ * `sklearn` ([documentation](http://scikit-learn.org/dev/documentation.html))
+
+Build up to [linear regression in Python](linear.md).
 
 The `sklearn` pattern:
  1. Import a class (make it available)
@@ -49,17 +47,16 @@ The `sklearn` pattern:
  3. Fit (give it data)
  4. Transform/Predict (get results)
 
-Go through the [walk-through](walkthrough.py) together.
-
-Go through the following:
-
+ * Go through the [walk-through](walkthrough.py) together.
  * [KNN](knn.md)
- * [Linear Regression](linear.md)
 
-These also introduce `patsy`, `statsmodels`, and evaluation/cross-validation with `sklearn`.
+Introduce the [linear regression assignment](../linear_assignment).
 
- * [`patsy`](http://patsy.readthedocs.org/) (see also: [patsy quick start](https://patsy.readthedocs.org/en/latest/quickstart.html) (see also: [Why's it called "patsy"?](http://seveninchesofyourtime.com/wp-content/uploads/2014/08/montypython7.gif))
- * [`statsmodels`](http://statsmodels.sourceforge.net/devel/)
+ * Write out a mean squared error function.
+ * Experiment with some null models for `SalaryNormalized` - try zeros, and the intercept-only model.
+ * Mention the idea of checking some distributions.
+ * Use `grep` to hand-dummy some columns based on the text descriptions.
+ * Note that the answers are available in `solution.csv` but performance should only be checked there as a _final_ step.
 
 
 ### After
