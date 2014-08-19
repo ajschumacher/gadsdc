@@ -34,7 +34,7 @@ Question review.
 
 Building up from base Python:
  * `numpy`
- * `pandas`
+ * `pandas` (Don't forget about [`pandas`' visualization](http://pandas.pydata.org/pandas-docs/stable/visualization.html)!)
  * [`patsy`](http://patsy.readthedocs.org/) (see also: [patsy quick start](https://patsy.readthedocs.org/en/latest/quickstart.html) (see also: [Why's it called "patsy"?](http://seveninchesofyourtime.com/wp-content/uploads/2014/08/montypython7.gif))
  * [`statsmodels`](http://statsmodels.sourceforge.net/devel/)
  * `sklearn` ([documentation](http://scikit-learn.org/dev/documentation.html))
