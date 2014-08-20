@@ -39,7 +39,7 @@ Building up from base Python:
  * [`statsmodels`](http://statsmodels.sourceforge.net/devel/)
  * `sklearn` ([documentation](http://scikit-learn.org/dev/documentation.html))
 
-Build up to [linear regression in Python](linear.md).
+Build up to [linear regression in Python](linear.ipynb).
 
 The `sklearn` pattern:
  1. Import a class (make it available)
@@ -47,8 +47,11 @@ The `sklearn` pattern:
  3. Fit (give it data)
  4. Transform/Predict (get results)
 
- * Go through the [walk-through](walkthrough.py) together.
- * [KNN](knn.md)
+Question to consider: How do we change text into features?
+
+Explore the [sklearn pattern](sklearn_pattern.ipynb) together.
+
+Go through [KNN](knn.md) to learn more about `sklearn`.
 
 Introduce the [linear regression assignment](../linear_assignment).
 
@@ -61,7 +64,7 @@ Introduce the [linear regression assignment](../linear_assignment).
 
 ### After
 
-Complete your [linear regression assignment](../linear_assignment). When you're done you'll have a `name.Rmd` (or similar) file in the `linear_assignment` directory of the class repo.
+Complete your [linear regression assignment](../linear_assignment). You can use  When you're done you'll have a `name.Rmd` (or similar) file in the `linear_assignment` directory of the class repo.
 
 Optional:
  * Read this [glmnet vignette](http://www.stanford.edu/~hastie/glmnet/glmnet_alpha.html) for even more about using `R`'s `glmnet` package.
