@@ -78,3 +78,5 @@ Optional:
  * Read [ML, MAP, and Bayesian — The Holy
 Trinity of Parameter Estimation and Data
 Prediction](https://engineering.purdue.edu/kak/Trinity.pdf) - "The Trinity Tutorial"
+
+* Read Naive-Bayes Classification using Python, NumPy, and Scikits (http://thinkmodelcode.blogspot.com/2013/04/naive-bayes-classification-using-python.html) Provides a good and step by step tutorial for Naive Bayes in Python. 
