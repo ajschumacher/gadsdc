@@ -54,7 +54,7 @@ The easiest way to do this will be to extract the compressed files. You may need
 
 Step 3. Load source data into Python.
 
-Step 3.1 (optional): Consider and implement pre-processing of the source data. Should you use all the available text? Should you use some transformations, such as stemming?
+Step 3.1 (optional): Consider and implement pre-processing of the source data. Should you use all the available text? Should you use some transformations, such as [stemming](nltk_stemming.md)?
 
 Step 4. Choose your own adventure!
 
