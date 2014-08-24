@@ -66,7 +66,7 @@ Step 4b. Implement a Naive Bayes spam classifier using `sklearn`. You'll get goo
 
 Step 4c. Do both (4a) and (4b)!
 
-Step 5. Examine model fit. What are the "spammiest" words? The "hammiest"?
+Step 5. Examine model parameters. What are the "spammiest" words? The "hammiest"?
 
 Step 6. Examine model performance. Check training performance. Get test set performance. Try cross-validating.
 
