@@ -52,6 +52,22 @@ Step 2. Make source data accessible.
 
 The easiest way to do this will be to extract the compressed files. You may need [help with `tar`](http://xkcd.com/1168/?use tar xvjf filename).
 
+Step 3. Load source data into Python.
+
+Step 3.1 (optional): Consider and implement pre-processing of the source data. Should you use all the available text? Should you use some transformations, such as stemming?
+
+Step 4. Choose your own adventure!
+
+Step 4a. Implement a Naive Bayes spam classifier from scratch. It works fairly nicely with basic Python data structures, and you'll get an intimate look at the workings of the algorithm.
+
+Step 4b. Implement a Naive Bayes spam classifier using `sklearn`. You'll get good practice in using the pre-built components of the library and an understanding of the standard formats that `sklearn` expects.
+
+Step 4c. Do both (4a) and (4b)!
+
+Step 5. Examine model fit. What are the "spammiest" words? The "hammiest"?
+
+Step 6. Examine model performance. Check training performance. Get test set performance. Try cross-validating.
+
 
 ### After
 
