@@ -25,6 +25,10 @@ Question review.
 
 > "Probability, like time, is a concept invented by humans, and humans have to bear the responsibility for the obscurities that attend it." ([John Archibald Wheeler](http://en.wikipedia.org/wiki/John_Archibald_Wheeler))
 
+*Objective for the day*: Create a function that takes a string representation of an email as input and returns `True` if the email is spam, `False` if the email is not spam.
+
+Exercise: Diagram the necessary steps or flow to achieve this objective. (This could be a flow chart, for example.) What will you need, and when will you need it? After you have a complete plan, you can also consider how to evaluate the function you create.
+
 [Slides](slides.pdf) on probability and Bayesian classification.
 
 Go through the simple example from [Bayes' Rule for Ducks](http://planspace.org/2014/02/23/bayes-rule-for-ducks/).
@@ -32,6 +36,21 @@ Go through the simple example from [Bayes' Rule for Ducks](http://planspace.org/
 Note the usefulness of logarithms for changing the multiplication of a bunch of small numbers into the addition of reasonable numbers. Logarithms are useful all over the place.
 
 With Bayes, we're principally concerned with learning the likelihood. There are many ways of doing so.
+
+
+#### Exercise
+
+Create a function that takes a string representation of an email as input and returns `True` if the email is spam, `False` if the email is not spam.
+
+Step 1. Acquire source data.
+
+```
+http://spamassassin.apache.org/publiccorpus/
+```
+
+Step 2. Make source data accessible.
+
+The easiest way to do this will be to extract the compressed files. You may need [help with `tar`](http://xkcd.com/1168/?use tar xvjf filename).
 
 
 ### After
