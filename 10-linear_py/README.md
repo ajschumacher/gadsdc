@@ -5,7 +5,8 @@
 
 Optional:
 
- * Read _Chapter 3: Linear Methods for Regression_ from [The Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/printings/ESLII_print10.pdf) (internal pages 43 to 99, PDF pages 62 to 118).
+ * Read _Chapter 6: Linear Model Selection and Regularization_ from [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf) (internal pages 203 to 264, PDF pages 218 to 279).
+ * For a more technical presentation, read _Chapter 3: Linear Methods for Regression_ from [The Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/printings/ESLII_print10.pdf) (internal pages 43 to 99, PDF pages 62 to 118).
  * Check out [Linear algebra explained in four pages](http://cnd.mcgill.ca/~ivan/miniref/linear_algebra_in_4_pages.pdf)
 
 

@@ -37,15 +37,6 @@ Some words about `vw`:
  * combinatoric design
  * reductions
 
-Mention the Python Natural Language ToolKit ([nltk](http://www.nltk.org/)) and its application for [stemming](http://en.wikipedia.org/wiki/Stemming). This also illustrates a common pattern of instantiating and then using objects in Python.
-
-```Python
-from nltk.stem.snowball import SnowballStemmer
-stemmer = SnowballStemmer("english")
-stemmer.stem("managers")
-stemmer.stem("management")
-# etc.
-```
 
 Coding activity two:
  * Write a Python script that reads the linear regression assignment training file and writes out a file that is ready to be read by `vw`. Check some of the output against the [validator](http://hunch.net/~vw/validate.html).
