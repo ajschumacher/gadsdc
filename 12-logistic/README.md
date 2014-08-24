@@ -46,7 +46,8 @@ Both Naive Bayes and Logistic Regression with `sklearn`:
 
 ### After
 
-Do the [logistic regression assignment](../logistic_assignment), due Monday April 28.
+There is [logistic regression assignment](../logistic_assignment). It recommends some data and makes some specifics suggestions in the description, but you can use your own (project) data and you can use `R` or `Python`. There is a `logistic_assignment` directory of the class repo to hold your submitted work. We also have a highly specified linear regression assignment. To maintain focus on projects and not overload, we'll expect a write-up from you for either the linear or logistic assignment, but not necessarily both. Hopefully you can do what makes the most sense for you.
+
 
 Optional:
 
