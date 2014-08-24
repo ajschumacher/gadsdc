@@ -62,7 +62,7 @@ Step 4. Choose your own adventure!
 
 Step 4a. Implement a Naive Bayes spam classifier from scratch. It works fairly nicely with basic Python data structures, and you'll get an intimate look at the workings of the algorithm.
 
-Step 4b. Implement a Naive Bayes spam classifier using `sklearn`. You'll get good practice in using the pre-built components of the library and an understanding of the standard formats that `sklearn` expects.
+Step 4b. Implement a Naive Bayes spam classifier using `sklearn`. You'll get good practice in using the pre-built components of the library and an understanding of the standard formats that `sklearn` expects. (A [CountVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) may be useful.)
 
 Step 4c. Do both (4a) and (4b)!
 
