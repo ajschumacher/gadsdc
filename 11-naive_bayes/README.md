@@ -35,7 +35,7 @@ Go through the simple example from [Bayes' Rule for Ducks](http://planspace.org/
 
 Note the usefulness of logarithms for changing the multiplication of a bunch of small numbers into the addition of reasonable numbers. Logarithms are useful all over the place.
 
-With Bayes, we're principally concerned with learning the likelihood. There are many ways of doing so.
+With Bayes, we're principally concerned with learning the likelihood. There are many ways of doing so. For some explanation, see the "Naive Bayes Variations" section of Vasilis Vryniotis's [Machine Learning Tutorial: The Naive Bayes Text Classifier](http://blog.datumbox.com/machine-learning-tutorial-the-naive-bayes-text-classifier/) and the [`sklearn` documentation](http://scikit-learn.org/stable/modules/naive_bayes.html).
 
 
 #### Exercise
