@@ -76,5 +76,5 @@ Step 6. Examine model performance. Check training performance. Get test set perf
 Optional:
 
  * Optionally, finish writing up your Naive Bayes work and put a `name.py` (or similar) file in the `10-naive_bayes/` directory of the class repo.
- * Read Naive-Bayes Classification using Python, NumPy, and Scikits (http://thinkmodelcode.blogspot.com/2013/04/naive-bayes-classification-using-python.html) Provides a good and step by step tutorial for Naive Bayes in Python.
+ * Read [Naive-Bayes Classification using Python, NumPy, and Scikits](http://thinkmodelcode.blogspot.com/2013/04/naive-bayes-classification-using-python.html), which provides a good step by step tutorial for Naive Bayes in Python.
  * Read [ML, MAP, and Bayesian — The Holy Trinity of Parameter Estimation and Data Prediction](https://engineering.purdue.edu/kak/Trinity.pdf) - "The Trinity Tutorial"
