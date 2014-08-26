@@ -62,7 +62,7 @@ There is [linear regression assignment](../linear_assignment). It specifies part
 
 Optional:
  * Read this [glmnet vignette](http://www.stanford.edu/~hastie/glmnet/glmnet_alpha.html) for even more about using `R`'s `glmnet` package.
- * The `DAAG` `R` package includes `cv.lm` function which you might investigate. It may or may not be better than using your own.
+ * The `boot` `R` package includes a `cv.glm` function which you might investigate. It may or may not be better than using your own.
  * Check out the [intro to scikit-learn][] video series from SciPy2013.
  * Learn more about `sklearn` by reading [API design for machine learning software: experiences from the scikit-learn project](http://arxiv.org/abs/1309.0238).
  * Check out "[Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)".
