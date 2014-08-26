@@ -35,9 +35,9 @@ Question review.
 Building up from base Python:
  * `numpy`
  * `pandas` (Don't forget about [`pandas`' visualization](http://pandas.pydata.org/pandas-docs/stable/visualization.html)!)
- * [`patsy`](http://patsy.readthedocs.org/) (see also: [patsy quick start](https://patsy.readthedocs.org/en/latest/quickstart.html) (see also: [Why's it called "patsy"?](http://seveninchesofyourtime.com/wp-content/uploads/2014/08/montypython7.gif))
+ * [`patsy`](http://patsy.readthedocs.org/) (see also: [patsy quick start](https://patsy.readthedocs.org/en/latest/quickstart.html), and [Why's it called "patsy"?](http://seveninchesofyourtime.com/wp-content/uploads/2014/08/montypython7.gif))
  * [`statsmodels`](http://statsmodels.sourceforge.net/devel/)
- * `sklearn` ([documentation](http://scikit-learn.org/dev/documentation.html))
+ * `sklearn` ([documentation](http://scikit-learn.org/stable/documentation.html))
 
 Build up to [linear regression in Python](linear.ipynb).
 
@@ -62,7 +62,7 @@ There is [linear regression assignment](../linear_assignment). It specifies part
 
 Optional:
  * Read this [glmnet vignette](http://www.stanford.edu/~hastie/glmnet/glmnet_alpha.html) for even more about using `R`'s `glmnet` package.
- * The `DAAG` `R` package includes `cv.lm` function which you might investigate. It may or may not be better than using your own.
+ * The `boot` `R` package includes a `cv.glm` function which you might investigate. It may or may not be better than using your own.
  * Check out the [intro to scikit-learn][] video series from SciPy2013.
  * Learn more about `sklearn` by reading [API design for machine learning software: experiences from the scikit-learn project](http://arxiv.org/abs/1309.0238).
  * Check out "[Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)".
