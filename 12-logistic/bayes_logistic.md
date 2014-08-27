@@ -28,9 +28,8 @@ We want to check performance by scoring with AUC.
 
 ```Python
 from sklearn.cross_validation import cross_val_score
-from sklearn.metrics import auc_score
-cross_val_score(MultinomialNB(), X_train, train.Insult, score_func=auc_score)
-cross_val_score(LogisticRegression(), X_train, train.Insult, score_func=auc_score)
+cross_val_score(MultinomialNB(), X_train, train.Insult, scoring="roc_auc")
+cross_val_score(LogisticRegression(), X_train, train.Insult, scoring="roc_auc")
 ```
 
 Having evaluated performance, we can make and use a model.
