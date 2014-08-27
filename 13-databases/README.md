@@ -17,7 +17,7 @@ Optional:
 
 ### Questions
 
- * Consider thinking of boolean multinomial Naive Bayes likelihood
+ * Consider thinking of multinomial Naive Bayes likelihood
    probabilities as coefficients on word dummy features. How are they
    similar or different as compared with logistic regression
    coefficients?
