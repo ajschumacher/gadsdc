@@ -5,6 +5,7 @@ Read [Generalized Linear Models (GLM)](http://www.wright.edu/~thaddeus.tarpey/ES
 Optional:
 
  * Check out this [deck](http://www.mc.vanderbilt.edu/gcrc/workshop_files/2004-11-12.pdf) introducing logistic regression.
+ * Read [William King's logistic regression tutorial](http://ww2.coastal.edu/kingw/statistics/R-tutorials/logistic.html) with examples in `R`. It explains terms nicely and gives good illustrative examples.
 
 
 ### Questions
