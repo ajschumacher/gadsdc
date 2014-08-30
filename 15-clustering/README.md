@@ -50,6 +50,7 @@ Once the tests are passing, you could experiment with using k-means on some data
 Optional:
 
  * Complete your `kmeans_exercise.py` (all the tests passing) and submit to the `18-clustering` directory of the class repo.
+ * Read [Ben Bengfort](https://twitter.com/bbengfort)'s [How to Develop Quality Python Code](https://districtdatalabs.silvrback.com/how-to-develop-quality-python-code) for a good exposition on how to set up well-organized larger projects.
  * Learn more about [Python Testing](http://pythontesting.net/about/).
  * The sklearn documentation has some neat [examples](http://scikit-learn.org/dev/auto_examples/cluster/plot_cluster_comparison.html) demonstrating characteristics of various clustering algorithms.
  * Check out the [sklearn text clustering example](http://scikit-learn.org/dev/auto_examples/document_clustering.html).
