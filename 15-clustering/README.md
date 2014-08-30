@@ -50,6 +50,7 @@ Once the tests are passing, you could experiment with using k-means on some data
 Optional:
 
  * Complete your `kmeans_exercise.py` (all the tests passing) and submit to the `18-clustering` directory of the class repo.
+ * Learn more about [Python Testing](http://pythontesting.net/about/).
  * The sklearn documentation has some neat [examples](http://scikit-learn.org/dev/auto_examples/cluster/plot_cluster_comparison.html) demonstrating characteristics of various clustering algorithms.
  * Check out the [sklearn text clustering example](http://scikit-learn.org/dev/auto_examples/document_clustering.html).
  * Read Cloudera's [post](http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/) on scaling k-means.
