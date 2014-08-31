@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 from sklearn.pipeline import Pipeline
 
-data = pd.read_csv('../15-svm/data.csv')
+data = pd.read_csv('../14-svm/data.csv')
 
 pipeline = Pipeline([('scale', StandardScaler()),
                      ('svm',   SVC()           )])
