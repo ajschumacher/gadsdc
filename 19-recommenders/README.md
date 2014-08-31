@@ -57,3 +57,4 @@ Optional:
  * See also [Collaborative Filtering for Implicit Feedback Datasets](http://labs.yahoo.com/files/HuKorenVolinsky-ICDM08.pdf).
  * For an interesting data-enrichment technique, see [Using Filtering Agents to Improve Prediction Quality in the GroupLens Research Collaborative Filtering System](http://files.grouplens.org/papers/filterbot-CSCW98.pdf).
  * And there's Xavier Amatriain's graphic-rich [presentation](http://www.cikm2013.org/slides/xavier.pdf) on recommending at Netflix.
+ * Perhaps you would like to try some of these techniques with data from Amazon? Their [movie reviews](http://snap.stanford.edu/data/web-Movies.html), perhaps?
