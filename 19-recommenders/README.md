@@ -9,6 +9,8 @@ Optional:
 
 ### Questions
 
+ * People and systems recommend things to you all the time. What makes these recommendations more or less effective?
+ * If you consider millions of people and/or products to all be dimensions, you have pretty high dimensionality. What can you do to make the problem more manageable?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
