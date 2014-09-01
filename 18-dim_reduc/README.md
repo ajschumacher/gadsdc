@@ -22,7 +22,7 @@ Application presentation.
 
 Question review.
 
-[Slides](slides.pdf) on dimensionality reduction.
+Interweave [examples](pca_svd.py) with [slides](slides.pdf) on dimensionality reduction.
 
 Activity:
 
