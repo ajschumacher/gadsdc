@@ -1,6 +1,5 @@
 
 import numpy as np
-import pandas as pd
 %pylab
 
 # 1) Set up some data and look at it a little
