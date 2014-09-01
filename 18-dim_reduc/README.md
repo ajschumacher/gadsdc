@@ -5,6 +5,8 @@ Optional:
  * Read [A tutorial on Principal Components Analysis](http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf) for a very friendly introduction that starts from the very basics.
  * Read the [Stanford PCA Tutorial](http://ufldl.stanford.edu/wiki/index.php/PCA), which is just slightly mathier.
  * Read this [step-by-step walk-through](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html) of PCA with Python.
+ * Read an excellent paper on [The Fundamental Theorem of Linear Algebra
+](http://home.eng.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf) which goes through in an intuitive way just what SVD is all about.
 
 
 ### Questions
@@ -20,7 +22,7 @@ Application presentation.
 
 Question review.
 
-[Slides](slides.pdf) on dimensionality reduction.
+Interweave [examples](pca_svd.py) with [slides](slides.pdf) on dimensionality reduction.
 
 Activity:
 

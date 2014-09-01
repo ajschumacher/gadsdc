@@ -9,6 +9,8 @@ Optional:
 
 ### Questions
 
+ * What takes more time: reading data from disk, or processing the data? (Make up an example or two if you like.) What is more likely to be a bottleneck?
+ * Which algorithms can be applied in a streaming fashion? How could you extend streaming approaches to work with multiple streams at the same time?
  * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
@@ -17,6 +19,8 @@ Optional:
 Application presentation.
 
 Question review.
+
+Check out [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375). (Disk is slow!)
 
 [Slides](slides.pdf) on map-reduce.
 
