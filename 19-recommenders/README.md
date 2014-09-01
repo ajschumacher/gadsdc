@@ -4,7 +4,7 @@
 
 Optional:
 
- * Read a more in-depth corresponding paper, [Automatic Generation of Recommendations from Data: A Multifaceted Survey](http://www.deakin.edu.au/sebe/it/research/docs/trc11-4.pdf).
+ * Read a more in-depth corresponding paper, [Automatic Generation of Recommendations from Data: A Multifaceted Survey](http://www.deakin.edu.au/sebe/it/research/docs/trc11-4.pdf).
 
 
 ### Questions
