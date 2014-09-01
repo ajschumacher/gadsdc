@@ -40,5 +40,6 @@ You may already have data that you're interested in working with. You may have a
  * [Datasets subreddit](http://www.reddit.com/r/datasets/): You can ask for help finding a specific data set, or post your own.
  * [mldata.org](http://mldata.org/): "machine learning data set repository"
  * [Center for Data Innovation](http://www.datainnovation.org/category/publications/data-set-blog/) blog posts about interesting, recently-released data sets.
+ * [200,000+ Jeopardy questions](http://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/)
 
 This is just the tip of the iceberg; there's a lot of data out there!
