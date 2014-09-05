@@ -40,3 +40,4 @@ Optional:
  * Check out Jay Hyer's excellent slides on [Ensemble Methods](http://adataheadsdiary.files.wordpress.com/2013/12/dsdc-ensemble-learing.pdf).
  * Check out kaggle's [Getting Started With Random Forests](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests).
  * You might look into this [post](http://citizennet.com/blog/2012/11/10/random-forests-ensembles-and-performance-metrics/) about neural nets and random forests, oh my.
+ * Watch the [Chapter 8 lecture videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) from *An Introduction to Statistical Learning* for more on bagging, boosting, and Random Forests.
