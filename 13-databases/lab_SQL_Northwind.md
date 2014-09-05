@@ -33,7 +33,7 @@ SELECT City, COUNT(*) FROM Customers GROUP BY City
 SELECT City, COUNT(*) as count FROM Customers GROUP BY City ORDER BY count DESC
 ```
 
-3) What category has the most products?
+4) What category has the most products?
 
 ```sql
 SELECT CategoryName, COUNT(*) FROM Categories JOIN Products on (Categories.CategoryID = Products.CategoryID) GROUP BY CategoryName
