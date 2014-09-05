@@ -39,3 +39,4 @@ Optional:
  * Explore `R` libraries for trees.
      * For CART, see `rpart`. Check out the description at [Quick-R](http://www.statmethods.net/advstats/cart.html).
      * For the well-known tree algorithms of [Quinlan](http://www.rulequest.com/): `RWeka`'s `J48` is C4.5, `C50` has C5.0.
+ * Watch the [Chapter 8 lecture videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) from *An Introduction to Statistical Learning* for more on decision trees, pruning, and a comparison with linear models.

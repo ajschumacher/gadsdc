@@ -43,3 +43,4 @@ Optional:
  * Read [A Tutorial on Support Vector Machines for Pattern
 Recognition](https://web.archive.org/web/20120105072605/http://www.umiacs.umd.edu/~joseph/support-vector-machines4.pdf), which includes discussion of VC Dimension.
  * Go through this [tutorial](http://www.louisaslett.com/Courses/Data_Mining/ST4003-Lab7-Introduction_to_Support_Vector_Machines.pdf) on SVMs in `R` using `e1071`.
+ * Watch the [Chapter 9 lecture videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) from *An Introduction to Statistical Learning* for more on SVMs and a comparison with logistic regression.

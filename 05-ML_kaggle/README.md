@@ -51,3 +51,4 @@ Optional:
  * This [interactive visualization](http://www.navan.name/roc/) may help you to gain a better intuitive understanding of ROC curves and area under the curve (AUC).
  * Read [An introduction to ROC analysis](https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf) for more on area under the ROC curve.
  * Follow along with Wehrley's [soup to nuts kaggle Titanic solution](https://github.com/wehrley/wehrley.github.io/blob/master/SOUPTONUTS.md) which includes a lot of interesting commentary and plots as well. There's plenty on feature generation and dealing with missing data.
+ * Watch the [lecture videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) from *An Introduction to Statistical Learning* for more on the curse of dimensionality (chapter 2), the bias-variance trade-off (chapter 2), and model evaluation (chapter 5).
