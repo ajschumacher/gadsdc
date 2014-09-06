@@ -76,4 +76,5 @@ Optional:
 
  * Optionally, finish writing up your Naive Bayes work and put a `name.py` (or similar) file in the `10-naive_bayes/` directory of the class repo.
  * Read [Naive-Bayes Classification using Python, NumPy, and Scikits](http://thinkmodelcode.blogspot.com/2013/04/naive-bayes-classification-using-python.html), which provides a good step by step tutorial for Naive Bayes in Python.
+ * Read [Statistical Inference: The Big Picture](http://www.stat.cmu.edu/~kass/papers/bigpic.pdf) for a modern perspective on frequentist and Bayesian statistics.
  * Read [ML, MAP, and Bayesian — The Holy Trinity of Parameter Estimation and Data Prediction](https://engineering.purdue.edu/kak/Trinity.pdf) - "The Trinity Tutorial"
