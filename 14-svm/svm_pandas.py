@@ -37,7 +37,7 @@ data_pd[['feature_1']].shape
 
 # creating X (2d array) and y (1d array) for sklearn
 X = data_pd[cols].values
-X = data_pd[data_pd.columns[0:2]].values
+X = data_pd[data_pd.columns[:-1]].values
 X.shape
 y = data_pd.label.values
 y.shape
