@@ -5,7 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import svm, metrics, preprocessing
 from sklearn.grid_search import GridSearchCV
-from sklearn.pipeline import Pipeline
 
 # reading data into pandas and examining it
 data_pd = pd.read_csv('data.csv')
