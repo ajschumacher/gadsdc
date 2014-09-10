@@ -53,6 +53,6 @@ Optional:
  * Read [Ben Bengfort](https://twitter.com/bbengfort)'s [How to Develop Quality Python Code](https://districtdatalabs.silvrback.com/how-to-develop-quality-python-code) for a good exposition on how to set up well-organized larger projects.
  * Learn more about [Python Testing](http://pythontesting.net/about/).
  * The sklearn documentation has some neat [examples](http://scikit-learn.org/dev/auto_examples/cluster/plot_cluster_comparison.html) demonstrating characteristics of various clustering algorithms.
- * Check out the [sklearn text clustering example](http://scikit-learn.org/dev/auto_examples/document_clustering.html).
+ * Check out the [sklearn text clustering example](http://scikit-learn.org/dev/auto_examples/text/document_clustering.html).
  * Read Cloudera's [post](http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/) on scaling k-means.
  * Watch the [Chapter 10 lecture videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) from *An Introduction to Statistical Learning* to learn about hierarchical clustering.
