@@ -6,6 +6,8 @@ Tom's intro to neural nets [[view](https://rawgit.com/Gimperion/neuralnet/master
 
 Video: [Deep Learning Tutorial](http://techtalks.tv/talks/deep-learning/58122/) from Yann LeCun and Marc'Aurelio Ranzato
 
+Video: Adam Coates at Machine Learning Discussion Group - Deep Learning w/ Stanford AI Lab (mostly in first) [one](https://www.youtube.com/watch?v=2QJi0ArLq7s) [two](https://www.youtube.com/watch?v=HRk-GHmNrZo#t=484) [three](https://www.youtube.com/watch?v=Qx27IAEVQ9Q)
+
 Fun deep learning [products](https://www.jetpac.com/deepbelief) from Jetpac, including an [in-browser demo](https://www.jetpac.com/deepbeliefdemo).
 
 [deeplearning.net](http://deeplearning.net/) has a lot of resources collected nicely.
