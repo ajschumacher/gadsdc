@@ -8,7 +8,7 @@ Video: [Deep Learning Tutorial](http://techtalks.tv/talks/deep-learning/58122/) 
 
 Video: Adam Coates at Machine Learning Discussion Group - Deep Learning w/ Stanford AI Lab (mostly in first) [one](https://www.youtube.com/watch?v=2QJi0ArLq7s) [two](https://www.youtube.com/watch?v=HRk-GHmNrZo#t=484) [three](https://www.youtube.com/watch?v=Qx27IAEVQ9Q)
 
-Video: Deep learning with k-means: [Adam Coates -- Demystifying Unsupervised Feature Learning -- UC Berkeley 12/7/2012](https://www.youtube.com/watch?v=wZfVBwOO0-k) ("Here's an Adam Coates talk that covers what I consider the best example of Deep Learning without neural nets (using k-means at each layer instead of a neural net)"
+Video: Deep learning with k-means: [Adam Coates -- Demystifying Unsupervised Feature Learning -- UC Berkeley 12/7/2012](https://www.youtube.com/watch?v=wZfVBwOO0-k) "Here's an Adam Coates talk that covers what I consider the best example of Deep Learning without neural nets (using k-means at each layer instead of a neural net)"
 
 Fun deep learning [products](https://www.jetpac.com/deepbelief) from Jetpac, including an [in-browser demo](https://www.jetpac.com/deepbeliefdemo).
 
