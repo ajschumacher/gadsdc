@@ -10,6 +10,8 @@ Video: Adam Coates at Machine Learning Discussion Group - Deep Learning w/ Stanf
 
 Video: Deep learning with k-means: [Adam Coates -- Demystifying Unsupervised Feature Learning -- UC Berkeley 12/7/2012](https://www.youtube.com/watch?v=wZfVBwOO0-k) "Here's an Adam Coates talk that covers what I consider the best example of Deep Learning without neural nets (using k-means at each layer instead of a neural net)"
 
+(short) Book: Yoshua Bengio's [Learning Deep Architectures for AI](http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf) (May have moved to a different host; there was also a shorter [preprint](http://www.iro.umontreal.ca/~bengioy/papers/ftml.pdf) at one point.)
+
 Fun deep learning [products](https://www.jetpac.com/deepbelief) from Jetpac, including an [in-browser demo](https://www.jetpac.com/deepbeliefdemo).
 
 [deeplearning.net](http://deeplearning.net/) has a lot of resources collected nicely.
