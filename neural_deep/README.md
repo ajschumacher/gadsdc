@@ -4,6 +4,8 @@ Tom's intro to neural nets [[view](https://rawgit.com/Gimperion/neuralnet/master
 
 [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 
+Video: [Deep Learning Tutorial](http://techtalks.tv/talks/deep-learning/58122/) from Yann LeCun and Marc'Aurelio Ranzato
+
 Fun deep learning [products](https://www.jetpac.com/deepbelief) from Jetpac, including an [in-browser demo](https://www.jetpac.com/deepbeliefdemo).
 
 [deeplearning.net](http://deeplearning.net/) has a lot of resources collected nicely.
