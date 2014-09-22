@@ -2,7 +2,7 @@
 
 ## Newsgroups Data
 
-We will take a look at some of the twenty newsgroups dataset, another common dataset for classification. Note that the data is fetched from 
+We will take a look at some of the twenty newsgroups dataset, another common dataset for classification. (Note that the data is fetched from the web.)
 
 ```Python
 from sklearn.datasets import fetch_20newsgroups
