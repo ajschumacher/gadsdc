@@ -34,14 +34,36 @@ There are also recommendation system libraries:
 
 #### Activity
 
-We have `user_brand.csv` in the [gadsdata repo](https://github.com/ajschumacher/gadsdata), which includes 23,803 rows (no header) of `user,brand` data, indicating a user likes a brand. Write a recommender to recommend five brands, given a user (or equivalently, a set of brands).
+We have `user_brand.csv` in the [gadsdata repo](https://github.com/ajschumacher/gadsdata), which includes 23,803 rows (no header) of `user,brand` data, indicating a user likes a brand.
 
- * There are many ways to do this, but one is to frame it as user-based collaborative filtering.
+First, get the data loaded into Python. (For this exercise, you don't need to use a matrix for the data - it may be easier to work with in base Python lists, sets, and/or dicts!)
+
+Simple diagnostic questions:
+
+ * How many users are there?
+ * How many brands are there?
+ * What's the distribution of the number of brands liked by users?
+ * What's the distribution of the number of users who like a brand?
+ * How many people like Target?
+ * How many people like Banana Republic?
+ * What brands does user 86184 like?
+ * What brands does user 83126 like?
+
+Write a recommender to recommend five brands, given a user. (Note that a user is equivalent to a set of brands, because that's all we know about them.) There are many ways to do this:
+
+ * Frame it as user-based collaborative filtering:
      * Step one: Find users similar to the target user (or set of brands).
      * Step two: Recommend things that similar users like.
- * Alternatively, you could do item-based collaborative filtering.
+ * Frame it as item-based collaborative filtering:
      * Step one: Determine similarity of brands to one another (via users).
      * Step two: Recommend things that are similar to what the target user likes.
+
+Some test cases for your recommender:
+
+ * What would you recommend for a person who likes Target?
+ * What would you recommend for a person who likes Banana Republic?
+ * What would you recommend for user 86184?
+ * What would you recommend for user 83126?
 
 Think about how to load and organize the data. It will probably be easiest to use a [Jaccard](http://en.wikipedia.org/wiki/Jaccard_index)-like metric for similarity, since the data is all just yes or no inclusion, rather than proper scores.
 
