@@ -60,7 +60,7 @@ You can run cluster [streaming jobs on Amazon EMR](http://docs.aws.amazon.com/El
 More things to try implementing this way:
 
  * What were the most popular hashtags?
- * How many tweets came in each per hour?
+ * How many tweets came in per hour?
      * Did the stream get rate-limited?
  * What tweets / which people were most re-tweeted?
  * Can you induce a graph from "conversations"?
