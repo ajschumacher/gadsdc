@@ -86,8 +86,8 @@
 
 ### Conferences:
 
- * [Knowledge Discovery and Data Mining](http://www.kdd.org/)
- * [Neural Information Processing Systems](https://nips.cc/)
+ * [KDD (Knowledge Discovery and Data Mining)](http://www.kdd.org/)
+ * [NIPS (Neural Information Processing Systems)](https://nips.cc/)
  * [O'Reilly Strata Conference](http://strataconf.com/) (has also crossed with Hadoop World)
  * [DataGotham](http://www.datagotham.com/)
  * [PyData](http://pydata.org/)
