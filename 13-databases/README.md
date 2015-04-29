@@ -11,7 +11,7 @@ Optional:
 
  * Go through Zed Shaw's work-in-progress
    [Learn SQL the Hard Way](http://sql.learncodethehardway.org/book/),
-   which will still take you through even more SQL with SQLite that
+   which will still take you through even more SQL with SQLite than
    we'll do in class.
 
 
